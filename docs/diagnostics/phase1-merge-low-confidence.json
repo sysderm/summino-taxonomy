@@ -1,0 +1,2132 @@
+[
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Walking gait is a specific type of gait.",
+    "sim": 0.9494218826293945,
+    "a": "gait",
+    "a_src": "agris",
+    "b": "walking gait",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Trypanosoma gambiense is the parasite causing Gambiense trypanosomiasis.",
+    "sim": 0.9491138458251953,
+    "a": "Trypanosoma gambiense",
+    "a_src": "agris",
+    "b": "Gambiense trypanosomiasis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "A includes quantum mechanics context while B is a broader concept without specifying the field.",
+    "sim": 0.9471988677978516,
+    "a": "Supersymmetric field theories in quantum mechanics",
+    "a_src": "msc2020",
+    "b": "Supersymmetric field theories",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is likely a more specific category within A.",
+    "sim": 0.9470261335372925,
+    "a": "digestive system diseases",
+    "a_src": "agris",
+    "b": "Other diseases of digestive system",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Text mining is a broader concept that includes text mining techniques as one of its components.",
+    "sim": 0.946938693523407,
+    "a": "text mining",
+    "a_src": "agris",
+    "b": "text mining techniques",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within A.",
+    "sim": 0.9466000199317932,
+    "a": "metabolic disorders",
+    "a_src": "agris",
+    "b": "Other metabolic disorders",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Tectonic geomorphology is a specialized subset of geomorphology focusing on tectonic influences.",
+    "sim": 0.9463443160057068,
+    "a": "geomorphology",
+    "a_src": "agris",
+    "b": "tectonic geomorphology",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Infective pericarditis is a specific type of pericarditis caused by infection.",
+    "sim": 0.9457690715789795,
+    "a": "pericarditis",
+    "a_src": "agris",
+    "b": "Infective pericarditis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within the broader concept of A.",
+    "sim": 0.9456843733787537,
+    "a": "hormone antagonists",
+    "a_src": "agris",
+    "b": "Other and unspecified hormone antagonists",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Dairy science is a specialized field within the broader category of Animal and Dairy Science.",
+    "sim": 0.9446985721588135,
+    "a": "dairy science",
+    "a_src": "agris",
+    "b": "Animal and dairy science",
+    "b_src": "oecd-fos"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is likely a more specific category within A.",
+    "sim": 0.9446102380752563,
+    "a": "spinal cord diseases",
+    "a_src": "agris",
+    "b": "Other diseases of spinal cord",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Taenia saginata is the parasite, while Taenia saginata taeniasis refers to the infection caused by it.",
+    "sim": 0.9440762996673584,
+    "a": "Taenia saginata",
+    "a_src": "agris",
+    "b": "Taenia saginata taeniasis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific classification within the broader category of A.",
+    "sim": 0.9423092603683472,
+    "a": "oesophageal diseases",
+    "a_src": "agris",
+    "b": "Other specified diseases of oesophagus",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Pathology is a broader field that includes pathophysiology as one of its subcategories.",
+    "sim": 0.9420439600944519,
+    "a": "Pathology, pathophysiology",
+    "a_src": "msc2020",
+    "b": "Pathophysiology",
+    "b_src": "scopus-asjc"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Eigenfunctions are a part of the broader concept that includes both eigenvalues and eigenfunctions.",
+    "sim": 0.9416986107826233,
+    "a": "eigenfunctions",
+    "a_src": "agris",
+    "b": "eigenvalues and eigenfunctions",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Unspecified pneumoconiosis is a specific type of the broader category pneumoconiosis.",
+    "sim": 0.9415192604064941,
+    "a": "pneumoconiosis",
+    "a_src": "agris",
+    "b": "Unspecified pneumoconiosis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "A is a broader term that includes chronic conditions, while B specifically refers to the acute form of the condition.",
+    "sim": 0.9413970708847046,
+    "a": "laryngotracheitis",
+    "a_src": "agris",
+    "b": "Acute laryngotracheitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within A.",
+    "sim": 0.9406365752220154,
+    "a": "respiratory disorders",
+    "a_src": "agris",
+    "b": "Other respiratory disorders",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Geo-spatial data is a more specific type of spatial data.",
+    "sim": 0.9406070113182068,
+    "a": "spatial data",
+    "a_src": "agris",
+    "b": "geo-spatial data",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Applied geomorphology is a specific application of the broader field of geomorphology.",
+    "sim": 0.9404709339141846,
+    "a": "geomorphology",
+    "a_src": "agris",
+    "b": "applied geomorphology",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within A.",
+    "sim": 0.939937174320221,
+    "a": "digestive system diseases",
+    "a_src": "agris",
+    "b": "Other diseases of the digestive system",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific classification within the broader category of A.",
+    "sim": 0.939822256565094,
+    "a": "pigmentation disorders",
+    "a_src": "agris",
+    "b": "Other specified disorders of pigmentation",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Refractive index measurement is a specific method used to determine the refractive index.",
+    "sim": 0.9395721554756165,
+    "a": "refractive index",
+    "a_src": "agris",
+    "b": "refractive index measurement",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Plasmodium vivax is the parasite causing malaria, while Plasmodium vivax malaria refers to the disease it causes.",
+    "sim": 0.939419686794281,
+    "a": "Plasmodium vivax",
+    "a_src": "agris",
+    "b": "Plasmodium vivax malaria",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Molecular biology is a specific field within the broader category of biochemistry and molecular biology.",
+    "sim": 0.9393910765647888,
+    "a": "molecular biology",
+    "a_src": "agris",
+    "b": "Biochemistry, molecular biology",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Yersinia enterocolitica is the causative agent of enteritis due to Yersinia enterocolitica.",
+    "sim": 0.9392905831336975,
+    "a": "Yersinia enterocolitica",
+    "a_src": "agris",
+    "b": "Enteritis due to Yersinia enterocolitica",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Intestinal infectious diseases are a subset of intestinal diseases.",
+    "sim": 0.9391830563545227,
+    "a": "intestinal diseases",
+    "a_src": "agris",
+    "b": "Intestinal infectious diseases",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within the broader A.",
+    "sim": 0.9385985732078552,
+    "a": "digestive system diseases",
+    "a_src": "agris",
+    "b": "Other specified diseases of digestive system",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a specific subtype of A as indicated by the term 'specified' in B's name.",
+    "sim": 0.938429594039917,
+    "a": "metabolic disorders",
+    "a_src": "agris",
+    "b": "Other specified metabolic disorders",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within A.",
+    "sim": 0.9382522106170654,
+    "a": "liver diseases",
+    "a_src": "agris",
+    "b": "Other diseases of liver",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Trypanosoma rhodesiense is the parasite causing Rhodesiase trypanosomiasis.",
+    "sim": 0.9382186532020569,
+    "a": "Trypanosoma rhodesiense",
+    "a_src": "agris",
+    "b": "Rhodesiense trypanosomiasis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific instance of A, implying other antibiotics are a subset of antibiotics.",
+    "sim": 0.9380744099617004,
+    "a": "resistance to antibiotics",
+    "a_src": "agris",
+    "b": "Resistance to other antibiotics",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Unspecified haematuria is a specific case of the broader term haematuria.",
+    "sim": 0.9380373358726501,
+    "a": "haematuria",
+    "a_src": "agris",
+    "b": "Unspecified haematuria",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is likely a subset of A as it specifies 'Other' bacterial diseases within a broader classification system.",
+    "sim": 0.9380139112472534,
+    "a": "bacterial diseases",
+    "a_src": "agris",
+    "b": "Other bacterial diseases",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Light polarization is a specific instance of polarization.",
+    "sim": 0.9379974603652954,
+    "a": "polarization",
+    "a_src": "agris",
+    "b": "light polarization",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Plasmodium falciparum is the parasite causing malaria, while Plasmodium falciparum malaria refers to the disease it causes.",
+    "sim": 0.9376280903816223,
+    "a": "Plasmodium falciparum",
+    "a_src": "agris",
+    "b": "Plasmodium falciparum malaria",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Medical anthropology is a sub-field of the broader field of Anthropology, Medical.",
+    "sim": 0.9376148581504822,
+    "a": "Anthropology, Medical",
+    "a_src": "mesh",
+    "b": "medical anthropology",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Mechanical metamaterials are a specific type of metamaterials.",
+    "sim": 0.9375166296958923,
+    "a": "metamaterials",
+    "a_src": "cso",
+    "b": "Mechanical metamaterials",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Video surveillance systems are a specific type of surveillance systems.",
+    "sim": 0.9368683099746704,
+    "a": "surveillance systems",
+    "a_src": "agris",
+    "b": "video surveillance systems",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Classification models are a specific type of model used for categorizing data.",
+    "sim": 0.9359825253486633,
+    "a": "models",
+    "a_src": "agris",
+    "b": "classification models",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Klebsiella pneumoniae is a bacterium, while pneumonia due to Klebsiella pneumoniae is an infection caused by it.",
+    "sim": 0.93586665391922,
+    "a": "Klebsiella pneumoniae",
+    "a_src": "agris",
+    "b": "Pneumonia due to Klebsiella pneumoniae",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Taenia solium is the parasite, while Taenia solium taeniasis refers to the infection caused by it.",
+    "sim": 0.9358543753623962,
+    "a": "Taenia solium",
+    "a_src": "agris",
+    "b": "Taenia solium taeniasis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific type of A.",
+    "sim": 0.9358257055282593,
+    "a": "cestode infections",
+    "a_src": "agris",
+    "b": "Other specified cestode infections",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Stochastic models in economics are a specific application of the broader concept of stochastic models.",
+    "sim": 0.9357255697250366,
+    "a": "stochastic models",
+    "a_src": "agris",
+    "b": "Stochastic models in economics",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Brucellosis due to Brucella suis is a specific type of brucellosis caused by a particular species of bacteria.",
+    "sim": 0.9347522258758545,
+    "a": "brucellosis",
+    "a_src": "agris",
+    "b": "Brucellosis due to Brucella suis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "A refers to relations within the broader concept defined in B.",
+    "sim": 0.934346616268158,
+    "a": "Relations with noncommutative geometry",
+    "a_src": "msc2020",
+    "b": "Noncommutative geometry",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Forward vertical integration is a specific type of vertical integration.",
+    "sim": 0.9341416954994202,
+    "a": "vertical integration",
+    "a_src": "agris",
+    "b": "forward vertical integration",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "A is a more general term while B specifies it as part of a broader category or list.",
+    "sim": 0.9341268539428711,
+    "a": "game-theoretic model",
+    "a_src": "cso",
+    "b": "Other game-theoretic models",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Chronic laryngotracheitis is a specific form of laryngotracheitis.",
+    "sim": 0.9337033033370972,
+    "a": "laryngotracheitis",
+    "a_src": "agris",
+    "b": "Chronic laryngotracheitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Gastritis is a broader term that includes various types, with 'Other gastritis' being a specific subclassification within the ICD taxonomy.",
+    "sim": 0.9331408143043518,
+    "a": "gastritis",
+    "a_src": "agris",
+    "b": "Other gastritis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "A is a broader category that includes B as a subset.",
+    "sim": 0.9329620003700256,
+    "a": "diuretics",
+    "a_src": "agris",
+    "b": "Other diuretics",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Acute peritonitis is a specific form of the broader condition peritonitis.",
+    "sim": 0.9322904944419861,
+    "a": "peritonitis",
+    "a_src": "agris",
+    "b": "Acute peritonitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within the broader concept of A.",
+    "sim": 0.9321002960205078,
+    "a": "spinal cord diseases",
+    "a_src": "agris",
+    "b": "Other specified diseases of spinal cord",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Psychiatric Mental Health is a specialized subset of the broader concept of mental health.",
+    "sim": 0.9318591952323914,
+    "a": "mental health",
+    "a_src": "agris",
+    "b": "Psychiatric Mental Health",
+    "b_src": "scopus-asjc"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Myositis is a broader term that includes various types, one of which could be referred to as 'Other myositis' in specific contexts like ICD coding.",
+    "sim": 0.9315459728240967,
+    "a": "myositis",
+    "a_src": "agris",
+    "b": "Other myositis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Clustering techniques are a specific type of technique within the broader category of techniques.",
+    "sim": 0.9314248561859131,
+    "a": "techniques",
+    "a_src": "agris",
+    "b": "clustering techniques",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Vehicle transmissions are a specific type of transmission.",
+    "sim": 0.931052029132843,
+    "a": "transmissions",
+    "a_src": "agris",
+    "b": "vehicle transmissions",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Amyloidosis is a broader term that includes various types, one of which could be referred to as 'Other amyloidosis'.",
+    "sim": 0.9307695031166077,
+    "a": "amyloidosis",
+    "a_src": "agris",
+    "b": "Other amyloidosis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Viral conjunctivitis is a specific type of conjunctivitis caused by viruses.",
+    "sim": 0.9307595491409302,
+    "a": "conjunctivitis",
+    "a_src": "agris",
+    "b": "Viral conjunctivitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Taenia solium taeniasis is a specific form of taeniasis caused by the parasite Taenia solium.",
+    "sim": 0.9305012226104736,
+    "a": "taeniasis",
+    "a_src": "agris",
+    "b": "Taenia solium taeniasis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Orthopoxvirus is a broader category that includes various specific infections.",
+    "sim": 0.93022620677948,
+    "a": "Orthopoxvirus",
+    "a_src": "agris",
+    "b": "Other orthopoxvirus infections",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Pericarditis is a broader term that includes acute pericarditis as a specific type.",
+    "sim": 0.9301527738571167,
+    "a": "pericarditis",
+    "a_src": "agris",
+    "b": "Acute pericarditis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Hypothyroidism is a broader term that includes various subcategories, one of which could be labeled as 'Other hypothyroidism' in specific classifications like ICD.",
+    "sim": 0.9295129179954529,
+    "a": "hypothyroidism",
+    "a_src": "agris",
+    "b": "Other hypothyroidism",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Primary pulmonary hypertension is a specific type of pulmonary hypertension.",
+    "sim": 0.9294873476028442,
+    "a": "pulmonary hypertension",
+    "a_src": "agris",
+    "b": "Primary pulmonary hypertension",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Molecular beams are a subset of atomic and molecular beams.",
+    "sim": 0.9286815524101257,
+    "a": "molecular beams",
+    "a_src": "cso",
+    "b": "Atomic & molecular beams",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Adaptive dynamic programming is a specialized form of dynamic programming that incorporates adaptation mechanisms.",
+    "sim": 0.9286799430847168,
+    "a": "dynamic programming",
+    "a_src": "agris",
+    "b": "adaptive dynamic programming",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Streptococcus pneumoniae is the bacterium, while pneumonia due to Streptococcus pneumoniae is a disease caused by it.",
+    "sim": 0.928199291229248,
+    "a": "Streptococcus pneumoniae",
+    "a_src": "agris",
+    "b": "Pneumonia due to Streptococcus pneumoniae",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Fuzzy partial differential equations are a specific type of fuzzy differential equations.",
+    "sim": 0.9280173778533936,
+    "a": "fuzzy differential equations",
+    "a_src": "cso",
+    "b": "Fuzzy partial differential equations",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Online social networks are a specific type of social networks that exist on the internet.",
+    "sim": 0.9276168942451477,
+    "a": "social networks",
+    "a_src": "agris",
+    "b": "online social networks",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Ovarian cysts is a broader term that includes developmental ovarian cysts as a specific type.",
+    "sim": 0.9274225234985352,
+    "a": "ovarian cysts",
+    "a_src": "agris",
+    "b": "Developmental ovarian cyst",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Other viral diseases is likely a narrower category within the broader term viral diseases.",
+    "sim": 0.9268481135368347,
+    "a": "Other viral diseases",
+    "a_src": "icd",
+    "b": "Viral diseases",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Cluster nodes are specific instances of nodes within a cluster configuration.",
+    "sim": 0.9263923764228821,
+    "a": "nodes",
+    "a_src": "agris",
+    "b": "cluster nodes",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within A.",
+    "sim": 0.9259191155433655,
+    "a": "infectious diseases",
+    "a_src": "agris",
+    "b": "Other infectious diseases",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category within A.",
+    "sim": 0.9255334138870239,
+    "a": "respiratory disorders",
+    "a_src": "agris",
+    "b": "Other specified respiratory disorders",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a specific case of A, as it refers to resistance against multiple antibiotics rather than just any antibiotic.",
+    "sim": 0.9251614212989807,
+    "a": "resistance to antibiotics",
+    "a_src": "agris",
+    "b": "Resistance to multiple antibiotics",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Radar polarimetry is a specific application of the broader concept of polarimetry.",
+    "sim": 0.9248617887496948,
+    "a": "polarimetry",
+    "a_src": "agris",
+    "b": "radar polarimetry",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Clustering data is a specific method applied to data.",
+    "sim": 0.9247802495956421,
+    "a": "data",
+    "a_src": "agris",
+    "b": "clustering data",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a specific type of A, indicating a parent-child relationship.",
+    "sim": 0.9246373772621155,
+    "a": "liver diseases",
+    "a_src": "agris",
+    "b": "Other specified diseases of liver",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Pulmonary toxoplasmosis is a specific form of the broader condition toxoplasmosis.",
+    "sim": 0.9246306419372559,
+    "a": "toxoplasmosis",
+    "a_src": "agris",
+    "b": "Pulmonary toxoplasmosis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Radar backscatter is a specific application of the general concept of backscatter.",
+    "sim": 0.9245806932449341,
+    "a": "backscatter",
+    "a_src": "agris",
+    "b": "radar backscatter",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Adult education is a subset of general and adult education.",
+    "sim": 0.9244988560676575,
+    "a": "adult education",
+    "a_src": "agris",
+    "b": "general and adult education",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Clustering methods are a specific type of method in data analysis.",
+    "sim": 0.9244661927223206,
+    "a": "methods",
+    "a_src": "agris",
+    "b": "clustering methods",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Fractional partial differential equations are a specific type of fractional differential equations.",
+    "sim": 0.9243530631065369,
+    "a": "fractional differential equations",
+    "a_src": "cso",
+    "b": "Fractional partial differential equations",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Human embryology is a specific subset of the broader field of embryology.",
+    "sim": 0.924044668674469,
+    "a": "embryology",
+    "a_src": "agris",
+    "b": "human embryology",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Optical thin films are a specific type of thin films used in optics.",
+    "sim": 0.9233845472335815,
+    "a": "optical thin films",
+    "a_src": "cso",
+    "b": "Thin films",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category of A.",
+    "sim": 0.9231132864952087,
+    "a": "ovarian cysts",
+    "a_src": "agris",
+    "b": "Other and unspecified ovarian cysts",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Multiphase and multicomponent flows is a more specific case that includes multiphase flows as a subset.",
+    "sim": 0.9229769706726074,
+    "a": "Multiphase and multicomponent flows",
+    "a_src": "msc2020",
+    "b": "Multiphase flows",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Clustering algorithms are a specific type of algorithm.",
+    "sim": 0.9228240847587585,
+    "a": "algorithms",
+    "a_src": "agris",
+    "b": "clustering algorithms",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Hepatitis can be caused by various factors including viruses, making 'Viral hepatitis' a specific type of the broader term 'hepatitis'.",
+    "sim": 0.9228062629699707,
+    "a": "hepatitis",
+    "a_src": "agris",
+    "b": "Viral hepatitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category of A.",
+    "sim": 0.922765851020813,
+    "a": "laxatives",
+    "a_src": "agris",
+    "b": "Other laxatives",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Unspecified sexually transmitted disease is a narrower category under the broader term sexually transmitted diseases.",
+    "sim": 0.9223697781562805,
+    "a": "sexually transmitted diseases",
+    "a_src": "agris",
+    "b": "Unspecified sexually transmitted disease",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Natural sciences is a broader category that includes Other natural sciences as a more specific subfield.",
+    "sim": 0.9222809076309204,
+    "a": "natural sciences",
+    "a_src": "agris",
+    "b": "Other natural sciences",
+    "b_src": "oecd-fos"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Hypoglycaemia is a broader term that encompasses various types of low blood sugar conditions, while 'Other hypoglycaemia' likely refers to cases not categorized elsewhere.",
+    "sim": 0.9221851229667664,
+    "a": "hypoglycaemia",
+    "a_src": "agris",
+    "b": "Other hypoglycaemia",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Augmented reality is a subset of the broader category that includes both virtual and augmented reality.",
+    "sim": 0.9220149517059326,
+    "a": "augmented reality",
+    "a_src": "agris",
+    "b": "virtual and augmented reality",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Electromagnetism is a broader concept that includes electromagnets as a specific application or instance.",
+    "sim": 0.9219745993614197,
+    "a": "electromagnetism",
+    "a_src": "agris",
+    "b": "electromagnets",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "A is a broader category that includes B as specified in ICD.",
+    "sim": 0.921836793422699,
+    "a": "eating disorders",
+    "a_src": "agris",
+    "b": "Other eating disorders",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Historical biogeography is a specific subfield of biogeography that focuses on the historical aspects of species distribution.",
+    "sim": 0.9213485717773438,
+    "a": "biogeography",
+    "a_src": "agris",
+    "b": "historical biogeography",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Myocarditis is a broader term that includes infective myocarditis as a specific type.",
+    "sim": 0.9209463596343994,
+    "a": "myocarditis",
+    "a_src": "agris",
+    "b": "Infective myocarditis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Engine cylinders are a specific type of cylinder found in engines.",
+    "sim": 0.9206883907318115,
+    "a": "cylinders",
+    "a_src": "agris",
+    "b": "engine cylinders",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Pest insects are a subset of the broader category of insects.",
+    "sim": 0.9205742478370667,
+    "a": "pest insects",
+    "a_src": "agris",
+    "b": "Insects",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Applied analytical chemistry is a specialized application of the broader field of analytical chemistry.",
+    "sim": 0.920558750629425,
+    "a": "analytical chemistry",
+    "a_src": "agris",
+    "b": "applied analytical chemistry",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B includes amplifiers in addition to oscillators, making it a broader category.",
+    "sim": 0.9203978180885315,
+    "a": "optical parametric oscillators",
+    "a_src": "cso",
+    "b": "Optical parametric oscillators & amplifiers",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Cutaneous anthrax is a specific form of anthrax.",
+    "sim": 0.9202026724815369,
+    "a": "anthrax",
+    "a_src": "agris",
+    "b": "Cutaneous anthrax",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Adrenal gland diseases is a broader category that includes Other disorders of adrenal gland.",
+    "sim": 0.9201639890670776,
+    "a": "adrenal gland diseases",
+    "a_src": "agris",
+    "b": "Other disorders of adrenal gland",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific classification of A.",
+    "sim": 0.91990065574646,
+    "a": "factors",
+    "a_src": "agris",
+    "b": "Classification of factors",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Diaphragmatic hernia is a broader term that includes congenital diaphragmatic hernia as a specific type.",
+    "sim": 0.9197083115577698,
+    "a": "diaphragmatic hernia",
+    "a_src": "agris",
+    "b": "Congenital diaphragmatic hernia",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Arthritis is a broad term while 'Other arthritis' likely refers to specific types not categorized elsewhere.",
+    "sim": 0.9196763038635254,
+    "a": "arthritis",
+    "a_src": "agris",
+    "b": "Other arthritis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Markov decision processes are a subset of the broader category that includes both Markov and semi-Markov decision processes.",
+    "sim": 0.9196599125862122,
+    "a": "markov decision processes",
+    "a_src": "cso",
+    "b": "Markov and semi-Markov decision processes",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Visual surveillance systems are a specific type of surveillance systems.",
+    "sim": 0.9194879531860352,
+    "a": "surveillance systems",
+    "a_src": "agris",
+    "b": "visual surveillance systems",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific term that includes methods specifically for classification.",
+    "sim": 0.919411301612854,
+    "a": "methods",
+    "a_src": "agris",
+    "b": "classification methods",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Osteonecrosis is a broader term while 'Osteonecrosis, unspecified' refers to cases without specific details.",
+    "sim": 0.9192560315132141,
+    "a": "osteonecrosis",
+    "a_src": "agris",
+    "b": "Osteonecrosis, unspecified",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Auditing is a specific part of the broader field of accounting and auditing.",
+    "sim": 0.9189169406890869,
+    "a": "auditing",
+    "a_src": "agris",
+    "b": "accounting and auditing",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Strabismus is a general term while 'Other strabismus' likely refers to specific types or classifications within it.",
+    "sim": 0.9188578724861145,
+    "a": "strabismus",
+    "a_src": "agris",
+    "b": "Other strabismus",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Automobile engines are a specific type of engine.",
+    "sim": 0.9188553690910339,
+    "a": "engines",
+    "a_src": "agris",
+    "b": "automobile engines",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Bacterial diseases is a broader category that includes Other specified bacterial diseases.",
+    "sim": 0.9188154339790344,
+    "a": "bacterial diseases",
+    "a_src": "agris",
+    "b": "Other specified bacterial diseases",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Control systems is a broader term that includes computer control systems as a specific subset.",
+    "sim": 0.9187819957733154,
+    "a": "control systems",
+    "a_src": "agris",
+    "b": "computer control systems",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Agris's 'sciences' refers to a broader category encompassing individual sciences like Wikidata's 'science'.",
+    "sim": 0.9186450242996216,
+    "a": "sciences",
+    "a_src": "agris",
+    "b": "science",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Clinical bacteriology is a specialized subset of bacteriology focusing on medical applications.",
+    "sim": 0.9183626174926758,
+    "a": "bacteriology",
+    "a_src": "agris",
+    "b": "clinical bacteriology",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a specific instance of A involving care.",
+    "sim": 0.9178128242492676,
+    "a": "dialysis",
+    "a_src": "agris",
+    "b": "Care involving dialysis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Foundations of fluid mechanics is a more specific subfield within the broader category of fluid mechanics.",
+    "sim": 0.9177207946777344,
+    "a": "fluid mechanics",
+    "a_src": "agris",
+    "b": "Foundations of fluid mechanics",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Food fish is a specific category within the broader concept of Fish.",
+    "sim": 0.917585015296936,
+    "a": "food fish",
+    "a_src": "agris",
+    "b": "Fish",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Chronic ischaemic heart disease is a specific type of ischaemic heart disease.",
+    "sim": 0.9175422191619873,
+    "a": "ischaemic heart disease",
+    "a_src": "agris",
+    "b": "Chronic ischaemic heart disease",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Myocarditis is a broader term that includes acute myocarditis as a specific type.",
+    "sim": 0.9175129532814026,
+    "a": "myocarditis",
+    "a_src": "agris",
+    "b": "Acute myocarditis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Soil pollution is a broader concept that includes exposure to soil pollution as a specific scenario.",
+    "sim": 0.9170576333999634,
+    "a": "soil pollution",
+    "a_src": "agris",
+    "b": "Exposure to soil pollution",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Software frameworks are a specific type of framework within the broader category of frameworks.",
+    "sim": 0.916876494884491,
+    "a": "frameworks",
+    "a_src": "agris",
+    "b": "software frameworks",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Medical life sciences is a more specific subset of the broader category of life sciences.",
+    "sim": 0.9168742299079895,
+    "a": "life sciences",
+    "a_src": "agris",
+    "b": "medical life sciences",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Hypothyroidism is a broader term that includes various types, with 'Other specified hypothyroidism' being one of its subcategories.",
+    "sim": 0.916843593120575,
+    "a": "hypothyroidism",
+    "a_src": "agris",
+    "b": "Other specified hypothyroidism",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Community Mental Health Services is a specific subset of Community Health Service focusing on mental health.",
+    "sim": 0.9166018962860107,
+    "a": "Community Mental Health Services",
+    "a_src": "mesh",
+    "b": "community health service",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "International Relations is a broader field that includes Diplomacy and International Affairs as sub-disciplines.",
+    "sim": 0.916483461856842,
+    "a": "Political Science and International Relations",
+    "a_src": "openalex",
+    "b": "Diplomacy and International Affairs",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific classification of A within the ICD taxonomy.",
+    "sim": 0.9163947105407715,
+    "a": "adrenal gland diseases",
+    "a_src": "agris",
+    "b": "Disorders of adrenal glands in diseases classified elsewhere",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Molecular genetics is a subset of the broader field of genetics and molecular biosciences.",
+    "sim": 0.916140615940094,
+    "a": "molecular genetics",
+    "a_src": "agris",
+    "b": "genetics and molecular biosciences",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Total energy consumption is a more specific measure that includes all aspects of energy use, making it a child concept to the broader term energy consumption.",
+    "sim": 0.9160858392715454,
+    "a": "energy consumption",
+    "a_src": "agris",
+    "b": "total energy consumption",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Nuclear Medicine is a specialized field within Radiology and Imaging.",
+    "sim": 0.9159291982650757,
+    "a": "Radiology, Nuclear Medicine and Imaging",
+    "a_src": "openalex",
+    "b": "Nuclear Medicine",
+    "b_src": "mesh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Mixed hyperlipidaemia is a specific type of hyperlipidaemia.",
+    "sim": 0.9159289598464966,
+    "a": "hyperlipidaemia",
+    "a_src": "agris",
+    "b": "Mixed hyperlipidaemia",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Mitochondrial genetics is a broader field that includes the study of mitochondrial genes.",
+    "sim": 0.9159096479415894,
+    "a": "mitochondrial genetics",
+    "a_src": "agris",
+    "b": "mitochondrial gene",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Mechanical metamaterials are a specific type of metamaterial.",
+    "sim": 0.9159067869186401,
+    "a": "metamaterial",
+    "a_src": "cso",
+    "b": "Mechanical metamaterials",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more general description that encompasses the broader field including aspects of A.",
+    "sim": 0.9156208038330078,
+    "a": "Zoology",
+    "a_src": "mesh",
+    "b": "Animal Science and Zoology",
+    "b_src": "openalex"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B includes statistics which is a narrower field related to stochastic processes.",
+    "sim": 0.9155030846595764,
+    "a": "stochastic processes",
+    "a_src": "agris",
+    "b": "Stochastic processes & statistics",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Anaemia is a broad term while 'Other anaemias' refers to specific types excluding certain major categories.",
+    "sim": 0.9154004454612732,
+    "a": "anaemia",
+    "a_src": "agris",
+    "b": "Other anaemias",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Animal Science and Zoology is a more specific field within the broader category of Animal Sciences.",
+    "sim": 0.915375828742981,
+    "a": "animal sciences",
+    "a_src": "agris",
+    "b": "Animal Science and Zoology",
+    "b_src": "openalex"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific classification that includes political science within the context of history.",
+    "sim": 0.915372908115387,
+    "a": "political science",
+    "a_src": "agris",
+    "b": "History, political science",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Genetic speciation is a specific type of the broader concept of speciation.",
+    "sim": 0.9152795672416687,
+    "a": "speciation",
+    "a_src": "agris",
+    "b": "genetic speciation",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a specific subtype of A.",
+    "sim": 0.9152606725692749,
+    "a": "pseudohermaphroditism",
+    "a_src": "agris",
+    "b": "Female pseudohermaphroditism, not elsewhere classified",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific description of A.",
+    "sim": 0.9151924252510071,
+    "a": "disabilities",
+    "a_src": "agris",
+    "b": "people with disabilities",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Image rendering is a specific instance of rendering.",
+    "sim": 0.9150180220603943,
+    "a": "rendering",
+    "a_src": "agris",
+    "b": "image rendering",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Acute pancreatitis is a specific form of the broader condition pancreatitis.",
+    "sim": 0.9148165583610535,
+    "a": "pancreatitis",
+    "a_src": "agris",
+    "b": "Acute pancreatitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Plasmodium falciparum malaria is a specific type of malaria caused by the Plasmodium falciparum parasite.",
+    "sim": 0.9147602915763855,
+    "a": "malaria",
+    "a_src": "agris",
+    "b": "Plasmodium falciparum malaria",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Radar signals are a specific aspect of radar technology.",
+    "sim": 0.914629340171814,
+    "a": "radar",
+    "a_src": "agris",
+    "b": "radar signals",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Radar signals are a component of the broader concept of radar.",
+    "sim": 0.914629340171814,
+    "a": "radar signals",
+    "a_src": "cso",
+    "b": "Radar",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific classification of A within the ICD taxonomy.",
+    "sim": 0.9146168231964111,
+    "a": "lactation disorders",
+    "a_src": "agris",
+    "b": "Other and unspecified disorders of lactation",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Carbon capture is a component of carbon capture and storage.",
+    "sim": 0.9145509600639343,
+    "a": "carbon capture and storage",
+    "a_src": "agris",
+    "b": "Carbon capture",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Building reconstruction is a specific instance of reconstruction.",
+    "sim": 0.9143787622451782,
+    "a": "reconstruction",
+    "a_src": "agris",
+    "b": "building reconstruction",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B includes the concept of A but also specifies adaptive stabilization as a separate case.",
+    "sim": 0.9142601490020752,
+    "a": "robust stabilization",
+    "a_src": "cso",
+    "b": "Adaptive or robust stabilization",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Fractional Brownian motion is a specific instance of fractional processes.",
+    "sim": 0.9142476916313171,
+    "a": "Fractional processes, including fractional Brownian motion",
+    "a_src": "msc2020",
+    "b": "Fractional Brownian motion",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Metallurgy is a broader field than the history of metallurgy.",
+    "sim": 0.9139058589935303,
+    "a": "metallurgy",
+    "a_src": "agris",
+    "b": "history of metallurgy",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Isotropic turbulence is a specific type of homogeneous turbulence.",
+    "sim": 0.9138166904449463,
+    "a": "Isotropic turbulence; homogeneous turbulence",
+    "a_src": "msc2020",
+    "b": "Homogeneous turbulence",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Echinococcus multilocularis is the organism, while Echinococcus multilocularis infection, unspecified refers to an instance of disease caused by it.",
+    "sim": 0.9137992262840271,
+    "a": "Echinococcus multilocularis",
+    "a_src": "agris",
+    "b": "Echinococcus multilocularis infection, unspecified",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Natural resources is a broader category that includes within it the concept of environmental and natural resources.",
+    "sim": 0.9137470722198486,
+    "a": "natural resources",
+    "a_src": "agris",
+    "b": "environmental and natural resources",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Quantum electrodynamics is a specific theory that describes electromagnetic interactions among others.",
+    "sim": 0.9137468934059143,
+    "a": "Electromagnetic interaction; quantum electrodynamics",
+    "a_src": "msc2020",
+    "b": "Quantum electrodynamics",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Theoretical economic geography is a subset of the broader field of economic geography.",
+    "sim": 0.9134012460708618,
+    "a": "economic geography",
+    "a_src": "agris",
+    "b": "Theoretical economic geography",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "E-learning is a broader concept that includes e-learning technology as one of its components.",
+    "sim": 0.913242757320404,
+    "a": "e-learning",
+    "a_src": "agris",
+    "b": "e-learning technology",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Unspecified malaria is a broader category that includes cases where the specific type of malaria cannot be determined.",
+    "sim": 0.9132339954376221,
+    "a": "malaria",
+    "a_src": "agris",
+    "b": "Unspecified malaria",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Audio signal processing is a specific subset of the broader field of signal processing.",
+    "sim": 0.9130236506462097,
+    "a": "signal processing",
+    "a_src": "agris",
+    "b": "audio signal processing",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Mechanical energy storage is a specific type of energy storage.",
+    "sim": 0.912891149520874,
+    "a": "energy storage",
+    "a_src": "agris",
+    "b": "Mechanical energy storage",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Other chemotherapy is likely a specific type of the broader category chemotherapy.",
+    "sim": 0.9128732085227966,
+    "a": "Other chemotherapy",
+    "a_src": "icd",
+    "b": "Chemotherapy",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Schistosoma japonicum is the parasite, while Schistosomiasis due to Schistosoma japonicum is the disease it causes.",
+    "sim": 0.9127840995788574,
+    "a": "Schistosoma japonicum",
+    "a_src": "agris",
+    "b": "Schistosomiasis due to Schistosoma japonicum",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Human locomotions are specific instances of the broader concept of locomotion.",
+    "sim": 0.9127764701843262,
+    "a": "locomotion",
+    "a_src": "agris",
+    "b": "human locomotions",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Energy harvesting is a broader concept that includes energy harvesting devices as a specific application or type.",
+    "sim": 0.9125768542289734,
+    "a": "energy harvesting",
+    "a_src": "cso",
+    "b": "Energy harvesting devices",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Acute pharyngitis is a specific form of the broader condition pharyngitis.",
+    "sim": 0.9124998450279236,
+    "a": "pharyngitis",
+    "a_src": "agris",
+    "b": "Acute pharyngitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Stochastic models in economics are a specific application of the broader concept of stochastic models.",
+    "sim": 0.9124072194099426,
+    "a": "stochastic model",
+    "a_src": "cso",
+    "b": "Stochastic models in economics",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a broader category that includes A as one of its subfields.",
+    "sim": 0.9123917818069458,
+    "a": "Probability",
+    "a_src": "arxiv",
+    "b": "Probability theory and stochastic processes",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Test results are a specific type of results.",
+    "sim": 0.9122912883758545,
+    "a": "results",
+    "a_src": "agris",
+    "b": "test results",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Energy harvesting devices is a broader category that includes solar energy harvesting devices among others.",
+    "sim": 0.9122408628463745,
+    "a": "energy harvesting device",
+    "a_src": "cso",
+    "b": "Solar energy harvesting devices",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Brucella melitensis is the causative agent of brucellosis due to Brucella melitensis.",
+    "sim": 0.9119871854782104,
+    "a": "Brucella melitensis",
+    "a_src": "agris",
+    "b": "Brucellosis due to Brucella melitensis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Soil mechanics is a subset of soil and rock mechanics.",
+    "sim": 0.9116328358650208,
+    "a": "soil mechanics",
+    "a_src": "agris",
+    "b": "Soil and rock mechanics",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Approximation algorithms is a broader category that includes algorithms for function approximation among other types of approximations.",
+    "sim": 0.9115674495697021,
+    "a": "approximation algorithms",
+    "a_src": "cso",
+    "b": "Algorithms for approximation of functions",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Stochastic dynamical systems are a specific type of stochastic system.",
+    "sim": 0.911530613899231,
+    "a": "stochastic systems",
+    "a_src": "cso",
+    "b": "Stochastic dynamical systems",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific classification of diseases within A.",
+    "sim": 0.9115272760391235,
+    "a": "oesophageal diseases",
+    "a_src": "agris",
+    "b": "Disorders of oesophagus in diseases classified elsewhere",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Wireless communication networks are a specific type of communication networks.",
+    "sim": 0.9114710688591003,
+    "a": "communication networks",
+    "a_src": "cso",
+    "b": "Wireless communication networks",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a specific subset of A, focusing on heart disease and pulmonary circulation within the broader category of pulmonary diseases.",
+    "sim": 0.9113786816596985,
+    "a": "pulmonary diseases",
+    "a_src": "agris",
+    "b": "Pulmonary heart disease and diseases of pulmonary circulation",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Stochastic stability in control theory is a specific application of the broader concept of stochastic stability.",
+    "sim": 0.9113460779190063,
+    "a": "stochastic stability",
+    "a_src": "cso",
+    "b": "Stochastic stability in control theory",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Stochastic systems and control is a broader category that includes stochastic control as a specific subfield.",
+    "sim": 0.9113211631774902,
+    "a": "stochastic control",
+    "a_src": "cso",
+    "b": "Stochastic systems and control",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Sinusitis is a broader term that includes both acute and chronic forms.",
+    "sim": 0.9113125801086426,
+    "a": "sinusitis",
+    "a_src": "agris",
+    "b": "Chronic sinusitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Maintenance tasks are specific actions within the broader concept of maintenance.",
+    "sim": 0.9112284779548645,
+    "a": "maintenance",
+    "a_src": "agris",
+    "b": "maintenance tasks",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Clustering analysis is a specific type of analysis.",
+    "sim": 0.9112024903297424,
+    "a": "analysis",
+    "a_src": "agris",
+    "b": "clustering analysis",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Correlation analysis is a broader concept that includes the examination of correlations between variables.",
+    "sim": 0.9109920859336853,
+    "a": "correlation",
+    "a_src": "agris",
+    "b": "correlation analysis",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "A classification algorithm is a specific type of algorithm.",
+    "sim": 0.910973072052002,
+    "a": "algorithms",
+    "a_src": "agris",
+    "b": "classification algorithm",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Malignant neoplasms are a specific type of neoplasm.",
+    "sim": 0.9108790159225464,
+    "a": "neoplasms",
+    "a_src": "agris",
+    "b": "Malignant neoplasms",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Rheology is the broader study while Rheology techniques are specific methods within it.",
+    "sim": 0.9108088612556458,
+    "a": "rheology",
+    "a_src": "agris",
+    "b": "Rheology techniques",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Tick-borne encephalitis is a broader term that includes various viral forms, while 'Other tick-borne viral encephalitis' specifies a subset of this category.",
+    "sim": 0.9107725024223328,
+    "a": "tick-borne encephalitis",
+    "a_src": "agris",
+    "b": "Other tick-borne viral encephalitis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Environmental engineering is a broader field that includes energy and environmental engineering as a more specific subfield.",
+    "sim": 0.9105690717697144,
+    "a": "environmental engineering",
+    "a_src": "agris",
+    "b": "energy and environmental engineering",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific category that includes A as part of its broader scope.",
+    "sim": 0.9105196595191956,
+    "a": "environmental sciences",
+    "a_src": "agris",
+    "b": "Earth and related environmental sciences",
+    "b_src": "oecd-fos"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Hydroelectric dams are a specific type of dam.",
+    "sim": 0.9105183482170105,
+    "a": "dams",
+    "a_src": "agris",
+    "b": "Hydroelectric dams",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Gear transmissions are a specific type of transmission.",
+    "sim": 0.9104796648025513,
+    "a": "transmissions",
+    "a_src": "agris",
+    "b": "gear transmissions",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Viscous vortex flows are a specific type of vortex flow where viscosity plays a significant role in the dynamics.",
+    "sim": 0.91044020652771,
+    "a": "Viscous vortex flows",
+    "a_src": "msc2020",
+    "b": "Vortex flows",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "A is a broader category that includes B among other disorders of the peripheral nervous system.",
+    "sim": 0.9104342460632324,
+    "a": "Polyneuropathies and other disorders of the peripheral nervous system",
+    "a_src": "icd",
+    "b": "Polyneuropathies",
+    "b_src": "mesh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Adrenal gland diseases is a broader category that includes Other specified disorders of adrenal gland.",
+    "sim": 0.9103754758834839,
+    "a": "adrenal gland diseases",
+    "a_src": "agris",
+    "b": "Other specified disorders of adrenal gland",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Timing synchronization is a specific instance of synchronization.",
+    "sim": 0.9102793335914612,
+    "a": "synchronization",
+    "a_src": "agris",
+    "b": "timing synchronization",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Radar signal processing is a specific application of the broader concept of signal processing.",
+    "sim": 0.9101483821868896,
+    "a": "signal processing",
+    "a_src": "agris",
+    "b": "radar signal processing",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Autonomous surface vehicles are a specific type of surface vehicles with the added characteristic of autonomy.",
+    "sim": 0.9100388288497925,
+    "a": "autonomous surface vehicles",
+    "a_src": "agris",
+    "b": "surface vehicles",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Online social network is a specific type of social network that exists in the digital realm.",
+    "sim": 0.9099734425544739,
+    "a": "social networks",
+    "a_src": "agris",
+    "b": "online social network",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Optical metamaterials are a specific type of metamaterials.",
+    "sim": 0.9099690318107605,
+    "a": "metamaterials",
+    "a_src": "cso",
+    "b": "Optical metamaterials",
+    "b_src": "physh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Brucella abortus is the causative agent of brucellosis due to Brucella abortus.",
+    "sim": 0.9099505543708801,
+    "a": "Brucella abortus",
+    "a_src": "agris",
+    "b": "Brucellosis due to Brucella abortus",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Cosmology is the broader field, while history of cosmology focuses on its historical development.",
+    "sim": 0.9095550775527954,
+    "a": "Cosmology",
+    "a_src": "physh",
+    "b": "history of cosmology",
+    "b_src": "wikidata"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Stochastic modeling is a broader concept that includes stochastic models in economics as a specific application.",
+    "sim": 0.9093760848045349,
+    "a": "stochastic modeling",
+    "a_src": "cso",
+    "b": "Stochastic models in economics",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Wound myiasis is a specific type of myiasis.",
+    "sim": 0.9093613028526306,
+    "a": "myiasis",
+    "a_src": "agris",
+    "b": "Wound myiasis",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "B is a more specific case of A.",
+    "sim": 0.9093038439750671,
+    "a": "pigmentation disorders",
+    "a_src": "agris",
+    "b": "Disorder of pigmentation, unspecified",
+    "b_src": "icd"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Biology and other natural sciences is a more specific classification that includes biology under the broader category of natural sciences.",
+    "sim": 0.9092561602592468,
+    "a": "natural sciences",
+    "a_src": "agris",
+    "b": "Biology and other natural sciences",
+    "b_src": "msc2020"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 1.0,
+    "rationale": "Biology is a distinct field within the broader category of natural sciences.",
+    "sim": 0.909142255783081,
+    "a": "Biology and other natural sciences",
+    "a_src": "msc2020",
+    "b": "Other natural sciences",
+    "b_src": "oecd-fos"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Polarimetry is the broader concept that encompasses polarimetric data.",
+    "sim": 0.9091325998306274,
+    "a": "polarimetry",
+    "a_src": "agris",
+    "b": "polarimetric data",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "ICD term is likely a subset of broader MESH category.",
+    "sim": 0.9091110825538635,
+    "a": "Disorders of eyelid in diseases classified elsewhere",
+    "a_src": "icd",
+    "b": "Eyelid Diseases",
+    "b_src": "mesh"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Energy conservation is a broader concept that includes the conservation of energy resources as a specific application.",
+    "sim": 0.9090842604637146,
+    "a": "energy conservation",
+    "a_src": "agris",
+    "b": "conservation of energy resources",
+    "b_src": "cso"
+  },
+  {
+    "verdict": "parent_child",
+    "confidence": 0.95,
+    "rationale": "Functional-differential inclusions are a specific type of differential inclusions.",
+    "sim": 0.908974289894104,
+    "a": "differential inclusions",
+    "a_src": "cso",
+    "b": "Functional-differential inclusions",
+    "b_src": "msc2020"
+  }
+]
