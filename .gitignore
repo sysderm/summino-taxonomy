@@ -1,4 +1,12 @@
+# Phase 1.1.1 — gemini judge branch
 .venv/
 log/
 __pycache__/
 *.pyc
+.merge-state/
+.env
+.cost-state/
+
+# Raw harvest snapshots live on feat/phase1-harvest; materialized locally
+# (read-only input for definition lookup), not re-committed here.
+raw/
