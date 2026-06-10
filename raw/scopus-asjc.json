@@ -1,0 +1,4981 @@
+{
+ "source": "scopus-asjc",
+ "version": "ASJC1.xlsx (Elsevier a_id/15181)",
+ "harvested_at": "2026-06-06T16:36:29+00:00",
+ "node_count": 361,
+ "nodes": [
+  {
+   "id": "10",
+   "name": "Multidisciplinary",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "11",
+   "name": "Agricultural and Biological Sciences",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "12",
+   "name": "Arts and Humanities",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "13",
+   "name": "Biochemistry",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "14",
+   "name": "Business",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "15",
+   "name": "Chemical Engineering",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "16",
+   "name": "Chemistry",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "17",
+   "name": "Computer Science",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "18",
+   "name": "Decision Sciences",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "19",
+   "name": "Earth and Planetary Sciences",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "20",
+   "name": "Economics",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "21",
+   "name": "Energy",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "22",
+   "name": "Engineering",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "23",
+   "name": "Environmental Science",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "24",
+   "name": "Immunology and Microbiology",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "25",
+   "name": "Materials Science",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "26",
+   "name": "Mathematics",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "27",
+   "name": "Medicine",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "28",
+   "name": "Neuroscience",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "29",
+   "name": "Nursing",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "30",
+   "name": "Pharmacology",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "31",
+   "name": "Physics and Astronomy",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "32",
+   "name": "Psychology",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "33",
+   "name": "Social Sciences",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "34",
+   "name": "Veterinary",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "35",
+   "name": "Dentistry",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "36",
+   "name": "Health Professions",
+   "parents": [],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 1,
+    "kind": "subject_area"
+   }
+  },
+  {
+   "id": "1000",
+   "name": "Multidisciplinary",
+   "parents": [
+    "10"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "10"
+   }
+  },
+  {
+   "id": "1100",
+   "name": "General Agricultural and Biological Sciences",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1101",
+   "name": "Agricultural and Biological Sciences (miscellaneous)",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1102",
+   "name": "Agronomy and Crop Science",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1103",
+   "name": "Animal Science and Zoology",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1104",
+   "name": "Aquatic Science",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1105",
+   "name": "Ecology",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1106",
+   "name": "Food Science",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1107",
+   "name": "Forestry",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1108",
+   "name": "Horticulture",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1109",
+   "name": "Insect Science",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1110",
+   "name": "Plant Science",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1111",
+   "name": "Soil Science",
+   "parents": [
+    "11"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "11"
+   }
+  },
+  {
+   "id": "1200",
+   "name": "General Arts and Humanities",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1201",
+   "name": "Arts and Humanities (miscellaneous)",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1202",
+   "name": "History",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1203",
+   "name": "Language and Linguistics",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1204",
+   "name": "Archeology (arts and humanities)",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1205",
+   "name": "Classics",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1206",
+   "name": "Conservation",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1207",
+   "name": "History and Philosophy of Science",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1208",
+   "name": "Literature and Literary Theory",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1209",
+   "name": "Museology",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1210",
+   "name": "Music",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1211",
+   "name": "Philosophy",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1212",
+   "name": "Religious Studies",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1213",
+   "name": "Visual Arts and Performing Arts",
+   "parents": [
+    "12"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "12"
+   }
+  },
+  {
+   "id": "1300",
+   "name": "General Biochemistry",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1301",
+   "name": "Biochemistry",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1302",
+   "name": "Aging",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1303",
+   "name": "Biochemistry",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1304",
+   "name": "Biophysics",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1305",
+   "name": "Biotechnology",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1306",
+   "name": "Cancer Research",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1307",
+   "name": "Cell Biology",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1308",
+   "name": "Clinical Biochemistry",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1309",
+   "name": "Developmental Biology",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1310",
+   "name": "Endocrinology",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1311",
+   "name": "Genetics",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1312",
+   "name": "Molecular Biology",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1313",
+   "name": "Molecular Medicine",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1314",
+   "name": "Physiology",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1315",
+   "name": "Structural Biology",
+   "parents": [
+    "13"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "13"
+   }
+  },
+  {
+   "id": "1400",
+   "name": "General Business",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1401",
+   "name": "Business",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1402",
+   "name": "Accounting",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1403",
+   "name": "Business and International Management",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1404",
+   "name": "Management Information Systems",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1405",
+   "name": "Management of Technology and Innovation",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1406",
+   "name": "Marketing",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1407",
+   "name": "Organizational Behavior and Human Resource Management",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1408",
+   "name": "Strategy and Management",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1409",
+   "name": "Tourism",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1410",
+   "name": "Industrial Relations",
+   "parents": [
+    "14"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "14"
+   }
+  },
+  {
+   "id": "1500",
+   "name": "General Chemical Engineering",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1501",
+   "name": "Chemical Engineering (miscellaneous)",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1502",
+   "name": "Bioengineering",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1503",
+   "name": "Catalysis",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1504",
+   "name": "Chemical Health and Safety",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1505",
+   "name": "Colloid and Surface Chemistry",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1506",
+   "name": "Filtration and Separation",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1507",
+   "name": "Fluid Flow and Transfer Processes",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1508",
+   "name": "Process Chemistry and Technology",
+   "parents": [
+    "15"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "15"
+   }
+  },
+  {
+   "id": "1600",
+   "name": "General Chemistry",
+   "parents": [
+    "16"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "16"
+   }
+  },
+  {
+   "id": "1601",
+   "name": "Chemistry (miscellaneous)",
+   "parents": [
+    "16"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "16"
+   }
+  },
+  {
+   "id": "1602",
+   "name": "Analytical Chemistry",
+   "parents": [
+    "16"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "16"
+   }
+  },
+  {
+   "id": "1603",
+   "name": "Electrochemistry",
+   "parents": [
+    "16"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "16"
+   }
+  },
+  {
+   "id": "1604",
+   "name": "Inorganic Chemistry",
+   "parents": [
+    "16"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "16"
+   }
+  },
+  {
+   "id": "1605",
+   "name": "Organic Chemistry",
+   "parents": [
+    "16"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "16"
+   }
+  },
+  {
+   "id": "1606",
+   "name": "Physical and Theoretical Chemistry",
+   "parents": [
+    "16"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "16"
+   }
+  },
+  {
+   "id": "1607",
+   "name": "Spectroscopy",
+   "parents": [
+    "16"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "16"
+   }
+  },
+  {
+   "id": "1700",
+   "name": "General Computer Science",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1701",
+   "name": "Computer Science (miscellaneous)",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1702",
+   "name": "Artificial Intelligence",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1703",
+   "name": "Computational Theory and Mathematics",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1704",
+   "name": "Computer Graphics and Computer-Aided Design",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1705",
+   "name": "Computer Networks and Communications",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1706",
+   "name": "Computer Science Applications",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1707",
+   "name": "Computer Vision and Pattern Recognition",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1708",
+   "name": "Hardware and Architecture",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1709",
+   "name": "Human-Computer Interaction",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1710",
+   "name": "Information Systems",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1711",
+   "name": "Signal Processing",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1712",
+   "name": "Software",
+   "parents": [
+    "17"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "17"
+   }
+  },
+  {
+   "id": "1800",
+   "name": "General Decision Sciences",
+   "parents": [
+    "18"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "18"
+   }
+  },
+  {
+   "id": "1801",
+   "name": "Decision Sciences (miscellaneous)",
+   "parents": [
+    "18"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "18"
+   }
+  },
+  {
+   "id": "1802",
+   "name": "Information Systems and Management",
+   "parents": [
+    "18"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "18"
+   }
+  },
+  {
+   "id": "1803",
+   "name": "Management Science and Operations Research",
+   "parents": [
+    "18"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "18"
+   }
+  },
+  {
+   "id": "1804",
+   "name": "Statistics",
+   "parents": [
+    "18"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "18"
+   }
+  },
+  {
+   "id": "1900",
+   "name": "General Earth and Planetary Sciences",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1901",
+   "name": "Earth and Planetary Sciences (miscellaneous)",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1902",
+   "name": "Atmospheric Science",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1903",
+   "name": "Computers in Earth Sciences",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1904",
+   "name": "Earth-Surface Processes",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1905",
+   "name": "Economic Geology",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1906",
+   "name": "Geochemistry and Petrology",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1907",
+   "name": "Geology",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1908",
+   "name": "Geophysics",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1909",
+   "name": "Geotechnical Engineering and Engineering Geology",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1910",
+   "name": "Oceanography",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1911",
+   "name": "Paleontology",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1912",
+   "name": "Space and Planetary Science",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "1913",
+   "name": "Stratigraphy",
+   "parents": [
+    "19"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "19"
+   }
+  },
+  {
+   "id": "2000",
+   "name": "General Economics",
+   "parents": [
+    "20"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "20"
+   }
+  },
+  {
+   "id": "2001",
+   "name": "Economics",
+   "parents": [
+    "20"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "20"
+   }
+  },
+  {
+   "id": "2002",
+   "name": "Economics and Econometrics",
+   "parents": [
+    "20"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "20"
+   }
+  },
+  {
+   "id": "2003",
+   "name": "Finance",
+   "parents": [
+    "20"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "20"
+   }
+  },
+  {
+   "id": "2100",
+   "name": "General Energy",
+   "parents": [
+    "21"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "21"
+   }
+  },
+  {
+   "id": "2101",
+   "name": "Energy (miscellaneous)",
+   "parents": [
+    "21"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "21"
+   }
+  },
+  {
+   "id": "2102",
+   "name": "Energy Engineering and Power Technology",
+   "parents": [
+    "21"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "21"
+   }
+  },
+  {
+   "id": "2103",
+   "name": "Fuel Technology",
+   "parents": [
+    "21"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "21"
+   }
+  },
+  {
+   "id": "2104",
+   "name": "Nuclear Energy and Engineering",
+   "parents": [
+    "21"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "21"
+   }
+  },
+  {
+   "id": "2105",
+   "name": "Renewable Energy",
+   "parents": [
+    "21"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "21"
+   }
+  },
+  {
+   "id": "2200",
+   "name": "General Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2201",
+   "name": "Engineering (miscellaneous)",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2202",
+   "name": "Aerospace Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2203",
+   "name": "Automotive Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2204",
+   "name": "Biomedical Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2205",
+   "name": "Civil and Structural Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2206",
+   "name": "Computational Mechanics",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2207",
+   "name": "Control and Systems Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2208",
+   "name": "Electrical and Electronic Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2209",
+   "name": "Industrial and Manufacturing Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2210",
+   "name": "Mechanical Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2211",
+   "name": "Mechanics of Materials",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2212",
+   "name": "Ocean Engineering",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2213",
+   "name": "Safety",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2214",
+   "name": "Media Technology",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2215",
+   "name": "Building and Construction",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2216",
+   "name": "Architecture",
+   "parents": [
+    "22"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "22"
+   }
+  },
+  {
+   "id": "2300",
+   "name": "General Environmental Science",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2301",
+   "name": "Environmental Science (miscellaneous)",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2302",
+   "name": "Ecological Modeling",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2303",
+   "name": "Ecology",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2304",
+   "name": "Environmental Chemistry",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2305",
+   "name": "Environmental Engineering",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2306",
+   "name": "Global and Planetary Change",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2307",
+   "name": "Health",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2308",
+   "name": "Management",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2309",
+   "name": "Nature and Landscape Conservation",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2310",
+   "name": "Pollution",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2311",
+   "name": "Waste Management and Disposal",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2312",
+   "name": "Water Science and Technology",
+   "parents": [
+    "23"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "23"
+   }
+  },
+  {
+   "id": "2400",
+   "name": "General Immunology and Microbiology",
+   "parents": [
+    "24"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "24"
+   }
+  },
+  {
+   "id": "2401",
+   "name": "Immunology and Microbiology (miscellaneous)",
+   "parents": [
+    "24"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "24"
+   }
+  },
+  {
+   "id": "2402",
+   "name": "Applied Microbiology and Biotechnology",
+   "parents": [
+    "24"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "24"
+   }
+  },
+  {
+   "id": "2403",
+   "name": "Immunology",
+   "parents": [
+    "24"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "24"
+   }
+  },
+  {
+   "id": "2404",
+   "name": "Microbiology",
+   "parents": [
+    "24"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "24"
+   }
+  },
+  {
+   "id": "2405",
+   "name": "Parasitology",
+   "parents": [
+    "24"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "24"
+   }
+  },
+  {
+   "id": "2406",
+   "name": "Virology",
+   "parents": [
+    "24"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "24"
+   }
+  },
+  {
+   "id": "2500",
+   "name": "General Materials Science",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2501",
+   "name": "Materials Science (miscellaneous)",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2502",
+   "name": "Biomaterials",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2503",
+   "name": "Ceramics and Composites",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2504",
+   "name": "Electronic",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2505",
+   "name": "Materials Chemistry",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2506",
+   "name": "Metals and Alloys",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2507",
+   "name": "Polymers and Plastics",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2508",
+   "name": "Surfaces",
+   "parents": [
+    "25"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "25"
+   }
+  },
+  {
+   "id": "2600",
+   "name": "General Mathematics",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2601",
+   "name": "Mathematics (miscellaneous)",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2602",
+   "name": "Algebra and Number Theory",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2603",
+   "name": "Analysis",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2604",
+   "name": "Applied Mathematics",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2605",
+   "name": "Computational Mathematics",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2606",
+   "name": "Control and Optimization",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2607",
+   "name": "Discrete Mathematics and Combinatorics",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2608",
+   "name": "Geometry and Topology",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2609",
+   "name": "Logic",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2610",
+   "name": "Mathematical Physics",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2611",
+   "name": "Modeling and Simulation",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2612",
+   "name": "Numerical Analysis",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2613",
+   "name": "Statistics and Probability",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2614",
+   "name": "Theoretical Computer Science",
+   "parents": [
+    "26"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "26"
+   }
+  },
+  {
+   "id": "2700",
+   "name": "General Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2701",
+   "name": "Medicine (miscellaneous)",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2702",
+   "name": "Anatomy",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2703",
+   "name": "Anesthesiology and Pain Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2704",
+   "name": "Biochemistry (medical)",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2705",
+   "name": "Cardiology and Cardiovascular Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2706",
+   "name": "Critical Care and Intensive Care Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2707",
+   "name": "Complementary and Alternative Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2708",
+   "name": "Dermatology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2709",
+   "name": "Drug Guides",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2710",
+   "name": "Embryology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2711",
+   "name": "Emergency Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2712",
+   "name": "Endocrinology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2713",
+   "name": "Epidemiology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2714",
+   "name": "Family Practice",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2715",
+   "name": "Gastroenterology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2716",
+   "name": "Genetics (clinical)",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2717",
+   "name": "Geriatrics and Gerontology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2718",
+   "name": "Health Informatics",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2719",
+   "name": "Health Policy",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2720",
+   "name": "Hematology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2721",
+   "name": "Hepatology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2722",
+   "name": "Histology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2723",
+   "name": "Immunology and Allergy",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2724",
+   "name": "Internal Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2725",
+   "name": "Infectious Diseases",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2726",
+   "name": "Microbiology (medical)",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2727",
+   "name": "Nephrology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2728",
+   "name": "Neurology (clinical)",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2729",
+   "name": "Obstetrics and Gynecology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2730",
+   "name": "Oncology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2731",
+   "name": "Ophthalmology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2732",
+   "name": "Orthopedics and Sports Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2733",
+   "name": "Otorhinolaryngology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2734",
+   "name": "Pathology and Forensic Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2735",
+   "name": "Pediatrics",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2736",
+   "name": "Pharmacology (medical)",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2737",
+   "name": "Physiology (medical)",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2738",
+   "name": "Psychiatry and Mental Health",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2739",
+   "name": "Public Health",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2740",
+   "name": "Pulmonary and Respiratory Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2741",
+   "name": "Radiology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2742",
+   "name": "Rehabilitation",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2743",
+   "name": "Reproductive Medicine",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2744",
+   "name": "Reviews and References (medical)",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2745",
+   "name": "Rheumatology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2746",
+   "name": "Surgery",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2747",
+   "name": "Transplantation",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2748",
+   "name": "Urology",
+   "parents": [
+    "27"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "27"
+   }
+  },
+  {
+   "id": "2800",
+   "name": "General Neuroscience",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2801",
+   "name": "Neuroscience (miscellaneous)",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2802",
+   "name": "Behavioral Neuroscience",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2803",
+   "name": "Biological Psychiatry",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2804",
+   "name": "Cellular and Molecular Neuroscience",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2805",
+   "name": "Cognitive Neuroscience",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2806",
+   "name": "Developmental Neuroscience",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2807",
+   "name": "Endocrine and Autonomic Systems",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2808",
+   "name": "Neurology",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2809",
+   "name": "Sensory Systems",
+   "parents": [
+    "28"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "28"
+   }
+  },
+  {
+   "id": "2900",
+   "name": "General Nursing",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2901",
+   "name": "Nursing (miscellaneous)",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2902",
+   "name": "Advanced and Specialized Nursing",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2903",
+   "name": "Assessment and Diagnosis",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2904",
+   "name": "Care Planning",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2905",
+   "name": "Community and Home Care",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2906",
+   "name": "Critical Care Nursing",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2907",
+   "name": "Emergency Nursing",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2908",
+   "name": "Fundamentals and Skills",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2909",
+   "name": "Gerontology",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2910",
+   "name": "Issues",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2911",
+   "name": "Leadership and Management",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2912",
+   "name": "LPN and LVN",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2913",
+   "name": "Maternity and Midwifery",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2914",
+   "name": "Medical and Surgical Nursing",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2915",
+   "name": "Nurse Assisting",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2916",
+   "name": "Nutrition and Dietetics",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2917",
+   "name": "Oncology (nursing)",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2918",
+   "name": "Pathophysiology",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2919",
+   "name": "Pediatrics",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2920",
+   "name": "Pharmacology (nursing)",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2921",
+   "name": "Psychiatric Mental Health",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2922",
+   "name": "Research and Theory",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "2923",
+   "name": "Review and Exam Preparation",
+   "parents": [
+    "29"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "29"
+   }
+  },
+  {
+   "id": "3000",
+   "name": "General Pharmacology",
+   "parents": [
+    "30"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "30"
+   }
+  },
+  {
+   "id": "3001",
+   "name": "Pharmacology",
+   "parents": [
+    "30"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "30"
+   }
+  },
+  {
+   "id": "3002",
+   "name": "Drug Discovery",
+   "parents": [
+    "30"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "30"
+   }
+  },
+  {
+   "id": "3003",
+   "name": "Pharmaceutical Science",
+   "parents": [
+    "30"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "30"
+   }
+  },
+  {
+   "id": "3004",
+   "name": "Pharmacology",
+   "parents": [
+    "30"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "30"
+   }
+  },
+  {
+   "id": "3005",
+   "name": "Toxicology",
+   "parents": [
+    "30"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "30"
+   }
+  },
+  {
+   "id": "3100",
+   "name": "General Physics and Astronomy",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3101",
+   "name": "Physics and Astronomy (miscellaneous)",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3102",
+   "name": "Acoustics and Ultrasonics",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3103",
+   "name": "Astronomy and Astrophysics",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3104",
+   "name": "Condensed Matter Physics",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3105",
+   "name": "Instrumentation",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3106",
+   "name": "Nuclear and High Energy Physics",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3107",
+   "name": "Atomic and Molecular Physics",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3108",
+   "name": "Radiation",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3109",
+   "name": "Statistical and Nonlinear Physics",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3110",
+   "name": "Surfaces and Interfaces",
+   "parents": [
+    "31"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "31"
+   }
+  },
+  {
+   "id": "3200",
+   "name": "General Psychology",
+   "parents": [
+    "32"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "32"
+   }
+  },
+  {
+   "id": "3201",
+   "name": "Psychology (miscellaneous)",
+   "parents": [
+    "32"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "32"
+   }
+  },
+  {
+   "id": "3202",
+   "name": "Applied Psychology",
+   "parents": [
+    "32"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "32"
+   }
+  },
+  {
+   "id": "3203",
+   "name": "Clinical Psychology",
+   "parents": [
+    "32"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "32"
+   }
+  },
+  {
+   "id": "3204",
+   "name": "Developmental and Educational Psychology",
+   "parents": [
+    "32"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "32"
+   }
+  },
+  {
+   "id": "3205",
+   "name": "Experimental and Cognitive Psychology",
+   "parents": [
+    "32"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "32"
+   }
+  },
+  {
+   "id": "3206",
+   "name": "Neuropsychology and Physiological Psychology",
+   "parents": [
+    "32"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "32"
+   }
+  },
+  {
+   "id": "3207",
+   "name": "Social Psychology",
+   "parents": [
+    "32"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "32"
+   }
+  },
+  {
+   "id": "3300",
+   "name": "General Social Sciences",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3301",
+   "name": "Social Sciences (miscellaneous)",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3302",
+   "name": "Archeology",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3303",
+   "name": "Development",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3304",
+   "name": "Education",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3305",
+   "name": "Geography",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3306",
+   "name": "Health (social science)",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3307",
+   "name": "Human Factors and Ergonomics",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3308",
+   "name": "Law",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3309",
+   "name": "Library and Information Sciences",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3310",
+   "name": "Linguistics and Language",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3311",
+   "name": "Safety Research",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3312",
+   "name": "Sociology and Political Science",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3313",
+   "name": "Transportation",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3314",
+   "name": "Anthropology",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3315",
+   "name": "Communication",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3316",
+   "name": "Cultural Studies",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3317",
+   "name": "Demography",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3318",
+   "name": "Gender Studies",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3319",
+   "name": "Life-span and Life-course Studies",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3320",
+   "name": "Political Science and International Relations",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3321",
+   "name": "Public Administration",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3322",
+   "name": "Urban Studies",
+   "parents": [
+    "33"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "33"
+   }
+  },
+  {
+   "id": "3400",
+   "name": "General Veterinary",
+   "parents": [
+    "34"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "34"
+   }
+  },
+  {
+   "id": "3401",
+   "name": "Veterinary (miscellaneous)",
+   "parents": [
+    "34"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "34"
+   }
+  },
+  {
+   "id": "3402",
+   "name": "Equine",
+   "parents": [
+    "34"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "34"
+   }
+  },
+  {
+   "id": "3403",
+   "name": "Food Animals",
+   "parents": [
+    "34"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "34"
+   }
+  },
+  {
+   "id": "3404",
+   "name": "Small Animals",
+   "parents": [
+    "34"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "34"
+   }
+  },
+  {
+   "id": "3500",
+   "name": "General Dentistry",
+   "parents": [
+    "35"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "35"
+   }
+  },
+  {
+   "id": "3501",
+   "name": "Dentistry (miscellaneous)",
+   "parents": [
+    "35"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "35"
+   }
+  },
+  {
+   "id": "3502",
+   "name": "Dental Assisting",
+   "parents": [
+    "35"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "35"
+   }
+  },
+  {
+   "id": "3503",
+   "name": "Dental Hygiene",
+   "parents": [
+    "35"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "35"
+   }
+  },
+  {
+   "id": "3504",
+   "name": "Oral Surgery",
+   "parents": [
+    "35"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "35"
+   }
+  },
+  {
+   "id": "3505",
+   "name": "Orthodontics",
+   "parents": [
+    "35"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "35"
+   }
+  },
+  {
+   "id": "3506",
+   "name": "Periodontics",
+   "parents": [
+    "35"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "35"
+   }
+  },
+  {
+   "id": "3600",
+   "name": "General Health Professions",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3601",
+   "name": "Health Professions (miscellaneous)",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3602",
+   "name": "Chiropractics",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3603",
+   "name": "Complementary and Manual Therapy",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3604",
+   "name": "Emergency Medical Services",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3605",
+   "name": "Health Information Management",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3606",
+   "name": "Medical Assisting and Transcription",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3607",
+   "name": "Medical Laboratory Technology",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3608",
+   "name": "Medical Terminology",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3609",
+   "name": "Occupational Therapy",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3610",
+   "name": "Optometry",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3611",
+   "name": "Pharmacy",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3612",
+   "name": "Physical Therapy",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3613",
+   "name": "Podiatry",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3614",
+   "name": "Radiological and Ultrasound Technology",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3615",
+   "name": "Respiratory Care",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  },
+  {
+   "id": "3616",
+   "name": "Speech and Hearing",
+   "parents": [
+    "36"
+   ],
+   "aliases": [],
+   "definition": null,
+   "extras": {
+    "level": 2,
+    "kind": "subject_category",
+    "subject_area": "36"
+   }
+  }
+ ]
+}
