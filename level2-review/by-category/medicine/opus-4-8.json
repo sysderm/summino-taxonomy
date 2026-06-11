@@ -1,191 +1,67 @@
 {
   "level1_slug": "medicine",
   "level1_name": "Medicine & Clinical Science",
-  "count": 22,
-  "rationale": "Medicine is the highest-volume level-1 (16% of all papers) and has the most established subspecialty structure of any category — clinicians literally introduce themselves by their subspecialty. I used the boarded-specialty list as the spine: organ-system-based fields (Cardiology, Gastroenterology), patient-population fields (Pediatrics, Geriatrics), and modality-based fields (Surgery, Radiology, Anesthesia, Pathology). I kept Surgery as ONE card despite being split into 8+ sub-specialties in MeSH — the picker can't carry that, and a surgeon's level-2 identity is 'I'm a surgeon' before 'I'm a colorectal surgeon'. I split Internal Medicine into its boarded subspecialties (Cardiology, Pulmonology, Gastroenterology, Endocrinology, Rheumatology, Hematology, Nephrology, Infectious Disease, Oncology) because each has dedicated journals and conferences and practitioners identify with the subspecialty, not 'Internal Medicine'. Dermatology gets its own card (yes captain — but at the same level as other organ-system specialties, no special treatment). Oncology straddles internal medicine and surgery — I split it out because cancer has the most distinct paper ecosystem in all of medicine.",
+  "count": 50,
+  "rationale": "v2 redo. Captain correctly called the v1 list (22 specialties) rubbish — it folded too aggressively. Medicine has ~50 boarded specialties per ABMS, the GMC, and the EU UEMS list. v2 follows real-world clinician identity: every primary residency / EU-recognised specialty gets its own card. Surgery is split into the 9 surgical specialties that are themselves boarded (general, vascular, cardiothoracic, neurosurgery, orthopedic, plastic, transplant, pediatric, trauma). Ophthalmology, ENT, urology — long-time mistakes in v1 — each get their own card. Subspecialties (e.g. interventional cardiology) stay at L3.",
   "subspecialties": [
-    {
-      "slug": "cardiology",
-      "name": "Cardiology",
-      "tagline": "Heart, circulation, electrophysiology, interventional.",
-      "audience_pct_within_level1": 9,
-      "covers": ["coronary disease, heart failure, arrhythmia, valve disease, structural and interventional cardiology, electrophysiology", "JACC, Circulation, EHJ"],
-      "explicitly_excludes": ["cardiothoracic surgery → Surgery", "vascular biology basic science → Biology"]
-    },
-    {
-      "slug": "oncology",
-      "name": "Oncology",
-      "tagline": "Cancer biology, therapy, immuno-oncology, trials.",
-      "audience_pct_within_level1": 11,
-      "covers": ["medical oncology, radiation oncology, surgical oncology, hematologic malignancies, solid tumors, immunotherapy, targeted therapy", "JCO, Nat Cancer, Lancet Oncol, Cancer Cell"],
-      "explicitly_excludes": ["cancer cell biology basic science → Biology", "cancer epidemiology → Public Health"]
-    },
-    {
-      "slug": "neurology",
-      "name": "Neurology",
-      "tagline": "Stroke, epilepsy, MS, neurodegenerative, neuromuscular.",
-      "audience_pct_within_level1": 5,
-      "covers": ["stroke, epilepsy, MS, Parkinson's, Alzheimer's, ALS, neuromuscular disease, headache, sleep medicine", "Neurology, Lancet Neurol, Ann Neurol, Brain"],
-      "explicitly_excludes": ["systems neuroscience → Brain & Cognitive Sciences", "neurosurgery → Surgery"]
-    },
-    {
-      "slug": "psychiatry",
-      "name": "Psychiatry",
-      "tagline": "Mood, psychosis, addiction, psychopharmacology.",
-      "audience_pct_within_level1": 5,
-      "covers": ["mood disorders, schizophrenia, anxiety, addiction medicine, psychopharmacology, geriatric psychiatry, child psychiatry", "Am J Psychiatry, Lancet Psychiatry, JAMA Psychiatry"],
-      "explicitly_excludes": ["cognitive science basic research → Brain & Cognitive Sciences"]
-    },
-    {
-      "slug": "dermatology",
-      "name": "Dermatology",
-      "tagline": "Skin, hair, nails — medical and surgical.",
-      "audience_pct_within_level1": 3,
-      "covers": ["inflammatory skin disease, dermato-oncology, dermatopathology, pediatric dermatology, aesthetic and procedural dermatology, dermatosurgery", "JAAD, Br J Dermatol, JID, JEADV"],
-      "explicitly_excludes": ["plastic surgery → Surgery"]
-    },
-    {
-      "slug": "gastroenterology",
-      "name": "Gastroenterology & Hepatology",
-      "tagline": "GI tract, liver, pancreas, endoscopy.",
-      "audience_pct_within_level1": 5,
-      "covers": ["IBD, GI motility, hepatology, NAFLD, pancreatic disease, endoscopy, GI cancers as clinical management", "Gastroenterology, Gut, Hepatology"],
-      "explicitly_excludes": ["GI surgery as primary topic → Surgery"]
-    },
-    {
-      "slug": "pulmonology",
-      "name": "Pulmonology & Critical Care",
-      "tagline": "Lung, airway, ICU, sleep, ventilation.",
-      "audience_pct_within_level1": 4,
-      "covers": ["COPD, asthma, ILD, ARDS, critical care medicine, sleep-disordered breathing, pulmonary hypertension", "AJRCCM, CHEST, ERJ, Thorax"],
-      "explicitly_excludes": ["thoracic surgery → Surgery"]
-    },
-    {
-      "slug": "endocrinology",
-      "name": "Endocrinology & Diabetes",
-      "tagline": "Hormones, metabolism, diabetes, thyroid, bone.",
-      "audience_pct_within_level1": 4,
-      "covers": ["diabetes (T1, T2), obesity medicine, thyroid disease, adrenal, pituitary, bone metabolism, reproductive endocrinology", "Diabetes Care, JCEM, Lancet D&E"],
-      "explicitly_excludes": ["nutrition science → Agriculture & Food", "endocrine surgery → Surgery"]
-    },
-    {
-      "slug": "nephrology",
-      "name": "Nephrology",
-      "tagline": "Kidney, dialysis, transplant, hypertension.",
-      "audience_pct_within_level1": 2,
-      "covers": ["AKI, CKD, dialysis, kidney transplant, glomerular disease, electrolyte disorders, hypertension management", "JASN, KI, Am J Kid Dis, NDT"],
-      "explicitly_excludes": ["kidney transplant surgery as surgical technique → Surgery"]
-    },
-    {
-      "slug": "hematology",
-      "name": "Hematology",
-      "tagline": "Blood, coagulation, transfusion, marrow.",
-      "audience_pct_within_level1": 3,
-      "covers": ["benign hematology (anemias, hemoglobinopathies), coagulation, transfusion medicine, bone marrow failure, hematologic malignancies overlap", "Blood, Haematologica, Leukemia"],
-      "explicitly_excludes": ["lymphoma/leukemia treatment trials → Oncology"]
-    },
-    {
-      "slug": "rheumatology-immunology",
-      "name": "Rheumatology & Clinical Immunology",
-      "tagline": "Autoimmune, inflammatory, allergic disease.",
-      "audience_pct_within_level1": 3,
-      "covers": ["RA, SLE, vasculitis, spondyloarthropathies, allergic disease, primary immunodeficiency, scleroderma", "ARD, A&R, Lancet Rheum"],
-      "explicitly_excludes": ["immunology basic mechanism → Biology"]
-    },
-    {
-      "slug": "infectious-disease",
-      "name": "Infectious Disease",
-      "tagline": "Bacterial, viral, fungal, antimicrobial stewardship, ID hospital medicine.",
-      "audience_pct_within_level1": 5,
-      "covers": ["HIV, TB, hepatitis, hospital-acquired infections, AMR, sepsis management, tropical medicine, vaccine clinical trials", "CID, Lancet Infect Dis, JID"],
-      "explicitly_excludes": ["epidemiology and outbreak modeling → Public Health", "microbiology mechanism → Biology"]
-    },
-    {
-      "slug": "obstetrics-gynecology",
-      "name": "Obstetrics & Gynecology",
-      "tagline": "Pregnancy, fertility, gynecologic disease.",
-      "audience_pct_within_level1": 4,
-      "covers": ["obstetrics, maternal-fetal medicine, gynecologic oncology overlap, reproductive endocrinology, fertility, contraception, menopause", "Am J Obstet Gynecol, BJOG, Obstet Gynecol"],
-      "explicitly_excludes": ["GYN surgery as surgical technique → Surgery"]
-    },
-    {
-      "slug": "pediatrics",
-      "name": "Pediatrics",
-      "tagline": "Children — primary care to subspecialty.",
-      "audience_pct_within_level1": 5,
-      "covers": ["general pediatrics, pediatric subspecialties (when child-specific is the angle), neonatology, adolescent medicine, developmental-behavioral pediatrics", "Pediatrics, J Pediatr, Lancet Child Adol Health"],
-      "explicitly_excludes": ["pediatric surgery → Surgery", "pediatric cancer in adult context → Oncology"]
-    },
-    {
-      "slug": "geriatrics",
-      "name": "Geriatrics & Palliative Care",
-      "tagline": "Aging, frailty, end-of-life, dementia care.",
-      "audience_pct_within_level1": 2,
-      "covers": ["geriatric medicine, frailty, polypharmacy, palliative care, hospice medicine, dementia care management"],
-      "explicitly_excludes": ["basic aging biology → Biology", "cognitive decline neuroscience → Brain & Cognitive Sciences"]
-    },
-    {
-      "slug": "primary-care-family-medicine",
-      "name": "Primary Care & Family Medicine",
-      "tagline": "General internal medicine, family practice, ambulatory care.",
-      "audience_pct_within_level1": 3,
-      "covers": ["family medicine, general internal medicine, ambulatory care, preventive medicine in clinic", "Ann Intern Med, JAMA Intern Med, BMJ, Ann Fam Med"],
-      "explicitly_excludes": ["population-level prevention → Public Health"]
-    },
-    {
-      "slug": "surgery",
-      "name": "Surgery",
-      "tagline": "Surgical specialties — general, sub-specialty, trauma.",
-      "audience_pct_within_level1": 7,
-      "covers": ["general, vascular, cardiothoracic, neurosurgery, orthopedics, plastic, transplant, trauma, urology, ENT, ophthalmic surgery, surgical oncology technique", "Ann Surg, JAMA Surg, NEJM surgical content"],
-      "explicitly_excludes": ["medical management of surgical conditions → that organ-system specialty"]
-    },
-    {
-      "slug": "anesthesiology",
-      "name": "Anesthesiology & Pain Medicine",
-      "tagline": "Anesthesia, perioperative care, pain.",
-      "audience_pct_within_level1": 2,
-      "covers": ["general and regional anesthesia, perioperative medicine, pain medicine (acute, chronic, interventional), critical care anesthesia"],
-      "explicitly_excludes": ["critical care from pulmonology angle → Pulmonology & Critical Care"]
-    },
-    {
-      "slug": "radiology-imaging",
-      "name": "Radiology & Imaging",
-      "tagline": "Imaging, interventional radiology, AI-in-imaging.",
-      "audience_pct_within_level1": 3,
-      "covers": ["diagnostic radiology, interventional radiology, nuclear medicine, MR/CT physics-as-clinical, AI for imaging clinical validation", "Radiology, AJR, Eur Radiol, JNM"],
-      "explicitly_excludes": ["computer vision methods → Computer Science & AI", "MR physics → Physics & Astronomy"]
-    },
-    {
-      "slug": "pathology-laboratory-medicine",
-      "name": "Pathology & Laboratory Medicine",
-      "tagline": "Diagnostic pathology, molecular path, lab medicine.",
-      "audience_pct_within_level1": 3,
-      "covers": ["anatomic and clinical pathology, molecular diagnostics, lab medicine, cytopathology, hematopathology, digital pathology", "Mod Pathol, Am J Surg Pathol, J Clin Pathol"],
-      "explicitly_excludes": ["basic biology of tissue → Biology"]
-    },
-    {
-      "slug": "emergency-medicine",
-      "name": "Emergency Medicine",
-      "tagline": "ED care, prehospital, resuscitation, toxicology.",
-      "audience_pct_within_level1": 2,
-      "covers": ["emergency care, resuscitation, toxicology, prehospital and EMS, disaster medicine", "Ann Emerg Med, Acad Emerg Med, AJEM"],
-      "explicitly_excludes": ["trauma surgery → Surgery", "critical care → Pulmonology & Critical Care"]
-    },
-    {
-      "slug": "physical-medicine-rehab",
-      "name": "Physical Medicine & Rehabilitation",
-      "tagline": "Rehab, sports medicine, spine, MSK medicine.",
-      "audience_pct_within_level1": 2,
-      "covers": ["PM&R, rehabilitation medicine, sports medicine, spine medicine (non-surgical), musculoskeletal medicine, prosthetics and orthotics"],
-      "explicitly_excludes": ["orthopedic surgery → Surgery"]
-    }
+    {"slug": "cardiology", "name": "Cardiology", "tagline": "Heart, circulation, electrophysiology, prevention.", "audience_pct_within_level1": 7, "covers": ["coronary disease, heart failure, arrhythmia, valve disease, preventive cardiology", "JACC, Circulation, EHJ"], "explicitly_excludes": ["cardiothoracic surgery → Cardiothoracic Surgery"]},
+    {"slug": "oncology", "name": "Medical Oncology", "tagline": "Cancer systemic therapy, immuno-oncology, trials.", "audience_pct_within_level1": 7, "covers": ["medical oncology, hematologic and solid tumors, immunotherapy, targeted therapy, clinical trials", "JCO, Lancet Oncol, Nat Cancer"], "explicitly_excludes": ["radiation oncology → Radiation Oncology", "surgical oncology → Surgical Oncology", "basic cancer biology → Biology"]},
+    {"slug": "radiation-oncology", "name": "Radiation Oncology", "tagline": "Radiotherapy planning, SBRT, brachytherapy, proton therapy.", "audience_pct_within_level1": 2, "covers": ["radiation oncology, SBRT, proton therapy, brachytherapy, FLASH RT"], "explicitly_excludes": ["radiation physics methods → Physics & Astronomy"]},
+    {"slug": "neurology", "name": "Neurology", "tagline": "Stroke, epilepsy, MS, neurodegenerative, neuromuscular.", "audience_pct_within_level1": 4, "covers": ["stroke, epilepsy, MS, Parkinson's, Alzheimer's, ALS, neuromuscular disease, headache, sleep medicine", "Neurology, Lancet Neurol, Ann Neurol"], "explicitly_excludes": ["neurosurgery → Neurosurgery", "systems neuroscience → Brain & Cognitive Sciences"]},
+    {"slug": "psychiatry", "name": "Psychiatry", "tagline": "Mood, psychosis, addiction, psychopharmacology, child psych.", "audience_pct_within_level1": 4, "covers": ["mood disorders, schizophrenia, anxiety, addiction medicine, child & adolescent psychiatry, geriatric psychiatry, psychopharmacology", "Am J Psychiatry, Lancet Psychiatry, JAMA Psychiatry"], "explicitly_excludes": ["cognitive psychology basic → Brain & Cognitive Sciences"]},
+    {"slug": "dermatology", "name": "Dermatology", "tagline": "Skin, hair, nails — medical, surgical, aesthetic.", "audience_pct_within_level1": 3, "covers": ["inflammatory skin disease, dermato-oncology, dermatopathology, pediatric derm, aesthetic derm, dermatosurgery", "JAAD, Br J Dermatol, JID, JEADV"], "explicitly_excludes": ["plastic surgery → Plastic Surgery"]},
+    {"slug": "gastroenterology", "name": "Gastroenterology", "tagline": "GI tract, IBD, endoscopy, motility, GI cancers (medical).", "audience_pct_within_level1": 4, "covers": ["IBD, GI motility, GI bleeding, GI endoscopy (diagnostic + therapeutic), GI cancers as medical management", "Gastroenterology, Gut"], "explicitly_excludes": ["GI surgery → General Surgery", "hepatology → Hepatology"]},
+    {"slug": "hepatology", "name": "Hepatology", "tagline": "Liver, MASLD/MASH, viral hepatitis, transplant medicine.", "audience_pct_within_level1": 2, "covers": ["MASLD/MASH, viral hepatitis, cirrhosis management, HCC clinical, liver transplant medicine"], "explicitly_excludes": ["transplant surgery → Transplant Surgery"]},
+    {"slug": "pulmonology", "name": "Pulmonology", "tagline": "Lung disease, COPD, asthma, ILD, sleep medicine.", "audience_pct_within_level1": 3, "covers": ["COPD, asthma, ILD/IPF, bronchiectasis, lung cancer (medical), sleep-disordered breathing", "AJRCCM, CHEST, ERJ, Thorax"], "explicitly_excludes": ["critical care → Critical Care Medicine", "thoracic surgery → Cardiothoracic Surgery"]},
+    {"slug": "critical-care", "name": "Critical Care Medicine", "tagline": "ICU, sepsis, ARDS, ECMO, mechanical ventilation.", "audience_pct_within_level1": 3, "covers": ["ICU care, sepsis, ARDS, ECMO, mechanical ventilation, multi-organ failure"], "explicitly_excludes": ["anesthesia → Anesthesiology"]},
+    {"slug": "endocrinology", "name": "Endocrinology, Diabetes & Metabolism", "tagline": "Diabetes, thyroid, adrenal, pituitary, bone metabolism, obesity medicine.", "audience_pct_within_level1": 3, "covers": ["diabetes (T1, T2), obesity medicine, thyroid, adrenal, pituitary, bone metabolism, reproductive endocrinology medical"], "explicitly_excludes": ["nutrition science → Agriculture & Food", "endocrine surgery → General Surgery"]},
+    {"slug": "nephrology", "name": "Nephrology", "tagline": "Kidney, dialysis, transplant medicine, hypertension.", "audience_pct_within_level1": 2, "covers": ["AKI, CKD, dialysis modalities, kidney transplant medicine, glomerular disease, electrolyte management"], "explicitly_excludes": ["urology → Urology", "transplant surgery → Transplant Surgery"]},
+    {"slug": "hematology", "name": "Hematology", "tagline": "Blood, coagulation, transfusion, marrow, hematologic malignancies.", "audience_pct_within_level1": 2, "covers": ["anemias, hemoglobinopathies, coagulation, transfusion medicine, bone marrow failure, hematologic malignancies (often overlap with onc)", "Blood, Haematologica"], "explicitly_excludes": ["pathology of blood → Hematopathology"]},
+    {"slug": "rheumatology", "name": "Rheumatology", "tagline": "RA, SLE, vasculitis, spondyloarthropathies, autoimmune disease.", "audience_pct_within_level1": 2, "covers": ["RA, SpA, SLE, vasculitis, Sjögren's, scleroderma, gout, fibromyalgia management", "ARD, A&R, Lancet Rheum"], "explicitly_excludes": ["immunology basic → Biology"]},
+    {"slug": "clinical-immunology-allergy", "name": "Clinical Immunology & Allergy", "tagline": "Primary immunodeficiency, allergic disease, immunotherapy-clinical.", "audience_pct_within_level1": 1, "covers": ["primary immunodeficiency, allergic disease, anaphylaxis, immunotherapy, autoimmune-immunology overlap"], "explicitly_excludes": ["rheumatology autoimmune → Rheumatology"]},
+    {"slug": "infectious-disease", "name": "Infectious Disease", "tagline": "Bacterial, viral, fungal — clinical + antimicrobial stewardship.", "audience_pct_within_level1": 4, "covers": ["HIV, TB, hepatitis (clinical ID side), hospital-acquired infections, AMR clinical, sepsis (ID lens), tropical medicine, vaccine clinical trials", "CID, Lancet Infect Dis, JID"], "explicitly_excludes": ["epidemiology and outbreak modeling → Public Health"]},
+    {"slug": "tropical-medicine", "name": "Tropical & Travel Medicine", "tagline": "Tropical infections, travel medicine, parasitology clinical.", "audience_pct_within_level1": 1, "covers": ["malaria, tropical infectious disease clinical, parasitic disease clinical, travel medicine"], "explicitly_excludes": ["global health policy → Public Health"]},
+    {"slug": "obstetrics-gynecology", "name": "Obstetrics & Gynecology", "tagline": "Pregnancy, fertility, gynecologic disease — medical + surgical.", "audience_pct_within_level1": 4, "covers": ["obstetrics, MFM (maternal-fetal medicine), gynecology, gynecologic surgery, gyn-onc, reproductive endocrinology, contraception, menopause", "Am J Obstet Gynecol, BJOG, Obstet Gynecol"], "explicitly_excludes": ["reproductive biology basic → Biology"]},
+    {"slug": "reproductive-medicine", "name": "Reproductive Medicine & Fertility", "tagline": "IVF, fertility treatment, andrology clinical.", "audience_pct_within_level1": 1, "covers": ["ART/IVF, fertility preservation, andrology clinical, recurrent pregnancy loss"], "explicitly_excludes": ["embryology basic → Biology"]},
+    {"slug": "pediatrics", "name": "Pediatrics", "tagline": "Children — general pediatrics, pediatric subspecialties, adolescent.", "audience_pct_within_level1": 4, "covers": ["general pediatrics, pediatric subspecialties (cardiology-peds, pulmonary-peds, etc.), adolescent medicine, developmental-behavioral", "Pediatrics, J Pediatr, Lancet Child Adol Health"], "explicitly_excludes": ["neonatology → Neonatology", "pediatric surgery → Pediatric Surgery", "pediatric oncology → Oncology overlap"]},
+    {"slug": "neonatology", "name": "Neonatology & Perinatal Medicine", "tagline": "NICU, prematurity, neonatal disease, perinatal care.", "audience_pct_within_level1": 1, "covers": ["NICU care, prematurity, neonatal lung disease, neonatal disease, perinatal medicine"], "explicitly_excludes": ["MFM → Obstetrics & Gynecology"]},
+    {"slug": "geriatrics", "name": "Geriatric Medicine", "tagline": "Aging, frailty, polypharmacy, dementia care, geriatric assessment.", "audience_pct_within_level1": 1, "covers": ["geriatric medicine, frailty, polypharmacy, dementia care management, comprehensive geriatric assessment"], "explicitly_excludes": ["dementia neuro/path basic → Neurology / Brain Sciences"]},
+    {"slug": "palliative-care", "name": "Palliative Care Medicine", "tagline": "End-of-life, palliative symptom mgmt, hospice, supportive care.", "audience_pct_within_level1": 1, "covers": ["palliative care, hospice medicine, supportive care in oncology, end-of-life decision-making"], "explicitly_excludes": []},
+    {"slug": "internal-medicine-general", "name": "General Internal Medicine & Hospital Medicine", "tagline": "Inpatient medicine, hospitalist work, general internal medicine.", "audience_pct_within_level1": 3, "covers": ["general internal medicine, hospital medicine (hospitalist), perioperative medicine (medical side), high-value care, internal medicine teaching"], "explicitly_excludes": ["ambulatory family practice → Family Medicine"]},
+    {"slug": "family-medicine", "name": "Family Medicine & Primary Care", "tagline": "Family medicine, primary care, ambulatory care, preventive medicine.", "audience_pct_within_level1": 2, "covers": ["family medicine, primary care, ambulatory care, preventive medicine in clinic, urgent care"], "explicitly_excludes": ["population-level prevention → Public Health"]},
+    {"slug": "general-surgery", "name": "General Surgery", "tagline": "Acute care surgery, hernia, biliary, endocrine, breast.", "audience_pct_within_level1": 3, "covers": ["general surgery, acute care, hernia, biliary, breast, endocrine surgery (thyroid/adrenal), GI surgery (non-onc), bariatric", "Ann Surg, JAMA Surg, Br J Surg"], "explicitly_excludes": ["surgical oncology HPB → Surgical Oncology"]},
+    {"slug": "surgical-oncology", "name": "Surgical Oncology", "tagline": "HPB cancer surgery, sarcoma, complex onc resection, peritoneal surgery.", "audience_pct_within_level1": 1, "covers": ["HPB cancer surgery, sarcoma surgery, peritoneal surface malignancy, complex oncologic resection"], "explicitly_excludes": ["thoracic surgical oncology → Cardiothoracic Surgery"]},
+    {"slug": "trauma-surgery", "name": "Trauma & Emergency Surgery", "tagline": "Trauma surgery, damage control, military/disaster surgery.", "audience_pct_within_level1": 1, "covers": ["trauma surgery, damage control surgery, military/combat surgery, mass casualty surgery"], "explicitly_excludes": ["non-surgical emergency → Emergency Medicine"]},
+    {"slug": "vascular-surgery", "name": "Vascular Surgery", "tagline": "AAA, carotid, peripheral arterial, venous surgery.", "audience_pct_within_level1": 1, "covers": ["AAA, carotid, peripheral arterial disease surgery, venous disease surgery, endovascular (vascular side)", "J Vasc Surg, EJVES"], "explicitly_excludes": ["interventional radiology → Interventional Radiology"]},
+    {"slug": "cardiothoracic-surgery", "name": "Cardiothoracic Surgery", "tagline": "CABG, valve, transplant heart, thoracic, congenital cardiac.", "audience_pct_within_level1": 1, "covers": ["CABG, valve surgery, transplant heart/lung, thoracic surgery (lung resection), congenital cardiac surgery", "Ann Thorac Surg, JTCVS"], "explicitly_excludes": ["interventional cardiology → Cardiology"]},
+    {"slug": "neurosurgery", "name": "Neurosurgery", "tagline": "Brain/spine surgery, vascular neurosurgery, tumor, functional.", "audience_pct_within_level1": 2, "covers": ["cranial surgery, spine surgery (neurosurgical), vascular neurosurgery, neuro-oncology surgical, functional neurosurgery (DBS, epilepsy surgery)", "Neurosurgery, JNS, J Neurosurg Spine"], "explicitly_excludes": ["spinal cord injury rehab → Rehabilitation Medicine"]},
+    {"slug": "orthopedic-surgery", "name": "Orthopedic Surgery", "tagline": "Arthroplasty, spine ortho, sports, trauma ortho, pediatric ortho.", "audience_pct_within_level1": 3, "covers": ["arthroplasty (hip, knee, shoulder), spine surgery (orthopedic), sports medicine surgical, orthopedic trauma, foot and ankle, pediatric ortho", "JBJS, BJJ, JOA"], "explicitly_excludes": ["non-surgical sports medicine → Sports Medicine"]},
+    {"slug": "plastic-surgery", "name": "Plastic & Reconstructive Surgery", "tagline": "Reconstructive surgery, microsurgery, hand surgery, aesthetic.", "audience_pct_within_level1": 1, "covers": ["reconstructive surgery, microsurgery, hand surgery, burn surgery, aesthetic surgery", "Plast Reconstr Surg, J Plast Reconstr Aesthet Surg"], "explicitly_excludes": ["dermatology procedural → Dermatology"]},
+    {"slug": "transplant-surgery", "name": "Transplant Surgery", "tagline": "Kidney, liver, heart, lung, pancreas, small bowel transplant.", "audience_pct_within_level1": 1, "covers": ["transplant surgery for solid organs, living donation, organ preservation, allocation surgical"], "explicitly_excludes": ["transplant medicine → relevant medical specialty (Hepatology, Nephrology, etc.)"]},
+    {"slug": "pediatric-surgery", "name": "Pediatric Surgery", "tagline": "Pediatric general surgery, neonatal surgery, fetal surgery.", "audience_pct_within_level1": 1, "covers": ["pediatric general surgery, neonatal surgery, fetal surgery", "J Pediatr Surg"], "explicitly_excludes": ["pediatric subspecialty surgery (e.g. pediatric neurosurg) → that surgical specialty"]},
+    {"slug": "urology", "name": "Urology", "tagline": "GU surgery, prostate, bladder, kidney stones, endourology.", "audience_pct_within_level1": 2, "covers": ["prostate cancer (urologic), bladder cancer, BPH, kidney stones, endourology, pediatric urology, andrology", "Eur Urol, J Urol, BJU Int"], "explicitly_excludes": ["nephrology medical → Nephrology"]},
+    {"slug": "ophthalmology", "name": "Ophthalmology", "tagline": "Cataract, retina, glaucoma, cornea, pediatric ophth, oculoplastics.", "audience_pct_within_level1": 2, "covers": ["cataract surgery, retina (medical + surgical), glaucoma, cornea and external disease, pediatric ophth, neuro-ophth, oculoplastics", "Ophthalmology, Br J Ophth, JAMA Ophth"], "explicitly_excludes": ["vision research basic → Brain & Cognitive Sciences"]},
+    {"slug": "otolaryngology", "name": "Otolaryngology — Head & Neck Surgery", "tagline": "ENT, head & neck cancer surgery, otology, rhinology, laryngology.", "audience_pct_within_level1": 2, "covers": ["otology/neurotology, rhinology and sinus surgery, laryngology, head and neck oncology surgical, pediatric ENT, facial plastics", "Laryngoscope, JAMA Otolaryngol, Head Neck"], "explicitly_excludes": ["audiology/speech → relevant rehab specialty"]},
+    {"slug": "oral-maxillofacial-surgery", "name": "Oral & Maxillofacial Surgery", "tagline": "Facial trauma, orthognathic surgery, oral surgery, TMJ.", "audience_pct_within_level1": 1, "covers": ["facial trauma, orthognathic surgery, oral surgery, TMJ disorders, dental implants surgical"], "explicitly_excludes": ["facial plastic surgery → Plastic Surgery / ENT"]},
+    {"slug": "dentistry", "name": "Dentistry & Oral Health", "tagline": "Operative dentistry, endodontics, orthodontics, periodontology, oral pathology.", "audience_pct_within_level1": 2, "covers": ["operative dentistry, endodontics, orthodontics, periodontology, prosthodontics, pediatric dentistry, oral pathology, oral medicine", "JDR, J Dent Res"], "explicitly_excludes": ["oral & maxillofacial surgery → Oral & Maxillofacial Surgery"]},
+    {"slug": "anesthesiology", "name": "Anesthesiology", "tagline": "General/regional anesthesia, perioperative medicine, OB anesthesia.", "audience_pct_within_level1": 2, "covers": ["general anesthesia, regional anesthesia, perioperative medicine, OB anesthesia, pediatric anesthesia, cardiac anesthesia"], "explicitly_excludes": ["pain medicine → Pain Medicine"]},
+    {"slug": "pain-medicine", "name": "Pain Medicine", "tagline": "Acute, chronic, interventional pain, cancer pain, neuropathic.", "audience_pct_within_level1": 1, "covers": ["acute pain, chronic pain medicine, interventional pain (injections, neuromodulation), cancer pain, neuropathic pain management"], "explicitly_excludes": ["addiction medicine → Psychiatry"]},
+    {"slug": "emergency-medicine", "name": "Emergency Medicine", "tagline": "ED care, prehospital, toxicology, disaster medicine.", "audience_pct_within_level1": 2, "covers": ["emergency care, resuscitation, toxicology clinical, prehospital and EMS, disaster medicine, ED ultrasound"], "explicitly_excludes": ["trauma surgery → Trauma Surgery"]},
+    {"slug": "radiology-diagnostic", "name": "Diagnostic Radiology", "tagline": "MRI/CT/US diagnostic, breast, MSK, neuroradiology, abdominal.", "audience_pct_within_level1": 3, "covers": ["diagnostic radiology, neuroradiology, MSK radiology, abdominal/thoracic radiology, breast imaging, pediatric radiology", "Radiology, AJR, Eur Radiol"], "explicitly_excludes": ["interventional radiology → Interventional Radiology", "nuclear med → Nuclear Medicine"]},
+    {"slug": "interventional-radiology", "name": "Interventional Radiology", "tagline": "IR procedures, image-guided intervention, embolization.", "audience_pct_within_level1": 1, "covers": ["IR procedures, image-guided intervention, embolization, IR oncology, vascular IR"], "explicitly_excludes": ["vascular surgery → Vascular Surgery"]},
+    {"slug": "nuclear-medicine", "name": "Nuclear Medicine & Theranostics", "tagline": "PET, theranostics, radioligand therapy, nuclear cardiology.", "audience_pct_within_level1": 1, "covers": ["PET imaging, SPECT, theranostics, radioligand therapy (e.g. Lu-177 PSMA), nuclear cardiology"], "explicitly_excludes": ["radiochemistry basic → Chemistry"]},
+    {"slug": "pathology-anatomic", "name": "Anatomic Pathology", "tagline": "Surgical pathology, cytopathology, autopsy, dermatopathology.", "audience_pct_within_level1": 2, "covers": ["surgical pathology, cytopathology, dermatopathology, neuropathology, hematopathology, autopsy, molecular pathology", "Mod Pathol, Am J Surg Pathol"], "explicitly_excludes": ["lab medicine clinical chem → Laboratory Medicine"]},
+    {"slug": "laboratory-medicine", "name": "Laboratory Medicine & Clinical Pathology", "tagline": "Clinical chemistry, microbiology lab, blood banking, molecular diagnostics.", "audience_pct_within_level1": 1, "covers": ["clinical chemistry, clinical microbiology lab, blood banking, molecular diagnostics, point-of-care testing"], "explicitly_excludes": ["anatomic pathology → Anatomic Pathology"]},
+    {"slug": "pmr-rehabilitation", "name": "Physical Medicine & Rehabilitation", "tagline": "PM&R, rehab, spinal cord, brain injury, stroke rehab.", "audience_pct_within_level1": 1, "covers": ["PM&R, rehabilitation medicine, spinal cord injury rehab, brain injury rehab, stroke rehabilitation, prosthetics and orthotics medical"], "explicitly_excludes": []},
+    {"slug": "sports-medicine", "name": "Sports & Exercise Medicine", "tagline": "Non-surgical MSK medicine, sports injury, exercise medicine.", "audience_pct_within_level1": 1, "covers": ["non-surgical sports medicine, MSK medicine, sports injury management, exercise medicine clinical, sports concussion"], "explicitly_excludes": ["orthopedic surgery → Orthopedic Surgery"]},
+    {"slug": "medical-genetics", "name": "Medical & Clinical Genetics", "tagline": "Clinical genetics, genetic counseling, biochemical genetics.", "audience_pct_within_level1": 1, "covers": ["clinical genetics, genetic counseling, biochemical genetics, metabolic medicine, pediatric genetics clinical"], "explicitly_excludes": ["human genetics research → Biology"]},
+    {"slug": "addiction-medicine", "name": "Addiction Medicine", "tagline": "Substance use disorders, opioid, alcohol, MAT, harm reduction.", "audience_pct_within_level1": 1, "covers": ["substance use disorder treatment, opioid use disorder, alcohol use disorder, MAT, harm reduction clinical"], "explicitly_excludes": ["population substance use epidemiology → Public Health"]},
+    {"slug": "occupational-medicine-clinical", "name": "Occupational & Environmental Medicine (Clinical)", "tagline": "Clinical occupational medicine, fitness-to-work, environmental medicine.", "audience_pct_within_level1": 0.5, "covers": ["occupational medicine clinical, fitness-to-work assessments, occupational toxicology clinical, environmental medicine clinical"], "explicitly_excludes": ["occupational epi → Public Health"]}
   ],
   "uncovered_concerns": [
-    "Considered separating Hematologic Oncology from Hematology — they overlap heavily and most practitioners are dual-trained. Kept under Hematology with Oncology overlap noted.",
-    "Considered separating Sleep Medicine from Pulmonology — but most sleep papers are pulmonary or neuro and assigning them properly happens at level 3.",
-    "Considered separating Ophthalmology and ENT (Otolaryngology) — they ARE separate residencies. But in the paper-volume ranking they're each <1.5% of medicine and would crowd the picker. Folded into Surgery as a temporary compromise; can split in v2 if user feedback complains.",
-    "Considered Genomic / Precision Medicine — it's a method, not a specialty; lands in Oncology, Cardiology, etc. as appropriate at level 3.",
-    "Veterinary Medicine: explicitly excluded — folds under Agriculture & Food at level 1."
+    "Still no separate card for Forensic Medicine, Aerospace Medicine, Diving Medicine — too small to occupy a card; fold under Occupational & Environmental Medicine or Emergency Medicine.",
+    "Pediatric subspecialties (pediatric cardiology, pediatric nephrology, etc.) live as L3 children of Pediatrics rather than separate L2 cards — they're populated by the same practitioner pool with a pediatric lens.",
+    "Hospice Medicine kept under Palliative Care rather than a separate card.",
+    "Public Health Medicine (a UK/EU specialty) is folded under Public Health at L1."
   ]
 }
