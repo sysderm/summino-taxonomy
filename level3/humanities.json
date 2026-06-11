@@ -1,7 +1,7 @@
 {
   "level1_slug": "humanities",
   "level1_name": "Humanities",
-  "count": 25,
+  "count": 27,
   "rationale": "Humanities at L3 is intentionally smaller than other categories — 25 leaves total — because the humanities papers in the summino corpus are the smallest L1 group and rich sub-splits would create thin leaves. Philosophy gets 6 leaves (analytic philosophy, ethics, philosophy of mind, philosophy of science, philosophy of language, social/political philosophy) because each is a recognized AOS in academic philosophy. History gets 5 leaves split by region/period. Archaeology gets 3 (science-based, classical, prehistoric).",
   "subfields": [
     {"slug": "ethics-moral-philosophy", "name": "Ethics & Moral Philosophy", "parent_l2": "philosophy", "tagline": "Normative ethics, metaethics, applied ethics, bioethics.", "audience_pct_within_l2": 20},
@@ -28,7 +28,9 @@
     {"slug": "comparative-religion-theology", "name": "Comparative Religion & Theology", "parent_l2": "religious-studies", "tagline": "Comparative religion, theology, religious history.", "audience_pct_within_l2": 100},
     {"slug": "art-history-periods-museums", "name": "Art History Periods & Museum Studies", "parent_l2": "art-history-visual-culture", "tagline": "Art history periods, museum studies, history of architecture, visual culture analysis.", "audience_pct_within_l2": 100},
     {"slug": "musicology-music-theory", "name": "Musicology & Music Theory", "parent_l2": "music-performing-studies", "tagline": "Musicology, music theory, ethnomusicology.", "audience_pct_within_l2": 60},
-    {"slug": "theatre-dance-film-studies", "name": "Theatre, Dance & Film Studies", "parent_l2": "music-performing-studies", "tagline": "Theatre studies, dance studies, film studies as humanities.", "audience_pct_within_l2": 40}
+    {"slug": "theatre-dance-film-studies", "name": "Theatre, Dance & Film Studies", "parent_l2": "music-performing-studies", "tagline": "Theatre studies, dance studies, film studies as humanities.", "audience_pct_within_l2": 40},
+    {"slug": "text-encoding-scholarly-editing-corpora", "name": "Text Encoding, Scholarly Editing & Corpora", "parent_l2": "digital-humanities", "tagline": "TEI, digital editions, corpus construction, OCR/HTR, scholarly editing.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "cultural-analytics-gis-networked-heritage", "name": "Cultural Analytics, GIS & Networked Heritage", "parent_l2": "digital-humanities", "tagline": "GIS for history, network studies of culture, digital heritage, distant reading, computational art history.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Digital humanities L2 has one big leaf only — computational text analysis fold there at L3.",

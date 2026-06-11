@@ -1,7 +1,7 @@
 {
   "level1_slug": "biology",
   "level1_name": "Biology",
-  "count": 36,
+  "count": 46,
   "rationale": "Biology level-3 is organized by the scientific-question-asked, not by method. I tried to capture the working group identities that publish in journals like Cell, Nature, eLife. RNA biology, single-cell methods, organoid biology, CRISPR/genome editing all earn dedicated leaves because labs self-identify with them. I held back on duplicating across L2 parents — e.g. ribosome biology is here under Molecular Biology, not separately under Biochemistry or Structural Biology.",
   "subfields": [
     {"slug": "transcription-gene-regulation", "name": "Transcription & Gene Regulation", "parent_l2": "molecular-biology", "tagline": "Transcription factors, enhancers, chromatin loops, regulatory grammar.", "audience_pct_within_l2": 18},
@@ -39,7 +39,17 @@
     {"slug": "computational-protein-design", "name": "Computational Protein Structure & Design", "parent_l2": "structural-biology", "tagline": "AlphaFold-class prediction, de novo design, structure prediction.", "audience_pct_within_l2": 25},
     {"slug": "ml-methods-biology", "name": "ML Methods for Biology", "parent_l2": "bioinformatics-computational-biology", "tagline": "Foundation models for biology, sequence models, protein LLMs.", "audience_pct_within_l2": 28},
     {"slug": "single-cell-methods-computational", "name": "Single-Cell & Spatial Methods (Computational)", "parent_l2": "bioinformatics-computational-biology", "tagline": "Tools for scRNA-seq, integration, batch correction, spatial omics analysis.", "audience_pct_within_l2": 25},
-    {"slug": "synthetic-gene-circuits", "name": "Synthetic Gene Circuits & Cell Programming", "parent_l2": "systems-biology", "tagline": "Engineered transcription, feedback circuits, cell-state programming.", "audience_pct_within_l2": 35}
+    {"slug": "synthetic-gene-circuits", "name": "Synthetic Gene Circuits & Cell Programming", "parent_l2": "systems-biology", "tagline": "Engineered transcription, feedback circuits, cell-state programming.", "audience_pct_within_l2": 35},
+    {"slug": "plant-development-evo-devo", "name": "Plant Development & Evo-Devo", "parent_l2": "plant-biology", "tagline": "Meristem regulation, organogenesis, flowering, evolution of plant body plans.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "plant-microbe-interactions", "name": "Plant–Microbe Interactions", "parent_l2": "plant-biology", "tagline": "PAMP/effector immunity, mycorrhizae, rhizobia symbiosis, beneficial microbiomes.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "systems-integrative-physiology", "name": "Systems & Integrative Physiology", "parent_l2": "physiology", "tagline": "Integrative organ-system physiology — cardiovascular, renal, respiratory, GI, endocrine integration.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "exercise-environmental-physiology", "name": "Exercise & Environmental Physiology", "parent_l2": "physiology", "tagline": "Exercise adaptation, altitude, thermoregulation, microgravity — ergometry, hypoxic/heat chambers, wearables.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "structural-molecular-biophysics", "name": "Structural & Molecular Biophysics", "parent_l2": "biophysics", "tagline": "Protein folding energetics, allostery, biomolecular machines — X-ray, cryo-EM, NMR, MD.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "membrane-mechanics-single-molecule", "name": "Membrane Mechanics & Single-Molecule Biophysics", "parent_l2": "biophysics", "tagline": "Membrane biomechanics, ion-channel mechanics, motor proteins — optical/magnetic tweezers, AFM, smFRET.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "biological-oceanography", "name": "Biological Oceanography", "parent_l2": "marine-aquatic-biology", "tagline": "Pelagic ecology, biogeochemical cycles, primary productivity, marine food webs.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "freshwater-biology-limnology", "name": "Freshwater Biology & Limnology", "parent_l2": "marine-aquatic-biology", "tagline": "Lake/river ecology, eutrophication, freshwater conservation, bioassessment.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "cellular-synaptic-neurobiology", "name": "Cellular & Synaptic Neurobiology", "parent_l2": "neurobiology", "tagline": "Synaptic transmission, plasticity, neuronal excitability, glia — patch-clamp, two-photon, optogenetics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "developmental-systems-neurobiology", "name": "Developmental & Systems Neurobiology", "parent_l2": "neurobiology", "tagline": "Neural development, axon guidance, circuit formation, connectomics — lineage tracing, in-vivo imaging.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Held back on splitting Plant Biology and Physiology into their own L3 leaves at full depth — papers there will fold into the closest mechanism leaf (e.g. plant transcription → Transcription & Gene Regulation; cardiac physiology research → Cell Signaling & Mechanotransduction). If volume justifies it later, add a dedicated 'plant-specific signaling' leaf in v2.",

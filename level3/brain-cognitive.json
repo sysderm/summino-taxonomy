@@ -1,7 +1,7 @@
 {
   "level1_slug": "brain-cognitive",
   "level1_name": "Brain & Cognitive Sciences",
-  "count": 35,
+  "count": 39,
   "rationale": "Brain & Cognitive at L3 needs to split by cognitive function (attention, memory, decision) and by domain (vision, audition, language) without doubling up. I kept the bigger Systems-Neuroscience-style leaves (circuits, sensorimotor, decision making) and the cognitive-psychology-style leaves (attention, executive function) separate even where the underlying topic overlaps, because the journals and methods differ. Replication & Open-Science gets its own leaf because Many-Labs / Many-Analysts papers form a distinct community.",
   "subfields": [
     {"slug": "neural-circuits-recording", "name": "Neural Circuit Recording & Optogenetics", "parent_l2": "systems-neuroscience", "tagline": "Large-scale electrophysiology, calcium imaging, circuit manipulation.", "audience_pct_within_l2": 28},
@@ -38,7 +38,11 @@
     {"slug": "dementia-cognition", "name": "Dementia Cognition & Neuropsych", "parent_l2": "neuropsychology-cognitive-disorders", "tagline": "Cognitive markers of AD/FTD, neuropsych for dementia, lesion-deficit.", "audience_pct_within_l2": 55},
     {"slug": "substance-use-reward-neuro", "name": "Substance Use & Reward Neuroscience", "parent_l2": "addiction-reward-science", "tagline": "Animal models of addiction, human reward neuroimaging.", "audience_pct_within_l2": 65},
     {"slug": "sleep-cognition", "name": "Sleep, Memory & Cognition", "parent_l2": "sleep-circadian", "tagline": "Sleep-dependent memory, sleep architecture and cognition.", "audience_pct_within_l2": 55},
-    {"slug": "replication-meta-science", "name": "Replication & Meta-Science", "parent_l2": "methods-psychology", "tagline": "Many-labs studies, meta-analyses, registered reports methodology.", "audience_pct_within_l2": 50}
+    {"slug": "replication-meta-science", "name": "Replication & Meta-Science", "parent_l2": "methods-psychology", "tagline": "Many-labs studies, meta-analyses, registered reports methodology.", "audience_pct_within_l2": 50},
+    {"slug": "language-acquisition-processing", "name": "Language Acquisition & Processing", "parent_l2": "psycholinguistics", "tagline": "First-language acquisition, sentence parsing, bilingualism — eye-tracking, corpora, behavioral experiments.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "neurolinguistics", "name": "Neurolinguistics", "parent_l2": "psycholinguistics", "tagline": "Aphasia, language networks, neural codes for syntax/semantics — fMRI, MEG, ERP, intracranial recordings.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "comparative-cognition", "name": "Comparative Cognition", "parent_l2": "comparative-evolutionary-cognition", "tagline": "Tool use, numerical cognition, social cognition across species.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "animal-communication-cognitive-evolution", "name": "Animal Communication & Cognitive Evolution", "parent_l2": "comparative-evolutionary-cognition", "tagline": "Signal evolution, vocal learning, cognitive evolution — bioacoustics, ethology, phylogenetic comparative methods.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Psycholinguistics & Language Science L2 has 'Language Comprehension' as its main L3 representative; deeper splits (bilingualism, reading specifically) fold there.",

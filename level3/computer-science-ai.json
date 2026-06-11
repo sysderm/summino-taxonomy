@@ -1,7 +1,7 @@
 {
   "level1_slug": "computer-science-ai",
   "level1_name": "Computer Science & AI",
-  "count": 40,
+  "count": 46,
   "rationale": "CS & AI at level-3 is where the ML community's identity granularity actually lives. NeurIPS authors write 'I work on LLM alignment' or 'I do diffusion models for video', not 'I do machine learning'. Forty leaves split nearly half-and-half between the ML cluster (LLMs, diffusion, RL, theory, etc.) and the systems cluster (databases, OS, security, etc.). I separated foundation-model topics (training, scaling, eval, alignment) as their own leaves because that's how the field is organized today — arXiv's cs.LG no longer captures the granularity authors care about.",
   "subfields": [
     {"slug": "deep-learning-architectures", "name": "Deep Learning Architectures", "parent_l2": "machine-learning", "tagline": "Transformers, MoE, SSMs, hybrid architectures, scaling.", "audience_pct_within_l2": 14},
@@ -43,7 +43,13 @@
     {"slug": "hci-of-ai", "name": "HCI of AI & Generative Interfaces", "parent_l2": "human-computer-interaction", "tagline": "AI copilots interaction design, generative-UI, trust and oversight.", "audience_pct_within_l2": 28},
     {"slug": "scientific-ml-pdes", "name": "Scientific ML & Neural PDEs", "parent_l2": "computational-science", "tagline": "Neural PDE solvers, operator learning, ML surrogates for physics.", "audience_pct_within_l2": 40},
     {"slug": "ai4chem-materials", "name": "ML for Chemistry & Materials Discovery", "parent_l2": "ai-for-science", "tagline": "Generative models for molecules, materials property prediction, autonomous labs.", "audience_pct_within_l2": 40},
-    {"slug": "ai4bio", "name": "ML for Biology", "parent_l2": "ai-for-science", "tagline": "Protein foundation models, biology-specific generative models, evo design.", "audience_pct_within_l2": 35}
+    {"slug": "ai4bio", "name": "ML for Biology", "parent_l2": "ai-for-science", "tagline": "Protein foundation models, biology-specific generative models, evo design.", "audience_pct_within_l2": 35},
+    {"slug": "computer-architecture", "name": "Computer Architecture", "parent_l2": "computer-architecture-hardware", "tagline": "ISAs, memory hierarchies, accelerators, GPUs, energy-efficient computing.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "embedded-cyber-physical-systems", "name": "Embedded & Cyber-Physical Systems", "parent_l2": "computer-architecture-hardware", "tagline": "Embedded ML, IoT, automotive/aerospace CPS, edge computing — RTOS, FPGA, real-time scheduling.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "computer-graphics", "name": "Computer Graphics", "parent_l2": "graphics-visualization", "tagline": "Ray tracing, animation, VR/AR rendering, generative graphics — rendering, geometry processing, physically based simulation.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "scientific-visualization-visual-analytics", "name": "Scientific Visualization & Visual Analytics", "parent_l2": "graphics-visualization", "tagline": "Scivis, infovis, dashboards, visual analytics for ML — visualization design, perceptual evaluation.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "computer-ethics-policy-governance", "name": "Computer Ethics, Policy & Governance", "parent_l2": "computing-society", "tagline": "AI governance, platform regulation, surveillance, professional ethics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "digital-inclusion-accessibility-education", "name": "Digital Inclusion, Accessibility & CS Education", "parent_l2": "computing-society", "tagline": "Accessibility, digital divides, CS education, assistive tech — HCI studies, participatory design, learning analytics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Computer Architecture & Hardware L2 has no L3 leaves at this depth — papers fold under ML Systems & Infrastructure for accelerators, and EE leaves for chip design.",

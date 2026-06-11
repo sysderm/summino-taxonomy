@@ -1,7 +1,7 @@
 {
   "level1_slug": "statistics-data-science",
   "level1_name": "Statistics & Data Science",
-  "count": 32,
+  "count": 36,
   "rationale": "Statistics & Data Science at L3 has to navigate the borderlands with CS&AI carefully — anywhere statistics meets ML, I let the methodology stay here if the framing is inferential and route to CS if the framing is predictive. Causal Inference gets four leaves because the field has structured itself by method family (potential outcomes, DAGs, IV, sensitivity). Bayesian methods get four leaves because the community spans theory, computation, applied, and probabilistic programming.",
   "subfields": [
     {"slug": "high-dim-theory", "name": "High-Dimensional Theory", "parent_l2": "theoretical-statistics", "tagline": "Minimax theory in high-dim, sparsity, restricted eigenvalue conditions.", "audience_pct_within_l2": 30},
@@ -35,7 +35,11 @@
     {"slug": "reproducibility-meta", "name": "Reproducibility & Meta-Research Methodology", "parent_l2": "data-science-practice", "tagline": "Reproducibility methods, meta-analysis methodology, registered reports stats.", "audience_pct_within_l2": 30},
     {"slug": "stat-software-workflows", "name": "Statistical Software & Workflows", "parent_l2": "data-science-practice", "tagline": "R/Python packages methodology, reproducible workflows, computational stats software.", "audience_pct_within_l2": 22},
     {"slug": "gwas-methods", "name": "GWAS Methodology", "parent_l2": "stat-genomics", "tagline": "GWAS methodology, fine-mapping, colocalization, PRS methodology.", "audience_pct_within_l2": 30},
-    {"slug": "single-cell-stat-methods", "name": "Single-Cell & Multi-Omics Statistical Methods", "parent_l2": "stat-genomics", "tagline": "scRNA-seq stat methods, batch effects, multi-omics integration methodology.", "audience_pct_within_l2": 30}
+    {"slug": "single-cell-stat-methods", "name": "Single-Cell & Multi-Omics Statistical Methods", "parent_l2": "stat-genomics", "tagline": "scRNA-seq stat methods, batch effects, multi-omics integration methodology.", "audience_pct_within_l2": 30},
+    {"slug": "statistical-signal-processing", "name": "Statistical Signal Processing", "parent_l2": "stat-image-signal", "tagline": "Detection/estimation, time-frequency, sensor arrays — Kalman/particle filters, spectral estimation, sparse recovery.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "statistical-imaging-inverse-problems", "name": "Statistical Imaging & Inverse Problems", "parent_l2": "stat-image-signal", "tagline": "CT/MRI reconstruction, deconvolution, super-resolution, UQ — Bayesian reconstruction, deep priors.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "privacy-preserving-statistics", "name": "Privacy-Preserving Statistics", "parent_l2": "stat-ethics-fairness", "tagline": "Differential privacy, synthetic data, secure multi-party computation, federated analyses.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "algorithmic-fairness-responsible-inference", "name": "Algorithmic Fairness & Responsible Inference", "parent_l2": "stat-ethics-fairness", "tagline": "Fairness metrics, causal fairness, audit studies, bias detection, fairness-accuracy trade-offs.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Statistical Image & Signal Processing L2 has no L3 leaves — its papers fold under low-rank methods or kernel methods depending on framing.",

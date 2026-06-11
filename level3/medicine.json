@@ -1,7 +1,7 @@
 {
   "level1_slug": "medicine",
   "level1_name": "Medicine & Clinical Science",
-  "count": 110,
+  "count": 129,
   "rationale": "v3. Earlier v2 (claimed 80 leaves) never actually got written — the file kept the v1 content. This version writes the real v2 spine and adds children for the smaller L2 specialties that previously had none, so every L2 specialty has at least one L3 child for the classifier to land on. Cardiology has 6 fellowships; oncology 6 tumor/treatment splits; psychiatry 5; derm 5; nephrology 3; neurosurgery 3; ortho 4; urology 2; ophth 3; ENT 3. Smaller specialties get 1-3 L3 leaves each.",
   "subfields": [
     {"slug": "interventional-cardiology", "name": "Interventional Cardiology", "parent_l2": "cardiology", "tagline": "PCI, structural heart, TAVR, congenital intervention.", "audience_pct_within_l2": 22},
@@ -125,7 +125,14 @@
     {"slug": "sports-exercise-medicine", "name": "Sports & Exercise Medicine (Non-Surgical)", "parent_l2": "sports-medicine", "tagline": "Non-surgical sports medicine, MSK medicine, sports injury, sports concussion.", "audience_pct_within_l2": 100},
     {"slug": "clinical-genetics-counseling", "name": "Clinical Genetics & Counseling", "parent_l2": "medical-genetics", "tagline": "Clinical genetics, genetic counseling, biochemical genetics, metabolic medicine.", "audience_pct_within_l2": 100},
     {"slug": "substance-use-disorder-treatment", "name": "Substance Use Disorder Treatment", "parent_l2": "addiction-medicine", "tagline": "Opioid use disorder, alcohol use disorder, MAT, harm reduction clinical.", "audience_pct_within_l2": 100},
-    {"slug": "occupational-clinical-medicine", "name": "Occupational & Environmental Medicine (Clinical)", "parent_l2": "occupational-medicine-clinical", "tagline": "Occupational medicine clinical, fitness-to-work, environmental medicine clinical.", "audience_pct_within_l2": 100}
+    {"slug": "occupational-clinical-medicine", "name": "Occupational & Environmental Medicine (Clinical)", "parent_l2": "occupational-medicine-clinical", "tagline": "Occupational medicine clinical, fitness-to-work, environmental medicine clinical.", "audience_pct_within_l2": 100},
+    {"slug": "benign-hematology-hemostasis", "name": "Benign Hematology & Hemostasis", "parent_l2": "hematology", "tagline": "Non-malignant blood-cell and coagulation disorders — anemias, hemoglobinopathies, thrombophilias, hemorrhagic diatheses.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "leukemia-myeloid-disorders", "name": "Leukemia & Myeloid Disorders", "parent_l2": "hematology", "tagline": "AML, CML, MDS, MPN — bone marrow morphology, cytogenetics, MRD, targeted therapy (FLT3, IDH, BCR-ABL).", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "lymphoid-plasma-cell-disorders", "name": "Lymphoid & Plasma-Cell Disorders", "parent_l2": "hematology", "tagline": "ALL, CLL, lymphomas, multiple myeloma, amyloidosis — immunophenotyping, FISH, response assessment.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "transfusion-medicine-apheresis", "name": "Transfusion Medicine & Apheresis", "parent_l2": "hematology", "tagline": "Blood-component therapy, apheresis, donor management, hemovigilance, plasma exchange.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "reproductive-perinatal-maternal-health", "name": "Reproductive & Perinatal Maternal Health", "parent_l2": "obstetrics-gynecology", "tagline": "Maternal and perinatal medicine — pregnancy complications, perinatal mortality, maternal mental health, reproductive-health policy.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "neonatology-newborn-screening", "name": "Neonatology & Newborn Screening", "parent_l2": "neonatology", "tagline": "Newborn care and screening — prematurity, congenital disorders, metabolic screening, NICU workflows.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "child-adolescent-health-mch", "name": "Child & Adolescent Population Health", "parent_l2": "pediatrics", "tagline": "Child/adolescent public health — vaccination, adolescent mental health, injury prevention, child nutrition.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "v3 is now sized properly — 110 L3 leaves across all 50 L2 specialties. Every L2 has ≥1 L3 child.",

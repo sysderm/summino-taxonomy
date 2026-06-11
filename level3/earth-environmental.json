@@ -1,7 +1,7 @@
 {
   "level1_slug": "earth-environmental",
   "level1_name": "Earth & Environmental Sciences",
-  "count": 36,
+  "count": 40,
   "rationale": "Earth & Environmental at L3 has the cleanest physical-system mapping of any L1 — atmosphere, oceans, ice, water, soil, rock, biosphere. Thirty-six leaves split inside each subsystem by what's being studied (e.g. atmospheric science = dynamics + aerosols + cloud physics + boundary layer). Climate science gets 4 leaves because climate-model-development, paleoclimate, attribution, and climate-impacts are distinct working communities.",
   "subfields": [
     {"slug": "climate-modeling-cmip", "name": "Climate Modeling & CMIP-Class Simulations", "parent_l2": "climate-science", "tagline": "GCM development, CMIP analysis, regional climate downscaling.", "audience_pct_within_l2": 28},
@@ -39,7 +39,11 @@
     {"slug": "air-pollution-control-eng", "name": "Air Pollution Control & Indoor Air", "parent_l2": "environmental-engineering-pollution", "tagline": "Emission control, indoor air quality, particulate matter engineering.", "audience_pct_within_l2": 24},
     {"slug": "soil-water-remediation", "name": "Soil & Water Contamination Remediation", "parent_l2": "environmental-engineering-pollution", "tagline": "Soil remediation, groundwater remediation, PFAS removal.", "audience_pct_within_l2": 20},
     {"slug": "energy-transition-systems", "name": "Energy Systems & Decarbonization Pathways", "parent_l2": "sustainability-science", "tagline": "Energy-system modeling, decarbonization pathways, transition scenarios.", "audience_pct_within_l2": 28},
-    {"slug": "urban-sustainability", "name": "Urban Sustainability & Industrial Ecology", "parent_l2": "sustainability-science", "tagline": "Urban metabolism, LCA, industrial ecology, sustainable cities.", "audience_pct_within_l2": 22}
+    {"slug": "urban-sustainability", "name": "Urban Sustainability & Industrial Ecology", "parent_l2": "sustainability-science", "tagline": "Urban metabolism, LCA, industrial ecology, sustainable cities.", "audience_pct_within_l2": 22},
+    {"slug": "seismology-earthquake-hazards", "name": "Seismology & Earthquake Hazards", "parent_l2": "natural-hazards-disaster-science", "tagline": "Earthquake source physics, seismic hazard, induced seismicity, early warning.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "volcanology-landslides-risk", "name": "Volcanology, Landslides & Ground-Failure Risk", "parent_l2": "natural-hazards-disaster-science", "tagline": "Eruption forecasting, volcanic plumes, landslide triggers, multi-hazard risk.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "glaciology-ice-sheet-science", "name": "Glaciology & Ice-Sheet Science", "parent_l2": "polar-cryospheric-science", "tagline": "Ice-sheet mass balance, sea-level contribution, glacier hydrology — ice cores, radar, altimetry, ice-flow modeling.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "permafrost-snow-sea-ice", "name": "Permafrost, Snow & Sea Ice", "parent_l2": "polar-cryospheric-science", "tagline": "Permafrost thaw, snow cover, sea-ice dynamics, polar feedbacks.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Natural Hazards & Disaster Science L2 has its papers folding under earthquake source, geomorphology (landslides), and climate extremes leaves depending on the angle.",

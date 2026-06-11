@@ -1,7 +1,7 @@
 {
   "level1_slug": "agriculture-food",
   "level1_name": "Agriculture & Food Science",
-  "count": 33,
+  "count": 40,
   "rationale": "Agriculture & Food at L3 maps directly to ag-school department structure: agronomy splits by crop class (cereals, legumes, oilseeds, root crops); animal science splits by livestock species; food science splits by food category + safety + processing engineering. Nutrition gets 3 leaves (macronutrient mechanism, nutrigenomics, gut microbiome-diet). Veterinary medicine gets 3 (companion, livestock, equine/exotic).",
   "subfields": [
     {"slug": "cereal-grain-agronomy", "name": "Cereal & Grain Agronomy", "parent_l2": "agronomy-crop-science", "tagline": "Wheat, rice, maize, sorghum — production, agronomy, breeding.", "audience_pct_within_l2": 32},
@@ -37,7 +37,13 @@
     {"slug": "food-contaminants-allergens", "name": "Food Contaminants & Allergens", "parent_l2": "food-safety-quality", "tagline": "Mycotoxins, heavy metals in food, food allergen research.", "audience_pct_within_l2": 22},
     {"slug": "macronutrient-mechanism-nutrition", "name": "Macronutrient & Bioactive Mechanism", "parent_l2": "nutrition-science", "tagline": "Macronutrient metabolism, bioactive compounds, dietary intervention mechanisms.", "audience_pct_within_l2": 40},
     {"slug": "nutrigenomics-precision-nutrition", "name": "Nutrigenomics & Precision Nutrition", "parent_l2": "nutrition-science", "tagline": "Nutrigenomics, personalized nutrition, precision nutrition research.", "audience_pct_within_l2": 28},
-    {"slug": "diet-microbiome", "name": "Diet & Gut Microbiome", "parent_l2": "nutrition-science", "tagline": "Diet-microbiome interactions, prebiotics, dietary fiber effects.", "audience_pct_within_l2": 32}
+    {"slug": "diet-microbiome", "name": "Diet & Gut Microbiome", "parent_l2": "nutrition-science", "tagline": "Diet-microbiome interactions, prebiotics, dietary fiber effects.", "audience_pct_within_l2": 32},
+    {"slug": "agroecology-biodiversity-farming", "name": "Agroecology & Biodiversity-Based Farming", "parent_l2": "sustainable-regenerative-ag", "tagline": "Agroforestry, polycultures, pollinator-friendly systems, agroecological transitions.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "regenerative-soil-water-management", "name": "Regenerative Soil & Water Management", "parent_l2": "sustainable-regenerative-ag", "tagline": "Soil organic carbon, conservation tillage, irrigation efficiency, soil-health metrics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "farm-management-production-economics", "name": "Farm Management & Production Economics", "parent_l2": "ag-economics-policy", "tagline": "Farm decision-making, risk, productivity, technology adoption — enterprise budgeting, production functions.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "food-policy-trade-rural-development", "name": "Food Policy, Trade & Rural Development", "parent_l2": "ag-economics-policy", "tagline": "Agricultural policy, food trade, rural livelihoods, food security — policy analysis, CGE, rural surveys.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "precision-agriculture-systems", "name": "Precision Agriculture Systems", "parent_l2": "ag-engineering-precision", "tagline": "Site-specific management, decision-support, sensor networks — GNSS, GIS, multispectral/hyperspectral sensing.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "farm-machinery-robotics-automation", "name": "Farm Machinery, Robotics & Automation", "parent_l2": "ag-engineering-precision", "tagline": "Autonomous tractors, picking/weeding robots, dairy automation, field robotics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Sustainable & Regenerative Agriculture L2 papers fold under soil carbon + IPM + crop physiology at L3.",

@@ -1,7 +1,7 @@
 {
   "level1_slug": "physics-astronomy",
   "level1_name": "Physics & Astronomy",
-  "count": 38,
+  "count": 40,
   "rationale": "Physics at L3 maps closely to arXiv's section structure but the modern field deserves splits arXiv doesn't make: quantum simulators distinct from quantum hardware; gravitational waves split from astrophysics; many-body strongly-correlated split from topological matter. Thirty-eight leaves cover the major working communities. Cosmology, gravitational waves, and quantum information each get their own depth because each is publishing at journal-volume that warrants it.",
   "subfields": [
     {"slug": "topological-matter", "name": "Topological & Quantum Matter", "parent_l2": "condensed-matter-physics", "tagline": "Topological insulators, Weyl/Dirac semimetals, topological superconductors.", "audience_pct_within_l2": 16},
@@ -41,7 +41,9 @@
     {"slug": "gravitational-wave-physics", "name": "Gravitational-Wave Physics", "parent_l2": "gravitation-relativity", "tagline": "GW data analysis, waveform modeling, LISA science.", "audience_pct_within_l2": 35},
     {"slug": "general-relativity-black-holes", "name": "General Relativity & Black Hole Physics", "parent_l2": "gravitation-relativity", "tagline": "Black hole shadow, GR tests, ringdown, alternatives to GR.", "audience_pct_within_l2": 32},
     {"slug": "quantum-gravity", "name": "Quantum Gravity & Strings", "parent_l2": "gravitation-relativity", "tagline": "String theory, holography, loop quantum gravity.", "audience_pct_within_l2": 20},
-    {"slug": "turbulence-fluid-physics", "name": "Turbulence & Geophysical Fluid Physics", "parent_l2": "fluid-mechanics-physics", "tagline": "Turbulence theory, geophysical flows, ocean/atmosphere physics.", "audience_pct_within_l2": 55}
+    {"slug": "turbulence-fluid-physics", "name": "Turbulence & Geophysical Fluid Physics", "parent_l2": "fluid-mechanics-physics", "tagline": "Turbulence theory, geophysical flows, ocean/atmosphere physics.", "audience_pct_within_l2": 55},
+    {"slug": "instrumentation-detector-physics", "name": "Instrumentation & Detector Physics", "parent_l2": "applied-physics", "tagline": "Particle/photon detector design, calibration, electronics, DAQ — tracking, calorimetry, cryogenic detectors.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "applied-optics-photonics-imaging", "name": "Applied Optics, Photonics & Imaging", "parent_l2": "applied-physics", "tagline": "Laser systems, fiber optics, adaptive optics, computational imaging — photonic devices, optical metrology.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Applied & Instrumentation Physics L2 has no L3 leaves — accelerator/detector papers fold into the closest experimental leaf (LHC, neutrino, etc.).",

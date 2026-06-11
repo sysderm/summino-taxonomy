@@ -1,7 +1,7 @@
 {
   "level1_slug": "economics-finance",
   "level1_name": "Economics & Finance",
-  "count": 33,
+  "count": 39,
   "rationale": "Economics at L3 follows the AEA Journal of Economic Literature (JEL) sub-classifications. Thirty-three leaves split by field. Labor economics gets 4 leaves because the field has structured into wages/employment, education-returns, immigration, and discrimination as distinct research clusters. Finance gets 5 leaves (asset pricing, corporate, banking, household, real estate). Behavioral & experimental gets 3 leaves matching lab, field, and theory subcommunities.",
   "subfields": [
     {"slug": "game-theory-econ", "name": "Game Theory & Mechanism Design", "parent_l2": "microeconomic-theory", "tagline": "Game theory, mechanism design, contract theory, social choice.", "audience_pct_within_l2": 32},
@@ -36,7 +36,13 @@
     {"slug": "household-finance", "name": "Household Finance", "parent_l2": "finance-asset-pricing", "tagline": "Household finance, retirement, household portfolio choice, consumer credit.", "audience_pct_within_l2": 14},
     {"slug": "real-estate-finance", "name": "Real Estate & Climate Finance", "parent_l2": "finance-asset-pricing", "tagline": "Real estate finance, climate finance, mortgage research, sustainable finance.", "audience_pct_within_l2": 14},
     {"slug": "environmental-energy-economics-l3", "name": "Climate, Energy & Environmental Economics", "parent_l2": "environmental-energy-econ", "tagline": "Climate economics, integrated assessment, energy markets, environmental policy economics.", "audience_pct_within_l2": 100},
-    {"slug": "quant-finance-derivatives", "name": "Quantitative Finance & Market Microstructure", "parent_l2": "quantitative-finance-math", "tagline": "Derivatives, market microstructure, HFT research, quantitative risk management.", "audience_pct_within_l2": 100}
+    {"slug": "quant-finance-derivatives", "name": "Quantitative Finance & Market Microstructure", "parent_l2": "quantitative-finance-math", "tagline": "Derivatives, market microstructure, HFT research, quantitative risk management.", "audience_pct_within_l2": 100},
+    {"slug": "international-trade", "name": "International Trade", "parent_l2": "international-trade-finance", "tagline": "Trade flows, tariffs, value chains, trade and welfare — gravity models, trade econometrics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "international-finance-open-economy", "name": "International Finance & Open-Economy Macro", "parent_l2": "international-trade-finance", "tagline": "Exchange rates, capital flows, sovereign debt, currency crises — open-economy DSGE, financial-flow econometrics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "historical-national-accounts-quant-economic-history", "name": "Historical National Accounts & Quantitative Economic History", "parent_l2": "economic-history", "tagline": "Long-run growth, historical GDP, living standards, historical statistics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "institutions-technology-long-run-growth", "name": "Institutions, Technology & Long-Run Growth", "parent_l2": "economic-history", "tagline": "Institutions and growth, technology diffusion, persistence effects.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "causal-policy-evaluation", "name": "Causal Policy Evaluation", "parent_l2": "applied-microeconomics-policy", "tagline": "Program evaluation, labor-market policies, education/health interventions — RCTs, RDD, IV, DiD, synthetic control.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "program-design-distributional-analysis", "name": "Program Design & Distributional Analysis", "parent_l2": "applied-microeconomics-policy", "tagline": "Tax-and-transfer design, inequality, targeting, welfare effects — optimal-policy design, incidence analysis.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Economic history folds under structural change in LMICs + monetary economics + growth at L3.",

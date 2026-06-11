@@ -1,7 +1,7 @@
 {
   "level1_slug": "mechanical-aerospace-engineering",
   "level1_name": "Mechanical & Aerospace Engineering",
-  "count": 35,
+  "count": 39,
   "rationale": "Mechanical & Aerospace at L3 splits primarily by physical phenomenon (fluid, solid, heat) and by application area (aerospace, automotive, marine, civil-structural). Aerospace gets 4 leaves because spacecraft, hypersonics, aerospace structures, and GNC are each large enough communities. Additive manufacturing gets 3 leaves matching process families (metal AM, polymer AM, in-situ process monitoring). I treated robotics-mechanical as soft-vs-rigid-vs-medical because the working communities differ.",
   "subfields": [
     {"slug": "elasticity-plasticity-finite-deformation", "name": "Elasticity, Plasticity & Finite Deformation", "parent_l2": "solid-mechanics", "tagline": "Continuum elasticity, plasticity theory, large-deformation mechanics.", "audience_pct_within_l2": 25},
@@ -38,7 +38,11 @@
     {"slug": "autonomous-vehicle-systems-eng", "name": "Autonomous Vehicle Systems Engineering", "parent_l2": "automotive-mobility", "tagline": "AV hardware integration, sensor fusion at vehicle level, ADAS engineering.", "audience_pct_within_l2": 25},
     {"slug": "soft-robotics-design", "name": "Soft Robotics & Compliant Mechanisms", "parent_l2": "robotics-mechanical-design", "tagline": "Soft robotic mechanical design, compliant mechanisms, soft actuators (mech angle).", "audience_pct_within_l2": 35},
     {"slug": "exoskeletons-prosthetics-mech", "name": "Exoskeletons & Prosthetics (Mechanical)", "parent_l2": "robotics-mechanical-design", "tagline": "Exoskeleton mechanical design, prosthetic devices mechanics, assistive robotics design.", "audience_pct_within_l2": 30},
-    {"slug": "musculoskeletal-cardiovascular-biomech", "name": "Musculoskeletal & Cardiovascular Biomechanics", "parent_l2": "biomechanics", "tagline": "Musculoskeletal biomechanics, cardiovascular biomechanics, biomech imaging.", "audience_pct_within_l2": 100}
+    {"slug": "musculoskeletal-cardiovascular-biomech", "name": "Musculoskeletal & Cardiovascular Biomechanics", "parent_l2": "biomechanics", "tagline": "Musculoskeletal biomechanics, cardiovascular biomechanics, biomech imaging.", "audience_pct_within_l2": 100},
+    {"slug": "design-optimization-uncertainty-quantification", "name": "Design Optimization & Uncertainty Quantification", "parent_l2": "design-optimization-engineering", "tagline": "Shape/topology optimization, robust design, UQ — gradient methods, surrogates, Bayesian UQ, multi-fidelity.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "cad-cae-systems-engineering", "name": "CAD/CAE & Systems Engineering", "parent_l2": "design-optimization-engineering", "tagline": "Digital threads, PLM, model-based engineering, V&V — parametric CAD, FEA/CFD pipelines, MBSE.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "naval-architecture-hydrodynamics", "name": "Naval Architecture & Hydrodynamics", "parent_l2": "marine-ocean-engineering", "tagline": "Hull design, seakeeping, propulsion, hydrodynamic stability — towing-tank, CFD for hulls.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "offshore-subsea-ocean-systems", "name": "Offshore, Subsea & Ocean Systems", "parent_l2": "marine-ocean-engineering", "tagline": "Offshore platforms, subsea infrastructure, marine renewables, polar marine engineering — mooring, riser dynamics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Marine & Ocean Engineering L2 papers fold under hydrodynamics + structural at L3.",
