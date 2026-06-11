@@ -1,0 +1,225 @@
+{
+  "level1_slug": "social-sciences",
+  "level1_name": "Social Sciences",
+  "count": 14,
+  "rationale": "This structure breaks down the largest, most traditional disciplines (Sociology, Political Science, Anthropology) into their major, distinct sub-fields that practitioners strongly identify with. For example, Political Science is split into Political Science & Theory, International Relations, and Public Policy, which often function as separate departments or research communities. This avoids overly broad categories. The list also elevates key interdisciplinary fields like Science & Technology Studies (STS), Urban Studies, and Criminology to top-level status, reflecting their modern academic importance. Fields like Education Research and Communication Studies, which have clear and cohesive identities, are kept whole. The final count of 14 provides sufficient granularity for specialists without overwhelming the user.",
+  "subspecialties": [
+    {
+      "slug": "sociology",
+      "name": "Sociology",
+      "tagline": "The study of social life, social change, and the causes and consequences of human behavior.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Social theory, stratification, and inequality",
+        "Sociology of culture, family, gender, and race",
+        "Social networks and quantitative/qualitative methods"
+      ],
+      "explicitly_excludes": [
+        "Crime and deviance \u2192 Criminology & Criminal Justice",
+        "Population dynamics \u2192 Demography",
+        "City-focused studies \u2192 Urban Studies"
+      ]
+    },
+    {
+      "slug": "political-science-and-theory",
+      "name": "Political Science & Theory",
+      "tagline": "The study of governments, political processes, systems, and political behavior.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Comparative politics and area studies",
+        "Political philosophy and theory",
+        "Electoral systems, parties, and voting behavior"
+      ],
+      "explicitly_excludes": [
+        "Relations between states \u2192 International Relations",
+        "Policy creation and analysis \u2192 Public Policy & Administration"
+      ]
+    },
+    {
+      "slug": "education-research",
+      "name": "Education Research",
+      "tagline": "The scientific study of teaching, learning, and educational institutions.",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "Curriculum and instruction",
+        "Educational policy and leadership",
+        "Learning sciences and educational psychology",
+        "Higher education studies"
+      ],
+      "explicitly_excludes": [
+        "Cognitive neuroscience of learning \u2192 Brain & Cognitive Sciences"
+      ]
+    },
+    {
+      "slug": "international-relations",
+      "name": "International Relations",
+      "tagline": "The study of interactions between nation-states, international organizations, and non-state actors.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Foreign policy analysis and diplomacy",
+        "International security and conflict studies",
+        "International political economy",
+        "Global governance"
+      ],
+      "explicitly_excludes": [
+        "Domestic politics \u2192 Political Science & Theory"
+      ]
+    },
+    {
+      "slug": "communication-studies",
+      "name": "Communication Studies",
+      "tagline": "The study of human communication processes and effects in various contexts.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Media studies and mass communication",
+        "Rhetoric and political communication",
+        "Interpersonal and organizational communication"
+      ],
+      "explicitly_excludes": [
+        "The formal structure of language \u2192 Linguistics"
+      ]
+    },
+    {
+      "slug": "public-policy-and-administration",
+      "name": "Public Policy & Administration",
+      "tagline": "The analysis, creation, and management of government policies and programs.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Policy analysis and evaluation",
+        "Public management and governance",
+        "Social, health, and environmental policy"
+      ],
+      "explicitly_excludes": [
+        "Political theory \u2192 Political Science & Theory",
+        "Macroeconomic policy \u2192 Economics & Finance"
+      ]
+    },
+    {
+      "slug": "cultural-anthropology",
+      "name": "Cultural Anthropology",
+      "tagline": "The study of human cultures, beliefs, practices, and social organization across the world.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Ethnography, kinship, and social theory",
+        "Symbolic and interpretive anthropology",
+        "Medical, visual, and political anthropology"
+      ],
+      "explicitly_excludes": [
+        "Past societies via material remains \u2192 Archaeology",
+        "Human evolution \u2192 Biological Sciences"
+      ]
+    },
+    {
+      "slug": "criminology-and-criminal-justice",
+      "name": "Criminology & Criminal Justice",
+      "tagline": "The study of crime, criminal behavior, and the legal and penal systems.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Theories of crime and deviance",
+        "Policing, courts, and corrections",
+        "Victimology and restorative justice"
+      ],
+      "explicitly_excludes": [
+        "Forensic science \u2192 Chemistry or Biological Sciences",
+        "Sociology of law \u2192 Sociology"
+      ]
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "tagline": "The scientific study of language, its structure, and its use.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Phonetics, phonology, syntax, and semantics",
+        "Sociolinguistics and psycholinguistics",
+        "Historical and computational linguistics"
+      ],
+      "explicitly_excludes": [
+        "Literary analysis \u2192 Humanities",
+        "Communication theory \u2192 Communication Studies"
+      ]
+    },
+    {
+      "slug": "human-geography",
+      "name": "Human Geography",
+      "tagline": "The study of the spatial organization of human activity and people's relationships with their environments.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Cultural, economic, and political geography",
+        "Geographic Information Science (GIS) for social data",
+        "Migration and population geography"
+      ],
+      "explicitly_excludes": [
+        "Urban planning \u2192 Urban Studies",
+        "Physical landscapes \u2192 Earth Sciences"
+      ]
+    },
+    {
+      "slug": "science-and-technology-studies",
+      "name": "Science & Technology Studies (STS)",
+      "tagline": "The study of how society, politics, and culture affect science and technological innovation.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Sociology of scientific knowledge (SSK)",
+        "History and philosophy of science and technology",
+        "Ethics of technology and innovation policy"
+      ],
+      "explicitly_excludes": [
+        "Pure philosophy of science \u2192 Humanities",
+        "Innovation economics \u2192 Economics & Finance"
+      ]
+    },
+    {
+      "slug": "archaeology",
+      "name": "Archaeology",
+      "tagline": "The study of human history and prehistory through the excavation and analysis of material culture.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Prehistoric and historical archaeology",
+        "Bioarchaeology and zooarchaeology",
+        "Archaeological methods and theory",
+        "Cultural heritage management"
+      ],
+      "explicitly_excludes": [
+        "Geological dating methods \u2192 Earth Sciences",
+        "Cultural practices of living societies \u2192 Cultural Anthropology"
+      ]
+    },
+    {
+      "slug": "demography",
+      "name": "Demography",
+      "tagline": "The statistical study of human populations, their dynamics, and their composition.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Fertility, mortality, and migration studies",
+        "Population forecasting and modeling",
+        "Social, historical, and economic demography"
+      ],
+      "explicitly_excludes": [
+        "Population genetics \u2192 Biological Sciences",
+        "Broad migration patterns \u2192 Human Geography"
+      ]
+    },
+    {
+      "slug": "urban-studies",
+      "name": "Urban Studies",
+      "tagline": "The interdisciplinary study of cities, urban life, and the challenges of urbanization.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Urban planning and design",
+        "Urban sociology and politics",
+        "Housing and community development",
+        "Urban history"
+      ],
+      "explicitly_excludes": [
+        "Regional geography \u2192 Human Geography",
+        "Municipal civil engineering \u2192 Engineering"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Area Studies (e.g., African Studies, East Asian Studies) was not included as a category because it is a cross-cutting theme; papers in this area typically align with a primary discipline like Political Science, Anthropology, or Sociology.",
+    "Gender Studies and Queer Studies were considered but excluded as standalone categories, as they function as critical lenses applied across many of these subspecialties rather than a mutually exclusive field for sorting papers.",
+    "Social Work was excluded as it is a distinct professional and applied field, often with its own academic schools, focused more on practice and intervention than the general research covered here."
+  ]
+}
