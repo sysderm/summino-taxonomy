@@ -1,0 +1,37 @@
+{
+  "level1_slug": "humanities",
+  "level1_name": "Humanities",
+  "count": 25,
+  "rationale": "Humanities at L3 is intentionally smaller than other categories — 25 leaves total — because the humanities papers in the summino corpus are the smallest L1 group and rich sub-splits would create thin leaves. Philosophy gets 6 leaves (analytic philosophy, ethics, philosophy of mind, philosophy of science, philosophy of language, social/political philosophy) because each is a recognized AOS in academic philosophy. History gets 5 leaves split by region/period. Archaeology gets 3 (science-based, classical, prehistoric).",
+  "subfields": [
+    {"slug": "ethics-moral-philosophy", "name": "Ethics & Moral Philosophy", "parent_l2": "philosophy", "tagline": "Normative ethics, metaethics, applied ethics, bioethics.", "audience_pct_within_l2": 20},
+    {"slug": "philosophy-of-mind", "name": "Philosophy of Mind", "parent_l2": "philosophy", "tagline": "Philosophy of mind, consciousness, mental content, embodied mind.", "audience_pct_within_l2": 16},
+    {"slug": "philosophy-of-science", "name": "Philosophy of Science", "parent_l2": "philosophy", "tagline": "Philosophy of science, philosophy of biology, philosophy of physics.", "audience_pct_within_l2": 16},
+    {"slug": "philosophy-of-language-logic", "name": "Philosophy of Language & Logic", "parent_l2": "philosophy", "tagline": "Philosophy of language, philosophical logic, philosophy of math.", "audience_pct_within_l2": 14},
+    {"slug": "metaphysics-epistemology", "name": "Metaphysics & Epistemology", "parent_l2": "philosophy", "tagline": "Metaphysics, epistemology, modality, reasoning.", "audience_pct_within_l2": 18},
+    {"slug": "political-social-philosophy", "name": "Political & Social Philosophy", "parent_l2": "philosophy", "tagline": "Political philosophy, social philosophy, philosophy of law.", "audience_pct_within_l2": 16},
+    {"slug": "ancient-medieval-history", "name": "Ancient & Medieval History", "parent_l2": "history", "tagline": "Ancient history (Greek, Roman, Near East), medieval history.", "audience_pct_within_l2": 18},
+    {"slug": "early-modern-history", "name": "Early Modern History", "parent_l2": "history", "tagline": "Early modern history (16th-18th c.), Atlantic world, scientific revolution history.", "audience_pct_within_l2": 18},
+    {"slug": "modern-contemporary-history", "name": "Modern & Contemporary History", "parent_l2": "history", "tagline": "19th-21st century history, contemporary history.", "audience_pct_within_l2": 24},
+    {"slug": "global-comparative-history", "name": "Global & Comparative History", "parent_l2": "history", "tagline": "Global history, comparative history, world history.", "audience_pct_within_l2": 20},
+    {"slug": "social-cultural-history", "name": "Social, Cultural & Intellectual History", "parent_l2": "history", "tagline": "Social history, cultural history, intellectual history, environmental history.", "audience_pct_within_l2": 20},
+    {"slug": "history-of-science-recent", "name": "History of Modern Science", "parent_l2": "history-of-science-medicine", "tagline": "History of modern science, history of physics, history of biology, history of computing.", "audience_pct_within_l2": 35},
+    {"slug": "history-of-medicine-tech", "name": "History of Medicine & Technology", "parent_l2": "history-of-science-medicine", "tagline": "History of medicine, history of technology, history of mathematics.", "audience_pct_within_l2": 35},
+    {"slug": "history-colonial-global-science", "name": "Science in Colonial & Global Contexts", "parent_l2": "history-of-science-medicine", "tagline": "Science in colonial contexts, non-Western science history, global science.", "audience_pct_within_l2": 30},
+    {"slug": "archaeological-science", "name": "Archaeological Science (Radiocarbon, Isotopes)", "parent_l2": "archaeology", "tagline": "Archaeological science — radiocarbon, isotopes, archaeo-genetics, scientific dating.", "audience_pct_within_l2": 36},
+    {"slug": "classical-archaeology", "name": "Classical & Mediterranean Archaeology", "parent_l2": "archaeology", "tagline": "Classical archaeology, Mediterranean antiquity archaeology, Roman/Greek material culture.", "audience_pct_within_l2": 24},
+    {"slug": "prehistoric-historic-archaeology", "name": "Prehistoric & Historic Archaeology", "parent_l2": "archaeology", "tagline": "Prehistoric archaeology, historic archaeology, indigenous archaeology, heritage management.", "audience_pct_within_l2": 40},
+    {"slug": "greek-latin-philology", "name": "Greek & Latin Philology", "parent_l2": "classics", "tagline": "Greek and Latin philology, classical reception studies.", "audience_pct_within_l2": 55},
+    {"slug": "ancient-near-east-studies", "name": "Ancient Near East & Mediterranean Studies", "parent_l2": "classics", "tagline": "Ancient Near East studies, Egyptology, ancient Mediterranean studies.", "audience_pct_within_l2": 45},
+    {"slug": "modern-comparative-literature", "name": "Modern & Comparative Literature", "parent_l2": "literary-studies", "tagline": "Modern literature, world literature, comparative literature, postcolonial literature.", "audience_pct_within_l2": 60},
+    {"slug": "literary-theory-criticism", "name": "Literary Theory & Criticism", "parent_l2": "literary-studies", "tagline": "Literary criticism, literary theory, narrative theory.", "audience_pct_within_l2": 40},
+    {"slug": "comparative-religion-theology", "name": "Comparative Religion & Theology", "parent_l2": "religious-studies", "tagline": "Comparative religion, theology, religious history.", "audience_pct_within_l2": 100},
+    {"slug": "art-history-periods-museums", "name": "Art History Periods & Museum Studies", "parent_l2": "art-history-visual-culture", "tagline": "Art history periods, museum studies, history of architecture, visual culture analysis.", "audience_pct_within_l2": 100},
+    {"slug": "musicology-music-theory", "name": "Musicology & Music Theory", "parent_l2": "music-performing-studies", "tagline": "Musicology, music theory, ethnomusicology.", "audience_pct_within_l2": 60},
+    {"slug": "theatre-dance-film-studies", "name": "Theatre, Dance & Film Studies", "parent_l2": "music-performing-studies", "tagline": "Theatre studies, dance studies, film studies as humanities.", "audience_pct_within_l2": 40}
+  ],
+  "uncovered_concerns": [
+    "Digital humanities L2 has one big leaf only — computational text analysis fold there at L3.",
+    "Did not split history-by-region (e.g. African history, Asian history) — folds under global/comparative history."
+  ]
+}
