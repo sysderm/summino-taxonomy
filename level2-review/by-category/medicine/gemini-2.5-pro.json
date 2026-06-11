@@ -1,0 +1,322 @@
+{
+  "level1_slug": "medicine",
+  "level1_name": "Medicine & Clinical Science",
+  "count": 22,
+  "rationale": "This structure is organized around established clinical specialties, mirroring how medical professionals and literature are segmented. It balances organ-system-based fields (e.g., Cardiology, Neurology), population-based fields (e.g., Pediatrics), and modality-based specialties (e.g., Surgery, Radiology). We deliberately kept 'Surgery' as a single, broad category to avoid excessive fragmentation into sub-disciplines like orthopedics or neurosurgery, which would make the list too granular. Conversely, we split 'Internal Medicine' into its core subspecialties (Gastroenterology, Pulmonology, etc.) because each possesses a distinct professional identity, body of literature, and audience, making a single 'Internal Medicine' category too coarse.",
+  "subspecialties": [
+    {
+      "slug": "oncology",
+      "name": "Oncology",
+      "tagline": "The study and treatment of cancer, from chemotherapy to immunotherapy.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Medical, radiation, and surgical oncology",
+        "Cancer biology, diagnostics, and novel therapeutics"
+      ],
+      "explicitly_excludes": [
+        "Basic cancer cell biology \u2192 Biology",
+        "Surgical procedures for tumors \u2192 Surgery"
+      ]
+    },
+    {
+      "slug": "cardiology",
+      "name": "Cardiology",
+      "tagline": "The heart and blood vessels, from hypertension to heart failure.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Ischemic heart disease, arrhythmias, structural heart disease, vascular medicine",
+        "Interventional cardiology, electrophysiology, cardiac imaging"
+      ],
+      "explicitly_excludes": [
+        "Cardiothoracic surgery \u2192 Surgery",
+        "Basic vascular biology \u2192 Biology"
+      ]
+    },
+    {
+      "slug": "neurology",
+      "name": "Neurology",
+      "tagline": "Disorders of the nervous system, from stroke to neurodegeneration.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Stroke, epilepsy, multiple sclerosis, Parkinson's, Alzheimer's",
+        "Headache, neuromuscular disorders, clinical neurophysiology"
+      ],
+      "explicitly_excludes": [
+        "Neurosurgical interventions \u2192 Surgery",
+        "Psychiatric disorders \u2192 Psychiatry & Mental Health"
+      ]
+    },
+    {
+      "slug": "surgery",
+      "name": "Surgery",
+      "tagline": "The art and science of operative treatment and procedures.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "General surgery, orthopedics, trauma, cardiothoracic, neurosurgery",
+        "Surgical techniques, perioperative care, clinical outcomes"
+      ],
+      "explicitly_excludes": [
+        "Anesthesia management \u2192 Anesthesiology & Pain Medicine",
+        "Non-operative management of surgical conditions \u2192 relevant medical specialty"
+      ]
+    },
+    {
+      "slug": "infectious-diseases",
+      "name": "Infectious Diseases",
+      "tagline": "From pandemics to hospital-acquired infections and antimicrobial stewardship.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Virology, bacteriology, mycology in a clinical context",
+        "Vaccines, antibiotics, HIV/AIDS, sepsis, global health infections"
+      ],
+      "explicitly_excludes": [
+        "Basic microbiology \u2192 Biology",
+        "Population-level epidemiology \u2192 Public Health"
+      ]
+    },
+    {
+      "slug": "radiology-medical-imaging",
+      "name": "Radiology & Medical Imaging",
+      "tagline": "Visualizing the human body for diagnosis and intervention.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Diagnostic imaging (X-ray, CT, MRI, Ultrasound)",
+        "Interventional radiology, nuclear medicine, imaging physics"
+      ],
+      "explicitly_excludes": [
+        "Analysis of tissue slides \u2192 Pathology & Laboratory Medicine",
+        "Image processing algorithms \u2192 Computer Science"
+      ]
+    },
+    {
+      "slug": "gastroenterology-hepatology",
+      "name": "Gastroenterology & Hepatology",
+      "tagline": "The digestive system, from the esophagus to the liver and bowel.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "IBD, liver disease, endoscopy, GI motility, pancreatic disorders",
+        "Hepatitis, GI cancers, nutritional science"
+      ],
+      "explicitly_excludes": [
+        "Surgical treatment of GI diseases \u2192 Surgery",
+        "Gut microbiome basic science \u2192 Biology"
+      ]
+    },
+    {
+      "slug": "pulmonology-critical-care",
+      "name": "Pulmonology & Critical Care",
+      "tagline": "Lungs, airways, and the management of critically ill patients.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Asthma, COPD, interstitial lung disease, sleep medicine",
+        "Mechanical ventilation, sepsis, intensive care unit (ICU) management"
+      ],
+      "explicitly_excludes": [
+        "Thoracic surgery \u2192 Surgery",
+        "Anesthesia for critical care \u2192 Anesthesiology & Pain Medicine"
+      ]
+    },
+    {
+      "slug": "pediatrics",
+      "name": "Pediatrics",
+      "tagline": "Medical care for infants, children, and adolescents.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "General pediatrics, neonatology, developmental disorders, pediatric subspecialties",
+        "Childhood diseases, vaccination, adolescent medicine"
+      ],
+      "explicitly_excludes": [
+        "Adult presentations of disease \u2192 specific adult specialty",
+        "Obstetrics \u2192 Obstetrics & Gynecology"
+      ]
+    },
+    {
+      "slug": "obgyn",
+      "name": "Obstetrics & Gynecology",
+      "tagline": "Female reproductive health, pregnancy, and childbirth.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Obstetrics, maternal-fetal medicine, gynecology, reproductive endocrinology",
+        "Contraception, gynecologic oncology, urogynecology"
+      ],
+      "explicitly_excludes": [
+        "General care for women \u2192 primary care specialties",
+        "Breast cancer \u2192 Oncology"
+      ]
+    },
+    {
+      "slug": "psychiatry-mental-health",
+      "name": "Psychiatry & Mental Health",
+      "tagline": "Diagnosis, treatment, and prevention of mental and emotional disorders.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Mood disorders, anxiety, psychosis, substance use disorders",
+        "Psychopharmacology, psychotherapy, child and adolescent psychiatry"
+      ],
+      "explicitly_excludes": [
+        "Neurological disorders like dementia \u2192 Neurology",
+        "Basic neuroscience \u2192 Biology"
+      ]
+    },
+    {
+      "slug": "endocrinology-diabetes-metabolism",
+      "name": "Endocrinology, Diabetes & Metabolism",
+      "tagline": "Hormones, glands, and the metabolic processes they regulate.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Diabetes mellitus, thyroid disease, osteoporosis, pituitary disorders",
+        "Metabolic syndrome, adrenal disorders, lipidology"
+      ],
+      "explicitly_excludes": [
+        "Bariatric surgery \u2192 Surgery",
+        "Basic cell metabolism \u2192 Biology"
+      ]
+    },
+    {
+      "slug": "anesthesiology-pain-medicine",
+      "name": "Anesthesiology & Pain Medicine",
+      "tagline": "Perioperative care, sedation, and the management of acute and chronic pain.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "General and regional anesthesia, obstetric anesthesia, critical care",
+        "Acute and chronic pain management, pharmacology of anesthetics"
+      ],
+      "explicitly_excludes": [
+        "Surgical procedures \u2192 Surgery",
+        "Management of ICU patients \u2192 Pulmonology & Critical Care"
+      ]
+    },
+    {
+      "slug": "pathology-lab-medicine",
+      "name": "Pathology & Laboratory Medicine",
+      "tagline": "The science behind the diagnosis of disease using tissues and fluids.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Anatomic and clinical pathology, histopathology, cytopathology",
+        "Laboratory testing, molecular diagnostics, transfusion medicine"
+      ],
+      "explicitly_excludes": [
+        "Medical imaging \u2192 Radiology & Medical Imaging",
+        "Forensic science outside of a clinical context"
+      ]
+    },
+    {
+      "slug": "emergency-medicine",
+      "name": "Emergency Medicine",
+      "tagline": "Care for acute illnesses and injuries requiring immediate attention.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Resuscitation, trauma care, toxicology, disaster medicine",
+        "Diagnosis and management of undifferentiated acute conditions"
+      ],
+      "explicitly_excludes": [
+        "In-patient critical care \u2192 Pulmonology & Critical Care",
+        "Definitive surgical treatment \u2192 Surgery"
+      ]
+    },
+    {
+      "slug": "nephrology",
+      "name": "Nephrology",
+      "tagline": "Kidney function, kidney diseases, dialysis, and transplantation.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Chronic kidney disease, acute kidney injury, dialysis, hypertension",
+        "Glomerular diseases, electrolyte disorders, renal replacement therapy"
+      ],
+      "explicitly_excludes": [
+        "Urologic surgery \u2192 Urology",
+        "Basic renal physiology \u2192 Biology"
+      ]
+    },
+    {
+      "slug": "dermatology",
+      "name": "Dermatology",
+      "tagline": "Disorders of the skin, hair, and nails.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Psoriasis, eczema, skin cancer, acne, autoimmune skin diseases",
+        "Dermatopathology, cosmetic dermatology, dermatologic surgery"
+      ],
+      "explicitly_excludes": [
+        "Systemic autoimmune diseases \u2192 Rheumatology & Immunology",
+        "Major plastic surgery \u2192 Surgery"
+      ]
+    },
+    {
+      "slug": "rheumatology-immunology",
+      "name": "Rheumatology & Immunology",
+      "tagline": "Immune system disorders, including arthritis and autoimmune diseases.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Rheumatoid arthritis, lupus, vasculitis, gout, clinical immunology",
+        "Allergy, immunodeficiencies, biologic therapies"
+      ],
+      "explicitly_excludes": [
+        "Basic immunology research \u2192 Biology",
+        "Osteoarthritis management \u2192 Surgery or primary care"
+      ]
+    },
+    {
+      "slug": "urology",
+      "name": "Urology",
+      "tagline": "Surgical and medical diseases of the urinary tract and male reproductive system.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Prostate cancer, kidney stones, BPH, incontinence, erectile dysfunction",
+        "Urologic oncology, reconstructive urology, endourology"
+      ],
+      "explicitly_excludes": [
+        "Medical kidney disease (non-surgical) \u2192 Nephrology",
+        "Gynecologic issues \u2192 Obstetrics & Gynecology"
+      ]
+    },
+    {
+      "slug": "genetics-genomics",
+      "name": "Genetics & Genomics",
+      "tagline": "Inherited disorders and the role of genes in health and disease.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Clinical genetics, genomic medicine, genetic counseling, gene therapy",
+        "Diagnosis of rare diseases, pharmacogenomics, cancer genomics"
+      ],
+      "explicitly_excludes": [
+        "Basic molecular genetics \u2192 Biology",
+        "Population genetics \u2192 Public Health"
+      ]
+    },
+    {
+      "slug": "ophthalmology",
+      "name": "Ophthalmology",
+      "tagline": "Medical and surgical care of the eyes and visual system.",
+      "audience_pct_within_level1": 1.5,
+      "covers": [
+        "Cataracts, glaucoma, retinal diseases, cornea, neuro-ophthalmology",
+        "Refractive surgery, ocular oncology, ophthalmic pathology"
+      ],
+      "explicitly_excludes": [
+        "Neurological causes of visual disturbance \u2192 Neurology",
+        "Systemic diseases affecting the eye \u2192 relevant medical specialty"
+      ]
+    },
+    {
+      "slug": "otolaryngology",
+      "name": "Otolaryngology (ENT)",
+      "tagline": "Disorders of the ear, nose, throat, and related head and neck structures.",
+      "audience_pct_within_level1": 1.5,
+      "covers": [
+        "Sinusitis, hearing loss, sleep apnea, head and neck cancers",
+        "Otology, rhinology, laryngology, facial plastic surgery"
+      ],
+      "explicitly_excludes": [
+        "Brain and spinal cord issues \u2192 Neurology or Surgery",
+        "Thyroid disorders \u2192 Endocrinology, Diabetes & Metabolism"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Geriatrics was considered but not included as a separate category, as its core literature is often published within organ-specific specialties (e.g., dementia in Neurology journals).",
+    "Clinical Trials & Methodology was excluded as a category because trials are best classified by their clinical domain (e.g., a cardiology trial belongs in Cardiology).",
+    "Internal Medicine was deemed too broad, functioning as a super-category for many of the chosen subspecialties rather than a distinct field for this level of granularity.",
+    "Dentistry & Oral Health was considered but excluded as it is often treated as a separate, parallel field to general medicine with its own distinct literature base."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "level1_slug": "public-health",
+  "level1_name": "Public Health & Epidemiology",
+  "count": 14,
+  "rationale": "Public Health is 5% of papers but punches above its weight in policy impact — Cochrane reviews, WHO data, outbreak modeling. Fourteen subspecialties match the working organization of accredited schools of public health (epidemiology, biostats, env health, behavioral, policy, global health). I split Epidemiology by method-focus (analytic epi vs surveillance & outbreak) because the COVID years exploded outbreak modeling into its own identity. I kept Biostatistics here rather than under Statistics because biostatistical method papers most often land in PH journals and the identity is 'I'm a biostatistician at a school of PH'. I made Health Services Research and Health Policy two cards — they overlap but HSR is methodologically distinct (econ + epi hybrid) while Health Policy is more normative.",
+  "subspecialties": [
+    {
+      "slug": "epidemiology",
+      "name": "Epidemiology",
+      "tagline": "Cohorts, case-control, causal inference for disease.",
+      "audience_pct_within_level1": 22,
+      "covers": ["chronic disease epi, cancer epi, cardiovascular epi, reproductive epi, life-course epi, study design methodology, causal epi", "Am J Epi, IJE, Epidemiology"],
+      "explicitly_excludes": ["outbreak/infectious disease epi → Infectious Disease Epi & Outbreak"]
+    },
+    {
+      "slug": "infectious-disease-epi",
+      "name": "Infectious Disease Epi & Outbreak Modeling",
+      "tagline": "Surveillance, outbreak response, transmission modeling.",
+      "audience_pct_within_level1": 14,
+      "covers": ["outbreak investigation, infectious disease modeling, vaccine epi, transmission dynamics, syndromic surveillance, COVID-19 epi, AMR surveillance"],
+      "explicitly_excludes": ["clinical infectious disease management → Medicine", "pathogen biology → Biology"]
+    },
+    {
+      "slug": "biostatistics",
+      "name": "Biostatistics",
+      "tagline": "Methods for clinical trials, survival, mixed models, missing data.",
+      "audience_pct_within_level1": 8,
+      "covers": ["trial design, survival analysis, longitudinal methods, mixed models, missing data, multiple imputation, group-sequential and adaptive designs", "Biometrics, Stat Med, BMC Med Res Methodol"],
+      "explicitly_excludes": ["pure mathematical statistics → Mathematics or Statistics & Data Science"]
+    },
+    {
+      "slug": "global-health",
+      "name": "Global Health",
+      "tagline": "LMIC health, health systems strengthening, equity.",
+      "audience_pct_within_level1": 9,
+      "covers": ["LMIC clinical and public health interventions, health systems strengthening, neglected tropical diseases, maternal and child health globally, global health equity", "Lancet Glob Health, BMJ Glob Health, PLOS Glob Public Health"],
+      "explicitly_excludes": ["tropical-medicine clinical care → Medicine"]
+    },
+    {
+      "slug": "environmental-health",
+      "name": "Environmental & Occupational Health",
+      "tagline": "Air, water, chemical exposure, occupational risk.",
+      "audience_pct_within_level1": 6,
+      "covers": ["air pollution health effects, water and sanitation, chemical exposure assessment, occupational health, environmental epidemiology, exposome research", "Environ Health Perspect, Occup Environ Med"],
+      "explicitly_excludes": ["environmental chemistry mechanisms → Earth & Environmental"]
+    },
+    {
+      "slug": "health-policy",
+      "name": "Health Policy & Politics",
+      "tagline": "Insurance, regulation, health systems, comparative policy.",
+      "audience_pct_within_level1": 5,
+      "covers": ["health insurance and financing, regulatory policy, comparative health systems, drug pricing policy, public health law"],
+      "explicitly_excludes": ["health-economics research → Health Economics & HSR"]
+    },
+    {
+      "slug": "health-services-research",
+      "name": "Health Economics & Health Services Research",
+      "tagline": "Cost-effectiveness, access, quality of care, delivery.",
+      "audience_pct_within_level1": 6,
+      "covers": ["cost-effectiveness analysis, quality of care research, access and equity, payment reform, care delivery models, comparative effectiveness research", "Health Aff, Med Care, JHEcon, Health Econ"],
+      "explicitly_excludes": ["broad economics → Economics & Finance"]
+    },
+    {
+      "slug": "behavioral-social-health",
+      "name": "Behavioral & Social Sciences of Health",
+      "tagline": "Health behavior, communication, social determinants.",
+      "audience_pct_within_level1": 6,
+      "covers": ["health behavior change, health communication, social determinants of health, qualitative health research, community-based participatory research"],
+      "explicitly_excludes": ["clinical psychology → Brain & Cognitive Sciences"]
+    },
+    {
+      "slug": "maternal-child-health",
+      "name": "Maternal & Child Health",
+      "tagline": "Reproductive health, perinatal, child wellbeing, adolescent.",
+      "audience_pct_within_level1": 4,
+      "covers": ["maternal health, reproductive health, perinatal outcomes, child development from a population health angle, adolescent health"],
+      "explicitly_excludes": ["clinical OB/GYN → Medicine", "pediatric clinical care → Medicine"]
+    },
+    {
+      "slug": "nutrition-public-health",
+      "name": "Public Health Nutrition",
+      "tagline": "Population nutrition, obesity policy, food security.",
+      "audience_pct_within_level1": 3,
+      "covers": ["population nutrition, dietary patterns and chronic disease, food security, obesity at population level, micronutrient deficiency programs"],
+      "explicitly_excludes": ["clinical nutrition → Medicine", "food science → Agriculture & Food"]
+    },
+    {
+      "slug": "mental-health-substance-use",
+      "name": "Mental Health & Substance Use",
+      "tagline": "Population mental health, addiction policy, suicide prevention.",
+      "audience_pct_within_level1": 4,
+      "covers": ["population mental health, addiction epidemiology, opioid epi, suicide prevention research, mental health services research"],
+      "explicitly_excludes": ["clinical psychiatry → Medicine", "psychology methodology → Brain & Cognitive Sciences"]
+    },
+    {
+      "slug": "injury-violence-prevention",
+      "name": "Injury & Violence Prevention",
+      "tagline": "Trauma epi, road safety, gun violence, intimate partner violence.",
+      "audience_pct_within_level1": 2,
+      "covers": ["injury epidemiology, traffic safety, occupational injury, firearm injury epi, IPV prevention research"],
+      "explicitly_excludes": ["clinical trauma care → Medicine"]
+    },
+    {
+      "slug": "implementation-science-quality",
+      "name": "Implementation Science & Quality Improvement",
+      "tagline": "Getting evidence into practice, QI methodology.",
+      "audience_pct_within_level1": 4,
+      "covers": ["implementation science frameworks, dissemination research, quality improvement methodology, evidence-to-practice translation", "Impl Sci, BMJ Qual Saf"],
+      "explicitly_excludes": ["clinical effectiveness trials → Medicine"]
+    },
+    {
+      "slug": "one-health-planetary-health",
+      "name": "One Health & Planetary Health",
+      "tagline": "Climate-health, zoonoses, animal-human-environment.",
+      "audience_pct_within_level1": 7,
+      "covers": ["climate change and health, planetary health, zoonotic disease ecology, antimicrobial resistance from a One Health angle, food-system health", "Lancet Planet Health"],
+      "explicitly_excludes": ["climate science → Earth & Environmental", "veterinary medicine → Agriculture & Food"]
+    }
+  ],
+  "uncovered_concerns": [
+    "Considered separating Health Informatics — large but lands either in HSR (decision support, EHR research) or under Computer Science & AI (methods). No level-2 home here.",
+    "Considered Bioethics — important but ~0.5% of PH papers and most identify with Humanities (philosophy) or Health Policy. Folded into Health Policy.",
+    "Considered separating Vaccines Research — papers split between Medicine (clinical trials), Biology (immunology basic), and Infectious Disease Epi (population data). No card for it.",
+    "Considered Surveillance Systems — folded under Infectious Disease Epi & Outbreak."
+  ]
+}

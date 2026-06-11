@@ -1,0 +1,237 @@
+{
+  "level1_slug": "economics-finance",
+  "level1_name": "Economics & Finance",
+  "count": 16,
+  "rationale": "This structure is designed to mirror the primary specializations of academic and professional economists and financial researchers. It first splits the broad field into its two main components, Economics and Finance, and then subdivides each into established, practitioner-recognized areas. Finance is broken into its three pillars: Asset Pricing, Corporate Finance, and Banking. Economics is divided into core theory/methods (Macroeconomics, Microeconomic Theory, Econometrics) and a comprehensive set of major applied fields (e.g., Labor, Public, Development). This approach avoids a single, oversized 'Applied Microeconomics' category, providing more specific options that align with how researchers self-identify and how journals are specialized. We deliberately kept 'Macroeconomics' as a single large category, as modern research often integrates monetary, fiscal, and growth topics, making a further split difficult and less MECE.",
+  "subspecialties": [
+    {
+      "slug": "asset-pricing",
+      "name": "Asset Pricing",
+      "tagline": "Valuation of stocks, bonds, derivatives, and currencies in financial markets.",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Models of risk and return, market efficiency, and financial instrument valuation.",
+        "Factor models, derivatives pricing, market microstructure, portfolio theory, fixed income."
+      ],
+      "explicitly_excludes": [
+        "Firm financing decisions (\u2192 Corporate Finance)",
+        "Banking and financial institutions (\u2192 Financial Intermediation & Banking)"
+      ]
+    },
+    {
+      "slug": "corporate-finance",
+      "name": "Corporate Finance",
+      "tagline": "How firms make financial decisions and are governed.",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Analysis of corporate investment, financing, and dividend policies.",
+        "Mergers & acquisitions (M&A), capital structure, corporate governance, venture capital."
+      ],
+      "explicitly_excludes": [
+        "Valuation of publicly traded securities (\u2192 Asset Pricing)",
+        "Regulation of financial institutions (\u2192 Financial Intermediation & Banking)"
+      ]
+    },
+    {
+      "slug": "macroeconomics",
+      "name": "Macroeconomics",
+      "tagline": "Analysis of entire economies: growth, business cycles, inflation, and unemployment.",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Models of economic growth, monetary and fiscal policy, and business cycles.",
+        "DSGE models, inflation dynamics, sovereign debt, aggregate labor market fluctuations."
+      ],
+      "explicitly_excludes": [
+        "International capital flows and exchange rates (\u2192 International Economics)",
+        "Individual labor market studies (\u2192 Labor Economics)"
+      ]
+    },
+    {
+      "slug": "development-economics",
+      "name": "Development Economics",
+      "tagline": "Economic transformation and welfare in low and middle-income countries.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Study of poverty, inequality, institutions, and growth in developing nations.",
+        "Randomized controlled trials (RCTs), foreign aid, microfinance, institutional quality."
+      ],
+      "explicitly_excludes": [
+        "Growth models for advanced economies (\u2192 Macroeconomics)",
+        "International trade policy (\u2192 International Economics)"
+      ]
+    },
+    {
+      "slug": "labor-economics",
+      "name": "Labor Economics",
+      "tagline": "The study of labor markets, wages, employment, and education.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Analysis of labor supply and demand, human capital, and wage determination.",
+        "Minimum wage effects, immigration, unemployment insurance, economics of education."
+      ],
+      "explicitly_excludes": [
+        "Aggregate unemployment dynamics (\u2192 Macroeconomics)",
+        "Social insurance program design (\u2192 Public Economics)"
+      ]
+    },
+    {
+      "slug": "public-economics",
+      "name": "Public Economics",
+      "tagline": "The role of government in the economy, focusing on taxation and spending.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Analysis of the effects of government taxation and expenditure.",
+        "Tax policy, social security, public goods, political economy, cost-benefit analysis."
+      ],
+      "explicitly_excludes": [
+        "Monetary and central bank policy (\u2192 Macroeconomics)",
+        "Antitrust and regulation of specific industries (\u2192 Industrial Organization)"
+      ]
+    },
+    {
+      "slug": "health-education-economics",
+      "name": "Health & Education Economics",
+      "tagline": "The economics of healthcare markets and human capital formation.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Analysis of health insurance, healthcare provision, and educational systems.",
+        "Returns to education, school choice, hospital competition, pharmaceutical pricing."
+      ],
+      "explicitly_excludes": [
+        "General social insurance like unemployment (\u2192 Public Economics)",
+        "General wage determination (\u2192 Labor Economics)"
+      ]
+    },
+    {
+      "slug": "behavioral-experimental-economics",
+      "name": "Behavioral & Experimental Economics",
+      "tagline": "Psychological foundations of economic decision-making, tested in labs and fields.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Models of bounded rationality, social preferences, and time-inconsistent behavior.",
+        "Prospect theory, nudges, lab experiments on cooperation, field experiments."
+      ],
+      "explicitly_excludes": [
+        "Standard rational-agent theory (\u2192 Microeconomic Theory)",
+        "Applied work that uses behavioral insights but focuses on a specific field (\u2192 e.g., Corporate Finance)"
+      ]
+    },
+    {
+      "slug": "industrial-organization",
+      "name": "Industrial Organization",
+      "tagline": "The study of firms, market structures, competition, and regulation.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Analysis of market power, strategic interaction between firms, and antitrust policy.",
+        "Price discrimination, auctions, platform economics, network effects, antitrust."
+      ],
+      "explicitly_excludes": [
+        "Firm's internal financing and investment decisions (\u2192 Corporate Finance)",
+        "Economy-wide competition and growth (\u2192 Macroeconomics)"
+      ]
+    },
+    {
+      "slug": "international-economics",
+      "name": "International Economics",
+      "tagline": "Economic interactions between countries, including trade and finance.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Analysis of international trade patterns, exchange rates, and capital flows.",
+        "Trade agreements, tariffs, currency crises, balance of payments, globalization."
+      ],
+      "explicitly_excludes": [
+        "Economic development of specific countries (\u2192 Development Economics)",
+        "Domestic monetary/fiscal policy (\u2192 Macroeconomics)"
+      ]
+    },
+    {
+      "slug": "financial-intermediation-banking",
+      "name": "Financial Intermediation & Banking",
+      "tagline": "The role of banks and other financial institutions in the economy.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Study of banks, credit markets, financial crises, and regulation.",
+        "Bank runs, credit rationing, systemic risk, central banking operations, shadow banking."
+      ],
+      "explicitly_excludes": [
+        "Pricing of financial assets traded in markets (\u2192 Asset Pricing)",
+        "Non-financial corporate finance (\u2192 Corporate Finance)"
+      ]
+    },
+    {
+      "slug": "environmental-energy-economics",
+      "name": "Environmental & Energy Economics",
+      "tagline": "Economic approaches to pollution, natural resources, and energy markets.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Analysis of environmental policy, resource management, and energy systems.",
+        "Carbon pricing, climate change economics, renewable energy, electricity markets."
+      ],
+      "explicitly_excludes": [
+        "General government taxation and spending (\u2192 Public Economics)",
+        "International treaties on non-environmental topics (\u2192 International Economics)"
+      ]
+    },
+    {
+      "slug": "econometrics-quantitative-methods",
+      "name": "Econometrics & Quantitative Methods",
+      "tagline": "Development and application of statistical methods for economic data.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Creation and analysis of statistical tools for estimating economic relationships.",
+        "Time series analysis, causal inference, instrumental variables, machine learning methods."
+      ],
+      "explicitly_excludes": [
+        "Papers that apply existing methods to a substantive question (\u2192 the relevant applied field)",
+        "Purely mathematical models without statistical application (\u2192 Microeconomic Theory)"
+      ]
+    },
+    {
+      "slug": "microeconomic-theory",
+      "name": "Microeconomic Theory",
+      "tagline": "The mathematical foundations of economic behavior and market equilibrium.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Formal modeling of individual choice, strategic interaction, and market design.",
+        "Game theory, mechanism design, general equilibrium theory, contract theory."
+      ],
+      "explicitly_excludes": [
+        "Psychologically-based models of choice (\u2192 Behavioral & Experimental Economics)",
+        "Statistical methods (\u2192 Econometrics & Quantitative Methods)"
+      ]
+    },
+    {
+      "slug": "accounting",
+      "name": "Accounting",
+      "tagline": "The measurement, processing, and communication of financial information.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Research on financial reporting, disclosure, auditing, and managerial accounting.",
+        "Earnings management, information content of disclosures, auditor independence."
+      ],
+      "explicitly_excludes": [
+        "Corporate investment and financing decisions (\u2192 Corporate Finance)",
+        "The effect of news on stock prices (\u2192 Asset Pricing)"
+      ]
+    },
+    {
+      "slug": "economic-history",
+      "name": "Economic History",
+      "tagline": "Using historical data and events to understand long-run economic processes.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Quantitative analysis of historical economic phenomena and institutions.",
+        "The Great Depression, industrial revolution, historical origins of institutions."
+      ],
+      "explicitly_excludes": [
+        "Analysis of current economic development (\u2192 Development Economics)",
+        "History of economic thought (considered out of scope for this app)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Urban & Real Estate Economics was considered but ultimately merged; urban papers often fit in Public or Labor, while real estate finance fits in Asset Pricing.",
+    "Law & Economics was excluded as it is highly interdisciplinary and papers often fit well into Public Economics or Industrial Organization.",
+    "Quantitative Finance (q-fin) was not made a separate category, as most academic work in this area is covered by Asset Pricing and Econometrics."
+  ]
+}

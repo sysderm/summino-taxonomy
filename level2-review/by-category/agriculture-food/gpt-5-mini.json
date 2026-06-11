@@ -1,0 +1,211 @@
+{
+  "level1_slug": "agriculture-food",
+  "level1_name": "Agriculture & Food Science",
+  "count": 14,
+  "rationale": "I split Agriculture & Food Science into 14 practitioner-facing subspecialties to balance breadth (crops, animals, soils, food, water, tech) with actionable granularity for readers. I separated applied breeding/genetics from general agronomy because breeders and field agronomists read different literatures, and I split food science from food safety/microbiology for similar reasons. I avoided creating ultra-narrow niches (e.g., individual commodity specialities like 'soybean physiology') and did not include plant molecular biology or food policy (those belong to Biology and Public Health, respectively). Some boundaries are judgment calls \u2014 e.g., placing irrigation under its own card versus inside soil/agronomy \u2014 but I favored distinct operational disciplines that working professionals would use when introducing themselves.",
+  "subspecialties": [
+    {
+      "slug": "agronomy-crop-science",
+      "name": "Agronomy & Crop Science",
+      "tagline": "Field crop management, yield optimization, cropping systems",
+      "audience_pct_within_level1": 18.0,
+      "covers": [
+        "Applied crop production, rotations, nutrient management, weed management",
+        "Examples: cereal crop systems, fertilizer trials, tillage and row-spacing studies"
+      ],
+      "explicitly_excludes": [
+        "crop-breeding-genetics \u2014 breeding/genetics and molecular trait development",
+        "soil-science-fertility \u2014 in-depth pedology and soil chemistry studies"
+      ]
+    },
+    {
+      "slug": "crop-breeding-genetics",
+      "name": "Crop Breeding & Genetics",
+      "tagline": "Plant breeding, genetic improvement, marker-assisted selection",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Quantitative & molecular breeding, GWAS for agronomic traits, cultivar development",
+        "Examples: QTL mapping for drought tolerance, genomic selection trials"
+      ],
+      "explicitly_excludes": [
+        "plant-pathology-protection \u2014 pathogen biology and control studies",
+        "plant-biology-mechanism (Biology) \u2014 basic cellular/molecular plant physiology"
+      ]
+    },
+    {
+      "slug": "plant-pathology-protection",
+      "name": "Plant Pathology & Protection",
+      "tagline": "Crop diseases, diagnostics, integrated disease management",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Epidemiology, diagnostics, fungicide/biocontrol trials, quarantine pathogens",
+        "Examples: rust disease surveys, pathogen resistance screening, disease modeling"
+      ],
+      "explicitly_excludes": [
+        "entomology-pest-management \u2014 insect pests and biological control",
+        "plant-biology-mechanism (Biology) \u2014 basic host\u2013pathogen molecular mechanism"
+      ]
+    },
+    {
+      "slug": "soil-science-fertility",
+      "name": "Soil Science & Fertility",
+      "tagline": "Soil health, chemistry, nutrient cycling, fertility management",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Pedology, nutrient dynamics, carbon sequestration, amendment evaluations",
+        "Examples: soil organic matter studies, fertilizer fate, erosion control research"
+      ],
+      "explicitly_excludes": [
+        "irrigation-water-management \u2014 hydrology and irrigation system design",
+        "agronomy-crop-science \u2014 field crop management trials (operational focus)"
+      ]
+    },
+    {
+      "slug": "entomology-pest-management",
+      "name": "Entomology & Pest Management",
+      "tagline": "Insect pests, integrated pest management, biological control",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Pest ecology, monitoring, insecticide trials, IPM strategies, pollinator studies",
+        "Examples: pest thresholds, trap designs, biological control agent releases"
+      ],
+      "explicitly_excludes": [
+        "plant-pathology-protection \u2014 non-insect pathogens and disease control",
+        "agronomy-crop-science \u2014 operational crop management where pest control is one component"
+      ]
+    },
+    {
+      "slug": "horticulture-fruit-vegetable-production",
+      "name": "Horticulture & Fruit/Vegetable Production",
+      "tagline": "High-value crops, orchards, greenhouse and horticultural systems",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Cultivation and management of fruits, vegetables, ornamentals, greenhouse systems",
+        "Examples: greenhouse nutrient solutions, pruning trials, postharvest handling of produce"
+      ],
+      "explicitly_excludes": [
+        "postharvest-supply-chains \u2014 downstream handling, logistics and storage",
+        "plant-breeding-genetics \u2014 breeding of horticultural crops (goes to breeders)"
+      ]
+    },
+    {
+      "slug": "animal-science",
+      "name": "Animal Science",
+      "tagline": "Livestock production, nutrition, welfare, breeding",
+      "audience_pct_within_level1": 13.0,
+      "covers": [
+        "Ruminant and monogastric production systems, feed studies, reproduction, welfare",
+        "Examples: feed efficiency trials, housing systems, herd management research"
+      ],
+      "explicitly_excludes": [
+        "veterinary-medicine (not included) \u2014 clinical animal disease treatment (goes to Veterinary or Medicine)",
+        "aquaculture-fisheries \u2014 aquatic animal production"
+      ]
+    },
+    {
+      "slug": "aquaculture-fisheries",
+      "name": "Aquaculture & Fisheries",
+      "tagline": "Aquatic farming, fish health, breeding, and fisheries management",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Aquaculture production systems, feed, disease control, stock assessment",
+        "Examples: recirculating aquaculture studies, hatchery breeding, wild fishery assessments"
+      ],
+      "explicitly_excludes": [
+        "animal-science \u2014 terrestrial livestock production",
+        "marine-biology (Biology) \u2014 basic marine ecosystem research"
+      ]
+    },
+    {
+      "slug": "agricultural-engineering",
+      "name": "Agricultural Engineering",
+      "tagline": "Farm machinery, structures, mechanization and postharvest tech",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Machine design, storage structures, drying technologies, mechanization, power systems",
+        "Examples: combine harvester design, grain drying improvements, on-farm processing equipment"
+      ],
+      "explicitly_excludes": [
+        "precision-agriculture-remote-sensing \u2014 sensing/analytics and decision-support tech",
+        "postharvest-supply-chains \u2014 logistics and cold-chain management"
+      ]
+    },
+    {
+      "slug": "irrigation-water-management",
+      "name": "Irrigation & Water Management",
+      "tagline": "Water supply, irrigation systems, watershed and drainage management",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Irrigation design, scheduling, water use efficiency, drainage, salinity management",
+        "Examples: drip irrigation trials, watershed modeling for agricultural runoff"
+      ],
+      "explicitly_excludes": [
+        "soil-science-fertility \u2014 broader pedology and soil chemistry studies",
+        "agricultural-engineering \u2014 hardware design work (if primarily engineering-focused)"
+      ]
+    },
+    {
+      "slug": "precision-agriculture-remote-sensing",
+      "name": "Precision Agriculture & Remote Sensing",
+      "tagline": "Sensing, GIS, robotics, data-driven farm decision support",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Drones, satellite remote sensing, sensor networks, farm data analytics, robotics",
+        "Examples: variable-rate application algorithms, yield mapping, machine-learning for crop stress"
+      ],
+      "explicitly_excludes": [
+        "agricultural-engineering \u2014 mechanical design of farm machinery (hardware-centric)",
+        "computer-science (CS) \u2014 algorithm-only papers without agricultural application"
+      ]
+    },
+    {
+      "slug": "food-science-technology",
+      "name": "Food Science & Technology",
+      "tagline": "Food processing, formulation, product development, quality",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Food chemistry, processing technologies, shelf-life extension, novel foods",
+        "Examples: emulsification methods, plant-protein texturization, sensory analysis of new products"
+      ],
+      "explicitly-excludes": [
+        "food-safety-microbiology \u2014 microbiological hazard studies and pathogen control",
+        "nutrition-science \u2014 human dietary intervention and metabolism studies"
+      ]
+    },
+    {
+      "slug": "food-safety-microbiology",
+      "name": "Food Safety & Microbiology",
+      "tagline": "Foodborne pathogens, contamination control, spoilage microbiology",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Microbial hazards, HACCP, detection methods, thermal processing validation",
+        "Examples: Listeria control in plants, pathogen detection assays, shelf-life microbiology"
+      ],
+      "explicitly-excludes": [
+        "food-science-technology \u2014 non-microbial processing or formulation work",
+        "public-health-food-policy (Public Health) \u2014 policy/regulatory analyses"
+      ]
+    },
+    {
+      "slug": "nutrition-science",
+      "name": "Nutrition Science",
+      "tagline": "Human and animal nutrition, dietary studies, feed formulation",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Nutrient requirements, feed evaluation, human dietary intervention related to food composition",
+        "Examples: micronutrient bioavailability trials, livestock feed digestibility studies"
+      ],
+      "explicitly-excludes": [
+        "public-health-nutrition (Public Health) \u2014 population-level dietary policy studies",
+        "biomedical-nutrition (Biology/Medicine) \u2014 molecular nutrition mechanism research"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Commodity-specific cards (e.g., 'Wheat Science', 'Soybean Research') were considered but rejected to avoid proliferation and to keep the grid MECE and broadly usable.",
+    "Veterinary clinical medicine is closely adjacent to Animal Science but was excluded because clinical treatment and pathology belong under Veterinary/Medicine rather than Agriculture & Food Science.",
+    "Plant molecular biology and mechanistic cellular plant studies were deliberately excluded and redirected to Biology to keep this level applied and practitioner-focused.",
+    "Food policy and population nutrition policy were excluded and routed to Public Health despite overlap with food systems research.",
+    "Some engineers and computer scientists prefer 'Agri-Informatics' or 'Food Engineering' labels; I used 'Precision Agriculture & Remote Sensing' and 'Agricultural Engineering' to match common practitioner self-identifiers."
+  ]
+}

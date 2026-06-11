@@ -1,0 +1,211 @@
+{
+  "level1_slug": "chemistry",
+  "level1_name": "Chemistry",
+  "count": 14,
+  "rationale": "I chose 14 subspecialties to balance breadth (covering major practitioner identities) with pickability on a single grid. The list mixes discipline-based (Organic, Inorganic, Physical), technique/approach (Analytical, Spectroscopy, Computational), application-driven (Medicinal, Environmental, Polymer), and cross-cutting specialties (Catalysis, Organometallic, Electrochemistry, Supramolecular, Synthetic Methods) so most working chemists will see a single best fitting label. I deliberately did not create many microscopic splits (e.g., separate vibrational vs. NMR spectroscopists) to avoid overly thin categories, nor did I fold chemistry interfacing strongly with other Level\u20111 categories (solid-state/electronic materials, biology-focused chemical biology) into this list \u2014 those go to Materials Science or Biology. A few borderline splits (Synthetic Methods vs. Organic Chemistry; Spectroscopy vs. Analytical Chemistry) were resolved by prioritizing how researchers self-identify in papers and lab groups: method-focused groups listed as \u201cSynthetic Chemistry\u201d or \u201cMethodology,\u201d whereas instrument/measurement-focused groups often call themselves \u201cAnalytical\u201d or \u201cSpectroscopy.\u201d",
+  "subspecialties": [
+    {
+      "slug": "organic-chemistry",
+      "name": "Organic Chemistry",
+      "tagline": "Structure, mechanism and synthesis of carbon\u2011based molecules",
+      "audience_pct_within_level1": 17.0,
+      "covers": [
+        "reaction mechanisms, total synthesis, functional group transformations",
+        "examples: natural product synthesis, stereoselective methods, C\u2013H functionalization"
+      ],
+      "explicitly_excludes": [
+        "Medicinal Chemistry \u2014 drug discovery/ADME-focused work",
+        "Synthetic Methods \u2014 methodology papers focused on general reaction platforms"
+      ]
+    },
+    {
+      "slug": "physical-chemistry",
+      "name": "Physical Chemistry",
+      "tagline": "Thermodynamics, kinetics, spectroscopy, and molecular-scale theory",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "chemical kinetics, statistical thermodynamics, surface dynamics, ultrafast processes",
+        "examples: reaction dynamics, phase behavior, charge\u2011transfer studies"
+      ],
+      "explicitly_excludes": [
+        "Computational Chemistry \u2014 large-scale modeling/simulation focused work",
+        "Spectroscopy \u2014 instrument- or technique-centric spectroscopy papers"
+      ]
+    },
+    {
+      "slug": "inorganic-chemistry",
+      "name": "Inorganic Chemistry",
+      "tagline": "Spectroscopy, bonding and reactivity of non\u2011organic elements and complexes",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "coordination chemistry, main\u2011group and transition\u2011metal compounds, solid complexes (non\u2011electronic materials)",
+        "examples: new metal complexes, cluster chemistry, main\u2011group reactivity"
+      ],
+      "explicitly_excludes": [
+        "Materials Chemistry/Materials Science \u2014 solid\u2011state electronic materials and device-focused work",
+        "Organometallic Chemistry \u2014 when the practitioner identity is organometallic"
+      ]
+    },
+    {
+      "slug": "analytical-chemistry",
+      "name": "Analytical Chemistry",
+      "tagline": "Measurement science, methods and instrumentation for chemical analysis",
+      "audience_pct_within_level1": 13.0,
+      "covers": [
+        "methods for quantification, sample preparation, chromatography and hyphenated techniques",
+        "examples: method validation, sensors, mass spectrometry workflows"
+      ],
+      "explicitly_excludes": [
+        "Spectroscopy \u2014 fundamental spectroscopy technique development when authors self\u2011identify as spectroscopists",
+        "Environmental Chemistry \u2014 application of analytical methods to environmental monitoring"
+      ]
+    },
+    {
+      "slug": "spectroscopy-and-instrumentation",
+      "name": "Spectroscopy",
+      "tagline": "Development and application of spectroscopic and instrument techniques",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "NMR, IR, Raman, UV\u2011Vis, EPR, X\u2011ray spectroscopy, and instrument development",
+        "examples: new pulse sequences, single\u2011molecule fluorescence setups, synchrotron techniques"
+      ],
+      "explicitly_excludes": [
+        "Analytical Chemistry \u2014 measurement\u2011focused method papers that position themselves as analytical",
+        "Physical Chemistry \u2014 spectroscopy used purely for physical dynamics interpretation"
+      ]
+    },
+    {
+      "slug": "computational-chemistry",
+      "name": "Computational Chemistry",
+      "tagline": "Modeling, simulation and theoretical chemistry using computation",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "quantum chemistry, molecular dynamics, cheminformatics and force\u2011field development",
+        "examples: DFT studies, free\u2011energy simulations, machine\u2011learning potentials"
+      ],
+      "explicitly_excludes": [
+        "Physical Chemistry \u2014 theory-driven experimental physical chemistry papers",
+        "Medicinal Chemistry \u2014 computational work specifically for drug design projects"
+      ]
+    },
+    {
+      "slug": "catalysis",
+      "name": "Catalysis",
+      "tagline": "Homogeneous and heterogeneous catalysis, mechanism and catalyst design",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "catalyst discovery, mechanistic studies, turnover optimization, and scale\u2011up considerations",
+        "examples: supported catalysts, organocatalysis, electrocatalysis (if primarily catalyst\u2011focused)"
+      ],
+      "explicitly_excludes": [
+        "Electrochemistry \u2014 electrochemical mechanism/device papers where electrode processes are the focus",
+        "Organometallic Chemistry \u2014 catalyst ligand design when framed as organometallic science"
+      ]
+    },
+    {
+      "slug": "organometallic-chemistry",
+      "name": "Organometallic Chemistry",
+      "tagline": "Chemistry of metal\u2013carbon bonds and metal complex reactivity",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "synthesis and reactivity of metal\u2013carbon containing species, catalyst precursors",
+        "examples: metal carbenes, metal\u2013ligand cooperative systems, bond activation"
+      ],
+      "explicitly_excludes": [
+        "Catalysis \u2014 applications of organometallic complexes as catalysts that are presented as catalysis work",
+        "Inorganic Chemistry \u2014 non\u2011carbon\u2011based inorganic work"
+      ]
+    },
+    {
+      "slug": "polymer-chemistry",
+      "name": "Polymer Chemistry",
+      "tagline": "Synthesis, characterization and properties of polymers and macromolecules",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "polymerization methods, macromolecular architecture, characterization and properties",
+        "examples: block copolymers, stimuli\u2011responsive polymers, polymerization catalysis"
+      ],
+      "explicitly_excludes": [
+        "Materials Chemistry/Materials Science \u2014 device or bulk materials engineering and solid\u2011state electronics",
+        "Analytical Chemistry \u2014 polymer analysis papers framed as analytical method development"
+      ]
+    },
+    {
+      "slug": "electrochemistry",
+      "name": "Electrochemistry",
+      "tagline": "Redox chemistry, batteries, electrocatalysis and electroanalytical methods",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "fundamental electrode processes, battery chemistry, electrocatalysis, and sensors",
+        "examples: Li\u2011ion battery chemistry, CO2 electroreduction, voltammetry technique development"
+      ],
+      "explicitly_excludes": [
+        "Materials Chemistry/Materials Science \u2014 electrode materials and device engineering when primarily materials-driven",
+        "Catalysis \u2014 non\u2011electrochemical catalysis work"
+      ]
+    },
+    {
+      "slug": "supramolecular-chemistry",
+      "name": "Supramolecular Chemistry",
+      "tagline": "Noncovalent assemblies, host\u2013guest systems and molecular self\u2011assembly",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "self\u2011assembly, host\u2013guest chemistry, molecular recognition, stimuli\u2011responsive assemblies",
+        "examples: rotaxanes, host\u2013guest sensing, dynamic covalent systems (when focused on noncovalent design)"
+      ],
+      "explicitly_excludes": [
+        "Polymer Chemistry \u2014 self\u2011assembled polymer systems when practitioner identity is polymer science",
+        "Chemical Biology/Biology \u2014 biological receptor/biomolecular recognition studies"
+      ]
+    },
+    {
+      "slug": "medicinal-chemistry",
+      "name": "Medicinal Chemistry",
+      "tagline": "Small\u2011molecule design, optimization and preclinical chemistry for drug discovery",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "lead optimization, SAR, ADME/PK chemistry, and chemical probes",
+        "examples: synthesis of drug candidates, metabolic stability studies, bioisosteric replacements"
+      ],
+      "explicitly_excludes": [
+        "Biology/Chemical Biology \u2014 biology-led mechanism-of-action studies and in vivo biology",
+        "Computational Chemistry \u2014 in silico ADME or docking when presented principally as computational work"
+      ]
+    },
+    {
+      "slug": "environmental-chemistry",
+      "name": "Environmental Chemistry",
+      "tagline": "Fate, transport and chemical impacts in the environment and remediation",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "pollutant fate, atmospheric chemistry, remediation chemistry, and ecotoxicology\u2011related measurements",
+        "examples: microplastics chemistry, pollutant degradation pathways, water treatment chemistry"
+      ],
+      "explicitly_excludes": [
+        "Analytical Chemistry \u2014 purely method development papers for environmental sensing framed as analytical",
+        "Biology \u2014 ecological/organism-level impact studies that belong to Biology"
+      ]
+    },
+    {
+      "slug": "synthetic-methods",
+      "name": "Synthetic Methods",
+      "tagline": "General reaction platforms, reagents and methodology development",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "new reaction development, reagent design, and broadly applicable synthetic toolkits",
+        "examples: new cross\u2011coupling methods, reagent platform papers, scalable synthetic protocols"
+      ],
+      "explicitly_excludes": [
+        "Organic Chemistry \u2014 project\u2011specific synthetic applications or total synthesis papers",
+        "Catalysis \u2014 method papers framed primarily as catalysis rather than general synthetic tools"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Chemical Biology was considered but routed to Biology because many papers are biology\u2011centric (mechanism in cells, biomolecular targets) and practitioners identify as chemical biologists or biochemists.",
+    "Materials Chemistry / solid\u2011state and electronic materials intentionally excluded \u2014 those belong to Materials Science to avoid conflating device/materials engineering with core chemical science.",
+    "Spectroscopy vs. Analytical split is borderline: some groups identify as spectroscopists while others position the work as analytical method development; I split them based on author identity and framing.",
+    "Synthetic Methods overlaps with Organic Chemistry and Catalysis; I kept it separate for groups that present broadly applicable methodology rather than target\u2011oriented synthesis.",
+    "Biomolecular/biochemistry work that focuses on enzymology or metabolic chemistry was debated \u2014 those that emphasize biological function should go to Biology, whereas purely chemical mechanistic enzymology papers that identify as chemistry remain in Chemistry."
+  ]
+}

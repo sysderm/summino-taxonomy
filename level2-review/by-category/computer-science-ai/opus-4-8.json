@@ -1,0 +1,142 @@
+{
+  "level1_slug": "computer-science-ai",
+  "level1_name": "Computer Science & AI",
+  "count": 16,
+  "rationale": "CS & AI is 11% of all papers, second only to Medicine. The community has stable, sharp subdisciplines and people identify strongly with them ('I'm an NLP person', 'I'm a systems person'). I anchored on arXiv's cs.* categories as the de facto identity map for the field but collapsed where the picker should — e.g. arXiv has cs.LG, cs.AI, cs.CL, cs.CV, cs.RO as separate, but a level-2 picker doesn't need that granularity (all are level-3 children of AI/ML). I split Theory of Computation from Algorithms because they're separate identities (a TOC researcher proves things, an algorithms researcher engineers things). I kept Robotics here even though Electrical Engineering also has a robotics-EE — the CS-flavored robotics (perception, planning, learning) lives here; the hardware-flavored robotics (actuation, control) lives in EE. I added AI Safety/Alignment as its own card because it's exploded in identity over the past 3 years and most papers self-identify there rather than into ML.",
+  "subspecialties": [
+    {
+      "slug": "machine-learning",
+      "name": "Machine Learning",
+      "tagline": "Algorithms, optimization, deep learning, foundations.",
+      "audience_pct_within_level1": 22,
+      "covers": ["supervised/unsupervised/RL methods, optimization theory, deep learning architecture, ML theory, scaling laws", "NeurIPS, ICML, ICLR core ML papers, arXiv cs.LG"],
+      "explicitly_excludes": ["NLP-specific → NLP", "vision-specific → Computer Vision", "AI safety/policy → AI Safety & Alignment"]
+    },
+    {
+      "slug": "natural-language-processing",
+      "name": "Natural Language Processing",
+      "tagline": "Language models, dialogue, translation, semantics.",
+      "audience_pct_within_level1": 12,
+      "covers": ["LLM training and evaluation, dialogue systems, machine translation, semantic parsing, low-resource NLP, multilingual models, RAG", "ACL, EMNLP, NAACL, arXiv cs.CL"],
+      "explicitly_excludes": ["speech recognition acoustic modeling → Electrical Engineering"]
+    },
+    {
+      "slug": "computer-vision",
+      "name": "Computer Vision",
+      "tagline": "Detection, segmentation, generation, 3D, video.",
+      "audience_pct_within_level1": 11,
+      "covers": ["image classification/detection/segmentation, generative vision (diffusion, GANs), video understanding, 3D vision, neural rendering, medical imaging methods", "CVPR, ICCV, ECCV, arXiv cs.CV"],
+      "explicitly_excludes": ["clinical validation of imaging models → Medicine", "computational photography optics → Physics & Astronomy"]
+    },
+    {
+      "slug": "robotics",
+      "name": "Robotics",
+      "tagline": "Manipulation, locomotion, perception, planning, learning.",
+      "audience_pct_within_level1": 5,
+      "covers": ["robot learning, manipulation, locomotion, SLAM, motion planning, multi-robot systems, embodied AI", "ICRA, IROS, RSS, CoRL, arXiv cs.RO"],
+      "explicitly_excludes": ["robot hardware / actuators → Electrical Engineering or Mechanical Engineering"]
+    },
+    {
+      "slug": "ai-safety-alignment",
+      "name": "AI Safety & Alignment",
+      "tagline": "Alignment, interpretability, evals, governance.",
+      "audience_pct_within_level1": 4,
+      "covers": ["alignment research, mechanistic interpretability, evals, RLHF and beyond, AI governance, safety benchmarks, model welfare"],
+      "explicitly_excludes": ["broader AI policy → Social Sciences"]
+    },
+    {
+      "slug": "systems",
+      "name": "Systems",
+      "tagline": "Operating systems, distributed systems, datacenter, networks.",
+      "audience_pct_within_level1": 7,
+      "covers": ["OS, distributed systems, networking, storage, datacenter computing, edge computing, virtualization, performance engineering", "OSDI, SOSP, NSDI, ATC, arXiv cs.DC, cs.NI, cs.OS"],
+      "explicitly_excludes": ["network theory / graph algorithms → Theory of Computation"]
+    },
+    {
+      "slug": "security-cryptography",
+      "name": "Security & Cryptography",
+      "tagline": "Crypto, network security, privacy, formal methods for security.",
+      "audience_pct_within_level1": 5,
+      "covers": ["applied cryptography, post-quantum crypto, network and systems security, privacy (DP, HE), web security, side channels, blockchain protocols", "S&P, USENIX Sec, CCS, NDSS, CRYPTO"],
+      "explicitly_excludes": ["quantum information physics → Physics & Astronomy"]
+    },
+    {
+      "slug": "theory-of-computation",
+      "name": "Theory of Computation",
+      "tagline": "Complexity, algorithms, logic, computational geometry.",
+      "audience_pct_within_level1": 4,
+      "covers": ["complexity theory, computational learning theory, algorithm design and analysis, computational geometry, combinatorial optimization theory", "STOC, FOCS, SODA, ICALP"],
+      "explicitly_excludes": ["applied optimization → Statistics & Data Science"]
+    },
+    {
+      "slug": "programming-languages-software-engineering",
+      "name": "Programming Languages & Software Engineering",
+      "tagline": "Types, compilers, verification, SE methodology.",
+      "audience_pct_within_level1": 4,
+      "covers": ["PL design and theory, type systems, compilers, formal verification, software engineering methodology, software testing", "POPL, PLDI, ICSE, FSE, OOPSLA"],
+      "explicitly_excludes": ["model-checking applied to security → Security & Cryptography"]
+    },
+    {
+      "slug": "databases-information-retrieval",
+      "name": "Databases & Information Retrieval",
+      "tagline": "DB systems, query optimization, search, vector indexes.",
+      "audience_pct_within_level1": 3,
+      "covers": ["database systems, query processing, transaction systems, information retrieval, search engines, vector databases, knowledge graphs", "SIGMOD, VLDB, ICDE, SIGIR"],
+      "explicitly_excludes": ["semantic search method via LLMs → NLP"]
+    },
+    {
+      "slug": "human-computer-interaction",
+      "name": "Human-Computer Interaction",
+      "tagline": "Interaction design, accessibility, social computing, AR/VR.",
+      "audience_pct_within_level1": 4,
+      "covers": ["interaction design, accessibility, social computing, AR/VR/XR, CSCW, ubiquitous computing, HCI of AI", "CHI, UIST, CSCW"],
+      "explicitly_excludes": ["psychology methods of interaction → Brain & Cognitive Sciences"]
+    },
+    {
+      "slug": "computational-science",
+      "name": "Computational Science",
+      "tagline": "Numerical methods, scientific computing, simulation, HPC.",
+      "audience_pct_within_level1": 3,
+      "covers": ["numerical analysis, PDE solvers, scientific computing, high-performance computing, simulation methods, computational physics methods", "SISC, JCP, SC conference"],
+      "explicitly_excludes": ["applied science from a single domain → that domain"]
+    },
+    {
+      "slug": "ai-for-science",
+      "name": "AI for Science",
+      "tagline": "ML applied to chemistry, biology, physics, materials.",
+      "audience_pct_within_level1": 4,
+      "covers": ["ML for chemistry, materials, biology, physics; generative models for science; neural ODEs for science; AI4Sci foundation models", "Nat Mach Intell AI4Sci papers"],
+      "explicitly_excludes": ["pure ML methodology → Machine Learning", "domain-validation papers → that domain"]
+    },
+    {
+      "slug": "computer-architecture-hardware",
+      "name": "Computer Architecture & Hardware",
+      "tagline": "Chip design, ML accelerators, memory, hardware-software co-design.",
+      "audience_pct_within_level1": 3,
+      "covers": ["computer architecture, GPU/TPU/accelerator design, memory systems, hardware-software co-design, energy-efficient computing", "ISCA, MICRO, HPCA, ASPLOS"],
+      "explicitly_excludes": ["EE-side semiconductor physics → Electrical Engineering"]
+    },
+    {
+      "slug": "graphics-visualization",
+      "name": "Graphics & Visualization",
+      "tagline": "Rendering, simulation, geometry, visualization for data.",
+      "audience_pct_within_level1": 2,
+      "covers": ["rendering, geometry processing, animation, physics-based simulation for graphics, data visualization, visual analytics", "SIGGRAPH, IEEE Vis, EuroVis"],
+      "explicitly_excludes": ["neural rendering as vision → Computer Vision"]
+    },
+    {
+      "slug": "computing-society",
+      "name": "Computing & Society",
+      "tagline": "FAccT, computing ethics, digital labor, policy, education.",
+      "audience_pct_within_level1": 2,
+      "covers": ["fairness, accountability, transparency (FAccT), algorithmic bias, computing ethics, computer science education, digital labor studies"],
+      "explicitly_excludes": ["AI safety technical research → AI Safety & Alignment", "policy broadly → Social Sciences"]
+    }
+  ],
+  "uncovered_concerns": [
+    "Considered separating Reinforcement Learning from ML — RL is huge and identity-distinct, but it'd hollow ML; left as RL-under-ML for the picker, level 3 can split.",
+    "Considered Quantum Computing — most of it lives in Physics & Astronomy (quantum info as physics) but quantum algorithms / quantum complexity is real CS. Folded under Theory of Computation as quantum algorithms; pure quantum hardware → Physics.",
+    "Considered Multi-Agent Systems — too small at level 2, folds under ML or Robotics.",
+    "Considered Recommender Systems / Ads ML — landed under ML; identity is weaker than the other splits."
+  ]
+}

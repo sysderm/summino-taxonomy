@@ -1,0 +1,210 @@
+{
+  "level1_slug": "public-health",
+  "level1_name": "Public Health & Epidemiology",
+  "count": 14,
+  "rationale": "I split Public Health & Epidemiology into 14 practitioner-facing subspecialties to balance breadth (policy, environment, global) with methodologic depth (epidemiology, biostatistics, surveillance) while keeping cards focused and discoverable. I kept large, commonly\u2011used professional labels (e.g., Health Policy, Biostatistics, Global Health) rather than idiosyncratic academic names so users immediately recognize their field. I deliberately separated methodological areas (Epidemiology, Biostatistics, Surveillance) from application areas (Infectious, Chronic, Maternal & Child) to make mapping papers unambiguous. Some borderline splits \u2014 e.g., Health Services Research vs Implementation Science \u2014 were retained as distinct because practitioners introduce themselves that way and because their paper audiences and methods differ.",
+  "subspecialties": [
+    {
+      "slug": "infectious-disease-epidemiology",
+      "name": "Infectious Disease Epidemiology",
+      "tagline": "Transmission, outbreaks, vaccines, pathogen surveillance and modeling",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Epidemiology of infections, outbreak investigations, vaccine effectiveness studies",
+        "Examples: COVID/SARS/MERS studies, influenza surveillance, antimicrobial resistance spread"
+      ],
+      "explicitly_excludes": [
+        "surveillance-and-informatics \u2014 routine public health surveillance infrastructure (see that category)",
+        "biology \u2014 laboratory pathogen discovery and molecular virology"
+      ]
+    },
+    {
+      "slug": "chronic-disease-epidemiology",
+      "name": "Chronic Disease Epidemiology",
+      "tagline": "Population studies of noncommunicable diseases, risk factors and prevention",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Epidemiology of cardiovascular disease, diabetes, cancer, respiratory disease",
+        "Examples: cohort studies, risk-factor associations, screening and prevention trials"
+      ],
+      "explicitly_excludes": [
+        "maternal-and-child-health \u2014 papers focused primarily on MCH outcomes",
+        "health-services-research \u2014 system-level delivery/quality studies"
+      ]
+    },
+    {
+      "slug": "epidemiology-methods",
+      "name": "Epidemiology",
+      "tagline": "Study design, causal inference, exposure assessment, surveillance methods",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Methods papers on study design, bias, causal inference, exposure measurement",
+        "Examples: case\u2011control/crossover design papers, DAGs, measurement error methods"
+      ],
+      "explicitly_excludes": [
+        "biostatistics \u2014 mathematical/statistical methodology and algorithm development",
+        "implementation-science \u2014 adaptation/scale-up of interventions"
+      ]
+    },
+    {
+      "slug": "biostatistics",
+      "name": "Biostatistics",
+      "tagline": "Statistical methods, models, inference, and applied data analysis for health",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Development or application of statistical models, Bayesian methods, machine learning for public health",
+        "Examples: survival models, missing data techniques, causal machine\u2011learning methods"
+      ],
+      "explicitly_excludes": [
+        "epidemiology \u2014 study design and causal questions framed by epidemiologists",
+        "natural-language-processing / informatics work focusing on tools rather than statistics"
+      ]
+    },
+    {
+      "slug": "health-policy-and-management",
+      "name": "Health Policy",
+      "tagline": "Policy analysis, regulation, governance, health systems financing and management",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Policy evaluation, comparative health systems, legislation effects, governance research",
+        "Examples: analyses of insurance policy changes, national policy impact studies, regulatory evaluations"
+      ],
+      "explicitly_excludes": [
+        "health-economics \u2014 microeconomic evaluation and cost-effectiveness modeling",
+        "health-services-research \u2014 operational delivery and quality improvement unless policy\u2011focused"
+      ]
+    },
+    {
+      "slug": "global-health",
+      "name": "Global Health",
+      "tagline": "Health in low- and middle-income settings, global programs, equity and diplomacy",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Program evaluations, global burden studies, cross-country health system comparisons",
+        "Examples: implementation of malaria campaigns, global maternal health interventions, WHO/global surveillance analyses"
+      ],
+      "explicitly_excludes": [
+        "environmental-health \u2014 environment-driven exposures studied at local or global levels",
+        "health-policy \u2014 national/regional policy work not framed as global health"
+      ]
+    },
+    {
+      "slug": "environmental-health",
+      "name": "Environmental Health",
+      "tagline": "Environmental exposures, pollution, climate impacts, and exposure assessment",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Air/water/soil pollution, chemical exposures, climate change impacts on health",
+        "Examples: air pollution cohort studies, heatwave mortality, lead exposure assessments"
+      ],
+      "explicitly_excludes": [
+        "occupational-health \u2014 workplace exposures and occupational disease",
+        "biology \u2014 mechanistic toxicology studies in lab settings"
+      ]
+    },
+    {
+      "slug": "occupational-health",
+      "name": "Occupational Health",
+      "tagline": "Workplace exposures, occupational safety, and worker health surveillance",
+      "audience_pct_within_level1": 2.5,
+      "covers": [
+        "Occupational exposure assessments, workplace injury prevention, occupational epidemiology",
+        "Examples: silica/asbestos exposure studies, shift work and health outcomes, workplace intervention trials"
+      ],
+      "explicitly_excludes": [
+        "environmental-health \u2014 community environmental exposures outside workplace contexts",
+        "medicine \u2014 clinical occupational medicine case reports"
+      ]
+    },
+    {
+      "slug": "health-economics",
+      "name": "Health Economics",
+      "tagline": "Cost-effectiveness, economic evaluation, and resource allocation in health",
+      "audience_pct_within_level1": 6.5,
+      "covers": [
+        "Cost-effectiveness analyses, economic modeling, budget impact and resource allocation studies",
+        "Examples: QALY/CUA studies, valuation of interventions, health financing analyses"
+      ],
+      "explicitly_excludes": [
+        "health-policy \u2014 policy process and governance studies without microeconomic evaluation",
+        "biostatistics \u2014 purely statistical methodological papers"
+      ]
+    },
+    {
+      "slug": "implementation-science",
+      "name": "Implementation Science",
+      "tagline": "Scaling, adaptation, fidelity and real-world uptake of interventions",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Studies of implementation strategies, process evaluation, pragmatic trials and hybrid designs",
+        "Examples: scale-up of vaccination programs, fidelity assessments, implementation frameworks"
+      ],
+      "explicitly_excludes": [
+        "health-services-research \u2014 organizational delivery/performance studies unless focused on implementation methods",
+        "global-health \u2014 if primary framing is country/global programs rather than implementation science methods"
+      ]
+    },
+    {
+      "slug": "health-services-research",
+      "name": "Health Services Research",
+      "tagline": "Delivery, quality, access, equity, and organization of health care services",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Studies of care delivery, quality improvement, access disparities, hospital/system performance",
+        "Examples: care pathway evaluations, readmission reduction studies, workforce analyses"
+      ],
+      "explicitly_excludes": [
+        "health-policy \u2014 system-level policy analysis if framed as policy rather than delivery",
+        "implementation-science \u2014 research primarily about implementation strategies and methods"
+      ]
+    },
+    {
+      "slug": "maternal-and-child-health",
+      "name": "Maternal & Child Health",
+      "tagline": "Population research on pregnancy, newborns, children, and adolescent health",
+      "audience_pct_within_level1": 3.5,
+      "covers": [
+        "Perinatal epidemiology, pediatric population studies, nutrition and early-life interventions",
+        "Examples: antenatal care program evaluations, childhood vaccination coverage research"
+      ],
+      "explicitly_excludes": [
+        "neonatology/pediatrics (medicine) \u2014 clinical patient\u2011level care studies",
+        "global-health \u2014 when the primary frame is programmatic/global policy"
+      ]
+    },
+    {
+      "slug": "injury-and-violence-prevention",
+      "name": "Injury & Violence Prevention",
+      "tagline": "Unintentional injury, violence, injury epidemiology and prevention programs",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Road traffic injuries, domestic violence epidemiology, injury surveillance and prevention trials",
+        "Examples: seatbelt policy evaluations, community violence intervention studies"
+      ],
+      "explicitly_excludes": [
+        "occupational-health \u2014 workplace injuries studied within occupational settings",
+        "medicine \u2014 clinical trauma care research"
+      ]
+    },
+    {
+      "slug": "surveillance-and-informatics",
+      "name": "Public Health Surveillance & Informatics",
+      "tagline": "Disease surveillance systems, digital epidemiology, data platforms and ML for public health",
+      "audience_pct_within_level1": 6.5,
+      "covers": [
+        "Design and evaluation of surveillance systems, public health informatics, digital data streams and analytic platforms",
+        "Examples: syndromic surveillance, EHR-based surveillance, wastewater surveillance, ML for outbreak detection"
+      ],
+      "explicitly_excludes": [
+        "biostatistics \u2014 statistical method development not tied to surveillance systems",
+        "infectious-disease-epidemiology \u2014 outbreak science focused on pathogen dynamics rather than systems/tools"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Mental health epidemiology: considered as its own card but many papers sit within chronic disease or health services; kept under Chronic Disease or HSR to avoid fragmentation.",
+    "Digital health / mHealth: overlaps strongly with Surveillance & Informatics and Implementation Science; not split out to reduce card proliferation.",
+    "Equity & social determinants: intentionally not a separate subspecialty because it is a cross-cutting lens applied across multiple categories (policy, HSR, global, chronic).",
+    "Clinical/individual-patient care studies: explicitly routed to Medicine level\u20111 rather than kept here to preserve MECE."
+  ]
+}

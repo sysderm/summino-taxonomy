@@ -1,0 +1,181 @@
+{
+  "level1_slug": "brain-cognitive",
+  "level1_name": "Brain & Cognitive Sciences",
+  "count": 12,
+  "rationale": "This structure organizes the vast field of Brain & Cognitive Sciences into 12 subspecialties that reflect distinct research communities and their primary levels of analysis. The design balances traditional divisions in neuroscience (Systems, Cognitive, Computational) with major fields in psychology (Cognitive, Developmental, Clinical). I deliberately combined closely related areas like 'Social & Affective Neuroscience' and 'Cognitive Neurology & Neuropsychology' to create more robust categories and improve the MECE property. Foundational topics like 'Learning & Memory' and 'Perception & Action' are included as distinct categories because they represent large, coherent research communities that cut across multiple methodologies, providing a natural home for papers focused on these core processes.",
+  "subspecialties": [
+    {
+      "slug": "cognitive-neuroscience",
+      "name": "Cognitive Neuroscience",
+      "tagline": "The neural substrates of the human mind: perception, memory, and attention.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "The brain basis of mental processes in healthy humans",
+        "fMRI, EEG, MEG, TMS, and non-invasive brain stimulation studies"
+      ],
+      "explicitly_excludes": [
+        "Purely behavioral studies without neuroimaging \u2192 Cognitive Psychology",
+        "Invasive animal models \u2192 Systems & Behavioral Neuroscience"
+      ]
+    },
+    {
+      "slug": "systems-behavioral-neuroscience",
+      "name": "Systems & Behavioral Neuroscience",
+      "tagline": "Neural circuits, animal models, and the biological basis of behavior.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "How ensembles of neurons and circuits generate functions and behaviors",
+        "Animal models, electrophysiology, optogenetics, circuit tracing, calcium imaging"
+      ],
+      "explicitly_excludes": [
+        "Purely molecular or cellular mechanisms \u2192 Biology",
+        "Human cognition studies using non-invasive methods \u2192 Cognitive Neuroscience"
+      ]
+    },
+    {
+      "slug": "clinical-psychology-psychopathology",
+      "name": "Clinical Psychology & Psychopathology",
+      "tagline": "Understanding the cognitive and neural basis of mental disorders.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Cognitive, behavioral, and neural mechanisms of psychopathology",
+        "Anxiety, depression, psychosis, personality disorders, psychotherapy research"
+      ],
+      "explicitly_excludes": [
+        "Pharmacological treatments \u2192 Medicine",
+        "Cognitive deficits from acquired brain injury \u2192 Cognitive Neurology & Neuropsychology"
+      ]
+    },
+    {
+      "slug": "cognitive-psychology",
+      "name": "Cognitive Psychology",
+      "tagline": "The architecture of the mind: information processing, models, and behavior.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Models of mental processes like attention, memory, and reasoning",
+        "Behavioral experiments, reaction times, eye-tracking, computational cognitive modeling"
+      ],
+      "explicitly_excludes": [
+        "Direct measurement of brain activity \u2192 Cognitive Neuroscience",
+        "The influence of social context on behavior \u2192 Social & Affective Neuroscience"
+      ]
+    },
+    {
+      "slug": "developmental-science",
+      "name": "Developmental Science",
+      "tagline": "How the brain, mind, and behavior change across the human lifespan.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Cognitive, social, and neural development from infancy to aging",
+        "Longitudinal studies, infant cognition, adolescent brain development, typical and atypical development"
+      ],
+      "explicitly_excludes": [
+        "Diagnosis and treatment of developmental disorders \u2192 Clinical Psychology & Psychopathology",
+        "Focus on adult steady-state function \u2192 Cognitive Psychology or Cognitive Neuroscience"
+      ]
+    },
+    {
+      "slug": "social-affective-neuroscience",
+      "name": "Social & Affective Neuroscience",
+      "tagline": "The neural basis of emotion, motivation, and social interaction.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "How the brain processes emotions, empathy, morality, and social cues",
+        "Neurobiology of mood, stress, social cognition, theory of mind, intergroup relations"
+      ],
+      "explicitly_excludes": [
+        "Non-social cognition \u2192 Cognitive Neuroscience",
+        "Purely behavioral social psychology \u2192 often outside this L1"
+      ]
+    },
+    {
+      "slug": "computational-theoretical-neuroscience",
+      "name": "Computational & Theoretical Neuroscience",
+      "tagline": "Mathematical and computational models of the brain and cognition.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Modeling neural systems from single neurons to large-scale networks and behavior",
+        "Information theory, reinforcement learning, dynamical systems, neural coding"
+      ],
+      "explicitly_excludes": [
+        "Applying existing ML models to analyze data \u2192 the relevant empirical subspecialty",
+        "Purely behavioral modeling without neural grounding \u2192 Cognitive Psychology"
+      ]
+    },
+    {
+      "slug": "cognitive-neurology-neuropsychology",
+      "name": "Cognitive Neurology & Neuropsychology",
+      "tagline": "The impact of brain injury and neurological disease on cognition.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Cognitive and behavioral syndromes from stroke, dementia, TBI, and neurodegeneration",
+        "Patient-based cognitive assessment, lesion-symptom mapping, rehabilitation"
+      ],
+      "explicitly_excludes": [
+        "Mental disorders without clear neurological origin \u2192 Clinical Psychology & Psychopathology",
+        "Basic brain function in healthy subjects \u2192 Cognitive Neuroscience"
+      ]
+    },
+    {
+      "slug": "language-science",
+      "name": "Language Science",
+      "tagline": "The cognitive and neural basis of language and communication.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Language acquisition, comprehension, production, and representation",
+        "Psycholinguistics, neurolinguistics, speech perception, sign language"
+      ],
+      "explicitly_excludes": [
+        "Formal linguistics without cognitive/neural data \u2192 Humanities",
+        "Natural Language Processing (NLP) \u2192 Computer Science"
+      ]
+    },
+    {
+      "slug": "perception-action",
+      "name": "Perception & Action",
+      "tagline": "How we sense the world and interact with it through movement.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Sensory processing (vision, audition, touch), motor control, and sensorimotor integration",
+        "Psychophysics, motor learning, multisensory integration, embodied cognition"
+      ],
+      "explicitly_excludes": [
+        "Higher-level reasoning about perceptual input \u2192 Cognitive Psychology",
+        "Cellular mechanisms of sensory neurons \u2192 Biology"
+      ]
+    },
+    {
+      "slug": "learning-memory",
+      "name": "Learning & Memory",
+      "tagline": "How experience shapes the brain and guides future behavior.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Mechanisms of memory encoding, consolidation, and retrieval",
+        "Episodic memory, working memory, skill learning, fear conditioning, synaptic plasticity"
+      ],
+      "explicitly_excludes": [
+        "Learning in a primarily social context \u2192 Social & Affective Neuroscience",
+        "Developmental changes in learning across the lifespan \u2192 Developmental Science"
+      ]
+    },
+    {
+      "slug": "decision-science-neuroeconomics",
+      "name": "Decision Science & Neuroeconomics",
+      "tagline": "How the brain makes choices, evaluates risk, and represents value.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Neural mechanisms of choice, reward processing, and valuation",
+        "Reinforcement learning models, game theory, intertemporal choice, foraging"
+      ],
+      "explicitly_excludes": [
+        "Decision-making in a purely social context \u2192 Social & Affective Neuroscience",
+        "General learning mechanisms not tied to value \u2192 Learning & Memory"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Consciousness Studies was considered but excluded as a separate category due to its small audience size and significant overlap with Cognitive Neuroscience, Psychology, and Computational Neuroscience.",
+    "Neuroimaging (fMRI, EEG) was not made a category as it is a methodology used across many subspecialties rather than a distinct field of inquiry.",
+    "Educational Psychology and Industrial-Organizational (I-O) Psychology were excluded as they are highly applied fields with distinct literature bases often falling outside this category's scope."
+  ]
+}

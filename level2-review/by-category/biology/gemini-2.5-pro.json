@@ -1,0 +1,209 @@
+{
+  "level1_slug": "biology",
+  "level1_name": "Biology",
+  "count": 14,
+  "rationale": "This structure balances classic, organism- and scale-based disciplines (e.g., Cell Biology, Plant Biology) with major, disease- or system-focused fields that represent strong professional identities (e.g., Cancer Biology, Immunology). This hybrid approach reflects how modern biology is organized. I deliberately split Microbiology and Virology, which are often grouped, because the research communities, techniques, and publication venues are largely distinct. Conversely, Biochemistry and Structural Biology were combined as they are deeply intertwined in studying molecular function. The primary challenge is the inherent interdisciplinarity of biology; this is addressed by defining subspecialties by the paper's central question or contribution, with explicit exclusions to guide users at the boundaries.",
+  "subspecialties": [
+    {
+      "slug": "molecular-biology",
+      "name": "Molecular Biology",
+      "tagline": "The central dogma in action: DNA replication, transcription, and translation.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "The study of gene structure, function, and regulation at the molecular level.",
+        "DNA replication/repair, transcription factors, RNA processing, protein synthesis."
+      ],
+      "explicitly_excludes": [
+        "Enzyme kinetics and metabolism \u2192 Biochemistry & Structural Biology",
+        "Heritable gene regulation through chromatin \u2192 Epigenetics & Chromatin"
+      ]
+    },
+    {
+      "slug": "cell-biology",
+      "name": "Cell Biology",
+      "tagline": "The fundamental unit of life: organelles, signaling, and the cell cycle.",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "The study of cell structure, function, and behavior.",
+        "Organelle dynamics, cytoskeleton, membrane trafficking, signal transduction, cell division."
+      ],
+      "explicitly_excludes": [
+        "Immune cell function \u2192 Immunology",
+        "Mechanisms of oncogenesis \u2192 Cancer Biology",
+        "Coordinated cell behavior in embryos \u2192 Developmental Biology"
+      ]
+    },
+    {
+      "slug": "genetics-genomics",
+      "name": "Genetics & Genomics",
+      "tagline": "From single genes to entire genomes and their heritability.",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "The study of heredity, gene function, and large-scale genomic analysis.",
+        "Mendelian and population genetics, GWAS, functional genomics, genome evolution."
+      ],
+      "explicitly_excludes": [
+        "Epigenetic inheritance \u2192 Epigenetics & Chromatin",
+        "Development of bioinformatics tools \u2192 Computational & Systems Biology"
+      ]
+    },
+    {
+      "slug": "biochemistry-structural-biology",
+      "name": "Biochemistry & Structural Biology",
+      "tagline": "The chemistry and architecture of life's molecules.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "The study of chemical processes and the 3D structure of macromolecules.",
+        "Metabolism, enzymology, protein folding and design, cryo-EM, X-ray crystallography."
+      ],
+      "explicitly_excludes": [
+        "The process of gene expression \u2192 Molecular Biology",
+        "Physics of single molecules \u2192 Biophysics"
+      ]
+    },
+    {
+      "slug": "immunology",
+      "name": "Immunology",
+      "tagline": "The body's defense system against pathogens and disease.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "The study of the immune system's basic mechanisms in health and disease.",
+        "Innate and adaptive immunity, T/B cell biology, inflammation, host-pathogen interactions."
+      ],
+      "explicitly_excludes": [
+        "Tumor immunology and immunotherapy \u2192 Cancer Biology",
+        "Viral immune evasion \u2192 Virology",
+        "Neuroinflammation \u2192 Brain & Cognitive Sciences"
+      ]
+    },
+    {
+      "slug": "cancer-biology",
+      "name": "Cancer Biology",
+      "tagline": "The molecular and cellular basis of cancer.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "The study of the mechanisms driving cancer initiation, progression, and metastasis.",
+        "Oncogenes, tumor suppressors, tumor microenvironment, cancer metabolism, immunotherapy."
+      ],
+      "explicitly_excludes": [
+        "General cell cycle control \u2192 Cell Biology",
+        "Fundamental DNA repair mechanisms \u2192 Molecular Biology"
+      ]
+    },
+    {
+      "slug": "microbiology",
+      "name": "Microbiology",
+      "tagline": "The world of bacteria, archaea, fungi, and protists.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "The study of microscopic organisms and their interactions with hosts and environments.",
+        "Bacteriology, microbial genetics, pathogenesis, biofilms, the microbiome."
+      ],
+      "explicitly_excludes": [
+        "Viruses \u2192 Virology",
+        "Ecosystem-level microbial dynamics \u2192 Ecology & Evolution"
+      ]
+    },
+    {
+      "slug": "virology",
+      "name": "Virology",
+      "tagline": "The biology of viruses and their interaction with host cells.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "The study of viruses, their structure, replication, and pathogenesis.",
+        "Viral entry and replication, host-virus interactions, viral immunology, viral evolution."
+      ],
+      "explicitly_excludes": [
+        "Bacteria and other non-viral microbes \u2192 Microbiology",
+        "Basic host immune response \u2192 Immunology"
+      ]
+    },
+    {
+      "slug": "developmental-biology",
+      "name": "Developmental Biology",
+      "tagline": "How a single cell builds a complex organism.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "The study of the process by which organisms grow and develop.",
+        "Embryogenesis, morphogenesis, organogenesis, pattern formation, evo-devo."
+      ],
+      "explicitly_excludes": [
+        "Adult tissue regeneration \u2192 Stem Cell & Regenerative Biology",
+        "General cell signaling pathways \u2192 Cell Biology"
+      ]
+    },
+    {
+      "slug": "stem-cell-regenerative-biology",
+      "name": "Stem Cell & Regenerative Biology",
+      "tagline": "Harnessing stem cells for development, regeneration, and repair.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "The study of stem cells and their potential for tissue regeneration.",
+        "Pluripotency, cell differentiation, tissue engineering, cellular reprogramming."
+      ],
+      "explicitly_excludes": [
+        "Primary embryonic development \u2192 Developmental Biology",
+        "Clinical trials for regenerative medicine \u2192 Medicine"
+      ]
+    },
+    {
+      "slug": "computational-systems-biology",
+      "name": "Computational & Systems Biology",
+      "tagline": "Using data and models to understand complex biological networks.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "The development and application of computational methods to analyze biological data and systems.",
+        "Bioinformatics, sequence analysis, network modeling, quantitative modeling of biological processes."
+      ],
+      "explicitly_excludes": [
+        "Papers where computation is a standard tool, not the primary scientific contribution."
+      ]
+    },
+    {
+      "slug": "epigenetics-chromatin",
+      "name": "Epigenetics & Chromatin",
+      "tagline": "Beyond the DNA sequence: how genes are regulated and silenced.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "The study of heritable changes in gene function that do not involve changes in DNA sequence.",
+        "Histone modification, DNA methylation, chromatin remodeling, non-coding RNAs."
+      ],
+      "explicitly_excludes": [
+        "Core transcriptional machinery \u2192 Molecular Biology",
+        "Genetic mutations and inheritance \u2192 Genetics & Genomics"
+      ]
+    },
+    {
+      "slug": "plant-biology",
+      "name": "Plant Biology",
+      "tagline": "Uncovering the life of plants, from molecules to organisms.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "The study of plants, including their physiology, genetics, development, and molecular biology.",
+        "Photosynthesis, plant hormones, plant-pathogen interactions, crop genetics."
+      ],
+      "explicitly_excludes": [
+        "Plant population dynamics and ecosystems \u2192 Ecology & Evolution"
+      ]
+    },
+    {
+      "slug": "biophysics",
+      "name": "Biophysics",
+      "tagline": "Applying the principles of physics to understand biological systems.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "The application of physical theories and methods to questions in biology.",
+        "Molecular motors, membrane physics, single-molecule biology, biomechanics, protein dynamics."
+      ],
+      "explicitly_excludes": [
+        "3D structure determination \u2192 Biochemistry & Structural Biology",
+        "Large-scale system modeling \u2192 Computational & Systems Biology"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "A 'Pharmacology' category was considered but excluded because its focus on drug effects often blurs the line with the 'Medicine' level-1 category, which is explicitly excluded.",
+    "The distinction between methods-based fields (e.g., Computational Biology) and topic-based fields (e.g., Cell Biology) is a known challenge. The guideline is that methods-based categories are for papers where the method itself is the primary innovation.",
+    "Some fields like 'Chemical Biology' were considered but ultimately folded into broader categories like 'Biochemistry' to keep the list focused and avoid excessive granularity."
+  ]
+}

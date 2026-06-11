@@ -1,0 +1,196 @@
+{
+  "level1_slug": "mechanical-aerospace-engineering",
+  "level1_name": "Mechanical & Aerospace Engineering",
+  "count": 13,
+  "rationale": "I split the broad discipline into 13 practitioner-facing subspecialties to balance coverage, discoverability, and mutual exclusivity. Each card reflects how professionals introduce themselves (e.g., 'Solid Mechanics', 'Aeronautics & Astronautics', 'Propulsion') and maps to a coherent body of papers so a given article should fit one slot. I kept computational/experimental methods as separate subspecialties rather than subsuming them under application areas to help readers who follow methodological advances. I intentionally did not create a standalone 'Materials' card (goes to Materials Science) and avoided over-splitting propulsion/turbomachinery vs. thermal to prevent tiny audiences and confusing overlap.",
+  "subspecialties": [
+    {
+      "slug": "solid-mechanics",
+      "name": "Solid Mechanics",
+      "tagline": "Stress, strain, fracture, plasticity, structural materials",
+      "audience_pct_within_level1": 11,
+      "covers": [
+        "Continuum mechanics of solids, elasticity, plasticity",
+        "Fracture mechanics, failure analysis, contact mechanics, structural materials testing"
+      ],
+      "explicitly_excludes": [
+        "Materials Science (materials synthesis, microstructure-focused characterization)",
+        "Structural Engineering (large-scale civil/architectural structures)"
+      ]
+    },
+    {
+      "slug": "structural-engineering",
+      "name": "Structural Engineering",
+      "tagline": "Design and analysis of civil and aerospace structures",
+      "audience_pct_within_level1": 7,
+      "covers": [
+        "Beam/plate/shell design, structural reliability, bridge/building/aero-structure analysis",
+        "Codes, large-scale load-bearing systems, seismic and wind design"
+      ],
+      "explicitly_excludes": [
+        "Solid Mechanics (fundamental constitutive theory and small-scale material failure)",
+        "Aeronautics & Astronautics (aircraft-level systems and aerodynamics)"
+      ]
+    },
+    {
+      "slug": "fluid-mechanics",
+      "name": "Fluid Mechanics",
+      "tagline": "Incompressible/compressible flow, turbulence, multiphase flows",
+      "audience_pct_within_level1": 11,
+      "covers": [
+        "Fundamental and applied studies of laminar/turbulent flow, boundary layers",
+        "Multiphase flows, hydrodynamics, flow instability and transition"
+      ],
+      "explicitly_excludes": [
+        "Aeronautics & Astronautics (aircraft flight dynamics and systems-level aerospace research)",
+        "Propulsion & Turbomachinery (engine-specific fluid systems)"
+      ]
+    },
+    {
+      "slug": "aeronautics-astronautics",
+      "name": "Aeronautics & Astronautics",
+      "tagline": "Aircraft and spacecraft systems, flight dynamics, guidance",
+      "audience_pct_within_level1": 12,
+      "covers": [
+        "Aircraft/spacecraft design, flight dynamics, orbital mechanics, guidance/navigation",
+        "Aerodynamic design for aircraft and spacecraft, systems integration"
+      ],
+      "explicitly_excludes": [
+        "Propulsion & Turbomachinery (engines and powerplants)",
+        "Control theory papers with no clear aerospace application go to Dynamics, Vibrations & Control"
+      ]
+    },
+    {
+      "slug": "propulsion-and-turbomachinery",
+      "name": "Propulsion & Turbomachinery",
+      "tagline": "Engines, rockets, gas turbines, combustion and turbomachinery",
+      "audience_pct_within_level1": 7,
+      "covers": [
+        "Jet engines, rocket propulsion, gas turbines, combustion modeling and experiments",
+        "Turbomachinery aerodynamics, performance, and design optimization"
+      ],
+      "explicitly_excludes": [
+        "Thermal & Heat Transfer (pure heat transfer studies not tied to engines)",
+        "Chemical propulsion chemistry-heavy work (may route to Chemical Engineering)"
+      ]
+    },
+    {
+      "slug": "thermal-heat-transfer",
+      "name": "Thermal & Heat Transfer",
+      "tagline": "Conduction, convection, radiation, thermal systems and energy",
+      "audience_pct_within_level1": 7,
+      "covers": [
+        "Conduction/convection/radiation theory, heat exchangers, thermal management",
+        "Phase-change heat transfer, microscale and nanoscale thermal transport"
+      ],
+      "explicitly_excludes": [
+        "Propulsion & Turbomachinery (engine-specific thermal studies)",
+        "Materials Science (thermophysical property measurement focused on new materials)"
+      ]
+    },
+    {
+      "slug": "dynamics-vibrations-and-control",
+      "name": "Dynamics, Vibrations & Control",
+      "tagline": "Rigid-body dynamics, vibration, controls, estimation and sensors",
+      "audience_pct_within_level1": 8,
+      "covers": [
+        "Multibody dynamics, vibration analysis, structural dynamics, modal analysis",
+        "Control systems for mechanical and aerospace platforms, state estimation, adaptive/robust control"
+      ],
+      "explicitly_excludes": [
+        "Robotics & Mechatronics (application of control to robot hardware belongs there)",
+        "Aeronautics & Astronautics (flight dynamics papers specific to aircraft)"
+      ]
+    },
+    {
+      "slug": "robotics-and-mechatronics",
+      "name": "Robotics & Mechatronics",
+      "tagline": "Robots, actuators, sensors, embedded mechanical systems",
+      "audience_pct_within_level1": 9,
+      "covers": [
+        "Robot design, manipulation, legged and mobile robots, actuation and sensing hardware",
+        "Mechatronic system integration, real-time control of mechanical devices"
+      ],
+      "explicitly_excludes": [
+        "Dynamics, Vibrations & Control (theory papers with no hardware focus)",
+        "Computer Science topics like purely algorithmic AI (go to CS categories)"
+      ]
+    },
+    {
+      "slug": "manufacturing-and-additive-manufacturing",
+      "name": "Manufacturing & Additive Manufacturing",
+      "tagline": "Production processes, machining, 3D printing, process optimization",
+      "audience_pct_within_level1": 8,
+      "covers": [
+        "Casting, forging, machining, automation in manufacturing, additive manufacturing processes",
+        "Process modeling, tolerancing, quality control, production systems"
+      ],
+      "explicitly_excludes": [
+        "Materials Science (new material development and characterization)",
+        "Robotics & Mechatronics (robotic automation hardware belongs there)"
+      ]
+    },
+    {
+      "slug": "computational-mechanics",
+      "name": "Computational Mechanics",
+      "tagline": "FEM, CFD, reduced-order models, numerical simulation methods",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "Finite element/volume methods, numerical solvers, mesh generation, model reduction",
+        "High-performance simulation workflows and verification/validation studies"
+      ],
+      "explicitly_excludes": [
+        "Applied CFD/fluid-mechanics papers where the main contribution is physics (go to Fluid Mechanics)",
+        "Machine learning algorithm work with no mechanics application (go to ML/CS categories)"
+      ]
+    },
+    {
+      "slug": "experimental-methods-and-instrumentation",
+      "name": "Experimental Methods & Instrumentation",
+      "tagline": "Measurement techniques, test rigs, sensors, experimental validation",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "Experimental methods for mechanics/fluids, sensor design, wind tunnels, test apparatus",
+        "Data acquisition, uncertainty quantification, experimental validation protocols"
+      ],
+      "explicitly_excludes": [
+        "Papers whose main contribution is the physics discovery (route to the appropriate topic area)",
+        "Pure instrumentation for biology/medicine (may go to Biomedical engineering)"
+      ]
+    },
+    {
+      "slug": "vehicle-and-automotive-engineering",
+      "name": "Vehicle & Automotive Engineering",
+      "tagline": "Automotive systems, vehicle dynamics, powertrain and NVH",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "Vehicle dynamics, chassis design, powertrain development, NVH (noise, vibration, harshness)",
+        "Automotive systems integration, testing, and electrified vehicle technologies"
+      ],
+      "explicitly_excludes": [
+        "Aeronautics & Astronautics (air/space vehicles)",
+        "Propulsion & Turbomachinery (engine research not specific to vehicles)"
+      ]
+    },
+    {
+      "slug": "biomechanics-and-medical-devices",
+      "name": "Biomechanics & Medical Devices",
+      "tagline": "Mechanics of biological systems and medical device design",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "Tissue mechanics, implant design, prosthetics, device biomechanics, mechanobiology interfaces",
+        "Medical device testing, biomechanical modeling and simulation"
+      ],
+      "explicitly_excludes": [
+        "Biomedical research that is primarily biological/clinical (route to Biomedical Sciences)",
+        "Materials development for implants (go to Materials Science)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Acoustics & Noise Control: considered as a separate card but many acoustics papers live within Dynamics, NVH, or Aero; decided to fold into Dynamics/Automotive for clarity.",
+    "Energy systems and HVAC: common cross-cutting topic split between Thermal & Heat Transfer and Manufacturing/Automotive depending on context rather than a standalone card.",
+    "Materials-focused mech papers: excluded because Materials Science handles materials-per-se; mechanics papers using materials characterization should pick Solid Mechanics or Structural Engineering depending on emphasis.",
+    "Pure ML for mechanics: tempting to create 'Machine Learning in ME' but methodological ML papers without a clear mechanical/aerospace application belong in CS/ML categories."
+  ]
+}

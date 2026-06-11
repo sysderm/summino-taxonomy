@@ -1,0 +1,210 @@
+{
+  "level1_slug": "brain-cognitive",
+  "level1_name": "Brain & Cognitive Sciences",
+  "count": 14,
+  "rationale": "I split Brain & Cognitive Sciences into 14 practitioner-facing subspecialties to balance coverage and pickability: enough granularity to separate experimental, clinical and computational work, but not so many that the grid becomes noisy. I kept clinical and psychiatric cognitive work in the same top-level while routing pharmacologic drug\u2011treatment trials to Medicine (per instructions). I deliberately separated computational/modeling fields from behavioral and imaging fields because practitioners self-identify with those labels, and I split cognition-related specialties (e.g., Language, Decision, Learning) rather than lumping them into a single \u201cCognition\u201d card to improve discoverability. I avoided hyper-specific disease or molecular categories \u2014 those belong to Medicine or Biology when primarily cellular/biochemical.",
+  "subspecialties": [
+    {
+      "slug": "systems-neuroscience",
+      "name": "Systems Neuroscience",
+      "tagline": "Network, circuit, and systems-level brain function",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Population and circuit recordings, optogenetics, electrophysiology",
+        "Examples: cortical circuit dynamics, thalamocortical loops, hippocampal network oscillations"
+      ],
+      "explicitly_excludes": [
+        "Cellular/molecular synaptic mechanisms \u2014 goes to Biology",
+        "Pure behavioral-only psychology studies \u2014 goes to Cognitive Psychology"
+      ]
+    },
+    {
+      "slug": "cognitive-neuroscience",
+      "name": "Cognitive Neuroscience",
+      "tagline": "Neural basis of perception, memory, attention and higher cognition",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "Human and animal studies linking brain activity to cognitive functions",
+        "Examples: fMRI/EEG studies of attention, neural correlates of working memory"
+      ],
+      "explicitly_excludes": [
+        "Method development in imaging hardware/algorithms \u2014 goes to Neuroimaging & Neurotechnology",
+        "Pure behavioral theory without neural measures \u2014 goes to Cognitive Psychology"
+      ]
+    },
+    {
+      "slug": "computational-neuroscience",
+      "name": "Computational Neuroscience",
+      "tagline": "Biophysically grounded models of neurons, circuits, and networks",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Spiking neuron models, conductance-based modeling, synaptic plasticity theory",
+        "Examples: models of sensory coding, large-scale brain simulations"
+      ],
+      "explicitly_excludes": [
+        "Abstract cognitive-level modeling not tied to neural plausibility \u2014 goes to Computational Cognitive Science",
+        "Machine learning methods papers without neural focus \u2014 goes to Machine Learning under other categories"
+      ]
+    },
+    {
+      "slug": "cognitive-psychology",
+      "name": "Cognitive Psychology",
+      "tagline": "Behavioral experiments and theory of human cognition",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Reaction-time, psychophysics, experimental studies of memory, attention, perception",
+        "Examples: dual-task paradigms, priming studies, behavioral models of memory"
+      ],
+      "explicitly-excludes": [
+        "Clinical assessments and patient studies of cognitive deficits \u2014 goes to Neuropsychology",
+        "Neural imaging correlates without behavioral focus \u2014 goes to Cognitive Neuroscience"
+      ]
+    },
+    {
+      "slug": "computational-cognitive-science",
+      "name": "Computational Cognitive Science",
+      "tagline": "Cognitive models, AI-level theories, and cognitive architectures",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Symbolic and connectionist cognitive models, Bayesian cognitive modeling, cognitive architectures",
+        "Examples: models of reasoning, language understanding, cognitive-level reinforcement learning"
+      ],
+      "explicitly-excludes": [
+        "Neural-data-grounded computational models \u2014 goes to Computational Neuroscience",
+        "Engineering applications of ML (NLP/vision) with little cognitive theory \u2014 goes to Machine Learning elsewhere"
+      ]
+    },
+    {
+      "slug": "neuroimaging-neurotechnology",
+      "name": "Neuroimaging & Neurotechnology",
+      "tagline": "Imaging, recording tools, and brain\u2013machine interfaces",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "fMRI/EEG/MEG methods, invasive recording technology, brain\u2013computer interface hardware",
+        "Examples: high-field fMRI methods, novel electrode arrays, decoding pipelines"
+      ],
+      "explicitly-excludes": [
+        "Use of imaging purely to test cognitive hypotheses (analysis belongs to Cognitive Neuroscience)",
+        "Device clinical trials focused on safety/regulatory efficacy \u2014 goes to Medicine"
+      ]
+    },
+    {
+      "slug": "neuropsychology",
+      "name": "Neuropsychology",
+      "tagline": "Cognitive assessment and brain\u2013behavior syndromes after injury",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Clinical and experimental studies of cognitive deficits, lesion mapping, rehabilitation",
+        "Examples: stroke aphasia, TBI cognitive trajectories, neuropsychological testing"
+      ],
+      "explicitly-excludes": [
+        "Primary pharmacologic treatment trials for psychiatric/neuro conditions \u2014 goes to Medicine",
+        "Basic developmental cognitive studies in healthy populations \u2014 goes to Developmental Psychology"
+      ]
+    },
+    {
+      "slug": "behavioral-neuroscience",
+      "name": "Behavioral Neuroscience",
+      "tagline": "Animal behavior and neural mechanisms of behavior",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Rodent/animal behavioral paradigms tied to neural circuits and behavior",
+        "Examples: fear conditioning neural mechanisms, ethology-linked neural recording"
+      ],
+      "explicitly-excludes": [
+        "Human behavioral studies without neural/animal link \u2014 goes to Cognitive Psychology",
+        "Molecular/cellular studies of behavior mechanisms \u2014 goes to Biology"
+      ]
+    },
+    {
+      "slug": "developmental-psychology",
+      "name": "Developmental Psychology",
+      "tagline": "Cognitive and behavioral development across the lifespan",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Child development, adolescent cognition, lifespan cognitive changes, developmental disorders",
+        "Examples: language acquisition studies, developmental trajectories of executive function"
+      ],
+      "explicitly-excludes": [
+        "Basic developmental neuroscience at the cellular level \u2014 goes to Biology",
+        "Clinical pediatric neurology focused on treatment \u2014 goes to Medicine"
+      ]
+    },
+    {
+      "slug": "psychiatry",
+      "name": "Psychiatry",
+      "tagline": "Clinical studies of mental disorders and cognitive/behavioral syndromes",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Clinical and cognitive studies of psychiatric conditions, neurobiological correlates, diagnostic research",
+        "Examples: cognitive deficits in depression, neuroimaging in schizophrenia"
+      ],
+      "explicitly-excludes": [
+        "Drug trials and pharmacotherapy-focused clinical trials \u2014 goes to Medicine",
+        "Pure psychological therapy method trials without psychiatric diagnosis \u2014 goes to Clinical Psychology elsewhere"
+      ]
+    },
+    {
+      "slug": "language-and-cognition",
+      "name": "Language & Cognition",
+      "tagline": "Neurolinguistics, psycholinguistics, and language processing research",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Language acquisition, processing, neural bases of language, aphasia studies",
+        "Examples: sentence processing EEG/fMRI, bilingual cognition, speech perception"
+      ],
+      "explicitly-excludes": [
+        "Machine learning / NLP engineering papers without cognitive focus \u2014 goes to Machine Learning",
+        "Pure computational linguistics without cognitive grounding \u2014 goes to Computational Linguistics elsewhere"
+      ]
+    },
+    {
+      "slug": "sensation-perception",
+      "name": "Sensation & Perception",
+      "tagline": "Sensory systems, psychophysics, and perceptual processes",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Vision, audition, somatosensation studies in humans and animals; psychophysical methods",
+        "Examples: perceptual thresholds, multisensory integration, sensory adaptation"
+      ],
+      "explicitly-excludes": [
+        "Higher-level cognitive tasks (e.g., memory/decision) without sensory focus \u2014 goes to Cognitive Psychology",
+        "Cellular sensory transduction mechanisms \u2014 goes to Biology"
+      ]
+    },
+    {
+      "slug": "learning-and-memory",
+      "name": "Learning & Memory",
+      "tagline": "Mechanisms and models of learning and memory",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Behavioral, neural, and computational studies of plasticity, memory formation, consolidation",
+        "Examples: synaptic plasticity studies with behavioral readouts, memory systems research"
+      ],
+      "explicitly-excludes": [
+        "Molecular synaptic mechanism-focused work without behavior \u2014 goes to Biology",
+        "Applied educational intervention trials \u2014 goes to Education/Clinical Psychology"
+      ]
+    },
+    {
+      "slug": "decision-neuroscience",
+      "name": "Decision Neuroscience",
+      "tagline": "Neural and behavioral bases of decision-making and value",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Neuroeconomics, reward and motivation studies, models of choice behavior",
+        "Examples: reinforcement learning in humans/animals, neural basis of risk-taking"
+      ],
+      "explicitly-excludes": [
+        "Pure economic theory without behavioral/neural data \u2014 goes to Economics",
+        "Applied decision\u2011engineering ML work without cognitive framing \u2014 goes to Machine Learning"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Where to put applied AI/NLP papers: if primarily engineering or dataset/model work they belong to Machine Learning/CS; if they address cognitive mechanisms/psycholinguistics they appear under Computational Cognitive Science or Language & Cognition.",
+    "Psychopharmacology and drug trials: these often straddle Psychiatry and Medicine; per onboarding rules, pharmacologic treatment trials are routed to Medicine, while mechanistic psychiatric/neurobiological studies without clinical drug trials stay in Psychiatry or Clinical Neuroscience.",
+    "Overlap between Cognitive Neuroscience and Neuroimaging: imaging methods papers that introduce new neurotech go to Neuroimaging & Neurotechnology, whereas studies using those methods to answer cognition questions go to Cognitive Neuroscience.",
+    "Developmental cognitive neuroscience: could reasonably map to Developmental Psychology or Cognitive Neuroscience depending on whether emphasis is behavioral/developmental vs. neural-mechanistic; we expect authors to pick the primary framing."
+  ]
+}

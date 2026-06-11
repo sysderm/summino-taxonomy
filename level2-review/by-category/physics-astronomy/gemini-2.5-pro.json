@@ -1,0 +1,174 @@
+{
+  "level1_slug": "physics-astronomy",
+  "level1_name": "Physics & Astronomy",
+  "count": 13,
+  "rationale": "This structure is designed to mirror the major communities and intellectual divisions recognized by working physicists, closely aligning with the primary arXiv categories and APS divisions. We chose to split the vast area of 'Astrophysics' from 'Cosmology & Gravitation' to distinguish between the study of celestial objects and the study of the universe's overall structure and origin. Similarly, the traditional 'AMO' field was split into 'Atomic & Molecular Physics' and 'Optics & Photonics' to reflect their distinct research communities and applications. Condensed Matter Physics remains a single, large category focused on fundamental phenomena, with applied materials work explicitly excluded. A 'Statistical & Nonlinear Physics' category was created to group diverse but related fields like complex systems, chaos, and fluid dynamics.",
+  "subspecialties": [
+    {
+      "slug": "condensed-matter-physics",
+      "name": "Condensed Matter Physics",
+      "tagline": "Quantum mechanics of solids and liquids, from superconductors to topological materials.",
+      "audience_pct_within_level1": 28.0,
+      "covers": [
+        "Superconductivity, magnetism, semiconductors, quantum Hall effect, soft matter physics"
+      ],
+      "explicitly_excludes": [
+        "Device engineering (\u2192 Engineering)",
+        "Materials synthesis and characterization (\u2192 Materials Science)"
+      ]
+    },
+    {
+      "slug": "astrophysics",
+      "name": "Astrophysics",
+      "tagline": "The physics of stars, galaxies, exoplanets, and the interstellar medium.",
+      "audience_pct_within_level1": 18.0,
+      "covers": [
+        "Stellar evolution, galaxy formation, black holes, exoplanet detection, gravitational waves"
+      ],
+      "explicitly_excludes": [
+        "Early universe and large-scale structure (\u2192 Cosmology & Gravitation)"
+      ]
+    },
+    {
+      "slug": "particle-physics",
+      "name": "Particle Physics",
+      "tagline": "Probing the fundamental particles and forces at the highest energies.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Standard Model physics, Higgs boson, neutrinos, supersymmetry, string theory, astroparticle physics"
+      ],
+      "explicitly_excludes": [
+        "Nuclear structure and reactions (\u2192 Nuclear Physics)"
+      ]
+    },
+    {
+      "slug": "quantum-information-computing",
+      "name": "Quantum Information & Computing",
+      "tagline": "Harnessing quantum phenomena for computation, communication, and sensing.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Qubits, quantum algorithms, quantum cryptography, error correction, quantum sensors"
+      ],
+      "explicitly_excludes": [
+        "Foundational quantum mechanics (\u2192 Atomic & Molecular Physics)"
+      ]
+    },
+    {
+      "slug": "cosmology-gravitation",
+      "name": "Cosmology & Gravitation",
+      "tagline": "The origin, evolution, and ultimate fate of the universe as a whole.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "General relativity, dark matter, dark energy, cosmic microwave background, inflation"
+      ],
+      "explicitly_excludes": [
+        "Physics of individual stars and galaxies (\u2192 Astrophysics)"
+      ]
+    },
+    {
+      "slug": "optics-photonics",
+      "name": "Optics & Photonics",
+      "tagline": "The science of light, from lasers and imaging to quantum optics.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Lasers, fiber optics, nonlinear optics, nanophotonics, quantum optics"
+      ],
+      "explicitly_excludes": [
+        "Atomic spectroscopy (\u2192 Atomic & Molecular Physics)"
+      ]
+    },
+    {
+      "slug": "nuclear-physics",
+      "name": "Nuclear Physics",
+      "tagline": "The structure, properties, and reactions of atomic nuclei.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Nuclear structure, radioactive decay, nuclear reactions, quark-gluon plasma, nuclear astrophysics"
+      ],
+      "explicitly_excludes": [
+        "Fundamental particle interactions (\u2192 Particle Physics)"
+      ]
+    },
+    {
+      "slug": "atomic-molecular-physics",
+      "name": "Atomic & Molecular Physics",
+      "tagline": "The quantum world of atoms, molecules, and their interactions with light.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Atomic clocks, ultracold atoms, Bose-Einstein condensates, molecular spectroscopy"
+      ],
+      "explicitly_excludes": [
+        "Condensed phases (\u2192 Condensed Matter Physics)",
+        "Quantum computing hardware (\u2192 Quantum Information & Computing)"
+      ]
+    },
+    {
+      "slug": "statistical-nonlinear-physics",
+      "name": "Statistical & Nonlinear Physics",
+      "tagline": "The physics of complex systems, from chaos to collective behavior.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Statistical mechanics, chaos theory, fluid dynamics, pattern formation, networks"
+      ],
+      "explicitly_excludes": [
+        "Physics of biological systems (\u2192 Biophysics & Medical Physics)"
+      ]
+    },
+    {
+      "slug": "biophysics-medical-physics",
+      "name": "Biophysics & Medical Physics",
+      "tagline": "Applying physics principles to understand biology and improve medicine.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Molecular biophysics, cellular mechanics, medical imaging (MRI, PET), radiation therapy"
+      ],
+      "explicitly_excludes": [
+        "Purely biological mechanisms (\u2192 Biology)",
+        "General complex systems theory (\u2192 Statistical & Nonlinear Physics)"
+      ]
+    },
+    {
+      "slug": "plasma-physics",
+      "name": "Plasma Physics",
+      "tagline": "The study of the fourth state of matter for fusion, space, and industry.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Fusion energy, space plasmas, industrial plasmas, plasma propulsion"
+      ],
+      "explicitly_excludes": [
+        "Stellar interiors (\u2192 Astrophysics)",
+        "Quark-gluon plasma (\u2192 Nuclear Physics)"
+      ]
+    },
+    {
+      "slug": "geophysics",
+      "name": "Geophysics",
+      "tagline": "The physics of the Earth, from its deep core to its magnetic field.",
+      "audience_pct_within_level1": 1.0,
+      "covers": [
+        "Seismology, geomagnetism, mantle convection, rock physics, climate dynamics"
+      ],
+      "explicitly_excludes": [
+        "Planetary science of other worlds (\u2192 Astrophysics)",
+        "Geology (\u2192 Earth Sciences)"
+      ]
+    },
+    {
+      "slug": "mathematical-physics",
+      "name": "Mathematical Physics",
+      "tagline": "Developing rigorous mathematical frameworks for physical theories.",
+      "audience_pct_within_level1": 1.0,
+      "covers": [
+        "Integrable systems, quantum field theory methods, general relativity mathematics, random matrix theory"
+      ],
+      "explicitly_excludes": [
+        "Pure mathematics (\u2192 Mathematics)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Computational Physics was not made a separate category, as it is a methodology that permeates all other subspecialties rather than a distinct research area.",
+    "Fluid Dynamics was merged into 'Statistical & Nonlinear Physics' as a standalone category felt too narrow for a physics-focused audience and has significant overlap.",
+    "Astroparticle physics is a major overlap area; we have placed it primarily under Particle Physics, though many papers could also fit in Astrophysics or Cosmology."
+  ]
+}

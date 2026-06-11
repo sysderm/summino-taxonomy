@@ -1,0 +1,210 @@
+{
+  "level1_slug": "biology",
+  "level1_name": "Biology",
+  "count": 14,
+  "rationale": "I divided Biology into 14 practitioner-facing subspecialties to balance breadth and precision: common lab-focused careers (Cell Biology, Molecular Biology, Genetics, Developmental Biology) are separate from organismal/practical areas (Microbiology, Immunology, Virology, Plant Biology) and from method- or technique-centered communities (Genomics & Computational Biology, Proteomics & Metabolomics, Structural Biology, Biophysics). I kept systems- and engineering-oriented topics (Systems Biology, Synthetic Biology) distinct because they attract different readers and paper types. I deliberately did not collapse Genomics & Computational Biology into Genetics (many high-throughput/analysis papers are read by a different audience) and kept Immunology separate from Microbiology and Virology despite overlap; I avoided evolution/ecology and clinical/neurology splits because those map to other level-1 categories (Ecology & Evolution, Medicine, Brain & Cognitive Sciences).",
+  "subspecialties": [
+    {
+      "slug": "cell-biology",
+      "name": "Cell Biology",
+      "tagline": "Mechanisms of eukaryotic cell structure, trafficking and behavior",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "cytoskeleton, membrane trafficking, organelle biology",
+        "live-cell imaging, cell signaling, cell polarity examples: stem cell niche imaging, endocytosis mechanism papers"
+      ],
+      "explicitly_excludes": [
+        "Neuroscience (Brain & Cognitive Sciences) \u2014 neuronal systems work",
+        "Clinical translation (Medicine) \u2014 clinical cell therapy trials"
+      ]
+    },
+    {
+      "slug": "molecular-biology",
+      "name": "Molecular Biology",
+      "tagline": "Molecular mechanisms: DNA/RNA/protein interactions and regulation",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "transcription, RNA processing, translation, post\u2011translational regulation",
+        "biochemical mechanism studies, molecular assays \u2014 e.g., transcription factor function, RNA-binding protein work"
+      ],
+      "explicitly_excludes": [
+        "Genomics & Computational Biology \u2014 large-scale sequencing/analysis papers",
+        "Structural Biology \u2014 atomic structures and cryo-EM-focused papers"
+      ]
+    },
+    {
+      "slug": "genetics",
+      "name": "Genetics",
+      "tagline": "Inheritance, gene function, mapping and genetic screens",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "classical and molecular genetics, mutational analysis, forward/reverse genetic screens",
+        "model-organism genetics examples: Drosophila screens, yeast gene function studies"
+      ],
+      "explicitly_excludes": [
+        "Genomics & Computational Biology \u2014 population-scale sequencing and computational analyses",
+        "Clinical genetics (Medicine) \u2014 clinical diagnostic/genetic counseling studies"
+      ]
+    },
+    {
+      "slug": "developmental-biology",
+      "name": "Developmental Biology",
+      "tagline": "Mechanisms of embryogenesis, morphogenesis and cell fate",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "pattern formation, axis specification, organogenesis",
+        "model-organism developmental examples: zebrafish/fruit fly embryogenesis, stem cell differentiation"
+      ],
+      "explicitly_excludes": [
+        "Regenerative medicine/clinical translation (Medicine)",
+        "Evolutionary/eco-developmental studies (Ecology & Evolution)"
+      ]
+    },
+    {
+      "slug": "microbiology",
+      "name": "Microbiology",
+      "tagline": "Bacterial and archaeal biology, physiology and ecology at the micro scale",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "bacterial cell biology, motility, biofilms, microbial physiology",
+        "examples: bacterial pathogenesis mechanisms, microbiome mechanistic studies (non-ecosystem)"
+      ],
+      "explicitly_excludes": [
+        "Ecology & Evolution \u2014 whole-ecosystem microbiome ecology",
+        "Immunology \u2014 host immune response focus"
+      ]
+    },
+    {
+      "slug": "immunology",
+      "name": "Immunology",
+      "tagline": "Innate and adaptive immune system mechanisms and regulation",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "immune cell signaling, antigen presentation, immune development",
+        "examples: T cell biology, vaccine mechanism studies (basic, non-clinical)"
+      ],
+      "explicitly_excludes": [
+        "Clinical immunology/trials (Medicine)",
+        "Virology \u2014 virus-focused pathogenesis (unless immune mechanism primary)"
+      ]
+    },
+    {
+      "slug": "virology",
+      "name": "Virology",
+      "tagline": "Virus biology, host interactions and replication strategies",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "viral entry/replication, host\u2013virus molecular interactions",
+        "examples: coronavirus replication mechanism, viral vector biology (basic research)"
+      ],
+      "explicitly_excludes": [
+        "Clinical/translational virology (Medicine)",
+        "Ecosystem-level viral ecology (Ecology & Evolution)"
+      ]
+    },
+    {
+      "slug": "structural-biology",
+      "name": "Structural Biology",
+      "tagline": "Atomic and near-atomic structures of biomolecules and complexes",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "X-ray crystallography, cryo-EM, NMR structural determination",
+        "examples: protein complexes, ribosome structures, structural enzymology"
+      ],
+      "explicitly_excludes": [
+        "Biophysics \u2014 primarily physical modeling/mechanistic force studies",
+        "Drug-targeting clinical studies (Medicine)"
+      ]
+    },
+    {
+      "slug": "biophysics",
+      "name": "Biophysics",
+      "tagline": "Physical principles and quantitative experiments in living systems",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "single-molecule methods, force measurements, quantitative modeling of biological systems",
+        "examples: membrane mechanics, single-molecule motor studies"
+      ],
+      "explicitly_excludes": [
+        "Pure computational/machine-learning methods (Computer Science/Genomics & Computational Biology)",
+        "Clinical biophysics applications (Medicine)"
+      ]
+    },
+    {
+      "slug": "systems-biology",
+      "name": "Systems Biology",
+      "tagline": "Network-level, quantitative and integrative studies of biological systems",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "network modeling, multi-omic integration, dynamic systems analysis",
+        "examples: signaling network inference, quantitative cell-population models"
+      ],
+      "explicitly_excludes": [
+        "Large-cohort genomic pipelines (Genomics & Computational Biology)",
+        "Ecological systems (Ecology & Evolution)"
+      ]
+    },
+    {
+      "slug": "synthetic-biology",
+      "name": "Synthetic Biology",
+      "tagline": "Design, engineering and construction of biological systems and parts",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "genetic circuits, engineered organisms, biological design principles",
+        "examples: CRISPR-based gene circuits, engineered metabolic pathways"
+      ],
+      "explicitly_excludes": [
+        "Clinical gene therapies (Medicine)",
+        "Purely conceptual/ethical synthetic-biology policy (placed elsewhere)"
+      ]
+    },
+    {
+      "slug": "plant-biology",
+      "name": "Plant Biology",
+      "tagline": "Molecular and cellular biology of plants and algae",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "plant development, photosynthesis, plant molecular genetics",
+        "examples: Arabidopsis developmental studies, algal photosystems"
+      ],
+      "explicitly_excludes": [
+        "Agricultural/field ecology studies (Ecology & Evolution)",
+        "Clinical translational plant products (Medicine)"
+      ]
+    },
+    {
+      "slug": "genomics-computational-biology",
+      "name": "Genomics & Computational Biology",
+      "tagline": "High-throughput sequencing, omics analysis and computational methods",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "genome sequencing, comparative genomics, algorithmic/ML analysis of biological data",
+        "examples: population sequencing pipelines, single-cell RNA-seq analysis methods"
+      ],
+      "explicitly_excludes": [
+        "Pure methods papers in CS without biological application (Computer Science)",
+        "Clinical sequencing diagnostics (Medicine)"
+      ]
+    },
+    {
+      "slug": "proteomics-metabolomics",
+      "name": "Proteomics & Metabolomics",
+      "tagline": "Global protein and metabolite measurement and interpretation",
+      "audience_pct_within_level1": 1.0,
+      "covers": [
+        "mass spectrometry workflows, quantitative proteomics/metabolomics analysis",
+        "examples: phosphoproteomics signaling studies, metabolite profiling in cells"
+      ],
+      "explicitly_excludes": [
+        "Single-protein biochemical studies (Molecular Biology/Structural Biology)",
+        "Large-scale ecological metabolomics (Ecology & Evolution)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Where to place evolutionary molecular work: 'Evolutionary Biology' often spans level-1 Ecology & Evolution; to keep this biology picker focused on mechanistic lab work I excluded broad evolutionary/ecology subspecialties.",
+    "Neuroscience and clinical translational immunology/genetics were intentionally routed out to Brain & Cognitive Sciences and Medicine respectively to keep Biology MECE.",
+    "Computational-methods-only papers (pure CS/ML algorithm work) are excluded from Genomics & Computational Biology unless there is a clear biological application or dataset.",
+    "Some overlap is inevitable (e.g., microbial pathogenesis can be read by Microbiology or Immunology); I prioritized the primary audience of practitioners (mechanistic microbiologists \u2192 Microbiology; host-immune mechanism focus \u2192 Immunology)."
+  ]
+}

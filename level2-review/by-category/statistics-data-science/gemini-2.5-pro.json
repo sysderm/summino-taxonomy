@@ -1,0 +1,231 @@
+{
+  "level1_slug": "statistics-data-science",
+  "level1_name": "Statistics & Data Science",
+  "count": 14,
+  "rationale": "This structure categorizes the field by distinct methodological areas and major application domains rather than philosophical divides like Bayesian vs. Frequentist. This ensures a paper on a 'Bayesian method for causal inference' is classified under 'Causal Inference,' its primary contribution area. We deliberately split the large domain of health statistics into 'Biostatistics,' 'Clinical Trials Methodology,' and 'Statistical Genetics' to reflect distinct, large professional communities with their own journals and conferences. The 'Statistical Learning & Data Mining' category is carefully defined to cover the statistical theory and inferential aspects of machine learning methods, distinguishing it from the more algorithm- and performance-focused work in the 'Computer Science & AI' level-1 category.",
+  "subspecialties": [
+    {
+      "slug": "biostatistics",
+      "name": "Biostatistics",
+      "tagline": "Statistical methods for public health, medicine, and biological research.",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "Longitudinal data analysis",
+        "Generalized linear mixed models",
+        "Epidemiological methods"
+      ],
+      "explicitly_excludes": [
+        "Methods for genomics (\u2192 Statistical Genetics)",
+        "Clinical trial design (\u2192 Clinical Trials Methodology)",
+        "Time-to-event models (\u2192 Survival & Reliability Analysis)"
+      ]
+    },
+    {
+      "slug": "statistical-learning-data-mining",
+      "name": "Statistical Learning & Data Mining",
+      "tagline": "Inference, uncertainty, and theory for predictive modeling and algorithms.",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Statistical properties of ML models",
+        "Interpretability and explainability",
+        "Uncertainty quantification",
+        "Supervised and unsupervised learning theory"
+      ],
+      "explicitly_excludes": [
+        "Novel algorithm architecture or performance benchmarks (\u2192 Computer Science & AI)"
+      ]
+    },
+    {
+      "slug": "causal-inference",
+      "name": "Causal Inference",
+      "tagline": "Methods for estimating cause-and-effect from experimental and observational data.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Potential outcomes framework",
+        "Directed acyclic graphs (DAGs)",
+        "Instrumental variables",
+        "Mediation analysis"
+      ],
+      "explicitly_excludes": [
+        "General experimental design (\u2192 Experimental Design & A/B Testing)"
+      ]
+    },
+    {
+      "slug": "computational-statistics-simulation",
+      "name": "Computational Statistics & Simulation",
+      "tagline": "Algorithms for fitting models and conducting inference. MCMC, VI, bootstrap.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Markov chain Monte Carlo (MCMC)",
+        "Variational inference (VI)",
+        "Bootstrap and resampling methods",
+        "Optimization algorithms for statistical models"
+      ],
+      "explicitly_excludes": [
+        "Purely numerical analysis or high-performance computing (\u2192 Computer Science & AI)"
+      ]
+    },
+    {
+      "slug": "clinical-trials-methodology",
+      "name": "Clinical Trials Methodology",
+      "tagline": "Design, conduct, and analysis of clinical trials and medical studies.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Adaptive and sequential designs",
+        "Randomization techniques",
+        "Endpoint selection and analysis",
+        "Missing data in trials"
+      ],
+      "explicitly_excludes": [
+        "General principles of experimentation (\u2192 Experimental Design & A/B Testing)",
+        "General methods for health data (\u2192 Biostatistics)"
+      ]
+    },
+    {
+      "slug": "high-dimensional-nonparametric-statistics",
+      "name": "High-Dimensional & Nonparametric Statistics",
+      "tagline": "Methods for complex data, p>>n problems, and flexible modeling.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Regularization (Lasso, Ridge)",
+        "Sparsity",
+        "Kernel methods",
+        "Splines and smoothing",
+        "Functional data analysis (FDA)"
+      ],
+      "explicitly_excludes": [
+        "Foundational probability theory (\u2192 Statistical Theory & Foundations)"
+      ]
+    },
+    {
+      "slug": "statistical-genetics-bioinformatics",
+      "name": "Statistical Genetics & Bioinformatics",
+      "tagline": "Statistical methods for genomics, proteomics, and systems biology data.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Genome-wide association studies (GWAS)",
+        "QTL mapping",
+        "Phylogenetics",
+        "Statistical methods for sequence analysis"
+      ],
+      "explicitly_excludes": [
+        "General biostatistical methods (\u2192 Biostatistics)",
+        "Purely biological or computational biology findings (\u2192 Biology)"
+      ]
+    },
+    {
+      "slug": "statistical-theory-foundations",
+      "name": "Statistical Theory & Foundations",
+      "tagline": "The mathematical underpinnings of statistics. Asymptotics, probability, decision theory.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Asymptotic theory",
+        "Probability theory for statistics",
+        "Statistical decision theory",
+        "Foundations of inference"
+      ],
+      "explicitly_excludes": [
+        "Development of specific Bayesian theory (\u2192 Bayesian Theory & Methods)",
+        "Theory for high-dimensional models (\u2192 High-Dimensional & Nonparametric Statistics)"
+      ]
+    },
+    {
+      "slug": "bayesian-theory-methods",
+      "name": "Bayesian Theory & Methods",
+      "tagline": "Development of Bayesian models, priors, and foundational concepts.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Prior specification",
+        "Posterior characterization",
+        "Bayesian model checking and selection",
+        "Hierarchical modeling theory"
+      ],
+      "explicitly_excludes": [
+        "Algorithms for Bayesian computation (\u2192 Computational Statistics & Simulation)",
+        "Application of Bayesian methods to a specific problem (\u2192 the relevant problem area)"
+      ]
+    },
+    {
+      "slug": "time-series-sequential-analysis",
+      "name": "Time Series & Sequential Analysis",
+      "tagline": "Modeling and forecasting data collected over time.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "ARIMA and state-space models",
+        "Forecasting methods",
+        "Change-point detection",
+        "Spectral analysis"
+      ],
+      "explicitly_excludes": [
+        "Spatio-temporal models (\u2192 Spatial & Spatio-temporal Statistics)",
+        "Econometric applications (\u2192 Economics)"
+      ]
+    },
+    {
+      "slug": "experimental-design-ab-testing",
+      "name": "Experimental Design & A/B Testing",
+      "tagline": "Principles for designing informative experiments in science and industry.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Design of experiments (DoE)",
+        "Factorial and fractional factorial designs",
+        "Response surface methodology",
+        "Online experimentation / A/B testing methods"
+      ],
+      "explicitly_excludes": [
+        "Methods specific to clinical trials (\u2192 Clinical Trials Methodology)",
+        "Causal inference from observational data (\u2192 Causal Inference)"
+      ]
+    },
+    {
+      "slug": "survival-reliability-analysis",
+      "name": "Survival & Reliability Analysis",
+      "tagline": "Modeling time-to-event data in medicine, engineering, and social sciences.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Kaplan-Meier estimates",
+        "Cox proportional hazards models",
+        "Accelerated failure time models",
+        "Competing risks"
+      ],
+      "explicitly_excludes": [
+        "General longitudinal data methods (\u2192 Biostatistics)"
+      ]
+    },
+    {
+      "slug": "spatial-spatio-temporal-statistics",
+      "name": "Spatial & Spatio-temporal Statistics",
+      "tagline": "Statistical methods for data with geographic or spatial structure.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Geostatistics and Kriging",
+        "Areal data analysis",
+        "Spatial point processes",
+        "Disease mapping"
+      ],
+      "explicitly_excludes": [
+        "Analysis of data over time only (\u2192 Time Series & Sequential Analysis)"
+      ]
+    },
+    {
+      "slug": "survey-sampling-methods",
+      "name": "Survey & Sampling Methods",
+      "tagline": "Design and analysis of surveys and population sampling techniques.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Complex survey design",
+        "Weighting and calibration",
+        "Missing data imputation",
+        "Small area estimation"
+      ],
+      "explicitly_excludes": [
+        "General experimental design (\u2192 Experimental Design & A/B Testing)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "The boundary between 'Statistical Learning' and 'Machine Learning' (in CS & AI) is inherently fuzzy; we rely on author/journal intent to distinguish between statistical properties vs. algorithmic performance.",
+    "Fields like Econometrics, Psychometrics, and Actuarial Science are excluded as they are considered domain applications, belonging in Economics, Psychology, and Finance respectively.",
+    "Survival Analysis could have been merged into Biostatistics, but was kept separate to also serve its large audience in engineering (reliability) and social sciences."
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "level1_slug": "public-health",
+  "level1_name": "Public Health & Epidemiology",
+  "count": 13,
+  "rationale": "This structure divides Public Health & Epidemiology into its major domains and methodological cores, mirroring the organization of leading academic institutions and how professionals self-identify. Key epidemiological areas like Infectious and Chronic Disease are separated as they represent the largest and most distinct bodies of research. Foundational disciplines such as Biostatistics, Environmental Health, and Health Policy are given their own categories. I deliberately combined Health Policy with Management and Economics to create a cohesive 'systems-level' category, avoiding smaller, overlapping subspecialties. This approach aims for a MECE-leaning framework where a researcher can readily find a primary home for their work.",
+  "subspecialties": [
+    {
+      "slug": "chronic-disease-cancer-epidemiology",
+      "name": "Chronic Disease & Cancer Epidemiology",
+      "tagline": "Investigating causes and patterns of non-communicable diseases like heart disease, diabetes, and cancer.",
+      "audience_pct_within_level1": 20.0,
+      "covers": [
+        "Study of non-communicable disease (NCD) distribution and determinants.",
+        "Cardiovascular epidemiology, cancer registries, diabetes population studies, respiratory diseases."
+      ],
+      "explicitly_excludes": [
+        "Clinical trials for treatments (\u2192 Medicine)",
+        "Genetic markers for disease (\u2192 Genetic & Molecular Epidemiology)"
+      ]
+    },
+    {
+      "slug": "infectious-disease-epidemiology",
+      "name": "Infectious Disease Epidemiology",
+      "tagline": "Tracking and modeling outbreaks, vaccine effectiveness, and pathogen transmission in populations.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Surveillance of communicable diseases, outbreak investigation, and mathematical modeling.",
+        "COVID-19 spread models, vaccine efficacy studies, HIV/AIDS surveillance, influenza forecasting."
+      ],
+      "explicitly_excludes": [
+        "Bench lab work on pathogens (\u2192 Biology)",
+        "Individual patient treatment protocols (\u2192 Medicine)"
+      ]
+    },
+    {
+      "slug": "health-policy-management",
+      "name": "Health Policy & Management",
+      "tagline": "Analyzing healthcare systems, policy, law, and economics to improve population health.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Analysis of health systems, healthcare financing, health law, and organizational management.",
+        "Health insurance reform analysis, hospital administration studies, global health governance."
+      ],
+      "explicitly_excludes": [
+        "Studies on healthcare quality and access (\u2192 Health Services Research)",
+        "Clinical practice guidelines (\u2192 Medicine)"
+      ]
+    },
+    {
+      "slug": "environmental-health-sciences",
+      "name": "Environmental Health Sciences",
+      "tagline": "Examining how environmental factors like pollution, climate, and toxins affect human health.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Impact of physical, chemical, and biological environmental factors on populations.",
+        "Air pollution and asthma, lead exposure studies, climate change health impacts, water quality."
+      ],
+      "explicitly_excludes": [
+        "Pure toxicology without a population health link (\u2192 Biology)",
+        "Workplace-specific exposures (\u2192 Occupational & Injury Epidemiology)"
+      ]
+    },
+    {
+      "slug": "global-health",
+      "name": "Global Health",
+      "tagline": "Addressing health challenges that transcend national boundaries, often in low-resource settings.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Health equity, infectious and chronic diseases in low- and middle-income countries (LMICs).",
+        "Tropical medicine, health systems strengthening in Africa, WHO initiatives, global vaccination programs."
+      ],
+      "explicitly_excludes": [
+        "Domestic health policy in high-income countries (\u2192 Health Policy & Management)"
+      ]
+    },
+    {
+      "slug": "social-behavioral-sciences",
+      "name": "Social & Behavioral Sciences",
+      "tagline": "Studying social determinants, health disparities, and behavior change to promote health.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Research on social determinants of health, health equity, community-based interventions, and health communication.",
+        "Studies on racism and health, smoking cessation programs, social network analysis of health behaviors."
+      ],
+      "explicitly_excludes": [
+        "Individual clinical psychology (\u2192 Psychology)",
+        "Economic drivers of health systems (\u2192 Health Policy & Management)"
+      ]
+    },
+    {
+      "slug": "biostatistics",
+      "name": "Biostatistics",
+      "tagline": "Developing and applying statistical methods for public health and biomedical research.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Development of novel statistical techniques and complex data analysis.",
+        "Survival analysis methods, causal inference, clinical trial design, high-dimensional data analysis."
+      ],
+      "explicitly_excludes": [
+        "Applied studies where statistics are a tool, not the focus (\u2192 the relevant subject area)"
+      ]
+    },
+    {
+      "slug": "maternal-child-health",
+      "name": "Maternal & Child Health",
+      "tagline": "Focusing on the health and well-being of women, children, adolescents, and families.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Reproductive health, perinatal epidemiology, child development, and family health.",
+        "Infant mortality research, breastfeeding promotion, adolescent health programs, birth defects epidemiology."
+      ],
+      "explicitly_excludes": [
+        "Clinical obstetrics or pediatrics (\u2192 Medicine)"
+      ]
+    },
+    {
+      "slug": "nutritional-epidemiology",
+      "name": "Nutritional Epidemiology",
+      "tagline": "Investigating the relationship between diet, nutrition, and health in populations.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Population-level dietary patterns, malnutrition, obesity, and food systems.",
+        "Studies on diet and heart disease, vitamin deficiency surveillance, food insecurity research."
+      ],
+      "explicitly_excludes": [
+        "Biochemistry of nutrients or metabolism (\u2192 Biology)",
+        "Individual dietetics and clinical nutrition (\u2192 Medicine)"
+      ]
+    },
+    {
+      "slug": "mental-health-substance-use",
+      "name": "Mental Health & Substance Use",
+      "tagline": "Population-level research on mental illness, addiction, and related prevention strategies.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Epidemiology of mental disorders, substance abuse patterns, and public mental health interventions.",
+        "Opioid crisis research, population depression screening, suicide prevention studies."
+      ],
+      "explicitly_excludes": [
+        "Clinical psychiatry or neuroscience (\u2192 Medicine, Biology)",
+        "Individual psychotherapy research (\u2192 Psychology)"
+      ]
+    },
+    {
+      "slug": "health-services-research",
+      "name": "Health Services Research",
+      "tagline": "Evaluating the access, quality, cost, and outcomes of healthcare delivery.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Studies on healthcare delivery systems, patient safety, quality improvement, and access to care.",
+        "Comparative effectiveness research, analysis of health outcomes, patient-centered care models."
+      ],
+      "explicitly_excludes": [
+        "Broad health policy and law (\u2192 Health Policy & Management)",
+        "Clinical efficacy trials (\u2192 Medicine)"
+      ]
+    },
+    {
+      "slug": "genetic-molecular-epidemiology",
+      "name": "Genetic & Molecular Epidemiology",
+      "tagline": "Using genetic and molecular data to understand disease patterns in populations.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Gene-environment interactions, population genetics, and use of biomarkers in epidemiology.",
+        "Genome-wide association studies (GWAS), Mendelian randomization, biomarker discovery for risk."
+      ],
+      "explicitly_excludes": [
+        "Basic science genetics and molecular biology (\u2192 Biology)"
+      ]
+    },
+    {
+      "slug": "occupational-injury-epidemiology",
+      "name": "Occupational & Injury Epidemiology",
+      "tagline": "Studying workplace health and safety, and the prevention of injuries in populations.",
+      "audience_pct_within_level1": 1.0,
+      "covers": [
+        "Workplace exposures, ergonomics, and the epidemiology of intentional and unintentional injuries.",
+        "Construction worker safety, traffic accident prevention, fall prevention in the elderly."
+      ],
+      "explicitly_excludes": [
+        "General environmental exposures (\u2192 Environmental Health Sciences)",
+        "Clinical trauma care (\u2192 Medicine)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Pharmacoepidemiology was considered but folded into Health Services Research and Chronic Disease, as most papers fit well there.",
+    "Aging/Gerontology is a major field, but its papers are well-covered by Chronic Disease, Health Services, and Social & Behavioral Sciences.",
+    "Implementation Science is a cross-cutting methodology; papers are better classified by the domain of implementation (e.g., Global Health)."
+  ]
+}

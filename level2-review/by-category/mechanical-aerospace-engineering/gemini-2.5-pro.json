@@ -1,0 +1,195 @@
+{
+  "level1_slug": "mechanical-aerospace-engineering",
+  "level1_name": "Mechanical & Aerospace Engineering",
+  "count": 13,
+  "rationale": "This structure uses a hybrid model, separating foundational disciplines (e.g., Solid Mechanics, Fluid Mechanics, Thermodynamics) from major integrated application areas (e.g., Aerospace, Automotive, Robotics). This allows a researcher to classify work by its fundamental contribution or its specific application domain, which aligns with how departments and conferences are often organized. The count of 13 provides sufficient granularity for this diverse field without causing choice overload. I deliberately split the classical 'Dynamics and Control' into three modern specializations\u2014'Dynamics & Vibrations', 'Control Systems', and 'Robotics'\u2014to reflect their growth into distinct, large-scale fields. Conversely, 'Thermodynamics & Heat Transfer' remain combined as their research areas are deeply intertwined.",
+  "subspecialties": [
+    {
+      "slug": "solid-mechanics-structures",
+      "name": "Solid Mechanics & Structures",
+      "tagline": "Stress, strain, deformation, and failure of solid materials and structures.",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "Analysis of deformable bodies under load, including elasticity, plasticity, and fracture.",
+        "Finite Element Analysis (FEA), composite mechanics, structural integrity, contact mechanics."
+      ],
+      "explicitly_excludes": [
+        "Dynamic response and vibrations \u2192 Dynamics & Vibrations",
+        "Material synthesis and characterization \u2192 Materials Science (L1)"
+      ]
+    },
+    {
+      "slug": "fluid-mechanics",
+      "name": "Fluid Mechanics",
+      "tagline": "The physics of fluid motion and its fundamental applications.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Fundamental principles of fluid statics, dynamics, and transport phenomena.",
+        "Computational Fluid Dynamics (CFD), turbulence, multiphase flows, hydrodynamics, microfluidics."
+      ],
+      "explicitly_excludes": [
+        "External flow for flight \u2192 Aerodynamics & Flight Mechanics",
+        "Fluid dynamics in biological systems \u2192 Biomechanics"
+      ]
+    },
+    {
+      "slug": "thermodynamics-heat-transfer",
+      "name": "Thermodynamics & Heat Transfer",
+      "tagline": "Energy conversion, thermal management, and transport of thermal energy.",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Principles of energy, entropy, and heat applied to engineering systems.",
+        "Combustion, HVAC, heat exchangers, electronics cooling, phase change phenomena."
+      ],
+      "explicitly_excludes": [
+        "System-level power generation \u2192 Energy Systems",
+        "Propulsion-specific combustion \u2192 Aerospace Propulsion"
+      ]
+    },
+    {
+      "slug": "manufacturing-design",
+      "name": "Manufacturing & Design",
+      "tagline": "Creating and producing mechanical components, products, and systems.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Processes for shaping materials and the principles of mechanical design.",
+        "Additive manufacturing (3D printing), machining, CAD/CAM, product lifecycle management, design optimization."
+      ],
+      "explicitly_excludes": [
+        "Material property development \u2192 Materials Science (L1)",
+        "Robotic automation of manufacturing \u2192 Robotics"
+      ]
+    },
+    {
+      "slug": "robotics",
+      "name": "Robotics",
+      "tagline": "Design, control, and operation of robotic and autonomous systems.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "The mechanics, control, and design of manipulators, mobile robots, and automated systems.",
+        "Kinematics and dynamics, motion planning, robot design, human-robot interaction, automation."
+      ],
+      "explicitly_excludes": [
+        "Pure control theory \u2192 Control Systems",
+        "Machine learning algorithms \u2192 Computer Science (L1)"
+      ]
+    },
+    {
+      "slug": "aerodynamics-flight-mechanics",
+      "name": "Aerodynamics & Flight Mechanics",
+      "tagline": "Airflow over bodies and the dynamics of atmospheric flight.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "The study of forces on aircraft and other flying objects and their resulting motion.",
+        "Airfoil design, external flow CFD, flight stability and control, wind tunnel testing."
+      ],
+      "explicitly_excludes": [
+        "Fundamental fluid physics \u2192 Fluid Mechanics",
+        "Spacecraft trajectories \u2192 Astrodynamics & Space Systems"
+      ]
+    },
+    {
+      "slug": "aerospace-propulsion",
+      "name": "Aerospace Propulsion",
+      "tagline": "Generating thrust for aircraft and spacecraft.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Design and analysis of engines for flight within and outside the atmosphere.",
+        "Jet engines, turbomachinery, rocket engines, electric propulsion, combustion in engines."
+      ],
+      "explicitly_excludes": [
+        "General energy conversion \u2192 Energy Systems",
+        "Non-propulsive combustion \u2192 Thermodynamics & Heat Transfer"
+      ]
+    },
+    {
+      "slug": "dynamics-vibrations",
+      "name": "Dynamics & Vibrations",
+      "tagline": "Motion, forces, and vibrations in mechanical systems.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Analysis of systems in motion, including oscillations, waves, and stability.",
+        "Structural dynamics, vibration analysis and suppression, acoustics, multibody dynamics."
+      ],
+      "explicitly_excludes": [
+        "Feedback control of dynamic systems \u2192 Control Systems",
+        "Kinematics of robotic systems \u2192 Robotics"
+      ]
+    },
+    {
+      "slug": "control-systems",
+      "name": "Control Systems",
+      "tagline": "Modeling and controlling the behavior of dynamical systems.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "The theory and application of feedback to modify system behavior.",
+        "Linear and nonlinear control, optimal control, adaptive control, state estimation."
+      ],
+      "explicitly_excludes": [
+        "Robot-specific control applications \u2192 Robotics",
+        "Aircraft flight control \u2192 Aerodynamics & Flight Mechanics"
+      ]
+    },
+    {
+      "slug": "biomechanics",
+      "name": "Biomechanics",
+      "tagline": "Applying mechanical principles to biological systems.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "The study of structure, function, and motion in biological systems.",
+        "Gait analysis, tissue mechanics, biofluid dynamics, medical device design, prosthetics."
+      ],
+      "explicitly_excludes": [
+        "General fluid dynamics \u2192 Fluid Mechanics",
+        "Biomaterials \u2192 Materials Science (L1)"
+      ]
+    },
+    {
+      "slug": "energy-systems",
+      "name": "Energy Systems",
+      "tagline": "Generation, conversion, and storage of energy at the system level.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Engineering of systems for power generation and energy conversion.",
+        "Renewable energy (wind, solar, hydro), power plants, energy storage, thermal systems."
+      ],
+      "explicitly_excludes": [
+        "Fundamental thermodynamics or heat transfer \u2192 Thermodynamics & Heat Transfer",
+        "Automotive powertrains \u2192 Automotive Engineering"
+      ]
+    },
+    {
+      "slug": "automotive-engineering",
+      "name": "Automotive Engineering",
+      "tagline": "Design, manufacturing, and operation of ground vehicles.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "All aspects of self-propelled wheeled vehicles.",
+        "Vehicle dynamics, powertrain systems (ICE, EV), chassis design, autonomous driving hardware."
+      ],
+      "explicitly_excludes": [
+        "General propulsion concepts \u2192 Aerospace Propulsion or Energy Systems",
+        "General robotics \u2192 Robotics"
+      ]
+    },
+    {
+      "slug": "astrodynamics-space-systems",
+      "name": "Astrodynamics & Space Systems",
+      "tagline": "The motion of spacecraft and the design of space missions.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "The application of celestial mechanics to practical problems concerning spaceflight.",
+        "Orbital mechanics, trajectory optimization, spacecraft attitude control, mission design."
+      ],
+      "explicitly_excludes": [
+        "Atmospheric flight \u2192 Aerodynamics & Flight Mechanics",
+        "Rocket engines \u2192 Aerospace Propulsion"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "A dedicated 'Computational Engineering' (FEA, CFD) category was considered but rejected, as these are methods applied across all subspecialties, not a domain itself.",
+    "Mechatronics was considered but its core topics are well-covered by the combination of Robotics, Control Systems, and Manufacturing & Design.",
+    "A single large 'Aerospace Engineering' category was avoided as it would be too coarse and would fail to distinguish between the very different professions of aerodynamics, propulsion, and astrodynamics."
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "level1_slug": "medicine",
+  "level1_name": "Medicine & Clinical Science",
+  "count": 16,
+  "rationale": "I chose 16 practical, practitioner-facing subspecialties to cover the clinical spectrum clinicians and trialists use to describe themselves, balancing breadth (medical, surgical, diagnostic, perioperative) with depth (organ systems and cross-cutting fields like oncology and infectious disease). The list errs toward clinical identities (Cardiology, Oncology, Surgery) rather than research-method labels, and keeps adjacent public-health, basic-biology, and chemistry topics out of scope. I deliberately kept Radiology and Pathology separate (they are distinct clinical-professional communities) and kept Psychiatry as its own clinical specialty rather than splitting behavioral neuroscience \u2014 a controversial split I avoided to keep cards recognizable for clinicians and researchers alike.",
+  "subspecialties": [
+    {
+      "slug": "oncology",
+      "name": "Oncology",
+      "tagline": "Cancer diagnosis, medical oncology, radiation & trials",
+      "audience_pct_within_level1": 16.0,
+      "covers": [
+        "solid tumor and hematologic cancer studies, systemic therapy trials, radiation oncology, survivorship",
+        "examples: phase II/III chemotherapy trials, targeted therapy biomarker studies, tumor board case series"
+      ],
+      "explicitly_excludes": [
+        "Hematology \u2014 blood disorders without malignant focus",
+        "Biology \u2014 preclinical tumor biology belongs to Biology"
+      ]
+    },
+    {
+      "slug": "cardiology",
+      "name": "Cardiology",
+      "tagline": "Heart disease, interventional cardiology, heart failure research",
+      "audience_pct_within_level1": 13.0,
+      "covers": [
+        "ischemic heart disease, arrhythmia, heart failure, interventional/stents, device trials",
+        "examples: randomized PCI trials, heart-failure drug trials, electrophysiology cohort studies"
+      ],
+      "explicitly_excludes": [
+        "Cardiac surgery \u2014 falls under Surgery",
+        "Vascular medicine \u2014 included here for clinical cardiology but large vascular-only trials may map to Surgery"
+      ]
+    },
+    {
+      "slug": "neurology",
+      "name": "Neurology",
+      "tagline": "Stroke, neurodegeneration, epilepsy, clinical neuro studies",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "acute stroke care, MS, Parkinson\u2019s, dementia, epilepsy, neuroimmunology clinical work",
+        "examples: stroke thrombolysis RCTs, MS therapy trials, dementia progression cohorts"
+      ],
+      "explicitly_excludes": [
+        "Neurosurgery \u2014 operative interventions are under Surgery",
+        "Psychiatry \u2014 mood and psychotic disorders belong to Psychiatry"
+      ]
+    },
+    {
+      "slug": "surgery",
+      "name": "Surgery",
+      "tagline": "General and specialty operative care, outcomes, perioperative medicine",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "operative techniques, surgical oncology, vascular/orthopedic/thoracic procedures, perioperative outcomes",
+        "examples: randomized trials of surgical approaches, device implantation studies, surgical cohort outcomes"
+      ],
+      "explicitly_excludes": [
+        "Anesthesiology \u2014 perioperative anesthesia and analgesia studies map to Anesthesiology",
+        "Oncology \u2014 non-operative cancer medical/radiation studies remain in Oncology"
+      ]
+    },
+    {
+      "slug": "pediatrics",
+      "name": "Pediatrics",
+      "tagline": "Child health, neonatal, pediatric subspecialty clinical studies",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "neonatology, pediatric infectious disease, congenital disorders, vaccine trials in children",
+        "examples: pediatric vaccine RCTs, neonatal intensive care cohort studies, congenital cardiology follow-ups"
+      ],
+      "explicitly_excludes": [
+        "Obstetrics \u2014 maternal/fetal medicine goes to other clinical categories when applicable",
+        "Adult-focused subspecialties like Cardiology or Oncology when the population is adult"
+      ]
+    },
+    {
+      "slug": "radiology",
+      "name": "Radiology",
+      "tagline": "Diagnostic imaging, interventional radiology, imaging biomarkers",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "CT/MRI/ultrasound imaging studies, imaging-guided interventions, diagnostic accuracy and AI-imaging tools",
+        "examples: diagnostic performance papers, image-guided ablation trials, radiomics studies"
+      ],
+      "explicitly_excludes": [
+        "Pathology \u2014 tissue-based diagnostics remain in Pathology",
+        "Machine-learning methods with no clinical imaging application \u2014 may map to Computing or Biology"
+      ]
+    },
+    {
+      "slug": "infectious-disease",
+      "name": "Infectious Disease",
+      "tagline": "Clinical infectious diseases, antimicrobial trials, outbreak response",
+      "audience_pct_within_level1": 5.5,
+      "covers": [
+        "antimicrobial therapy trials, vaccine effectiveness, hospital epidemiology, emerging pathogens",
+        "examples: COVID therapeutic RCTs, HIV treatment guidelines, antimicrobial stewardship studies"
+      ],
+      "explicitly_excludes": [
+        "Public Health \u2014 population-level epidemiology and surveillance maps to Public Health",
+        "Microbiology/Biology \u2014 lab-based pathogen discovery belongs to Biology"
+      ]
+    },
+    {
+      "slug": "pathology",
+      "name": "Pathology",
+      "tagline": "Diagnostic pathology, histopathology, molecular diagnostics",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "tissue diagnostics, immunohistochemistry, molecular pathology, diagnostic concordance studies",
+        "examples: biomarker validation on clinical specimens, autopsy series, diagnostic criteria papers"
+      ],
+      "explicitly_excludes": [
+        "Radiology \u2014 image-based diagnostics map to Radiology",
+        "Biology \u2014 basic molecular mechanism work is in Biology"
+      ]
+    },
+    {
+      "slug": "pulmonology",
+      "name": "Pulmonology",
+      "tagline": "Lung disease, critical respiratory care, pulmonary trials",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "COPD, asthma, interstitial lung disease, ARDS, ventilator management and respiratory critical care",
+        "examples: inhaled therapy RCTs, ARDS management trials, pulmonary function cohort studies"
+      ],
+      "explicitly_excludes": [
+        "Critical Care \u2014 if primarily ICU systems-level research, consider cross-mapping to Surgery or Hospital Medicine",
+        "Infectious Disease \u2014 infectious pneumonias remain Infectious Disease when primary focus"
+      ]
+    },
+    {
+      "slug": "gastroenterology",
+      "name": "Gastroenterology",
+      "tagline": "GI/liver disease, endoscopy, hepatology clinical studies",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "IBD, liver disease, GI cancers, endoscopic techniques and outcomes",
+        "examples: endoscopic procedural trials, hepatitis antiviral clinical trials, IBD biologic studies"
+      ],
+      "explicitly_excludes": [
+        "Surgery \u2014 operative GI procedures belong to Surgery",
+        "Oncology \u2014 GI cancers focused on medical/radiation therapy remain Oncology"
+      ]
+    },
+    {
+      "slug": "hematology",
+      "name": "Hematology",
+      "tagline": "Blood disorders, coagulopathy, transfusion and non-malignant hematology",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "anemias, coagulopathies, transfusion medicine, benign hematologic disorders and some overlap with blood-cancer trials",
+        "examples: anticoagulation trials, transfusion thresholds studies, hemoglobinopathy cohorts"
+      ],
+      "explicitly_excludes": [
+        "Oncology \u2014 hematologic malignancies and leukemia/lymphoma trials map to Oncology",
+        "Pathology \u2014 lab hematopathology methods map to Pathology"
+      ]
+    },
+    {
+      "slug": "anesthesiology",
+      "name": "Anesthesiology",
+      "tagline": "Perioperative care, anesthesia, pain management, critical care anesthesia",
+      "audience_pct_within_level1": 3.5,
+      "covers": [
+        "general and regional anesthesia, analgesia trials, perioperative outcomes and airway management",
+        "examples: analgesic regimen RCTs, airway device trials, perioperative morbidity studies"
+      ],
+      "explicitly_excludes": [
+        "Pain-focused outpatient neurology/psychiatry \u2014 chronic pain with behavioral/neuromodulation aspects may map to Neurology or Psychiatry",
+        "Surgery \u2014 operative technique trials remain Surgery"
+      ]
+    },
+    {
+      "slug": "endocrinology",
+      "name": "Endocrinology",
+      "tagline": "Diabetes, metabolic disease, endocrine disorders clinical research",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "diabetes management and devices, thyroid disease, metabolic bone disease, endocrine clinical trials",
+        "examples: glucose-lowering drug RCTs, thyroid disease cohort studies, endocrine surgical outcomes linked to Surgery"
+      ],
+      "explicitly_excludes": [
+        "Primary care/Preventive Medicine \u2014 lifestyle/population interventions map to Public Health",
+        "Biology \u2014 molecular endocrinology belongs to Biology"
+      ]
+    },
+    {
+      "slug": "nephrology",
+      "name": "Nephrology",
+      "tagline": "Kidney disease, dialysis, transplant nephrology clinical studies",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "CKD progression, dialysis modalities, transplant outcomes, electrolyte disorders and AKI",
+        "examples: dialysis modality comparative trials, CKD drug trials, transplant immunosuppression cohorts"
+      ],
+      "explicitly_excludes": [
+        "Transplant surgery \u2014 operative transplant procedures map to Surgery",
+        "Immunology/basic transplant biology \u2014 maps to Biology when preclinical"
+      ]
+    },
+    {
+      "slug": "dermatology",
+      "name": "Dermatology",
+      "tagline": "Skin disease, dermatologic procedures, cutaneous oncology",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "inflammatory skin disease, dermatologic surgery, topical/systemic therapies, skin cancer clinical work",
+        "examples: psoriasis biologic trials, melanoma clinical studies, dermatologic device trials"
+      ],
+      "explicitly_excludes": [
+        "Oncology \u2014 systemic cancer therapy trials for melanoma map to Oncology",
+        "Pathology \u2014 dermatopathology methods map to Pathology"
+      ]
+    },
+    {
+      "slug": "psychiatry",
+      "name": "Psychiatry",
+      "tagline": "Mood, psychotic, and behavioral disorders; clinical psychopharmacology",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "clinical trials of psychotropics, psychotherapy studies, neuropsychiatric disorder management",
+        "examples: antidepressant RCTs, CBT intervention trials, schizophrenia cohort and outcome studies"
+      ],
+      "explicitly_excludes": [
+        "Neurology \u2014 neurodegenerative and seizure disorders remain Neurology when primary focus",
+        "Public Health \u2014 population mental-health epidemiology maps to Public Health"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Critical Care/ICU: considered as a stand-alone subspecialty but split across Surgery, Anesthesiology, Pulmonology and Emergency domains in practice; kept distributed to match clinician identity.",
+    "Emergency Medicine: important clinically but small distinct research share and heavy overlap with Trauma/Surgery and Infectious Disease \u2014 deferred to cross-filter rather than a main tile.",
+    "Reproductive/Obstetrics & Gynecology: debated inclusion vs. keeping a separate women\u2019s health tile; many papers are subsumed under relevant organ-system specialties or Public Health, so omitted here.",
+    "Primary Care / General Practice: large clinical audience but its papers often live in Public Health, implementation science, or specialty-specific trials; excluded to avoid overlap.",
+    "Digital health / Clinical AI: high-growth cross-cutting area but not a clinician self-title; these papers should be discoverable via method/topic tags rather than a specialty tile."
+  ]
+}

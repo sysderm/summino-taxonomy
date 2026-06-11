@@ -1,0 +1,200 @@
+{
+  "level1_slug": "physics-astronomy",
+  "level1_name": "Physics & Astronomy",
+  "count": 14,
+  "rationale": "I split Physics & Astronomy into 14 practitioner-facing subspecialties to balance breadth (covering the major communities authors self-identify with) and granularity (no single card >35% and no niche card <0.5%). I kept large, distinct communities like Condensed Matter, High Energy/Particle, Astrophysics and Cosmology separate because they differ in methods, literature and audiences, while combining strongly overlapping areas (e.g., Optics & Photonics; Geophysics & Planetary Physics) to avoid overly thin categories. I deliberately did not further split Condensed Matter into many narrow materials subfields because materials-focused work should route to Materials Science at level-1; likewise chemical-physics work is routed to Chemistry. Quantum Information is separated from AMO and Condensed Matter because it is a distinct, recognizable profession despite methodological overlap.",
+  "subspecialties": [
+    {
+      "slug": "condensed-matter",
+      "name": "Condensed Matter",
+      "tagline": "Solid-state, electronic, topological and correlated-matter physics",
+      "audience_pct_within_level1": 25.0,
+      "covers": [
+        "Electron correlation, superconductivity, magnetism, topological phases",
+        "Examples: ARPES studies of correlated oxides; theory of topological insulators"
+      ],
+      "explicitly_excludes": [
+        "Materials Science (materials-focused experimental or engineering work)",
+        "Chemistry (chemical-physics, molecular synthesis-focused work)"
+      ]
+    },
+    {
+      "slug": "high-energy-particle-physics",
+      "name": "High Energy Physics",
+      "tagline": "Particle physics, collider experiments and theory",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Collider phenomenology, beyond-Standard-Model theory, particle detectors",
+        "Examples: LHC searches, effective field theory, neutrino oscillation analyses"
+      ],
+      "explicitly_excludes": [
+        "Nuclear Physics (low-energy nuclear structure and reactions)"
+      ]
+    },
+    {
+      "slug": "atomic-molecular-optical-amo",
+      "name": "Atomic, Molecular & Optical (AMO)",
+      "tagline": "Atomic physics, molecular dynamics, laser-matter interactions",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Precision spectroscopy, cold atoms, ultrafast lasers, molecular collisions",
+        "Examples: atomic clocks, cold-atom experiments, molecular beam studies"
+      ],
+      "explicitly_excludes": [
+        "Quantum Information (when focus is on information protocols rather than AMO experiments)",
+        "Chemistry (molecular synthesis and chemical reaction mechanism work)"
+      ]
+    },
+    {
+      "slug": "quantum-information",
+      "name": "Quantum Information",
+      "tagline": "Quantum computing, communication and information theory",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Quantum algorithms, error correction, hardware implementations and benchmarks",
+        "Examples: superconducting qubit experiments, photonic quantum networks, algorithm theory"
+      ],
+      "explicitly_excludes": [
+        "Condensed Matter (materials-focused qubit development should still map by discipline)",
+        "Computer Science (classical algorithms / ML theory)"
+      ]
+    },
+    {
+      "slug": "astrophysics",
+      "name": "Astrophysics",
+      "tagline": "Star, galaxy and high-energy astrophysical phenomena",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Observational and theoretical studies of stars, galaxies, transients and high-energy sources",
+        "Examples: supernova observations, galaxy formation simulations, X-ray binaries"
+      ],
+      "explicitly_excludes": [
+        "Cosmology (large-scale Universe, early-Universe theory and CMB studies)"
+      ]
+    },
+    {
+      "slug": "cosmology",
+      "name": "Cosmology",
+      "tagline": "Early Universe, large-scale structure and cosmological theory",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Inflation, dark matter/energy phenomenology, CMB and large-scale structure analyses",
+        "Examples: parameter constraints from surveys, theoretical models of inflation"
+      ],
+      "explicitly_excludes": [
+        "Astrophysics (galaxy- or star-focused astrophysical processes not about cosmology)"
+      ]
+    },
+    {
+      "slug": "plasma-fusion",
+      "name": "Plasma Physics & Fusion",
+      "tagline": "Laboratory and space plasmas; magnetic and inertial fusion",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Magnetohydrodynamics, turbulence, fusion confinement, space plasma observations",
+        "Examples: tokamak confinement studies, solar wind plasma measurements"
+      ],
+      "explicitly_excludes": [
+        "Geophysics & Planetary Physics (planetary atmosphere dynamics routed there when appropriate)"
+      ]
+    },
+    {
+      "slug": "nuclear-physics",
+      "name": "Nuclear Physics",
+      "tagline": "Nuclear structure, reactions and low-energy nuclear theory",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Properties of nuclei, nuclear astrophysics, heavy-ion collisions at low-to-intermediate energy",
+        "Examples: ab initio nuclear structure calculations, nuclear reaction experiments"
+      ],
+      "explicitly_excludes": [
+        "High Energy Physics (particle physics at collider energies)"
+      ]
+    },
+    {
+      "slug": "mathematical-statistical-physics",
+      "name": "Mathematical & Statistical Physics",
+      "tagline": "Theory-focused: exactly solvable models, statistical mechanics, non-equilibrium physics",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Rigorous results, field theory methods, stochastic processes and critical phenomena",
+        "Examples: integrable models, KPZ universality, renormalization-group proofs"
+      ],
+      "explicitly_excludes": [
+        "Soft Matter & Complex Systems (applied complex-systems work with experiments may go there)"
+      ]
+    },
+    {
+      "slug": "optics-photonics",
+      "name": "Optics & Photonics",
+      "tagline": "Classical and quantum optics, lasers, photonic devices and applications",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Nonlinear optics, photonic materials, integrated photonics and imaging physics",
+        "Examples: frequency combs, nonlinear waveguide experiments, imaging methods"
+      ],
+      "explicitly_excludes": [
+        "AMO (fundamental atomic/molecular experiments focused on atoms/molecules rather than photonic devices)"
+      ]
+    },
+    {
+      "slug": "geophysics-planetary-physics",
+      "name": "Geophysics & Planetary Physics",
+      "tagline": "Physical processes inside planets and planetary environments",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Seismology as physics, planetary interiors, magnetospheres and atmospheric physics of planets",
+        "Examples: mantle convection modelling, planetary magnetosphere observations"
+      ],
+      "explicitly_excludes": [
+        "Earth Sciences (applied geoscience that is primarily geology or resources-focused)"
+      ]
+    },
+    {
+      "slug": "instrumentation-methods",
+      "name": "Instrumentation & Methods",
+      "tagline": "Experimental techniques, detectors, measurement and data methods",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Detector development, measurement techniques, data pipelines and calibration methods",
+        "Examples: new CCD/bolometer designs, calibration methods for telescopes, analysis pipelines"
+      ],
+      "explicitly_excludes": [
+        "Engineering (purely applied engineering device development without physics research goals)"
+      ]
+    },
+    {
+      "slug": "biophysics",
+      "name": "Biophysics",
+      "tagline": "Physical approaches to biological systems and soft matter biophysics",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Single-molecule physics, biomechanics, active matter in biological contexts",
+        "Examples: motor-protein mechanics, physical models of cellular processes"
+      ],
+      "explicitly_excludes": [
+        "Biology / Life Sciences (biological studies without novel physical-method emphasis)"
+      ]
+    },
+    {
+      "slug": "soft-matter-complex-systems",
+      "name": "Soft Matter & Complex Systems",
+      "tagline": "Polymers, colloids, active matter and complex-systems physics",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Rheology, self-assembly, active matter, network dynamics and emergent behavior",
+        "Examples: colloidal assembly experiments, models of flocking and network resilience"
+      ],
+      "explicitly_excludes": [
+        "Materials Science (materials-engineering-focused soft materials research)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Materials-heavy condensed-matter work: intentionally routed to Materials Science to avoid duplication; some borderline papers may need title/abstract heuristics.",
+    "Overlap between Quantum Information, AMO and Condensed Matter: these communities publish across boundaries; clear abstract-based routing rules will be required.",
+    "Instrumentation vs Engineering: distinguishing physics-motivated instrumentation from engineering development can be subjective; we keep an experimental-methods card but expect manual/ML disambiguation.",
+    "Astrophysics vs Cosmology boundary: observational cosmology (CMB, large-scale structure) can sit between the two; we separate by focus (cosmology = Universe-scale/early-Universe).",
+    "Biophysics is smaller here but some biological-physics work will go to Life Sciences if primarily biological rather than physics-driven."
+  ]
+}

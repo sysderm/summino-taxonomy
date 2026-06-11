@@ -1,0 +1,210 @@
+{
+  "level1_slug": "materials-science",
+  "level1_name": "Materials Science",
+  "count": 14,
+  "rationale": "I split Materials Science by the topical research communities people actually identify with (polymers, ceramics, biomaterials, computational materials, etc.) plus cross\u2011cutting technique areas (characterization, surfaces) and functionally oriented material classes (electronic, optical, energy). Fourteen cards balance breadth and discoverability: common, high\u2011volume areas are separate while closely allied topics that are usually handled by the same researchers (e.g., ceramics & glasses; soft matter & colloids) are kept together. I deliberately did not create separate cards for device/system engineering or pure synthetic organic chemistry \u2014 those go to engineering or chemistry respectively \u2014 and I merged some borderline areas (e.g., manufacturing/scale\u2011up) into adjacent subspecialties rather than making tiny low\u2011volume cards.",
+  "subspecialties": [
+    {
+      "slug": "electronic-materials",
+      "name": "Electronic Materials",
+      "tagline": "Semiconductors, dielectrics, conductors, and device\u2011grade thin films",
+      "audience_pct_within_level1": 13.0,
+      "covers": [
+        "Materials for transistors, 2D/III\u2011V/oxide semiconductors, dielectrics, transparent conductors",
+        "Examples: CMOS-compatible semiconductors, oxide electronics, doped oxides, charge\u2011transport layers"
+      ],
+      "explicitly_excludes": [
+        "Device engineering and circuit design \u2014 goes to the relevant Engineering category",
+        "Pure chemical synthesis of molecules \u2014 goes to Chemistry"
+      ]
+    },
+    {
+      "slug": "polymers-plastics",
+      "name": "Polymers",
+      "tagline": "Synthetic and natural macromolecules, processing and structure\u2013property links",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Polymer chemistry as it relates to macromolecular properties, rheology, polymer nanocomposites",
+        "Examples: block copolymers, polymer electrolytes, polymer rheology and crystallinity"
+      ],
+      "explicitly_excludes": [
+        "Pure organic synthesis of monomers \u2014 goes to Chemistry",
+        "Polymer device integration (e.g., electronics packaging) \u2014 goes to Engineering"
+      ]
+    },
+    {
+      "slug": "nanomaterials",
+      "name": "Nanomaterials",
+      "tagline": "Nanoparticles, nanowires, quantum dots and nanoscale structuring",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Synthesis, assembly, and properties of nanoscale materials and their size\u2011dependent physics",
+        "Examples: colloidal quantum dots, metal nanoparticles, nanorods, self\u2011assembled nanostructures"
+      ],
+      "explicitly_excludes": [
+        "Biological nanoparticle studies focused on biology/medicine \u2014 goes to Biomaterials or Biology",
+        "Device/system implementation \u2014 goes to Engineering"
+      ]
+    },
+    {
+      "slug": "biomaterials",
+      "name": "Biomaterials",
+      "tagline": "Materials for medical, tissue and biointerfacing applications",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Materials interacting with biological systems: scaffolds, implants, bioactive coatings, hydrogels",
+        "Examples: tissue engineering scaffolds, drug\u2011delivery carriers from a materials perspective"
+      ],
+      "explicitly_excludes": [
+        "Clinical trials and medical practice \u2014 goes to Medicine",
+        "Molecular biology-focused studies without materials emphasis \u2014 goes to Biology"
+      ]
+    },
+    {
+      "slug": "ceramics-and-glasses",
+      "name": "Ceramics & Glasses",
+      "tagline": "Inorganic nonmetals: structure, processing, and mechanical/thermal behavior",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Traditional and advanced ceramics, glass science, high\u2011temperature materials, ionic conductors",
+        "Examples: advanced structural ceramics, glassy electrolytes, sintering studies"
+      ],
+      "explicitly_excludes": [
+        "Metallurgy and metal alloys \u2014 goes to Metals/Alloys",
+        "Full device/system integration \u2014 goes to Engineering"
+      ]
+    },
+    {
+      "slug": "composites",
+      "name": "Composites",
+      "tagline": "Fiber, particulate, and matrix\u2011reinforced materials and their interfaces",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Design, processing, interfacial science and mechanics of fiber\u2011reinforced and particle\u2011reinforced composites",
+        "Examples: carbon\u2011fiber composites, polymer matrix composites, hybrid laminate studies"
+      ],
+      "explicitly_excludes": [
+        "Structural engineering mechanistic design at the system level \u2014 goes to Engineering",
+        "Nanocomposites that are primarily nanoparticle physics \u2014 goes to Nanomaterials"
+      ]
+    },
+    {
+      "slug": "soft-matter-and-colloids",
+      "name": "Soft Matter",
+      "tagline": "Colloids, gels, liquid crystals, foams and complex fluids",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Physics and materials science of deformable, self\u2011assembling and out\u2011of\u2011equilibrium soft systems",
+        "Examples: colloidal assembly, liquid crystal devices (materials focus), gel mechanics"
+      ],
+      "explicitly_excludes": [
+        "Biological systems where biology is primary \u2014 goes to Biology/Biomaterials",
+        "Rheology for industrial processing without materials insight \u2014 goes to Chemical/Process Engineering"
+      ]
+    },
+    {
+      "slug": "two-dimensional-materials",
+      "name": "2D Materials",
+      "tagline": "Atomically thin crystals and heterostructures (graphene, TMDCs, etc.)",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Synthesis, characterization and unique properties of atomically thin materials and van der Waals heterostructures",
+        "Examples: graphene, MoS2, hBN heterostructures, exfoliation and CVD growth studies"
+      ],
+      "explicitly_excludes": [
+        "Device physics/engineering papers focused on circuits \u2014 goes to Engineering",
+        "Bulk material studies that are unrelated to 2D phenomena \u2014 goes to the relevant class (e.g., Nanomaterials)"
+      ]
+    },
+    {
+      "slug": "optical-and-photonic-materials",
+      "name": "Optical & Photonic Materials",
+      "tagline": "Materials for photonics, lasers, nonlinear optics and plasmonics",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Materials with tailored optical properties: photonic crystals, plasmonic metals, nonlinear crystals, gain media",
+        "Examples: metamaterials for light control, low\u2011loss optical dielectrics, plasmonic nanoparticles"
+      ],
+      "explicitly_excludes": [
+        "Optical device/system engineering (lenses, systems) \u2014 goes to Engineering",
+        "Pure theoretical optics with no materials angle \u2014 goes to Physics"
+      ]
+    },
+    {
+      "slug": "energy-materials",
+      "name": "Energy Materials",
+      "tagline": "Materials for batteries, fuel cells, electrolyzers and photovoltaics",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Electrodes, electrolytes, catalysts, and light\u2011harvesting materials with emphasis on materials chemistry and physics",
+        "Examples: solid\u2011state electrolytes, cathode materials, perovskite and thin\u2011film PV materials"
+      ],
+      "explicitly_excludes": [
+        "System\u2011level device architecture, grid integration, and manufacturing of energy systems \u2014 goes to Engineering",
+        "Economic/market energy analyses \u2014 goes to Energy/Policy"
+      ]
+    },
+    {
+      "slug": "materials-mechanics",
+      "name": "Materials Mechanics",
+      "tagline": "Deformation, fracture, fatigue and micromechanics of materials",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Mechanical behavior and failure mechanisms across materials classes, multiscale mechanics and constitutive modeling",
+        "Examples: fracture toughness studies, crystal plasticity, fatigue life of alloys/composites"
+      ],
+      "explicitly_excludes": [
+        "Structural engineering design and testing at component scale \u2014 goes to Engineering",
+        "Pure continuum mechanics without materials microstructure focus \u2014 goes to Physics/Mechanics"
+      ]
+    },
+    {
+      "slug": "surface-and-interface-science",
+      "name": "Surface & Interface Science",
+      "tagline": "Thin films, coatings, adhesion, corrosion and interfacial phenomena",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Interfacial chemistry/physics, coating technologies, corrosion, adhesion and thin\u2011film phenomena",
+        "Examples: anti\u2011corrosion coatings, interface-driven charge transfer, atomic layer deposition studies"
+      ],
+      "explicitly_excludes": [
+        "Bulk material properties without interfacial emphasis \u2014 goes to the relevant bulk materials card",
+        "Industrial corrosion management practice \u2014 goes to Engineering/Industry"
+      ]
+    },
+    {
+      "slug": "materials-characterization",
+      "name": "Materials Characterization",
+      "tagline": "Microscopy, spectroscopy, scattering and in situ measurement techniques",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Development and application of analytical methods (TEM, SEM, X\u2011ray, AFM, neutron, ultrafast probes) for materials",
+        "Examples: new electron microscopy techniques, operando spectroscopy for materials transformations"
+      ],
+      "explicitly_excludes": [
+        "Technique development with applications outside materials (pure instrumentation papers) \u2014 goes to Instrumentation",
+        "Data analysis papers with no materials application \u2014 goes to Computer Science/Statistics"
+      ]
+    },
+    {
+      "slug": "computational-materials",
+      "name": "Computational Materials",
+      "tagline": "Atomistic to continuum modeling, materials informatics and simulation",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "First\u2011principles, molecular dynamics, phase\u2011field, finite element modeling and ML for materials discovery",
+        "Examples: DFT studies of defects, materials databases, ML models predicting properties"
+      ],
+      "explicitly_excludes": [
+        "Pure methodological ML/algorithm papers without a materials focus \u2014 goes to Computer Science",
+        "High\u2011level theory with no materials application \u2014 goes to Physics/Applied Math"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Manufacturing, scale\u2011up and industrial processing: important but often sits with Chemical/Mechanical Engineering or industry; folded into processing\u2011related subspecialties rather than given its own low\u2011volume card.",
+    "Metals and alloys: I considered a dedicated 'Metallurgy/Alloys' card but many metal studies integrate with mechanics/ceramics/composites; these papers map naturally to Materials Mechanics or Ceramics/Composites when appropriate.",
+    "Pure synthetic chemistry of small molecules and monomers: common overlap, but pure synthesis that lacks materials characterization or application should go to Chemistry rather than Materials Science.",
+    "Device/system engineering: many papers blur lines; to keep MECE, device\u2011level work is routed to the respective Engineering category rather than Materials Science."
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "level1_slug": "chemistry",
+  "level1_name": "Chemistry",
+  "count": 12,
+  "rationale": "This structure moves beyond the five traditional, overly broad branches of chemistry (organic, inorganic, etc.) towards a more functional, topic-based division that reflects modern research. Key, cross-disciplinary fields like 'Catalysis' and 'Chemical Biology' are elevated to top-level status, as this is how many researchers identify. We deliberately combined 'Organometallic Chemistry' with 'Catalysis' due to their immense overlap in literature and practice. The count of 12 provides sufficient granularity for specialists without overwhelming a generalist, capturing major fields like synthesis and analysis alongside growing areas like supramolecular and green chemistry.",
+  "subspecialties": [
+    {
+      "slug": "organic-synthesis",
+      "name": "Organic Synthesis",
+      "tagline": "The art and science of constructing carbon-based molecules.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Total synthesis of natural products",
+        "Development of new synthetic methods and reactions"
+      ],
+      "explicitly_excludes": [
+        "Catalyst design and mechanism (\u2192 Organometallic Chemistry & Catalysis)",
+        "Synthesis for drug discovery (\u2192 Medicinal Chemistry)"
+      ]
+    },
+    {
+      "slug": "organometallic-catalysis",
+      "name": "Organometallic Chemistry & Catalysis",
+      "tagline": "Designing metal-based catalysts for efficient chemical transformations.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Homogeneous and heterogeneous catalysis",
+        "Synthesis of organometallic complexes",
+        "Mechanistic studies of catalytic cycles"
+      ],
+      "explicitly_excludes": [
+        "Purely enzymatic catalysis (\u2192 Chemical Biology)",
+        "Solid-state catalyst materials (\u2192 Materials Science)"
+      ]
+    },
+    {
+      "slug": "analytical-chemistry",
+      "name": "Analytical Chemistry",
+      "tagline": "Developing methods to detect, identify, and quantify chemical substances.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Mass spectrometry",
+        "Chromatography and separations science",
+        "Spectroscopic analysis for structure elucidation"
+      ],
+      "explicitly_excludes": [
+        "Fundamental spectroscopy and dynamics (\u2192 Physical Chemistry)",
+        "Development of electrochemical sensors (\u2192 Electrochemistry)"
+      ]
+    },
+    {
+      "slug": "chemical-biology",
+      "name": "Chemical Biology",
+      "tagline": "Using small molecules to probe and control biological processes.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Chemical probes and biosensors",
+        "Bioorthogonal chemistry",
+        "Protein engineering and modification",
+        "Drug delivery systems"
+      ],
+      "explicitly_excludes": [
+        "Metabolic pathway analysis (\u2192 Biology)",
+        "Classical biochemistry (\u2192 Biology)"
+      ]
+    },
+    {
+      "slug": "medicinal-chemistry",
+      "name": "Medicinal Chemistry",
+      "tagline": "Designing and synthesizing new molecules for therapeutic use.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Drug discovery and design",
+        "Lead optimization",
+        "Structure-activity relationship (SAR) studies"
+      ],
+      "explicitly_excludes": [
+        "Fundamental synthesis methods (\u2192 Organic Synthesis)",
+        "Biological mechanism of action studies (\u2192 Biology)"
+      ]
+    },
+    {
+      "slug": "polymer-chemistry",
+      "name": "Polymer Chemistry",
+      "tagline": "Creating and studying macromolecules for new materials and functions.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Polymerization techniques",
+        "Functional polymers",
+        "Polymer characterization",
+        "Self-healing polymers"
+      ],
+      "explicitly_excludes": [
+        "Bulk material properties and device fabrication (\u2192 Materials Science)",
+        "Biopolymers in a purely biological context (\u2192 Biology)"
+      ]
+    },
+    {
+      "slug": "computational-theoretical-chemistry",
+      "name": "Computational & Theoretical Chemistry",
+      "tagline": "Modeling molecules, materials, and reactions at the atomic level.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Quantum chemistry (DFT)",
+        "Molecular dynamics (MD) simulations",
+        "Cheminformatics",
+        "Reaction mechanism modeling"
+      ],
+      "explicitly_excludes": [
+        "Data analysis of experimental results"
+      ]
+    },
+    {
+      "slug": "physical-chemistry",
+      "name": "Physical Chemistry",
+      "tagline": "Investigating the fundamental physical principles of chemical systems.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Spectroscopy",
+        "Chemical kinetics and reaction dynamics",
+        "Thermodynamics",
+        "Quantum mechanics of small molecules"
+      ],
+      "explicitly_excludes": [
+        "Purely computational studies (\u2192 Computational & Theoretical Chemistry)",
+        "Analytical applications of spectroscopy (\u2192 Analytical Chemistry)"
+      ]
+    },
+    {
+      "slug": "inorganic-chemistry",
+      "name": "Inorganic Chemistry",
+      "tagline": "Exploring the synthesis, structure, and reactivity of non-carbon compounds.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Coordination chemistry",
+        "Main group chemistry",
+        "Bioinorganic chemistry",
+        "Lanthanide and actinide chemistry"
+      ],
+      "explicitly_excludes": [
+        "Organometallic compounds (\u2192 Organometallic Chemistry & Catalysis)",
+        "Solid-state materials synthesis (\u2192 Materials Science)"
+      ]
+    },
+    {
+      "slug": "supramolecular-self-assembly",
+      "name": "Supramolecular Chemistry & Self-Assembly",
+      "tagline": "Designing complex systems held together by non-covalent forces.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Host-guest chemistry",
+        "Molecular recognition",
+        "Self-assembled materials",
+        "Molecular machines"
+      ],
+      "explicitly_excludes": [
+        "Covalent polymers (\u2192 Polymer Chemistry)",
+        "Protein folding (\u2192 Biology)"
+      ]
+    },
+    {
+      "slug": "electrochemistry",
+      "name": "Electrochemistry",
+      "tagline": "Exploring the interface of electricity and chemical reactions.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Batteries and energy storage",
+        "Fuel cells",
+        "Corrosion science",
+        "Electrosynthesis and electrocatalysis"
+      ],
+      "explicitly_excludes": [
+        "Bulk electronic properties of materials (\u2192 Materials Science)",
+        "Standard redox reactions in solution (\u2192 Organic Synthesis, Inorganic Chemistry)"
+      ]
+    },
+    {
+      "slug": "environmental-green-chemistry",
+      "name": "Environmental & Green Chemistry",
+      "tagline": "Designing sustainable chemistry and studying chemicals in the environment.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Green synthesis and sustainable processes",
+        "Renewable feedstocks and biofuels",
+        "Atmospheric chemistry",
+        "Pollutant detection and remediation"
+      ],
+      "explicitly_excludes": [
+        "Standard synthetic methodology (\u2192 Organic Synthesis)",
+        "Catalysis not focused on green metrics (\u2192 Organometallic Chemistry & Catalysis)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "The line between 'Chemical Biology' (in Chemistry) and 'Biochemistry' (in Biology) is inherently fuzzy and will require careful paper-level classification.",
+    "Materials Chemistry is a major area of overlap; the distinction relies on focusing on molecular synthesis (Chemistry) vs. bulk/device properties (Materials Science).",
+    "Photochemistry was considered as a separate category but was ultimately absorbed into Physical, Organic, and Catalysis as it is more of a cross-cutting technique than a standalone field."
+  ]
+}

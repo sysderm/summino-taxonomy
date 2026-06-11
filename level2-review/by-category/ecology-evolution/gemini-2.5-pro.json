@@ -1,0 +1,231 @@
+{
+  "level1_slug": "ecology-evolution",
+  "level1_name": "Ecology & Evolution",
+  "count": 13,
+  "rationale": "This structure is organized around the major, well-established sub-disciplines that researchers in this field use to self-identify. The count of 13 provides sufficient granularity without overwhelming the user. We deliberately separated Population, Community, and Ecosystem Ecology to reflect the classic scalar divisions in the field. Similarly, Phylogenetics (method), Macroevolution (pattern), and Paleobiology (fossil data) are split to distinguish between distinct research approaches that are often conflated. A key decision was to define 'Evolutionary Genetics & Genomics' to capture modern microevolutionary work, creating a clear home for studies using molecular data to answer evolutionary questions, as distinct from the lab-based 'molecular work' assigned to the Biology level-1 category.",
+  "subspecialties": [
+    {
+      "slug": "population-ecology",
+      "name": "Population Ecology",
+      "tagline": "Dynamics, regulation, and life history of single species populations.",
+      "audience_pct_within_level1": 10,
+      "covers": [
+        "Population growth and regulation",
+        "demography",
+        "metapopulations",
+        "life history theory",
+        "species distribution models"
+      ],
+      "explicitly_excludes": [
+        "Evolutionary changes within populations \u2192 Evolutionary Genetics & Genomics",
+        "Interactions between multiple species \u2192 Community Ecology"
+      ]
+    },
+    {
+      "slug": "community-ecology",
+      "name": "Community Ecology",
+      "tagline": "Species interactions, biodiversity patterns, and the assembly of ecological communities.",
+      "audience_pct_within_level1": 12,
+      "covers": [
+        "Competition, predation, mutualism",
+        "food webs",
+        "community assembly rules",
+        "species diversity patterns",
+        "succession"
+      ],
+      "explicitly_excludes": [
+        "Reciprocal evolution between interactors \u2192 Coevolution",
+        "Energy and nutrient flows \u2192 Ecosystem & Landscape Ecology"
+      ]
+    },
+    {
+      "slug": "ecosystem-landscape-ecology",
+      "name": "Ecosystem & Landscape Ecology",
+      "tagline": "Energy flow, nutrient cycling, and spatial patterns across large scales.",
+      "audience_pct_within_level1": 8,
+      "covers": [
+        "Biogeochemical cycles",
+        "primary productivity",
+        "ecosystem services",
+        "habitat fragmentation",
+        "spatial ecology"
+      ],
+      "explicitly_excludes": [
+        "Global-scale climate systems \u2192 Earth & Environmental",
+        "Community composition and species interactions \u2192 Community Ecology"
+      ]
+    },
+    {
+      "slug": "behavioral-ecology",
+      "name": "Behavioral Ecology",
+      "tagline": "The evolutionary basis of animal behavior in response to ecological pressures.",
+      "audience_pct_within_level1": 9,
+      "covers": [
+        "Foraging theory",
+        "mating systems",
+        "social behavior",
+        "animal communication",
+        "parental care"
+      ],
+      "explicitly_excludes": [
+        "Neurobiological mechanisms of behavior \u2192 Neuroscience",
+        "Human-specific cultural behavior \u2192 Social Sciences"
+      ]
+    },
+    {
+      "slug": "conservation-biology",
+      "name": "Conservation Biology",
+      "tagline": "Applied science for protecting biodiversity and managing threatened populations.",
+      "audience_pct_within_level1": 11,
+      "covers": [
+        "Population viability analysis (PVA)",
+        "conservation genetics",
+        "reserve design",
+        "restoration ecology",
+        "human-wildlife conflict"
+      ],
+      "explicitly_excludes": [
+        "Purely policy or economic aspects \u2192 Social Sciences",
+        "Fundamental population dynamics \u2192 Population Ecology"
+      ]
+    },
+    {
+      "slug": "evolutionary-genetics-genomics",
+      "name": "Evolutionary Genetics & Genomics",
+      "tagline": "Genetic variation, adaptation, and microevolutionary processes within populations.",
+      "audience_pct_within_level1": 13,
+      "covers": [
+        "Population genetics",
+        "adaptation",
+        "speciation genetics",
+        "molecular evolution",
+        "quantitative genetics",
+        "phylogeography"
+      ],
+      "explicitly_excludes": [
+        "Gene function and regulation \u2192 Biology",
+        "Reconstructing deep evolutionary history \u2192 Phylogenetics & Systematics"
+      ]
+    },
+    {
+      "slug": "phylogenetics-systematics",
+      "name": "Phylogenetics & Systematics",
+      "tagline": "Reconstructing the tree of life and the classification of organisms.",
+      "audience_pct_within_level1": 7,
+      "covers": [
+        "Phylogenetic methods",
+        "molecular systematics",
+        "taxonomy",
+        "tree of life projects",
+        "species delimitation"
+      ],
+      "explicitly_excludes": [
+        "Using phylogenies to study large-scale patterns \u2192 Macroevolution",
+        "Fossil-based classification \u2192 Paleobiology"
+      ]
+    },
+    {
+      "slug": "macroevolution",
+      "name": "Macroevolution",
+      "tagline": "Large-scale evolutionary patterns and processes above the species level.",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "Diversification and extinction rates",
+        "adaptive radiation",
+        "major evolutionary transitions",
+        "phylogenetic comparative methods",
+        "trait evolution"
+      ],
+      "explicitly_excludes": [
+        "The fossil record itself \u2192 Paleobiology",
+        "Evolutionary processes within populations \u2192 Evolutionary Genetics & Genomics"
+      ]
+    },
+    {
+      "slug": "paleobiology",
+      "name": "Paleobiology",
+      "tagline": "The history of life on Earth as revealed by the fossil record.",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "Paleontology",
+        "fossil morphology",
+        "paleoecology",
+        "mass extinction events",
+        "evolution of fossil groups"
+      ],
+      "explicitly_excludes": [
+        "Evolution of hominins \u2192 Human Evolution",
+        "Geological context of fossils \u2192 Earth & Environmental"
+      ]
+    },
+    {
+      "slug": "coevolution",
+      "name": "Coevolution",
+      "tagline": "Reciprocal evolutionary change between interacting species.",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "Host-parasite/pathogen dynamics",
+        "plant-herbivore arms races",
+        "mutualisms (e.g., pollination)",
+        "mimicry rings"
+      ],
+      "explicitly_excludes": [
+        "Ecological interactions without reciprocal evolution \u2192 Community Ecology",
+        "Epidemiological modeling without an evolutionary focus \u2192 Population Ecology"
+      ]
+    },
+    {
+      "slug": "theoretical-ecology-evolution",
+      "name": "Theoretical Ecology & Evolution",
+      "tagline": "Developing mathematical and computational models of biological systems.",
+      "audience_pct_within_level1": 5,
+      "covers": [
+        "Mathematical biology",
+        "computational modeling",
+        "development of new ecological or evolutionary theory"
+      ],
+      "explicitly_excludes": [
+        "Application of established models to empirical data \u2192 the relevant empirical subspecialty",
+        "Purely statistical methods \u2192 Statistics"
+      ]
+    },
+    {
+      "slug": "human-evolution",
+      "name": "Human Evolution",
+      "tagline": "The evolutionary history of our species and its primate relatives.",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "Paleoanthropology",
+        "hominin fossils",
+        "primate evolution",
+        "evolution of human traits like bipedalism or language"
+      ],
+      "explicitly_excludes": [
+        "Non-hominin vertebrate fossils \u2192 Paleobiology",
+        "Modern human population genetics \u2192 Evolutionary Genetics & Genomics"
+      ]
+    },
+    {
+      "slug": "biogeography",
+      "name": "Biogeography",
+      "tagline": "The geographic distribution of species and ecosystems through space and time.",
+      "audience_pct_within_level1": 5,
+      "covers": [
+        "Island biogeography",
+        "phylogeography",
+        "species distribution modeling",
+        "historical biogeography",
+        "range dynamics"
+      ],
+      "explicitly_excludes": [
+        "Local population distributions \u2192 Population Ecology",
+        "Community composition at a single site \u2192 Community Ecology"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Disease Ecology: A large field, but its components are well-covered by Coevolution (evolutionary arms races) and Population Ecology (epidemiology), avoiding a category with heavy overlap.",
+    "Evo-Devo: While a distinct field, its paper volume is relatively low and often highly molecular. We anticipate papers on developmental mechanisms will go to 'Biology', while those on resulting macro-patterns fit in 'Macroevolution'.",
+    "Applied Ecology: Fields like Restoration Ecology or Agroecology are included under broader umbrellas (e.g., 'Conservation Biology', 'Ecosystem & Landscape Ecology') to avoid creating too many small, niche categories."
+  ]
+}
