@@ -1,0 +1,157 @@
+{
+  "count": 18,
+  "rationale": "Eighteen is the sweet spot between MeSH's 76 (too clinical-heavy) and arXiv's 3 (too narrow). I separated medicine from public health and from biology because each has a distinct audience identity and paper volume — a clinician picks 'Medicine', an epidemiologist picks 'Public Health', a wet-lab scientist picks 'Biology'. I kept physics and astronomy together (astronomy's paper volume alone is too small for a card) but split chemistry from biochemistry (they self-identify differently and Nature treats them as separate journals). I deliberately did NOT split CS from AI (too much overlap at the paper level today), did NOT create 'Health Sciences' (it's a category for funders, not researchers), and did NOT split humanities at all because the app's empirical-paper focus means humanities papers mostly land in psychology, linguistics, or archaeology — which are already represented elsewhere. The audience_size_pct estimates are calibrated to OpenAlex-Topic distribution as of 2025.",
+  "categories": [
+    {
+      "slug": "medicine",
+      "name": "Medicine",
+      "tagline": "Clinical practice, diagnostics, surgery, therapy.",
+      "audience_size_pct": 15.0,
+      "covers": ["clinical trials", "specialty journals (NEJM, Lancet, JAMA, BMJ, specialty journals)", "case reports", "surgical technique", "pathology"],
+      "explicitly_excludes": ["population-level studies → Public Health", "lab biology → Biology", "drug discovery chemistry → Chemistry"]
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "tagline": "Life at the molecular, cellular, organismal, and ecosystem scale.",
+      "audience_size_pct": 12.0,
+      "covers": ["molecular biology, cell biology, microbiology, ecology, evolution", "Cell, Nature, Science life-science papers", "model-organism work"],
+      "explicitly_excludes": ["clinical translation → Medicine", "agricultural applications → Agriculture", "neuroscience → its own category"]
+    },
+    {
+      "slug": "neuroscience",
+      "name": "Neuroscience",
+      "tagline": "Brain, behavior, cognition — wet lab to clinic.",
+      "audience_size_pct": 4.5,
+      "covers": ["systems neuro, computational neuro, cognitive neuro, neurology, psychiatry-as-neuroscience"],
+      "explicitly_excludes": ["pure behavioral psych → Psychology", "biological psychiatry → Medicine"]
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "tagline": "Mind, behavior, mental health, methods.",
+      "audience_size_pct": 5.0,
+      "covers": ["cognitive, clinical, social, developmental, organizational psychology", "experimental methods", "psychometrics"],
+      "explicitly_excludes": ["brain-mechanism studies → Neuroscience", "psychiatry as medicine → Medicine"]
+    },
+    {
+      "slug": "public-health",
+      "name": "Public Health",
+      "tagline": "Epidemiology, policy, global health, prevention.",
+      "audience_size_pct": 4.0,
+      "covers": ["epidemiology, biostatistics, health policy, global health, environmental health", "Cochrane reviews", "WHO data"],
+      "explicitly_excludes": ["individual-patient care → Medicine", "lab pathogen work → Biology"]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "tagline": "Reactions, materials, synthesis, analysis.",
+      "audience_size_pct": 8.0,
+      "covers": ["organic, inorganic, physical chemistry, materials, analytical, electrochemistry", "JACS, Angewandte, Chem Sci"],
+      "explicitly_excludes": ["biology-context chemistry → Biochemistry / Biology"]
+    },
+    {
+      "slug": "physics",
+      "name": "Physics & Astronomy",
+      "tagline": "Particles, fields, condensed matter, the cosmos.",
+      "audience_size_pct": 7.5,
+      "covers": ["high-energy, condensed matter, AMO, astrophysics, cosmology, geophysics-as-physics", "Phys Rev family, arXiv hep/cond-mat/astro-ph"],
+      "explicitly_excludes": ["applied photonics → Engineering", "chemical physics → Chemistry"]
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "tagline": "Pure and applied — proofs, structures, dynamics.",
+      "audience_size_pct": 4.0,
+      "covers": ["algebra, analysis, geometry, logic, combinatorics, number theory", "applied: dynamical systems, mathematical physics, math biology", "arXiv math"],
+      "explicitly_excludes": ["statistical methods alone → Statistics", "CS theory with math → see CS"]
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics & Data Science",
+      "tagline": "Inference, modeling, experiment design, causal methods.",
+      "audience_size_pct": 3.5,
+      "covers": ["theoretical statistics, biostatistics, causal inference, MCMC, experimental design", "JASA, Annals of Stats, Biometrika"],
+      "explicitly_excludes": ["machine learning algorithms → CS / AI", "domain-applied stats → that domain"]
+    },
+    {
+      "slug": "computer-science",
+      "name": "Computer Science & AI",
+      "tagline": "Algorithms, systems, machine learning, theory.",
+      "audience_size_pct": 13.0,
+      "covers": ["AI/ML, NLP, CV, systems, theory, HCI, security, robotics-CS", "arXiv cs.*, NeurIPS, ICML, CVPR, ACL"],
+      "explicitly_excludes": ["hardware/EE → Engineering", "computational biology → Biology"]
+    },
+    {
+      "slug": "engineering",
+      "name": "Engineering",
+      "tagline": "Building things — mechanical, electrical, civil, bio.",
+      "audience_size_pct": 8.0,
+      "covers": ["mech, EE, civil, chemical, biomedical, materials, aerospace engineering"],
+      "explicitly_excludes": ["computer science → CS", "applied physics → Physics"]
+    },
+    {
+      "slug": "earth-environmental",
+      "name": "Earth & Environmental Sciences",
+      "tagline": "Climate, geology, oceans, ecology of the planet.",
+      "audience_size_pct": 4.5,
+      "covers": ["climate, oceanography, atmospheric, geology, hydrology, ecology-at-system-scale, environmental chemistry"],
+      "explicitly_excludes": ["lab ecology → Biology", "policy → Public Health / Economics"]
+    },
+    {
+      "slug": "agriculture-food",
+      "name": "Agriculture & Food Science",
+      "tagline": "Crops, livestock, food systems, agronomy.",
+      "audience_size_pct": 3.0,
+      "covers": ["agronomy, plant pathology, animal science, food science, aquaculture", "AGRIS-style content"],
+      "explicitly_excludes": ["pure plant biology → Biology", "food-as-medicine nutrition → Public Health"]
+    },
+    {
+      "slug": "economics-finance",
+      "name": "Economics & Finance",
+      "tagline": "Markets, policy, behavior, quantitative finance.",
+      "audience_size_pct": 3.0,
+      "covers": ["micro, macro, econometrics, behavioral, finance, accounting", "JFE, AER, QJE, RFS, arXiv q-fin"],
+      "explicitly_excludes": ["finance ML → CS / Statistics"]
+    },
+    {
+      "slug": "social-sciences",
+      "name": "Social Sciences",
+      "tagline": "Sociology, anthropology, political science, education.",
+      "audience_size_pct": 3.5,
+      "covers": ["sociology, anthropology, political science, education research, communication, criminology"],
+      "explicitly_excludes": ["psychology → its own", "economics → its own", "history-as-archive → Humanities"]
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "tagline": "Language structure, acquisition, computation.",
+      "audience_size_pct": 1.5,
+      "covers": ["theoretical, computational, sociolinguistics, phonetics, language acquisition"],
+      "explicitly_excludes": ["NLP as ML → CS", "language-and-brain → Neuroscience"]
+    },
+    {
+      "slug": "humanities",
+      "name": "Humanities",
+      "tagline": "History, philosophy, archaeology, literature.",
+      "audience_size_pct": 1.5,
+      "covers": ["history of science, philosophy (including phil-of-science), archaeology, classics", "any humanities paper that publishes empirical work or cites primary sources"],
+      "explicitly_excludes": ["digital humanities → CS"]
+    },
+    {
+      "slug": "interdisciplinary",
+      "name": "Interdisciplinary & Emerging",
+      "tagline": "Complex systems, network science, AI4Science, sustainability.",
+      "audience_size_pct": 1.0,
+      "covers": ["complex systems, network science, computational social science, AI4Science, sustainability science, science of science"],
+      "explicitly_excludes": ["if a single home discipline fits, it goes there instead"]
+    }
+  ],
+  "uncovered_concerns": [
+    "I considered making Biochemistry its own category but decided it fragments Biology and Chemistry without adding picker value — labs self-identify as one or the other.",
+    "I considered splitting Materials Science from Engineering and Chemistry, but mat-sci is genuinely split across those two and forcing a choice loses ~3% of papers; users in the field will pick either.",
+    "I considered 'Veterinary Medicine' but it's <0.5% of new papers and fits under Medicine or Agriculture comfortably.",
+    "I considered 'Architecture & Design' but it doesn't publish enough empirical work to populate a daily feed; design research goes under Engineering or Social Sciences.",
+    "Dermatology, your specialty, is a level-2 child of Medicine — not a level-1 category. Same treatment as cardiology, neurology, etc. for picker consistency."
+  ]
+}

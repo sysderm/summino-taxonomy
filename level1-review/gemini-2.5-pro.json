@@ -1,0 +1,245 @@
+{
+  "count": 18,
+  "rationale": "This taxonomy is structured around distinct, modern academic disciplines and fields of practice that researchers and professionals strongly identify with. The count of 18 categories provides comprehensive coverage of all scientific domains on a single screen without being overwhelming. Key structural choices include splitting Medicine from Public Health to distinguish individual versus population-level health, and dividing Engineering into five distinct branches (including Materials Science) to avoid a single, overly broad category. Conversely, fields like Neuroscience and Cognitive Science are combined, reflecting their deep intellectual integration and shared research community.",
+  "categories": [
+    {
+      "slug": "medicine-clinical-science",
+      "name": "Medicine & Clinical Science",
+      "tagline": "Diagnosis, treatment, and prevention of human disease and injury.",
+      "audience_size_pct": 15.0,
+      "covers": [
+        "Clinical trials, internal medicine, surgery, pharmacology, pathology, oncology, medical diagnostics.",
+        "Sources like The Lancet, NEJM, JAMA, Cochrane Reviews on treatments."
+      ],
+      "explicitly_excludes": [
+        "Population-level studies (Public Health & Epidemiology), basic biological mechanisms (Biology), brain disorders (Neuroscience & Cognitive Science)."
+      ]
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "tagline": "The study of life and living organisms, from molecules to ecosystems.",
+      "audience_size_pct": 12.0,
+      "covers": [
+        "Molecular & cell biology, genetics, microbiology, immunology, ecology, evolution, bioinformatics.",
+        "Journals like Cell, Nature Genetics, and papers from bioRxiv."
+      ],
+      "explicitly_excludes": [
+        "Human clinical applications (Medicine & Clinical Science), brain and behavior (Neuroscience & Cognitive Science), agricultural applications (Chemical & Bioengineering)."
+      ]
+    },
+    {
+      "slug": "computer-science-ai",
+      "name": "Computer Science & AI",
+      "tagline": "Algorithms, computation, information systems, and artificial intelligence.",
+      "audience_size_pct": 8.0,
+      "covers": [
+        "Machine learning, natural language processing, computer vision, algorithms, databases, software engineering.",
+        "The cs.* sections of arXiv, publications from ACM and NeurIPS."
+      ],
+      "explicitly_excludes": [
+        "Computer hardware, robotics, and control systems (Electrical Engineering & Robotics), statistical theory (Mathematics & Statistics)."
+      ]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "tagline": "The science of matter, its properties, structure, and reactions.",
+      "audience_size_pct": 7.0,
+      "covers": [
+        "Organic, inorganic, physical, and analytical chemistry; biochemistry, chemical synthesis.",
+        "Journals like JACS, Angewandte Chemie, Chemical Science."
+      ],
+      "explicitly_excludes": [
+        "Industrial-scale processes (Chemical & Bioengineering), solid-state properties (Materials Science), geochemistry (Earth & Environmental Sciences)."
+      ]
+    },
+    {
+      "slug": "physics-astronomy",
+      "name": "Physics & Astronomy",
+      "tagline": "From quantum particles to cosmic structures, the fundamental laws of the universe.",
+      "audience_size_pct": 7.0,
+      "covers": [
+        "Particle physics, condensed matter, astrophysics, cosmology, optics, quantum mechanics.",
+        "The physics.* and astro-ph.* sections of arXiv, Physical Review Letters."
+      ],
+      "explicitly_excludes": [
+        "Chemical physics (Chemistry), geophysics (Earth & Environmental Sciences), applied solid-state devices (Materials Science)."
+      ]
+    },
+    {
+      "slug": "neuroscience-cognitive-science",
+      "name": "Neuroscience & Cognitive Science",
+      "tagline": "Exploring the brain, nervous system, mind, and behavior.",
+      "audience_size_pct": 6.0,
+      "covers": [
+        "Cognitive neuroscience, neurobiology, psychology, brain imaging, computational linguistics.",
+        "Journals like Nature Neuroscience, Neuron, Journal of Cognitive Neuroscience."
+      ],
+      "explicitly_excludes": [
+        "Clinical neurology and psychiatry (Medicine & Clinical Science), general sociology and anthropology (Social & Behavioral Sciences)."
+      ]
+    },
+    {
+      "slug": "earth-environmental-sciences",
+      "name": "Earth & Environmental Sciences",
+      "tagline": "Understanding our planet, its systems, climate, and environment.",
+      "audience_size_pct": 5.0,
+      "covers": [
+        "Geology, oceanography, climate science, hydrology, environmental science, planetary science.",
+        "Journals like Nature Geoscience, Geophysical Research Letters."
+      ],
+      "explicitly_excludes": [
+        "Ecology (Biology), environmental engineering (Civil & Environmental Engineering), space physics (Physics & Astronomy)."
+      ]
+    },
+    {
+      "slug": "electrical-engineering-robotics",
+      "name": "Electrical Engineering & Robotics",
+      "tagline": "Circuits, electronics, control systems, and intelligent machines.",
+      "audience_size_pct": 4.0,
+      "covers": [
+        "Microelectronics, signal processing, telecommunications, power systems, robotics, control theory.",
+        "Publications from IEEE, conferences like ICRA and IROS."
+      ],
+      "explicitly_excludes": [
+        "Pure software and AI algorithms (Computer Science & AI), mechanical design of robots (Mechanical & Aerospace Engineering)."
+      ]
+    },
+    {
+      "slug": "mechanical-aerospace-engineering",
+      "name": "Mechanical & Aerospace Engineering",
+      "tagline": "Design and analysis of machines, aircraft, spacecraft, and thermal systems.",
+      "audience_size_pct": 4.0,
+      "covers": [
+        "Fluid dynamics, thermodynamics, solid mechanics, aeronautics, astronautics, vehicle design.",
+        "Publications from ASME, AIAA journals."
+      ],
+      "explicitly_excludes": [
+        "Robotics control systems (Electrical Engineering & Robotics), engines and turbines at a materials level (Materials Science), chemical propulsion (Chemical & Bioengineering)."
+      ]
+    },
+    {
+      "slug": "chemical-bioengineering",
+      "name": "Chemical & Bioengineering",
+      "tagline": "Applying chemical and biological principles to create products and processes.",
+      "audience_size_pct": 4.0,
+      "covers": [
+        "Process engineering, biotechnology, pharmaceuticals, biomaterials, tissue engineering, catalysis.",
+        "Journals like AIChE Journal, Nature Biotechnology."
+      ],
+      "explicitly_excludes": [
+        "Fundamental chemistry (Chemistry), bulk material properties (Materials Science), clinical medicine (Medicine & Clinical Science)."
+      ]
+    },
+    {
+      "slug": "public-health-epidemiology",
+      "name": "Public Health & Epidemiology",
+      "tagline": "The science of improving health and safety at a community and population level.",
+      "audience_size_pct": 4.0,
+      "covers": [
+        "Epidemiology, biostatistics, health policy, environmental health, disease surveillance.",
+        "Journals like The Lancet Public Health, American Journal of Epidemiology."
+      ],
+      "explicitly_excludes": [
+        "Treatment of individual patients (Medicine & Clinical Science), health economics (Economics & Finance)."
+      ]
+    },
+    {
+      "slug": "mathematics-statistics",
+      "name": "Mathematics & Statistics",
+      "tagline": "The abstract science of number, quantity, space, and uncertainty.",
+      "audience_size_pct": 4.0,
+      "covers": [
+        "Pure and applied mathematics, probability, theoretical statistics, mathematical modeling.",
+        "The math.* and stat.* sections of arXiv, Annals of Statistics."
+      ],
+      "explicitly_excludes": [
+        "Applied machine learning (Computer Science & AI), biostatistics applications (Public Health & Epidemiology), financial modeling (Economics & Finance)."
+      ]
+    },
+    {
+      "slug": "social-behavioral-sciences",
+      "name": "Social & Behavioral Sciences",
+      "tagline": "The study of human societies, cultures, and social relationships.",
+      "audience_size_pct": 4.0,
+      "covers": [
+        "Sociology, anthropology, political science, human geography, social psychology.",
+        "Journals like American Sociological Review, Annual Review of Anthropology."
+      ],
+      "explicitly_excludes": [
+        "Economics and finance (Economics & Finance), cognitive psychology (Neuroscience & Cognitive Science), archaeology (Humanities & Cultural Heritage)."
+      ]
+    },
+    {
+      "slug": "materials-science",
+      "name": "Materials Science",
+      "tagline": "Discovering, designing, and characterizing novel materials and their properties.",
+      "audience_size_pct": 3.0,
+      "covers": [
+        "Metallurgy, polymers, ceramics, composites, nanomaterials, solid-state physics applications.",
+        "Journals like Nature Materials, Advanced Materials."
+      ],
+      "explicitly_excludes": [
+        "Fundamental condensed matter theory (Physics & Astronomy), bulk chemical synthesis (Chemistry), structural applications (Civil & Environmental Engineering)."
+      ]
+    },
+    {
+      "slug": "civil-environmental-engineering",
+      "name": "Civil & Environmental Engineering",
+      "tagline": "Designing, building, and maintaining infrastructure and the natural environment.",
+      "audience_size_pct": 3.0,
+      "covers": [
+        "Structural engineering, transportation systems, geotechnical engineering, water resources, pollution control.",
+        "Publications from ASCE, journals like Environmental Science & Technology."
+      ],
+      "explicitly_excludes": [
+        "Urban planning theory (Social & Behavioral Sciences), fundamental hydrology (Earth & Environmental Sciences), construction materials (Materials Science)."
+      ]
+    },
+    {
+      "slug": "economics-finance",
+      "name": "Economics & Finance",
+      "tagline": "The study of markets, incentives, wealth, and financial systems.",
+      "audience_size_pct": 3.0,
+      "covers": [
+        "Microeconomics, macroeconomics, econometrics, behavioral economics, corporate finance, asset pricing.",
+        "Journals like The American Economic Review, The Journal of Finance."
+      ],
+      "explicitly_excludes": [
+        "Sociology of markets (Social & Behavioral Sciences), business management and operations (covered by other engineering/social science fields)."
+      ]
+    },
+    {
+      "slug": "education-learning-science",
+      "name": "Education & Learning Science",
+      "tagline": "The empirical study of how people learn and the practice of teaching.",
+      "audience_size_pct": 2.0,
+      "covers": [
+        "Pedagogy, curriculum studies, educational psychology, learning technologies, educational policy.",
+        "Journals like Review of Educational Research, Computers & Education."
+      ],
+      "explicitly_excludes": [
+        "Cognitive development (Neuroscience & Cognitive Science), education economics (Economics & Finance)."
+      ]
+    },
+    {
+      "slug": "humanities-cultural-heritage",
+      "name": "Humanities & Cultural Heritage",
+      "tagline": "Empirical and computational approaches to human history, art, and culture.",
+      "audience_size_pct": 1.0,
+      "covers": [
+        "Archaeology, digital humanities, conservation science, computational history, museum studies.",
+        "Journals like Journal of Archaeological Science, Digital Humanities Quarterly."
+      ],
+      "explicitly_excludes": [
+        "Cultural anthropology (Social & Behavioral Sciences), computational linguistics (Neuroscience & Cognitive Science), art history without empirical methods."
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "A dedicated 'Interdisciplinary Science' category was omitted because most such papers can be classified by their primary subject, and the category lacks a strong user identity.",
+    "Law and Policy were not given a standalone category due to low volume in typical STEM sources; relevant empirical papers are covered by Social & Behavioral Sciences or Economics & Finance.",
+    "A separate 'Business & Management' category was considered but ultimately merged into Economics & Finance and Social & Behavioral Sciences, as most empirical work aligns with those disciplines."
+  ]
+}

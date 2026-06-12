@@ -1,0 +1,43 @@
+{
+  "level1_slug": "business-management",
+  "level1_name": "Business & Management",
+  "count": 30,
+  "rationale": "Business at L3 follows AOM division structure and FT-50 journal sections. Thirty leaves split by domain (strategy, OB, marketing) with sub-splits where the working community is genuinely separate. Marketing gets 4 leaves (consumer behavior, branding/positioning, marketing analytics, digital/CX). OB gets 4 leaves (leadership, teams, organizational culture/identity, well-being). Information systems gets 3 leaves (IS strategy, digital innovation, business analytics) because the MISQ vs JMIS communities differ.",
+  "subfields": [
+    {"slug": "competitive-strategy", "name": "Competitive Strategy", "parent_l2": "strategy-org", "tagline": "Competitive strategy, positioning, generic strategies, BoP strategy.", "audience_pct_within_l2": 28},
+    {"slug": "dynamic-capabilities", "name": "Dynamic Capabilities & Resource-Based View", "parent_l2": "strategy-org", "tagline": "Dynamic capabilities, RBV, knowledge management strategy.", "audience_pct_within_l2": 22},
+    {"slug": "ma-alliances-networks", "name": "M&A, Alliances & Network Strategy", "parent_l2": "strategy-org", "tagline": "M&A research, strategic alliances, inter-firm networks.", "audience_pct_within_l2": 26},
+    {"slug": "corporate-governance-strategy", "name": "Corporate Governance Strategy", "parent_l2": "strategy-org", "tagline": "Corporate governance, board research, ownership structures, governance practices.", "audience_pct_within_l2": 24},
+    {"slug": "leadership-research", "name": "Leadership Research", "parent_l2": "organizational-behavior", "tagline": "Leadership styles, transformational leadership, leader-member exchange.", "audience_pct_within_l2": 26},
+    {"slug": "teams-collaboration-ob", "name": "Teams & Collaboration", "parent_l2": "organizational-behavior", "tagline": "Team effectiveness, virtual teams, team cognition, multi-team systems.", "audience_pct_within_l2": 24},
+    {"slug": "organizational-culture-identity", "name": "Organizational Culture & Identity", "parent_l2": "organizational-behavior", "tagline": "Organizational culture, identity, social identity in organizations.", "audience_pct_within_l2": 26},
+    {"slug": "wellbeing-diversity-ob", "name": "Well-Being & Diversity at Work", "parent_l2": "organizational-behavior", "tagline": "Well-being at work, burnout, diversity and inclusion research.", "audience_pct_within_l2": 24},
+    {"slug": "hrm-recruitment", "name": "HRM, Hiring & Performance Management", "parent_l2": "human-resource-management", "tagline": "Recruitment, performance management, compensation, talent management.", "audience_pct_within_l2": 100},
+    {"slug": "consumer-behavior", "name": "Consumer Behavior & Decision Research", "parent_l2": "marketing", "tagline": "Consumer decision making, choice architecture, consumer psychology applied.", "audience_pct_within_l2": 28},
+    {"slug": "branding-positioning", "name": "Branding & Positioning", "parent_l2": "marketing", "tagline": "Brand management, positioning, brand equity research.", "audience_pct_within_l2": 22},
+    {"slug": "marketing-analytics-pricing", "name": "Marketing Analytics & Pricing", "parent_l2": "marketing", "tagline": "Marketing analytics, pricing strategy, ML in marketing, choice models.", "audience_pct_within_l2": 26},
+    {"slug": "digital-marketing-cx", "name": "Digital Marketing & Customer Experience", "parent_l2": "marketing", "tagline": "Digital marketing, customer experience, social media marketing, AI in marketing.", "audience_pct_within_l2": 24},
+    {"slug": "supply-chain-mgmt", "name": "Supply Chain Management", "parent_l2": "operations-management", "tagline": "Supply chain management research, resilient supply chains, sustainable SCM.", "audience_pct_within_l2": 38},
+    {"slug": "operations-service-mgmt", "name": "Operations & Service Operations", "parent_l2": "operations-management", "tagline": "Service operations, hospital operations, inventory, lean and Six Sigma.", "audience_pct_within_l2": 30},
+    {"slug": "production-scheduling", "name": "Production Scheduling & OR Applications", "parent_l2": "operations-management", "tagline": "Production scheduling, vehicle routing applied, OR application research.", "audience_pct_within_l2": 32},
+    {"slug": "financial-accounting", "name": "Financial Accounting Research", "parent_l2": "accounting-auditing", "tagline": "Financial accounting research, disclosure, earnings management research.", "audience_pct_within_l2": 32},
+    {"slug": "managerial-accounting", "name": "Managerial Accounting & Performance Measurement", "parent_l2": "accounting-auditing", "tagline": "Managerial accounting, cost accounting, performance measurement.", "audience_pct_within_l2": 22},
+    {"slug": "audit-research", "name": "Audit Research", "parent_l2": "accounting-auditing", "tagline": "Audit quality, auditor judgment, audit market structure.", "audience_pct_within_l2": 22},
+    {"slug": "esg-reporting-research", "name": "ESG Reporting & Tax Research", "parent_l2": "accounting-auditing", "tagline": "ESG reporting research, tax research, sustainability accounting.", "audience_pct_within_l2": 24},
+    {"slug": "is-strategy-digital-transformation", "name": "IS Strategy & Digital Transformation", "parent_l2": "information-systems-mgmt", "tagline": "IS strategy, digital transformation, IT business value.", "audience_pct_within_l2": 30},
+    {"slug": "digital-platforms-ecosystems", "name": "Digital Platforms & Ecosystems", "parent_l2": "information-systems-mgmt", "tagline": "Digital platform research, platform ecosystems, two-sided markets in IS.", "audience_pct_within_l2": 30},
+    {"slug": "ai-adoption-business-analytics", "name": "AI Adoption & Business Analytics", "parent_l2": "information-systems-mgmt", "tagline": "AI adoption in firms, business analytics, organizational AI.", "audience_pct_within_l2": 40},
+    {"slug": "new-venture-creation", "name": "New Venture Creation", "parent_l2": "entrepreneurship-innovation", "tagline": "New venture creation, entrepreneurial finance, startup processes.", "audience_pct_within_l2": 30},
+    {"slug": "venture-capital-corporate-vc", "name": "Venture Capital & Corporate VC", "parent_l2": "entrepreneurship-innovation", "tagline": "VC research, corporate VC, angel investing, accelerators.", "audience_pct_within_l2": 26},
+    {"slug": "rd-innovation-mgmt", "name": "R&D & Innovation Management", "parent_l2": "entrepreneurship-innovation", "tagline": "R&D management, innovation systems, technology strategy, open innovation.", "audience_pct_within_l2": 44},
+    {"slug": "mne-fdi-strategy", "name": "MNE Strategy & FDI", "parent_l2": "international-business", "tagline": "Multinational enterprise research, FDI strategy, global value chains.", "audience_pct_within_l2": 50},
+    {"slug": "emerging-markets-business", "name": "Emerging Markets Business Research", "parent_l2": "international-business", "tagline": "Emerging market business, institutional voids, cross-cultural management.", "audience_pct_within_l2": 50},
+    {"slug": "corporate-governance-finance-mgmt", "name": "Corporate Governance & Executive Compensation (Finance-Mgmt)", "parent_l2": "corporate-finance-mgmt", "tagline": "Corporate governance from finance-management angle, executive comp, board research.", "audience_pct_within_l2": 100},
+    {"slug": "csr-esg-stakeholder", "name": "CSR, ESG & Stakeholder Theory", "parent_l2": "business-ethics-sustainability", "tagline": "CSR research, ESG management, stakeholder theory, sustainability management.", "audience_pct_within_l2": 100},
+    {"slug": "public-mgmt-nonprofit", "name": "Public Management & Nonprofit Research", "parent_l2": "public-management-nonprofit", "tagline": "Public administration research, nonprofit governance, public service motivation.", "audience_pct_within_l2": 100}
+  ],
+  "uncovered_concerns": [
+    "Did not split entrepreneurship at the social-entrepreneurship vs. tech-entrepreneurship axis — the social-entrepreneurship community is smaller and folds under CSR/ESG.",
+    "Family business folds under entrepreneurship-innovation at L3."
+  ]
+}

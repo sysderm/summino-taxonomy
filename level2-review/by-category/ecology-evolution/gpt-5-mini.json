@@ -1,0 +1,209 @@
+{
+  "level1_slug": "ecology-evolution",
+  "level1_name": "Ecology & Evolution",
+  "count": 14,
+  "rationale": "I split Ecology & Evolution into 14 practitioner-facing subspecialties to balance breadth (populations \u2192 global patterns) with enough granularity so a paper typically maps to one card. I kept classic disciplinary names ecologists and evolutionary biologists actually use (e.g., Population Ecology, Paleontology, Phylogenetics) and separated process- vs. scale-focused areas (Community vs. Ecosystem vs. Landscape). I deliberately did not create separate genomics or molecular subfields \u2014 those belong to Biology \u2014 and I avoided splitting highly overlapping applied areas (Conservation vs. Restoration) too finely while still giving them distinct slots. A few borderline splits (Macroecology vs. Biogeography, Invasion Biology vs. Community Ecology) were handled by emphasizing scale and primary question to keep assignments MECE.",
+  "subspecialties": [
+    {
+      "slug": "population-ecology",
+      "name": "Population Ecology",
+      "tagline": "Dynamics of populations, demography, and life-history evolution",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Population size and growth, demography, density dependence",
+        "examples: age-structured models, life-table analyses, population viability analyses"
+      ],
+      "explicitly_excludes": [
+        "Community Ecology (multi-species interactions)",
+        "Evolutionary Biology (purely genetic evolution without ecological population processes)"
+      ]
+    },
+    {
+      "slug": "community-ecology",
+      "name": "Community Ecology",
+      "tagline": "Interactions among species and community assembly processes",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Predation, competition, mutualism, trophic structure, assembly rules",
+        "examples: food-web studies, coexistence mechanisms, interaction networks"
+      ],
+      "explicitly_excludes": [
+        "Ecosystem Ecology (focus on energy/material flows rather than species interactions)",
+        "Invasion Biology (if applied to non-native species \u2014 use that slot)"
+      ]
+    },
+    {
+      "slug": "evolutionary-biology",
+      "name": "Evolutionary Biology",
+      "tagline": "Mechanisms and patterns of genetic and phenotypic evolution",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "Natural selection, speciation, adaptation, macroevolutionary patterns",
+        "examples: experimental evolution, comparative trait evolution, theoretical evolution"
+      ],
+      "explicitly_excludes": [
+        "Phylogenetics (phylogeny reconstruction and methods)",
+        "Biology (molecular/genomic mechanism papers belong in Biology)"
+      ]
+    },
+    {
+      "slug": "behavioral-ecology",
+      "name": "Behavioral Ecology",
+      "tagline": "Ecological and evolutionary causes of animal behavior",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Foraging, mating systems, social behavior, behavioral strategies",
+        "examples: optimal foraging, sexual selection, social network studies"
+      ],
+      "explicitly_excludes": [
+        "Evolutionary Biology (if the paper is purely genetic/evolutionary modeling without behavior)",
+        "Neuroscience or Physiology (mechanistic neural work \u2192 Biology)"
+      ]
+    },
+    {
+      "slug": "macroecology",
+      "name": "Macroecology",
+      "tagline": "Large-scale patterns and laws of biodiversity and abundance",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Species\u2013area relationships, scaling of diversity, global trait patterns",
+        "examples: latitudinal diversity gradients, body-size distributions, scaling theory"
+      ],
+      "explicitly_excludes": [
+        "Biogeography (if focused on spatial history and distribution drivers rather than emergent large-scale patterns)",
+        "Earth & Environmental (climate system\u2013scale studies belong there)"
+      ]
+    },
+    {
+      "slug": "ecosystem-ecology",
+      "name": "Ecosystem Ecology",
+      "tagline": "Energy, nutrient cycles, and functioning of ecosystems",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Primary production, decomposition, biogeochemical cycling, ecosystem services",
+        "examples: nutrient flux studies, productivity\u2013decomposition coupling, carbon budgets at ecosystem scale"
+      ],
+      "explicitly_excludes": [
+        "Earth & Environmental (climate-scale or Earth-system modeling)",
+        "Microbial Ecology (if focused on microbes as agents, use Microbial Ecology)"
+      ]
+    },
+    {
+      "slug": "paleontology",
+      "name": "Paleontology",
+      "tagline": "Fossils, deep-time biodiversity, and evolutionary history",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Fossil description, macroevolutionary trends, extinction and origination dynamics",
+        "examples: fossil assemblage analyses, mass extinction studies, paleoecology"
+      ],
+      "explicitly_excludes": [
+        "Phylogenetics (if a paper is solely about molecular phylogenies of living taxa \u2192 Biology or Phylogenetics)",
+        "Earth & Environmental (paleoclimate modeling belongs there when focused on climate systems)"
+      ]
+    },
+    {
+      "slug": "phylogenetics",
+      "name": "Phylogenetics",
+      "tagline": "Tree reconstruction, comparative methods, and evolutionary history inference",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Phylogeny estimation, divergence dating, comparative trait methods",
+        "examples: methodological advances for tree inference, comparative tests of trait evolution"
+      ],
+      "explicitly_excludes": [
+        "Biology (sequence-level, genomics method papers belong to Biology)",
+        "Evolutionary Biology (conceptual evolutionary studies without phylogenetic analysis)"
+      ]
+    },
+    {
+      "slug": "biogeography",
+      "name": "Biogeography",
+      "tagline": "Spatial distributions and historical drivers of biodiversity",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Range evolution, dispersal, vicariance, historical assembly of regional biotas",
+        "examples: species distribution modeling, paleodistribution reconstructions, dispersal corridors"
+      ],
+      "explicitly_excludes": [
+        "Macroecology (if focus is on emergent patterns rather than dispersal/history)",
+        "Earth & Environmental (climate-driven range shifts when primarily about climate systems)"
+      ]
+    },
+    {
+      "slug": "conservation-biology",
+      "name": "Conservation Biology",
+      "tagline": "Biodiversity threats, protection strategies, and applied conservation science",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Threat assessment, protected areas, population recovery, policy-relevant ecology",
+        "examples: extinction risk analyses, conservation planning, human\u2013wildlife conflict studies"
+      ],
+      "explicitly_excludes": [
+        "Restoration Ecology (active habitat restoration projects belong there)",
+        "Biology (molecular conservation genetics belongs in Biology)"
+      ]
+    },
+    {
+      "slug": "restoration-ecology",
+      "name": "Restoration Ecology",
+      "tagline": "Active recovery and restoration of degraded ecosystems and habitats",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Restoration techniques, rewilding, ecosystem rehabilitation effectiveness",
+        "examples: restoration monitoring, revegetation experiments, functional recovery studies"
+      ],
+      "explicitly_excludes": [
+        "Conservation Biology (if the paper is about threat assessment or policy rather than active restoration)",
+        "Earth & Environmental (engineering-focused large-scale interventions may go there)"
+      ]
+    },
+    {
+      "slug": "landscape-ecology",
+      "name": "Landscape Ecology",
+      "tagline": "Spatial structure, connectivity, and processes across landscapes",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Patch dynamics, habitat fragmentation, movement ecology at landscape scales",
+        "examples: connectivity modeling, land-use change impacts, spatially explicit population models"
+      ],
+      "explicitly_excludes": [
+        "Biogeography (if focus is historical distribution rather than contemporary landscape structure)",
+        "Earth & Environmental (landscape-scale climate/land system modeling belongs there)"
+      ]
+    },
+    {
+      "slug": "microbial-ecology",
+      "name": "Microbial Ecology",
+      "tagline": "Roles of microbes in ecological processes and community interactions",
+      "audience_pct_within_level1": 1.5,
+      "covers": [
+        "Microbial community ecology, microbe-mediated ecosystem processes, host\u2013microbe interactions",
+        "examples: microbiome ecology, soil microbial function studies, microbial food webs"
+      ],
+      "explicitly_excludes": [
+        "Biology (molecular microbiology, genomics-heavy method papers belong to Biology)",
+        "Ecosystem Ecology (if the study addresses ecosystem fluxes primarily, use Ecosystem Ecology)"
+      ]
+    },
+    {
+      "slug": "invasion-biology",
+      "name": "Invasion Biology",
+      "tagline": "Ecology, impacts, and management of non-native species",
+      "audience_pct_within_level1": 0.5,
+      "covers": [
+        "Mechanisms of invasion, impacts on native communities, management and policy",
+        "examples: invasion spread modeling, impact assessments, eradication/control studies"
+      ],
+      "explicitly_excludes": [
+        "Community Ecology (basic interaction theory unrelated to non-native status)",
+        "Conservation Biology (if framed as broader biodiversity threat/policy rather than invasion-focused)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Genomics-heavy evolutionary work: many evolutionary papers use genomics; we route sequence/genomic-method papers to Biology \u2014 could be confusing for users expecting genetics inside Evolutionary Biology.",
+    "Modeling vs empirical split: theoretical/modeling work can cross multiple slots (macroecology, population, evolutionary); tags and abstracts must guide correct assignment.",
+    "Microbial ecology audience is small but distinct; careful exclusion language needed to avoid shunting microbe-driven ecosystem process papers into Ecosystem Ecology or Biology incorrectly."
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "level1_slug": "materials-science",
+  "level1_name": "Materials Science",
+  "count": 60,
+  "rationale": "Materials L5 only for battery + photovoltaic chemistries + 2D materials + solid electrolytes + biomaterials where the field publishes by named composition. Skip rest where L4 IS the named family.",
+  "leaves": [
+    {
+      "slug": "nmc-811",
+      "name": "NMC811 & Single-Crystal NMC",
+      "parent_l4": "ni-rich-layered-cathodes",
+      "tagline": "NMC811, single-crystal NMC, gradient NMC, Ni-rich cathode interphase chemistry."
+    },
+    {
+      "slug": "nmc-90",
+      "name": "NMC9.5.5 (Ni-90) & NMCA",
+      "parent_l4": "ni-rich-layered-cathodes",
+      "tagline": "NMC9.5.5 (Ni-90) + NMCA, ultra-high-Ni cathodes, cobalt-free cathodes."
+    },
+    {
+      "slug": "lfp-mfp",
+      "name": "LFP & LMFP",
+      "parent_l4": "lfp-cathodes",
+      "tagline": "LFP, LMFP, polyanion cathodes for safer + low-cost batteries."
+    },
+    {
+      "slug": "prussian-blue-na",
+      "name": "Prussian-Blue Na-Ion",
+      "parent_l4": "na-ion-cathodes",
+      "tagline": "Prussian-blue analog Na-ion cathodes, framework Na-storage compounds."
+    },
+    {
+      "slug": "polyanion-layered-na",
+      "name": "Polyanion & Layered Na Cathodes",
+      "parent_l4": "na-ion-cathodes",
+      "tagline": "Polyanion-Na cathodes, layered Na-cathodes (O3, P2), comparative."
+    },
+    {
+      "slug": "si-composite-anodes",
+      "name": "Si Composite Anodes",
+      "parent_l4": "si-graphite-anodes",
+      "tagline": "Si composite anodes, Si-C, pre-lithiated Si, Si-rich graphite hybrids."
+    },
+    {
+      "slug": "li-metal-anodes-design",
+      "name": "Li-Metal Anode Interphase Engineering",
+      "parent_l4": "si-graphite-anodes",
+      "tagline": "Li-metal anode SEI engineering, electrolyte additives for Li-metal."
+    },
+    {
+      "slug": "llzo-lgps-llto",
+      "name": "LLZO, LGPS & LLTO Solid Electrolytes",
+      "parent_l4": "solid-state-electrolytes-materials",
+      "tagline": "LLZO (garnet), LGPS (sulfide), LLTO (perovskite) solid electrolyte families."
+    },
+    {
+      "slug": "argyrodite-li6ps5cl",
+      "name": "Argyrodite Li6PS5Cl",
+      "parent_l4": "solid-state-electrolytes-materials",
+      "tagline": "Argyrodite Li6PS5Cl + Li6PS5Br, sulfide SSE materials science."
+    },
+    {
+      "slug": "halide-solid-electrolytes",
+      "name": "Halide Solid Electrolytes",
+      "parent_l4": "solid-state-electrolytes-materials",
+      "tagline": "Halide solid electrolytes (Li3YCl6, Li3InCl6), wide-window halide SEs."
+    },
+    {
+      "slug": "polymer-pe-solid-elec",
+      "name": "Polymer Solid Electrolytes",
+      "parent_l4": "solid-state-electrolytes-materials",
+      "tagline": "Polymer solid electrolytes, single-ion polymer electrolytes, composite polymer-ceramic."
+    },
+    {
+      "slug": "perovskite-2t-tandem",
+      "name": "2T Perovskite/Si Tandems",
+      "parent_l4": "perovskite-tandems",
+      "tagline": "2T perovskite/Si tandems, monolithic tandem record efficiencies, contact + recombination layer engineering."
+    },
+    {
+      "slug": "perovskite-perovskite",
+      "name": "All-Perovskite Tandems",
+      "parent_l4": "perovskite-tandems",
+      "tagline": "All-perovskite tandems (wide-gap + low-gap), Sn-Pb tandem cells."
+    },
+    {
+      "slug": "perovskite-cigs-tandem",
+      "name": "Perovskite/CIGS Tandems",
+      "parent_l4": "perovskite-tandems",
+      "tagline": "Perovskite/CIGS tandems, perovskite-on-chalcogenide architectures."
+    },
+    {
+      "slug": "fa-cs-mixed-cation",
+      "name": "FA-Cs Mixed-Cation Perovskite",
+      "parent_l4": "single-junction-perovskite",
+      "tagline": "FA-Cs mixed-cation perovskites, formamidinium-rich compositions for efficiency + stability."
+    },
+    {
+      "slug": "perovskite-encapsulation",
+      "name": "Perovskite Encapsulation & Stability",
+      "parent_l4": "perovskite-stability",
+      "tagline": "Perovskite PV encapsulation, ISOS protocols, accelerated aging methods."
+    },
+    {
+      "slug": "tin-perovskite-pv",
+      "name": "Sn-Based Lead-Free Perovskite PV",
+      "parent_l4": "lead-free-perovskite",
+      "tagline": "Sn-based lead-free perovskite PV, FA/CsSnI3 chemistries."
+    },
+    {
+      "slug": "snse-thermoelectrics",
+      "name": "SnSe-Class Thermoelectrics",
+      "parent_l4": "thermoelectric-materials-design",
+      "tagline": "SnSe-class thermoelectrics, single-crystal SnSe + polycrystalline."
+    },
+    {
+      "slug": "half-heusler",
+      "name": "Half-Heusler Thermoelectrics",
+      "parent_l4": "thermoelectric-materials-design",
+      "tagline": "Half-Heusler thermoelectrics, ZrNiSn-class, NbCoSn variants."
+    },
+    {
+      "slug": "passive-radiative-cooling",
+      "name": "Passive Radiative Cooling Films",
+      "parent_l4": "radiative-cooling-materials",
+      "tagline": "Passive radiative cooling films, sky-window selective emitters, fabric-based radiative cooling."
+    },
+    {
+      "slug": "complex-hydrides-h2",
+      "name": "Complex Hydrides for H2",
+      "parent_l4": "metal-hydrides-storage",
+      "tagline": "Complex hydrides for H2 storage (NaAlH4, LiBH4), kinetic-enhanced metal hydrides."
+    },
+    {
+      "slug": "pem-membrane-pfsa",
+      "name": "PFSA & Hydrocarbon PEMs",
+      "parent_l4": "fuel-cell-membranes-materials",
+      "tagline": "PFSA membranes (Nafion variants), hydrocarbon PEMs, durable + high-T PEMs."
+    },
+    {
+      "slug": "aem-membranes",
+      "name": "AEM Membranes",
+      "parent_l4": "fuel-cell-membranes-materials",
+      "tagline": "AEM materials, anion-exchange membrane chemistry, alkaline-stable polymer chemistry."
+    },
+    {
+      "slug": "ysz-gd-doped-sofc",
+      "name": "YSZ + Gd-Doped Ceria SOFC",
+      "parent_l4": "sofc-electrolyte-materials",
+      "tagline": "YSZ + Gd-doped ceria SOFC electrolytes, low-T SOFC materials development."
+    },
+    {
+      "slug": "twisted-bilayer-electronics",
+      "name": "Twisted Bilayer Electronics",
+      "parent_l4": "vdw-vertical-heterostructures",
+      "tagline": "Twisted bilayer electronics, magic-angle device assembly + characterization."
+    },
+    {
+      "slug": "hbn-encapsulation",
+      "name": "hBN Encapsulation",
+      "parent_l4": "vdw-vertical-heterostructures",
+      "tagline": "hBN encapsulation, hBN as 2D dielectric + protection layer, large-area hBN."
+    },
+    {
+      "slug": "wafer-scale-2d",
+      "name": "Wafer-Scale 2D Growth",
+      "parent_l4": "tmd-synthesis-processing",
+      "tagline": "Wafer-scale 2D TMD growth, CVD TMD on insulators, transfer-free TMD."
+    },
+    {
+      "slug": "graphene-cvd",
+      "name": "Graphene CVD on Cu/Ni",
+      "parent_l4": "graphene-synthesis",
+      "tagline": "Graphene CVD on Cu + Ni, large-area graphene transfer methods."
+    },
+    {
+      "slug": "qd-colloidal-pbs-cdse",
+      "name": "PbS + CdSe Quantum Dots",
+      "parent_l4": "colloidal-nanoparticles",
+      "tagline": "PbS + CdSe colloidal quantum dots, QLED + IR detector materials."
+    },
+    {
+      "slug": "plasmonic-au-ag-np",
+      "name": "Plasmonic Au & Ag Nanoparticles",
+      "parent_l4": "colloidal-nanoparticles",
+      "tagline": "Plasmonic Au + Ag nanoparticles, controlled-shape synthesis, plasmonic catalysis."
+    },
+    {
+      "slug": "ni-rich-cathode-interphase",
+      "name": "Ni-Rich Cathode Interphase Chemistry",
+      "parent_l4": "ni-rich-layered-cathodes",
+      "tagline": "Ni-rich cathode interphase chemistry, CEI engineering, surface modification."
+    },
+    {
+      "slug": "snmc-single-crystal",
+      "name": "Single-Crystal Ni-Rich Cathodes",
+      "parent_l4": "ni-rich-layered-cathodes",
+      "tagline": "Single-crystal Ni-rich cathodes, polycrystalline-to-single-crystal transition, durability."
+    },
+    {
+      "slug": "transformer-aware-mlips",
+      "name": "Transformer-Aware MLIPs",
+      "parent_l4": "gnn-materials-properties",
+      "tagline": "Transformer-aware MLIPs, GNN + transformer hybrid materials property predictors."
+    },
+    {
+      "slug": "matgen-gnoME",
+      "name": "MatGen & GNoME",
+      "parent_l4": "diffusion-materials-generative",
+      "tagline": "MatGen, GNoME, A-Lab, generative + active-learning loops for materials discovery."
+    },
+    {
+      "slug": "phonon-bandstructure-dft",
+      "name": "Phonon Bandstructure DFT",
+      "parent_l4": "phonons-ab-initio-md",
+      "tagline": "Phonon bandstructure DFT, anharmonic phonons, lattice thermal conductivity from first principles."
+    },
+    {
+      "slug": "ptychography-stem",
+      "name": "Ptychography in STEM",
+      "parent_l4": "4d-stem",
+      "tagline": "Ptychography in STEM, electron ptychography for sub-\u00c5 resolution."
+    },
+    {
+      "slug": "in-situ-electrochem-tem",
+      "name": "In-Situ Electrochemical TEM",
+      "parent_l4": "in-situ-tem",
+      "tagline": "In-situ electrochemical TEM, liquid-cell + closed-cell electrochemistry in TEM."
+    },
+    {
+      "slug": "pdf-disordered-mat",
+      "name": "PDF for Disordered Materials",
+      "parent_l4": "synchrotron-xrd",
+      "tagline": "PDF (pair distribution function) for disordered + nanostructured materials at synchrotron + XFEL."
+    },
+    {
+      "slug": "operando-xafs-energy",
+      "name": "Operando XAFS for Energy Materials",
+      "parent_l4": "xps-xanes-xafs",
+      "tagline": "Operando XAFS for energy materials, X-ray spectroscopy of battery + catalysis."
+    },
+    {
+      "slug": "nano-xrf-elemental",
+      "name": "Nano-XRF Elemental Mapping",
+      "parent_l4": "synchrotron-xrf-tomography",
+      "tagline": "Nano-XRF elemental mapping, X-ray fluorescence + tomography for materials."
+    },
+    {
+      "slug": "scaffolds-bone-cppd",
+      "name": "CPPD & CaP Bone Scaffolds",
+      "parent_l4": "bone-scaffolds",
+      "tagline": "Calcium phosphate cement, CPPD, \u03b2-TCP scaffolds for bone regeneration."
+    },
+    {
+      "slug": "electrospun-skin",
+      "name": "Electrospun Skin Scaffolds",
+      "parent_l4": "cartilage-skin-scaffolds",
+      "tagline": "Electrospun skin scaffolds, nanofibrous scaffolds for skin regeneration."
+    },
+    {
+      "slug": "osteogenic-coatings-implants",
+      "name": "Osteogenic Coatings on Implants",
+      "parent_l4": "bioactive-coatings-implants",
+      "tagline": "Osteogenic coatings on implants, BMP-loaded surfaces, antimicrobial implant coatings."
+    },
+    {
+      "slug": "lnp-organ-targeting",
+      "name": "Organ-Targeted LNPs (SORT, organ-LNP)",
+      "parent_l4": "lnp-drug-delivery-materials",
+      "tagline": "Organ-targeted LNPs, SORT chemistry, liver vs spleen vs lung LNP targeting."
+    },
+    {
+      "slug": "polymer-micelle-pluronic",
+      "name": "Pluronic & PEG-Polymer Micelles",
+      "parent_l4": "polymeric-micelle-materials",
+      "tagline": "Pluronic + PEG-polymer micelles for drug delivery, PEG-PLA + PEG-PLGA micelles."
+    },
+    {
+      "slug": "ti-porous-bone-implants",
+      "name": "Porous Ti Bone Implants",
+      "parent_l4": "bone-implants-materials",
+      "tagline": "Porous Ti bone implants, AM-printed Ti scaffolds, surface engineering for osseointegration."
+    },
+    {
+      "slug": "neural-coating-pedot",
+      "name": "PEDOT:PSS Neural Coatings",
+      "parent_l4": "neural-interface-materials",
+      "tagline": "PEDOT:PSS neural coatings, conductive coatings for neural interfaces, low-impedance electrodes."
+    },
+    {
+      "slug": "ferroelectric-hfo2-cmos",
+      "name": "Ferroelectric HfO2 in CMOS",
+      "parent_l4": "hfo2-ferroelectrics",
+      "tagline": "Ferroelectric HfO2 in CMOS-compatible memory, FeFET design + endurance."
+    },
+    {
+      "slug": "mram-stt-sot",
+      "name": "STT-MRAM & SOT-MRAM",
+      "parent_l4": "mram-spintronic-stacks",
+      "tagline": "STT-MRAM, SOT-MRAM, perpendicular MTJ design + scaling."
+    },
+    {
+      "slug": "knn-bct-piezo",
+      "name": "KNN, BCT-BZT Lead-Free Piezo",
+      "parent_l4": "lead-free-piezo",
+      "tagline": "KNN, BCT-BZT lead-free piezoelectrics, environmentally-friendly piezo materials."
+    },
+    {
+      "slug": "gan-on-si",
+      "name": "GaN-on-Si for Power",
+      "parent_l4": "gan-power-materials",
+      "tagline": "GaN-on-Si for power devices, GaN-on-SiC, vertical GaN materials science."
+    },
+    {
+      "slug": "sic-defects-engineering",
+      "name": "SiC Defects & Quality Engineering",
+      "parent_l4": "sic-power-materials",
+      "tagline": "SiC defects, basal-plane dislocation reduction, SiC wafer quality engineering."
+    },
+    {
+      "slug": "ga2o3-large-area",
+      "name": "Ga2O3 Large-Area Growth",
+      "parent_l4": "ga2o3-ultra-wide",
+      "tagline": "Ga2O3 large-area growth, beta-Ga2O3 single crystals + epi growth methods."
+    },
+    {
+      "slug": "aln-uwbg",
+      "name": "AlN UWBG Materials",
+      "parent_l4": "ga2o3-ultra-wide",
+      "tagline": "AlN ultra-wide-bandgap materials, AlGaN UV emitter + power device materials."
+    },
+    {
+      "slug": "lithography-bcp-l5",
+      "name": "EUV + BCP Lithography",
+      "parent_l4": "ald-cvd-thin-film",
+      "tagline": "EUV + BCP lithography for sub-10-nm patterning, area-selective ALD for self-aligned patterning."
+    },
+    {
+      "slug": "ald-area-selective-l5",
+      "name": "Area-Selective ALD",
+      "parent_l4": "ald-cvd-thin-film",
+      "tagline": "Area-selective ALD, AS-ALD process design, self-aligned multi-patterning."
+    },
+    {
+      "slug": "epitaxial-oxide-pld",
+      "name": "Epitaxial Complex Oxides via PLD",
+      "parent_l4": "mbe-pld",
+      "tagline": "Epitaxial complex oxides via PLD, controlled growth of perovskite + nickelate films."
+    },
+    {
+      "slug": "lattice-microlattice",
+      "name": "Microlattice Materials",
+      "parent_l4": "lattice-architected-materials",
+      "tagline": "Microlattice materials, hierarchical metamaterial design, ultralow-density lightweight."
+    },
+    {
+      "slug": "atom-probe-pulse-mode",
+      "name": "Laser-Pulse Atom Probe",
+      "parent_l4": "atom-probe-tomography-l4",
+      "tagline": "Laser-pulse atom probe tomography, voltage vs laser-pulse modes for atom probe."
+    },
+    {
+      "slug": "compositionally-graded-nmc",
+      "name": "Compositionally-Graded NMC",
+      "parent_l4": "ni-rich-layered-cathodes",
+      "tagline": "Compositionally-graded NMC cathodes for high-Ni stability, core-shell NMC."
+    }
+  ],
+  "uncovered_concerns": [
+    "Materials L5 only for battery + PV + 2D + biomaterials + semiconductors where the field publishes by named composition. Skipped polymer chemistry, MOF subtypes, structural metals \u2014 L4 already at named-family level for those."
+  ]
+}

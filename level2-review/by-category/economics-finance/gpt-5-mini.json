@@ -1,0 +1,208 @@
+{
+  "level1_slug": "economics-finance",
+  "level1_name": "Economics & Finance",
+  "count": 14,
+  "rationale": "I split Economics & Finance into 14 practitioner-facing subspecialties to balance breadth and precision: enough cards to cover distinct research communities (theory, applied, policy, markets) without fragmenting rare niches. I kept econometrics as a stand-alone area because it underpins many papers and draws a large, cross-cutting audience; likewise Financial Economics is split from Corporate Finance & Accounting and Market Microstructure to respect distinct researcher/practitioner identities. I deliberately did not create separate tiny cards for narrow applied fields (e.g., sports economics, urban economics) \u2014 those fit under larger topical homes like Public, Labor, or Development \u2014 but I did split Monetary/Central Banking from Macroeconomics since central banking research has a distinct readership and policy focus.",
+  "subspecialties": [
+    {
+      "slug": "econometrics",
+      "name": "Econometrics",
+      "tagline": "Methods, identification, causal inference, and applied estimation",
+      "audience_pct_within_level1": 12,
+      "covers": [
+        "Theoretical and applied estimation methods, identification strategies, causal inference",
+        "Examples: IV, RDD, panel methods, machine-learning for treatment effects"
+      ],
+      "explicitly_excludes": [
+        "Macro model estimation \u2014 goes to macroeconomics",
+        "Finance-specific asset pricing econometrics \u2014 goes to financial-economics"
+      ]
+    },
+    {
+      "slug": "financial-economics",
+      "name": "Financial Economics",
+      "tagline": "Asset pricing, corporate valuation, risk and market behavior",
+      "audience_pct_within_level1": 12,
+      "covers": [
+        "Asset pricing theory and empirical tests, risk premia, derivatives pricing",
+        "Examples: cross-section of returns, factor models, systemic risk"
+      ],
+      "explicitly_excludes": [
+        "Trading venue design and high-frequency execution \u2014 goes to market-microstructure",
+        "Corporate accounting topics \u2014 goes to corporate-finance-and-accounting"
+      ]
+    },
+    {
+      "slug": "macroeconomics",
+      "name": "Macroeconomics",
+      "tagline": "Growth, business cycles, fiscal policy, and macro theory",
+      "audience_pct_within_level1": 10,
+      "covers": [
+        "Aggregate dynamics, DSGE models, fiscal policy, long-run growth",
+        "Examples: business-cycle transmission, savings and growth theory"
+      ],
+      "explicitly_excludes": [
+        "Monetary policy implementation and central bank operations \u2014 goes to monetary-and-central-banking"
+      ]
+    },
+    {
+      "slug": "microeconomics",
+      "name": "Microeconomics",
+      "tagline": "Theory of individual and firm behavior, game theory, mechanism design",
+      "audience_pct_within_level1": 8,
+      "covers": [
+        "Economic theory at individual/firm level, market design, game-theoretic models",
+        "Examples: auction theory, matching markets, contract theory"
+      ],
+      "explicitly_excludes": [
+        "Empirical IO papers \u2014 go to industrial-organization",
+        "Behavioral deviations \u2014 go to behavioral-economics"
+      ]
+    },
+    {
+      "slug": "behavioral-economics",
+      "name": "Behavioral Economics",
+      "tagline": "Psychology-informed decision making, nudges, preferences and biases",
+      "audience_pct_within_level1": 8,
+      "covers": [
+        "Empirical and experimental work on decision-making, heuristics, and interventions",
+        "Examples: lab/field experiments on biases, nudging policy studies"
+      ],
+      "explicitly_excludes": [
+        "Clinical or non-economics psychology studies \u2014 goes to Social Sciences",
+        "Behavioral asset pricing models tightly focused on markets \u2014 goes to financial-economics"
+      ]
+    },
+    {
+      "slug": "industrial-organization",
+      "name": "Industrial Organization",
+      "tagline": "Firm strategy, competition, antitrust, and market structure",
+      "audience_pct_within_level1": 7,
+      "covers": [
+        "Firm behavior, entry, price setting, vertical contracts, regulation",
+        "Examples: antitrust empirical studies, oligopoly theory, platform competition"
+      ],
+      "explicitly_excludes": [
+        "Corporate accounting/finance topics \u2014 goes to corporate-finance-and-accounting",
+        "Macro-level industry growth \u2014 goes to macroeconomics or development"
+      ]
+    },
+    {
+      "slug": "labor-economics",
+      "name": "Labor Economics",
+      "tagline": "Workforce, wages, unemployment, and labor-market policies",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "Empirical and theoretical work on labor supply/demand, matching, training",
+        "Examples: minimum wage impacts, migration and employment, education returns"
+      ],
+      "explicitly_excludes": [
+        "Health-specific workforce studies \u2014 goes to health-economics",
+        "Macro unemployment dynamics \u2014 goes to macroeconomics"
+      ]
+    },
+    {
+      "slug": "public-economics",
+      "name": "Public Economics",
+      "tagline": "Taxation, government spending, social insurance, and public policy",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "Design and effects of taxes, transfers, public goods, and regulation",
+        "Examples: optimal taxation, redistribution, evaluation of welfare programs"
+      ],
+      "explicitly_excludes": [
+        "Policy work without an economic framework \u2014 goes to Social Sciences",
+        "Public-health interventions with medical focus \u2014 goes to health-economics"
+      ]
+    },
+    {
+      "slug": "development-economics",
+      "name": "Development Economics",
+      "tagline": "Poverty, growth, institutions, and policy in low- and middle-income countries",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "Micro and macro approaches to development, field experiments, institutions",
+        "Examples: cash transfer RCTs, credit constraints in developing economies"
+      ],
+      "explicitly_excludes": [
+        "Global macro/sovereign finance issues \u2014 goes to macroeconomics or financial-economics",
+        "Non-economic development studies \u2014 goes to Social Sciences"
+      ]
+    },
+    {
+      "slug": "corporate-finance-and-accounting",
+      "name": "Corporate Finance & Accounting",
+      "tagline": "Firm capital structure, governance, earnings, and financial reporting",
+      "audience_pct_within_level1": 7,
+      "covers": [
+        "Corporate investment, payout policy, governance, accounting disclosures",
+        "Examples: earnings quality, mergers and acquisitions, CFO decision studies"
+      ],
+      "explicitly_excludes": [
+        "Asset-pricing or market-wide finance research \u2014 goes to financial-economics",
+        "Firm-level competition models \u2014 goes to industrial-organization"
+      ]
+    },
+    {
+      "slug": "market-microstructure",
+      "name": "Market Microstructure & Trading",
+      "tagline": "Trading, liquidity, exchanges, and high-frequency market dynamics",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "How trading mechanisms shape prices, liquidity provision, execution costs",
+        "Examples: limit order book analysis, HFT effects, market design"
+      ],
+      "explicitly_excludes": [
+        "Long-horizon asset pricing \u2014 goes to financial-economics",
+        "Algorithmic learning methods without market context \u2014 goes to econometrics"
+      ]
+    },
+    {
+      "slug": "monetary-and-central-banking",
+      "name": "Monetary Economics & Central Banking",
+      "tagline": "Monetary policy, central bank operations, inflation and liquidity",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "Policy rules, inflation dynamics, unconventional monetary tools, reserves",
+        "Examples: interest-rate pass-through, QE effectiveness, central-bank reports"
+      ],
+      "explicitly_excludes": [
+        "Broad macro growth theory \u2014 goes to macroeconomics",
+        "Banking regulation microprudential topics \u2014 goes to financial-economics"
+      ]
+    },
+    {
+      "slug": "health-economics",
+      "name": "Health Economics",
+      "tagline": "Healthcare markets, insurance, outcomes, and cost-effectiveness",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "Economics of health care provision, insurance markets, and policy evaluation",
+        "Examples: provider incentives, drug pricing, health insurance reforms"
+      ],
+      "explicitly_excludes": [
+        "Clinical medical research \u2014 goes to Health & Medicine",
+        "Public-health-only policy studies without economic analysis \u2014 goes to Social Sciences"
+      ]
+    },
+    {
+      "slug": "environmental-and-resource-economics",
+      "name": "Environmental & Resource Economics",
+      "tagline": "Climate, natural resources, environmental policy, and valuation",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "Valuation of externalities, carbon pricing, renewable resources, conservation",
+        "Examples: carbon markets, cost-benefit of regulation, ecosystem service valuation"
+      ],
+      "explicitly_excludes": [
+        "Pure climate science \u2014 goes to Earth & Environmental Sciences",
+        "Energy engineering or technology design \u2014 goes to Engineering"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Urban, sports, and education economics are not separate cards; they were folded into Public, Labor, or Development to avoid many tiny specialty cards.",
+    "Behavioral finance was considered as its own card but is covered by either Financial Economics (market-focused) or Behavioral Economics (decision-focused) to keep the grid MECE.",
+    "Banking/regulation research spans Financial Economics and Monetary/Central Banking; chosen splits reflect typical practitioner audiences (market vs. policy/regulatory focus)."
+  ]
+}

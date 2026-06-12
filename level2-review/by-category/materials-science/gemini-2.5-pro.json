@@ -1,0 +1,172 @@
+{
+  "level1_slug": "materials-science",
+  "level1_name": "Materials Science",
+  "count": 12,
+  "rationale": "This structure uses a hybrid classification model, organizing subspecialties by material class (e.g., Metals & Alloys), physical scale (e.g., 2D Materials), function (e.g., Energy Materials), and methodology (e.g., Computational Materials). This reflects how interdisciplinary teams and researchers self-identify in modern materials science. Broad functional categories like 'Energy Materials' and 'Electronic & Photonic Materials' were created to capture the largest, most active areas of research, preventing them from being scattered across multiple material classes. To manage overlap, a soft hierarchy is implied: a paper on a material for a specific application (e.g., a polymer for a battery) belongs in the application category ('Energy Materials') over the material class category ('Polymers & Soft Matter').",
+  "subspecialties": [
+    {
+      "slug": "energy-materials",
+      "name": "Energy Materials",
+      "tagline": "Materials for energy generation, conversion, and storage.",
+      "audience_pct_within_level1": 16.0,
+      "covers": [
+        "Research on materials central to energy technologies.",
+        "Batteries, photovoltaics, fuel cells, thermoelectrics, supercapacitors, materials for catalysis."
+      ],
+      "explicitly_excludes": [
+        "Fundamental electronic properties not tied to a device \u2192 Electronic & Photonic Materials"
+      ]
+    },
+    {
+      "slug": "electronic-photonic-materials",
+      "name": "Electronic & Photonic Materials",
+      "tagline": "Materials governing the flow of electrons and light.",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "Fundamental properties and processing of semiconductors, dielectrics, and optical materials.",
+        "Semiconductors, transistors, LEDs, lasers, optical fibers, plasmonics, ferroelectrics."
+      ],
+      "explicitly_excludes": [
+        "Materials primarily for energy conversion/storage \u2192 Energy Materials",
+        "Purely magnetic phenomena \u2192 Magnetic Materials & Spintronics"
+      ]
+    },
+    {
+      "slug": "nanomaterials",
+      "name": "Nanomaterials",
+      "tagline": "Synthesis and properties of materials at the nanoscale.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Materials where nanoscale effects dominate properties.",
+        "Nanoparticles, quantum dots, nanotubes, nanowires, nanocomposites."
+      ],
+      "explicitly_excludes": [
+        "Graphene and other single-layer materials \u2192 2D Materials & Heterostructures"
+      ]
+    },
+    {
+      "slug": "biomaterials",
+      "name": "Biomaterials",
+      "tagline": "Materials designed to interact with biological systems.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Development and application of materials for medical and biological purposes.",
+        "Tissue engineering, drug delivery, medical implants, biosensors, biocompatible coatings."
+      ],
+      "explicitly_excludes": [
+        "Fundamental polymer science without a biological interface \u2192 Polymers & Soft Matter"
+      ]
+    },
+    {
+      "slug": "polymers-soft-matter",
+      "name": "Polymers & Soft Matter",
+      "tagline": "The science of large molecules and easily deformable matter.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Synthesis, physics, and characterization of polymers and complex fluids.",
+        "Polymer chemistry, polymer physics, colloids, gels, liquid crystals, self-assembly."
+      ],
+      "explicitly_excludes": [
+        "Polymers for specific applications \u2192 relevant functional category (e.g., Energy Materials, Biomaterials)"
+      ]
+    },
+    {
+      "slug": "metals-alloys",
+      "name": "Metals & Alloys",
+      "tagline": "Understanding and designing metallic materials.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Physical and mechanical metallurgy, from fundamentals to alloy design.",
+        "Steels, superalloys, high-entropy alloys, intermetallics, phase transformations, corrosion."
+      ],
+      "explicitly_excludes": [
+        "Metallic nanoparticles \u2192 Nanomaterials",
+        "Thin film deposition for electronics \u2192 Electronic & Photonic Materials"
+      ]
+    },
+    {
+      "slug": "2d-materials-heterostructures",
+      "name": "2D Materials & Heterostructures",
+      "tagline": "Exploring the physics and chemistry of atomically thin materials.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Synthesis, characterization, and theory of 2D materials and their stacked assemblies.",
+        "Graphene, transition metal dichalcogenides (TMDs), MXenes, van der Waals heterostructures."
+      ],
+      "explicitly_excludes": [
+        "General nanoparticle research \u2192 Nanomaterials"
+      ]
+    },
+    {
+      "slug": "structural-materials-composites",
+      "name": "Structural Materials & Composites",
+      "tagline": "Materials engineered for mechanical performance and load-bearing applications.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Design and mechanics of materials where strength, toughness, and durability are primary.",
+        "Fiber-reinforced composites, lightweight alloys, advanced ceramics, mechanical testing."
+      ],
+      "explicitly_excludes": [
+        "Fundamental metallurgy \u2192 Metals & Alloys",
+        "Fundamental ceramic science \u2192 Ceramics & Glasses"
+      ]
+    },
+    {
+      "slug": "ceramics-glasses",
+      "name": "Ceramics & Glasses",
+      "tagline": "Synthesis, structure, and properties of inorganic, non-metallic solids.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Processing and characterization of ceramic and amorphous materials.",
+        "Oxides, nitrides, carbides, glass science, cements, electroceramics."
+      ],
+      "explicitly_excludes": [
+        "Ceramics for specific applications \u2192 relevant functional category (e.g., Energy Materials, Biomaterials)"
+      ]
+    },
+    {
+      "slug": "computational-materials-science",
+      "name": "Computational Materials Science",
+      "tagline": "Using simulation and data to discover and design materials.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Development and application of computational methods for materials.",
+        "Density functional theory (DFT), molecular dynamics (MD), phase-field modeling, materials informatics."
+      ],
+      "explicitly_excludes": [
+        "Papers that primarily report experimental results with minor computational support."
+      ]
+    },
+    {
+      "slug": "magnetic-materials-spintronics",
+      "name": "Magnetic Materials & Spintronics",
+      "tagline": "Controlling magnetism and electron spin for future technologies.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Fundamental and applied studies of magnetic phenomena in materials.",
+        "Permanent magnets, magnetic memory, spintronics, multiferroics, magnetic cooling."
+      ],
+      "explicitly_excludes": [
+        "Non-magnetic electronic properties \u2192 Electronic & Photonic Materials"
+      ]
+    },
+    {
+      "slug": "surfaces-interfaces-coatings",
+      "name": "Surfaces, Interfaces & Coatings",
+      "tagline": "The science and engineering of material boundaries.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Phenomena occurring at surfaces and interfaces, and the design of functional coatings.",
+        "Thin film growth, surface science, tribology, corrosion resistance, wetting."
+      ],
+      "explicitly_excludes": [
+        "Atomically thin layers \u2192 2D Materials & Heterostructures",
+        "Coatings for biocompatibility \u2192 Biomaterials"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "A separate category for 'Materials Characterization' was considered but excluded because characterization techniques (e.g., microscopy, spectroscopy) are tools used across all subspecialties, rather than a distinct field of study for most papers.",
+    "A category for 'Quantum Materials' was considered but its topics are well-distributed across 'Electronic & Photonic Materials', 'Magnetic Materials & Spintronics', and '2D Materials', so a separate category felt redundant at this level."
+  ]
+}

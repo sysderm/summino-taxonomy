@@ -1,0 +1,214 @@
+{
+  "level1_slug": "agriculture-food",
+  "level1_name": "Agriculture & Food Science",
+  "count": 12,
+  "rationale": "This structure divides the field into three core areas: plant production, animal production, and post-harvest/food systems. Plant production is split into 'Agronomy & Crop Science' (field crops), 'Horticulture' (specialty crops), and 'Plant Protection' (pests/disease), reflecting major divisions in research and practice. Animal production is split into terrestrial ('Animal Science') and aquatic ('Aquaculture & Fisheries'). The post-harvest side is covered by 'Food Science & Technology' (processing) and 'Nutrition Science' (health impact). Cross-cutting disciplines like 'Agricultural Engineering', 'Agricultural Economics', and the systems-focused 'Agroecology' are included as distinct, practitioner-recognized fields. This 12-category structure provides comprehensive coverage without becoming overly granular, ensuring most papers find a clear primary home.",
+  "subspecialties": [
+    {
+      "slug": "agronomy-crop-science",
+      "name": "Agronomy & Crop Science",
+      "tagline": "Field crops, soil management, and plant breeding for food and fiber.",
+      "audience_pct_within_level1": 18.0,
+      "covers": [
+        "field crop production (cereals, legumes, oilseeds)",
+        "soil science and fertility",
+        "crop physiology",
+        "plant breeding for agricultural traits"
+      ],
+      "explicitly_excludes": [
+        "pest and disease management \u2192 Plant Protection",
+        "fruit and vegetable cultivation \u2192 Horticulture"
+      ]
+    },
+    {
+      "slug": "food-science-technology",
+      "name": "Food Science & Technology",
+      "tagline": "The chemistry, microbiology, and engineering of food processing.",
+      "audience_pct_within_level1": 16.0,
+      "covers": [
+        "food chemistry",
+        "food microbiology",
+        "food processing and preservation",
+        "new product development",
+        "sensory analysis"
+      ],
+      "explicitly_excludes": [
+        "human nutrition and metabolism \u2192 Nutrition Science",
+        "farm-level production \u2192 Agronomy & Crop Science"
+      ]
+    },
+    {
+      "slug": "animal-science",
+      "name": "Animal Science",
+      "tagline": "Livestock production, breeding, nutrition, and welfare.",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "animal husbandry",
+        "dairy science",
+        "poultry science",
+        "livestock genetics",
+        "animal nutrition",
+        "production-focused veterinary science"
+      ],
+      "explicitly_excludes": [
+        "aquatic animals \u2192 Aquaculture & Fisheries",
+        "companion animal medicine \u2192 Veterinary Medicine (separate L1)"
+      ]
+    },
+    {
+      "slug": "nutrition-science",
+      "name": "Nutrition Science",
+      "tagline": "How food and nutrients affect human health and disease.",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "human nutrition",
+        "clinical nutrition",
+        "dietetics",
+        "nutrient metabolism",
+        "nutrigenomics",
+        "public health nutrition"
+      ],
+      "explicitly_excludes": [
+        "food processing \u2192 Food Science & Technology",
+        "food policy \u2192 Public Health"
+      ]
+    },
+    {
+      "slug": "plant-protection",
+      "name": "Plant Protection",
+      "tagline": "Managing pests, diseases, and weeds that affect plant health.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "plant pathology (diseases)",
+        "agricultural entomology (insect pests)",
+        "weed science",
+        "pesticide science",
+        "integrated pest management"
+      ],
+      "explicitly_excludes": [
+        "fundamental plant biology \u2192 Biology",
+        "crop breeding for resistance \u2192 Agronomy & Crop Science"
+      ]
+    },
+    {
+      "slug": "horticulture",
+      "name": "Horticulture",
+      "tagline": "Cultivation of fruits, vegetables, nuts, and ornamental plants.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "pomology (fruits)",
+        "olericulture (vegetables)",
+        "floriculture",
+        "viticulture",
+        "post-harvest physiology of specialty crops"
+      ],
+      "explicitly_excludes": [
+        "field crops like wheat and corn \u2192 Agronomy & Crop Science"
+      ]
+    },
+    {
+      "slug": "agricultural-economics",
+      "name": "Agricultural Economics",
+      "tagline": "The business of food, agriculture, and natural resources.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "agribusiness management",
+        "farm management",
+        "food and commodity markets",
+        "agricultural policy analysis",
+        "resource economics"
+      ],
+      "explicitly_excludes": [
+        "general economics \u2192 Economics",
+        "public health policy \u2192 Public Health"
+      ]
+    },
+    {
+      "slug": "aquaculture-fisheries",
+      "name": "Aquaculture & Fisheries",
+      "tagline": "Farming and management of fish, shellfish, and other aquatic organisms.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "fish farming",
+        "mariculture",
+        "fisheries science and management",
+        "aquatic animal health",
+        "seafood technology"
+      ],
+      "explicitly_excludes": [
+        "terrestrial livestock \u2192 Animal Science",
+        "marine biology \u2192 Biology"
+      ]
+    },
+    {
+      "slug": "agricultural-engineering",
+      "name": "Agricultural Engineering",
+      "tagline": "Technology and machinery for farming, irrigation, and food processing.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "farm machinery and automation",
+        "irrigation and drainage systems",
+        "precision agriculture technology",
+        "post-harvest engineering"
+      ],
+      "explicitly_excludes": [
+        "food chemistry \u2192 Food Science & Technology",
+        "civil engineering \u2192 Engineering"
+      ]
+    },
+    {
+      "slug": "agroecology-sustainable-ag",
+      "name": "Agroecology & Sustainable Agriculture",
+      "tagline": "Ecological principles for sustainable and resilient food systems.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "sustainable farming systems",
+        "organic agriculture",
+        "soil conservation",
+        "agro-ecosystem analysis",
+        "food sovereignty"
+      ],
+      "explicitly_excludes": [
+        "fundamental ecology \u2192 Biology",
+        "conventional crop management \u2192 Agronomy & Crop Science"
+      ]
+    },
+    {
+      "slug": "forestry-agroforestry",
+      "name": "Forestry & Agroforestry",
+      "tagline": "Management of forests and integrated tree-crop-livestock systems.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "silviculture",
+        "forest management and conservation",
+        "wood science",
+        "agroforestry systems"
+      ],
+      "explicitly_excludes": [
+        "conservation biology \u2192 Environmental Science",
+        "ornamental trees \u2192 Horticulture"
+      ]
+    },
+    {
+      "slug": "soil-science",
+      "name": "Soil Science",
+      "tagline": "The study of soil as a natural resource on the Earth's surface.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "soil physics",
+        "soil chemistry",
+        "pedology",
+        "soil biology and biochemistry",
+        "soil conservation"
+      ],
+      "explicitly_excludes": [
+        "routine soil testing for crops \u2192 Agronomy & Crop Science",
+        "geology \u2192 Earth Science"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Veterinary Science is a large field; we've included livestock/production animal health in 'Animal Science' to distinguish it from a potential top-level 'Veterinary Medicine' category focused on companion animals.",
+    "Agricultural Biotechnology is a tool used across many subspecialties (e.g., breeding, food processing) rather than a distinct category here. Papers on fundamental biotech methods belong in Biology or Biotechnology."
+  ]
+}

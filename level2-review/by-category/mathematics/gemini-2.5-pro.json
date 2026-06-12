@@ -1,0 +1,158 @@
+{
+  "level1_slug": "mathematics",
+  "level1_name": "Mathematics",
+  "count": 12,
+  "rationale": "This structure divides mathematics into its major pure and applied branches, closely mirroring the organization used by professional bodies and publication archives like arXiv. The count of 12 provides clear distinctions without being overwhelming. We deliberately grouped 'Geometry & Topology' and 'Analysis & PDEs' as their subfields are deeply intertwined, and splitting them would create excessive overlap. Conversely, we separated 'Probability Theory' from 'Analysis' to give this large, distinct field its own space, especially given its foundational role for the excluded L1 category of 'Statistics & Data Science'. The inclusion of several core applied fields ensures comprehensive coverage for mathematicians working on practical problems.",
+  "subspecialties": [
+    {
+      "slug": "analysis-and-pdes",
+      "name": "Analysis & PDEs",
+      "tagline": "The rigorous study of calculus, limits, and differential equations.",
+      "audience_pct_within_level1": 22.0,
+      "covers": [
+        "Real and complex analysis, functional analysis, harmonic analysis, partial differential equations (PDEs), operator algebras."
+      ],
+      "explicitly_excludes": [
+        "Probability theory \u2192 Probability Theory",
+        "Numerical solutions to equations \u2192 Numerical Analysis & Scientific Computing"
+      ]
+    },
+    {
+      "slug": "geometry-and-topology",
+      "name": "Geometry & Topology",
+      "tagline": "The study of shape, space, and the properties of geometric objects.",
+      "audience_pct_within_level1": 18.0,
+      "covers": [
+        "Differential geometry, algebraic geometry, algebraic and geometric topology, manifold theory."
+      ],
+      "explicitly_excludes": [
+        "The geometry of physical spacetime \u2192 Mathematical Physics"
+      ]
+    },
+    {
+      "slug": "algebra",
+      "name": "Algebra",
+      "tagline": "The study of groups, rings, fields, and other abstract structures.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Group theory, ring theory, representation theory, homological algebra, category theory."
+      ],
+      "explicitly_excludes": [
+        "Algebraic aspects of geometry or number theory \u2192 Geometry & Topology, Number Theory"
+      ]
+    },
+    {
+      "slug": "probability-theory",
+      "name": "Probability Theory",
+      "tagline": "The mathematical study of randomness and uncertain phenomena.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Stochastic processes, measure-theoretic probability, random matrices, percolation theory."
+      ],
+      "explicitly_excludes": [
+        "Statistical inference and data analysis \u2192 Statistics & Data Science"
+      ]
+    },
+    {
+      "slug": "combinatorics",
+      "name": "Combinatorics",
+      "tagline": "The mathematics of counting, arranging, and discrete structures.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Graph theory, enumerative combinatorics, extremal combinatorics, combinatorial designs."
+      ],
+      "explicitly_excludes": [
+        "Algorithms on discrete structures \u2192 Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "number-theory",
+      "name": "Number Theory",
+      "tagline": "The study of integers, prime numbers, and their arithmetic properties.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Analytic and algebraic number theory, Diophantine equations, arithmetic geometry."
+      ],
+      "explicitly_excludes": [
+        "Applications in cryptography \u2192 Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "numerical-analysis",
+      "name": "Numerical Analysis & Scientific Computing",
+      "tagline": "Designing and analyzing algorithms for problems in continuous mathematics.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Numerical linear algebra, numerical solutions of PDEs and ODEs, approximation theory."
+      ],
+      "explicitly_excludes": [
+        "Computational complexity theory \u2192 Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "mathematical-physics",
+      "name": "Mathematical Physics",
+      "tagline": "Applying rigorous mathematical methods to problems in physics.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "General relativity, quantum field theory, statistical mechanics, and string theory from a mathematical perspective."
+      ],
+      "explicitly_excludes": [
+        "Phenomenological or experimental physics \u2192 Physics"
+      ]
+    },
+    {
+      "slug": "dynamical-systems",
+      "name": "Dynamical Systems",
+      "tagline": "The study of systems that evolve over time, including chaos theory.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Ergodic theory, chaotic dynamics, topological dynamics, complex dynamics."
+      ],
+      "explicitly_excludes": [
+        "Control of dynamical systems \u2192 Optimization & Control Theory"
+      ]
+    },
+    {
+      "slug": "optimization-and-control",
+      "name": "Optimization & Control Theory",
+      "tagline": "Finding the best solutions and managing the behavior of dynamic systems.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Linear and nonlinear programming, convex optimization, optimal control, calculus of variations."
+      ],
+      "explicitly_excludes": [
+        "Machine learning algorithms \u2192 Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "logic-and-foundations",
+      "name": "Logic & Foundations",
+      "tagline": "The formal principles of reasoning and the foundations of mathematics.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Set theory, model theory, proof theory, computability theory."
+      ],
+      "explicitly_excludes": [
+        "Logic in computer science (e.g., verification) \u2192 Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "mathematical-biology",
+      "name": "Mathematical Biology",
+      "tagline": "Modeling biological processes and systems using mathematical tools.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Population dynamics, epidemiology, computational neuroscience, systems biology."
+      ],
+      "explicitly_excludes": [
+        "Purely biological or medical studies \u2192 Biology, Medicine"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Information Theory was not included as its own category, as it sits at a major intersection with Computer Science and Engineering, which may be better primary homes for that community.",
+    "Category Theory is included within Algebra due to its strong historical ties, but it could be considered a foundational topic alongside Logic; it was deemed too small for its own category.",
+    "Mathematical Statistics (distinct from applied statistical inference) was excluded to adhere strictly to the L1 definition, though it has very strong ties to Probability Theory."
+  ]
+}

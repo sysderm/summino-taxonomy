@@ -1,0 +1,151 @@
+{
+  "level1_slug": "biology",
+  "level1_name": "Biology",
+  "count": 17,
+  "rationale": "Biology has the most diverse career paths of any level-1 — a molecular biologist and a marine biologist barely speak the same language. Sixteen subspecialties balance two organizing principles: scale (molecular → cellular → organismal → systems) and topic (immunology, developmental, etc.). I deliberately did NOT separate plant biology from animal biology — model organism choice is methodology, not subspecialty. I kept Microbiology distinct from Immunology even though they overlap heavily because the professional identities are sharply different (microbiology departments, immunology departments). I demoted Cancer Biology into its own card because basic-science cancer mechanism is enormous in volume and identity, and I do NOT want it to crowd Oncology under Medicine. Bioinformatics gets its own card despite being a method, because the community treats it as an identity; same for Structural Biology.",
+  "subspecialties": [
+    {
+      "slug": "molecular-biology",
+      "name": "Molecular Biology",
+      "tagline": "DNA, RNA, proteins — transcription, translation, regulation.",
+      "audience_pct_within_level1": 13,
+      "covers": ["transcription, translation, RNA biology, chromatin, gene regulation, protein structure-function, signaling cascades at molecular level"],
+      "explicitly_excludes": ["structure-determination methods → Structural Biology", "cancer-specific molecular biology → Cancer Biology"]
+    },
+    {
+      "slug": "cell-biology",
+      "name": "Cell Biology",
+      "tagline": "Cell architecture, division, trafficking, death.",
+      "audience_pct_within_level1": 9,
+      "covers": ["cell cycle, organelle biology, cytoskeleton, membrane trafficking, autophagy, apoptosis, cell signaling at cellular level", "JCB, Nat Cell Biol, Mol Biol Cell"],
+      "explicitly_excludes": ["molecular mechanisms → Molecular Biology"]
+    },
+    {
+      "slug": "genetics-genomics",
+      "name": "Genetics & Genomics",
+      "tagline": "Inheritance, GWAS, functional genomics, population genetics.",
+      "audience_pct_within_level1": 10,
+      "covers": ["population genetics, statistical genetics, GWAS, functional genomics, epigenomics, comparative genomics, human genetics (research)", "Nat Genet, AJHG, Genome Res"],
+      "explicitly_excludes": ["clinical genetics → Medicine", "evolutionary genetics → Ecology & Evolution"]
+    },
+    {
+      "slug": "developmental-biology",
+      "name": "Developmental Biology",
+      "tagline": "Embryogenesis, morphogenesis, stem cells, regeneration.",
+      "audience_pct_within_level1": 5,
+      "covers": ["embryology, organogenesis, regenerative biology, stem cell biology, developmental signaling, evo-devo", "Development, Dev Cell, Stem Cell Rep"],
+      "explicitly_excludes": ["clinical stem cell therapy → Medicine"]
+    },
+    {
+      "slug": "microbiology",
+      "name": "Microbiology",
+      "tagline": "Bacteria, archaea, fungi, microbiomes, virology.",
+      "audience_pct_within_level1": 10,
+      "covers": ["bacterial physiology, microbial ecology, microbiome research, virology (basic), antimicrobial resistance mechanism, phages, archaea, mycology", "mBio, Cell Host Microbe, Nat Microbiol"],
+      "explicitly_excludes": ["clinical infectious disease → Medicine", "outbreak modeling → Public Health"]
+    },
+    {
+      "slug": "immunology",
+      "name": "Immunology",
+      "tagline": "Innate, adaptive, immune cell biology, host-pathogen.",
+      "audience_pct_within_level1": 8,
+      "covers": ["innate immunity, adaptive immunity, T/B cell biology, antigen presentation, immunometabolism, tumor immunology basic, host-pathogen at immune level", "Nat Immunol, Immunity, J Exp Med"],
+      "explicitly_excludes": ["clinical autoimmune disease → Medicine", "vaccine clinical trials → Medicine"]
+    },
+    {
+      "slug": "cancer-biology",
+      "name": "Cancer Biology",
+      "tagline": "Tumorigenesis, metastasis, tumor microenvironment.",
+      "audience_pct_within_level1": 9,
+      "covers": ["oncogenes, tumor suppressors, metastasis biology, tumor microenvironment, cancer stem cells, basic immuno-oncology, cancer metabolism", "Cancer Discov, Cancer Cell, Nat Cancer"],
+      "explicitly_excludes": ["clinical oncology and trials → Medicine"]
+    },
+    {
+      "slug": "biochemistry",
+      "name": "Biochemistry",
+      "tagline": "Enzymes, metabolism, biophysics, chemical biology.",
+      "audience_pct_within_level1": 6,
+      "covers": ["enzymology, metabolism, lipid biology, glycobiology, biophysical chemistry of biomolecules, chemical biology, drug-target biochemistry", "Biochemistry, JBC, FEBS J"],
+      "explicitly_excludes": ["pure synthetic chemistry → Chemistry"]
+    },
+    {
+      "slug": "structural-biology",
+      "name": "Structural Biology",
+      "tagline": "Cryo-EM, X-ray, NMR, AlphaFold, structure-function.",
+      "audience_pct_within_level1": 3,
+      "covers": ["X-ray crystallography, cryo-EM, NMR structure determination, computational structural biology, AlphaFold/structure prediction, membrane protein structure", "Nature Struct Mol Biol, Structure"],
+      "explicitly_excludes": ["protein structure prediction as ML methods → Computer Science & AI"]
+    },
+    {
+      "slug": "bioinformatics-computational-biology",
+      "name": "Bioinformatics & Computational Biology",
+      "tagline": "Sequence analysis, single-cell, pipelines, ML for biology.",
+      "audience_pct_within_level1": 6,
+      "covers": ["sequence analysis, single-cell methods, multi-omics integration, biological databases, ML applied to biology, computational pipelines", "Bioinformatics, Nat Methods, Genome Biol"],
+      "explicitly_excludes": ["pure ML method development → Computer Science & AI", "biostatistics methodology → Statistics & Data Science"]
+    },
+    {
+      "slug": "systems-biology",
+      "name": "Systems Biology & Synthetic Biology",
+      "tagline": "Network biology, modeling, engineering biology.",
+      "audience_pct_within_level1": 3,
+      "covers": ["gene regulatory networks, metabolic modeling, synthetic gene circuits, design-build-test cycles, whole-cell modeling, CRISPR-based design"],
+      "explicitly_excludes": ["industrial bioengineering applications → Chemical & Bioengineering"]
+    },
+    {
+      "slug": "plant-biology",
+      "name": "Plant Biology",
+      "tagline": "Plant cells, development, physiology, photosynthesis.",
+      "audience_pct_within_level1": 4,
+      "covers": ["plant cell biology, plant molecular biology, plant-pathogen interaction, photosynthesis, plant development, plant signaling", "Plant Cell, Plant J, Nat Plants"],
+      "explicitly_excludes": ["crop improvement and agronomy → Agriculture & Food", "plant ecology → Ecology & Evolution"]
+    },
+    {
+      "slug": "physiology",
+      "name": "Physiology",
+      "tagline": "Whole-organism function — cardiovascular, renal, respiratory.",
+      "audience_pct_within_level1": 4,
+      "covers": ["cardiovascular, renal, respiratory, GI, endocrine physiology at organism level, integrative physiology, exercise physiology, comparative physiology"],
+      "explicitly_excludes": ["clinical physiology applications → Medicine", "neurophysiology of behavior → Brain & Cognitive Sciences"]
+    },
+    {
+      "slug": "biophysics",
+      "name": "Biophysics",
+      "tagline": "Single-molecule, membrane biophysics, computational dynamics.",
+      "audience_pct_within_level1": 3,
+      "covers": ["single-molecule biophysics, membrane biophysics, molecular dynamics simulations, force spectroscopy, fluorescence techniques, biophysical theory", "Biophys J, eLife biophysics papers"],
+      "explicitly_excludes": ["structure determination → Structural Biology"]
+    },
+    {
+      "slug": "marine-aquatic-biology",
+      "name": "Marine & Aquatic Biology",
+      "tagline": "Ocean life, freshwater systems, aquatic ecology overlap.",
+      "audience_pct_within_level1": 3,
+      "covers": ["marine organisms, marine microbiology, coral biology, freshwater biology, fish biology (non-aquaculture), aquatic toxicology"],
+      "explicitly_excludes": ["fisheries and aquaculture → Agriculture & Food", "ocean physics → Earth & Environmental"]
+    },
+    {
+      "slug": "neurobiology",
+      "name": "Neurobiology",
+      "tagline": "Neuron and glia biology, synapse, brain at cellular level.",
+      "audience_pct_within_level1": 4,
+      "covers": ["cellular and molecular neuroscience, synaptic biology, glia biology, neurodevelopment, neuroinflammation at cellular level", "Neuron, J Neurosci basic, Nat Neurosci basic"],
+      "explicitly_excludes": ["systems and cognitive neuroscience → Brain & Cognitive Sciences", "clinical neurology → Medicine"]
+    },
+    {
+      "slug": "zoology-organismal-biology",
+      "name": "Zoology & Organismal Biology",
+      "tagline": "Invertebrate, vertebrate, comparative animal biology — behavior to morphology.",
+      "audience_pct_within_level1": 3,
+      "covers": ["invertebrate zoology, vertebrate zoology, comparative animal physiology, animal behavior, functional and evolutionary morphology, entomology, herpetology, ornithology, mammalogy"],
+      "explicitly_excludes": ["whole-ecosystem and population work → Ecology & Evolution", "livestock/animal production → Agriculture & Food", "human anatomy/physiology → Medicine"],
+      "source": "DDC #590 Zoology + Per Alex 2026-06-11"
+    }
+  ],
+  "uncovered_concerns": [
+    "Considered separating Virology from Microbiology — virology IS distinct and has its own departments. Kept merged because both are <8% individually and the merged card better matches how undergrads/grad students self-identify.",
+    "Considered splitting RNA biology from Molecular Biology — RNA-as-identity is rising fast (after the mRNA vaccine moment). Marked for v2.",
+    "Considered Toxicology — it's an applied field that lands in Public Health (env-tox), Pharmacology (drug-tox), and Medicine (clinical-tox). Not a level-2 in Biology.",
+    "Considered Pharmacology — it sits at Biology+Chemistry+Medicine border. Most basic pharmacology papers fit under Biochemistry; clinical pharmacology fits under Medicine."
+  ]
+}

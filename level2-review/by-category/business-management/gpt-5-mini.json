@@ -1,0 +1,195 @@
+{
+  "level1_slug": "business-management",
+  "level1_name": "Business & Management",
+  "count": 14,
+  "rationale": "I split Business & Management into 14 common, practitioner-facing subspecialties that reflect how academics and industry professionals identify themselves (e.g., Strategy, Marketing, Operations). The count balances breadth (covering functional areas like HR, Accounting, and IS) with depth (separating Entrepreneurship, Corporate Governance, and Analytics). I deliberately kept Finance-related market/asset topics out because those belong to Economics & Finance, and I merged closely related practice areas (Operations & Supply Chain) to avoid overly granular cards. A potentially controversial split was Marketing vs. Consumer Behavior\u2014I kept a single Marketing card to reduce overlap and rely on article tags for fine-grained subtopics instead of separate picker cards.",
+  "subspecialties": [
+    {
+      "slug": "strategy",
+      "name": "Strategy",
+      "tagline": "Corporate & competitive strategy, strategic planning, M&A",
+      "audience_pct_within_level1": 18.0,
+      "covers": [
+        "Firm-level strategy, competitive positioning, business models",
+        "Examples: corporate diversification, M&A studies, strategic alliances"
+      ],
+      "explicitly_excludes": [
+        "corporate-governance \u2014 governance, boards, and stewardship work belongs there",
+        "entrepreneurship \u2014 early-stage startup strategy belongs to Entrepreneurship"
+      ]
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "tagline": "Branding, advertising, pricing, market research, consumer insights",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Marketing strategy, advertising effectiveness, pricing and product policy",
+        "Examples: brand equity studies, field experiments on ads, pricing experiments"
+      ],
+      "explicitly_excludes": [
+        "business-analytics \u2014 methodological/ML-heavy market analytics belongs there",
+        "consumer-behavior \u2014 if behavioral science explicitly framed as psychology, route to Organizational Behavior"
+      ]
+    },
+    {
+      "slug": "organizational-behavior",
+      "name": "Organizational Behavior",
+      "tagline": "Individual and group behavior, teams, leadership, workplace psychology",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Micro-level studies of employee behavior, motivation, leadership, teams",
+        "Examples: field experiments on incentives, studies of decision-making in organizations"
+      ],
+      "explicitly_excludes": [
+        "human-resources \u2014 HR systems and practices operationalized at policy level belong there",
+        "strategy \u2014 top-management strategic decision research stays in Strategy"
+      ]
+    },
+    {
+      "slug": "operations-and-supply-chain",
+      "name": "Operations & Supply Chain",
+      "tagline": "Process design, manufacturing, logistics, service operations, SCM",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Operations management, inventory, production planning, logistics and supply chains",
+        "Examples: queuing/service operations, inventory policy, last-mile logistics"
+      ],
+      "explicitly_excludes": [
+        "business-analytics \u2014 analytics methods for ops may be cross-listed but are in Analytics when methods-focused"
+      ]
+    },
+    {
+      "slug": "entrepreneurship",
+      "name": "Entrepreneurship",
+      "tagline": "New ventures, startups, VC, founding teams, new-product introduction",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Founding processes, startup finance (non-market), scaling, incubators",
+        "Examples: founder-team dynamics, entrepreneurial ecosystems, seed-stage studies"
+      ],
+      "explicitly-excludes": [
+        "strategy \u2014 established-firm strategic questions belong in Strategy",
+        "economics-and-finance \u2014 market/asset pricing of startups goes to Economics & Finance"
+      ]
+    },
+    {
+      "slug": "information-systems",
+      "name": "Information Systems",
+      "tagline": "IT strategy, digital platforms, IS adoption, socio-technical systems",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Digital platforms, enterprise systems, IT management and governance",
+        "Examples: platform competition, IT adoption research, digital transformation"
+      ],
+      "explicitly-excludes": [
+        "business-analytics \u2014 method-heavy ML/AI research on data science models belongs there",
+        "innovation-and-technology \u2014 product R&D and technology management belongs to Innovation & Technology Management"
+      ]
+    },
+    {
+      "slug": "human-resources",
+      "name": "Human Resources",
+      "tagline": "Workplace policies, talent management, recruitment, compensation systems",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "HR practices, performance management, staffing systems, labor relations (non-macro)",
+        "Examples: hiring algorithms, pay-for-performance programs, training interventions"
+      ],
+      "explicitly-excludes": [
+        "organizational-behavior \u2014 micro-theory/behavioral experiments on individuals or teams belong there",
+        "economics-and-finance \u2014 labor economics questions go to Economics & Finance"
+      ]
+    },
+    {
+      "slug": "business-analytics-data-science",
+      "name": "Business Analytics & Data Science",
+      "tagline": "Applied analytics, ML for business, causal inference, experimentation",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Applied machine learning, causal methods, A/B testing, forecasting for business",
+        "Examples: uplift modeling for marketing, causal inference of management interventions"
+      ],
+      "explicitly-excludes": [
+        "information-systems \u2014 socio-technical IT adoption questions go there",
+        "economics-and-finance \u2014 novel econometric theory belongs to other categories"
+      ]
+    },
+    {
+      "slug": "accounting",
+      "name": "Accounting",
+      "tagline": "Financial & managerial accounting, disclosure, audit, reporting",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Accounting information, reporting quality, auditing, managerial accounting systems",
+        "Examples: earnings management studies, audit market structure, cost accounting"
+      ],
+      "explicitly-excludes": [
+        "economics-and-finance \u2014 asset pricing and market microstructure studies go to Economics & Finance",
+        "corporate-governance \u2014 board oversight research may be cross-listed but governance card owns that"
+      ]
+    },
+    {
+      "slug": "innovation-and-technology-management",
+      "name": "Innovation & Technology Management",
+      "tagline": "R&D management, product development, technology strategy, diffusion",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Innovation processes, R&D organization, technology adoption and diffusion",
+        "Examples: open innovation, patent strategy, new product development studies"
+      ],
+      "explicitly-excludes": [
+        "information-systems \u2014 digital platform tech strategy belongs there when IT-centric",
+        "strategy \u2014 firm-level strategic outcomes remain in Strategy"
+      ]
+    },
+    {
+      "slug": "corporate-governance-and-ethics",
+      "name": "Corporate Governance & Ethics",
+      "tagline": "Boards, ownership, corporate law interface, CSR, business ethics",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Board structure, shareholder relations, executive compensation, CSR and ethics",
+        "Examples: board independence effects, stakeholder governance, corporate social responsibility"
+      ],
+      "explicitly-excludes": [
+        "strategy \u2014 strategy papers with governance as a minor control belong in Strategy",
+        "law-and-policy \u2014 legal doctrine or regulation-heavy work may route to adjacent policy/law categories"
+      ]
+    },
+    {
+      "slug": "international-business",
+      "name": "International Business",
+      "tagline": "Cross-border strategy, multinational firms, trade, FDI, localization",
+      "audience_pct_within_level1": 2.5,
+      "covers": [
+        "Multinational enterprise strategy, cross-border management, global supply chains",
+        "Examples: FDI strategy, subsidiary management, international joint ventures"
+      ],
+      "explicitly-excludes": [
+        "economics-and-finance \u2014 macro trade and international macroeconomics go to Economics & Finance",
+        "strategy \u2014 purely domestic strategy research remains in Strategy"
+      ]
+    },
+    {
+      "slug": "project-and-program-management",
+      "name": "Project & Program Management",
+      "tagline": "Project planning, governance, execution, portfolios and PMO practices",
+      "audience_pct_within_level1": 1.5,
+      "covers": [
+        "Project management methodologies, program governance, agile vs. waterfall evaluations",
+        "Examples: IT project failure analyses, large program governance studies"
+      ],
+      "explicitly-excludes": [
+        "operations-and-supply-chain \u2014 process-level operational research stays there",
+        "business-analytics \u2014 scheduling/optimization models that are method-centric go to Analytics"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Finance (financial markets, asset pricing) was intentionally excluded and routed to Economics & Finance \u2014 corporate finance topics that are managerial were retained within relevant subspecialties.",
+    "Consumer Behavior considered as a separate card but merged into Marketing/Organizational Behavior to avoid duplication and overlap in the picker grid.",
+    "Legal/regulatory scholarship and public policy-heavy work can overlap; I kept governance/ethics here but heavyweight legal theory should route to Law/Policy if available.",
+    "Very niche applied domains (healthcare management, sports management, hospitality) were not split out as separate cards \u2014 these are often tagged within functional cards (Operations, Strategy, HR) or should be handled by subject-matter filters."
+  ]
+}

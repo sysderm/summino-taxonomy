@@ -1,0 +1,213 @@
+{
+  "level1_slug": "earth-environmental",
+  "level1_name": "Earth & Environmental Sciences",
+  "count": 14,
+  "rationale": "I split Earth & Environmental Sciences into 14 practitioner-facing subspecialties to balance breadth and specificity: enough cards to let researchers pick a focused area, but not so many that choices become noisy. I prioritized disciplinary units scientists actually use (Climate Science, Oceanography, Geology) and separated methods that function across fields (Remote Sensing & GIS, Earth System Modeling) so papers map cleanly to a single card. I deliberately kept policy and public-health\u2013style work out (those route to other level-1 categories) and avoided splitting core earth-materials and geophysics too finely; the main controversial split is separating Climate Science from Paleoclimatology and from Earth System Modeling \u2014 they overlap but practitioners typically self-identify with one of those.",
+  "subspecialties": [
+    {
+      "slug": "climate-science",
+      "name": "Climate Science",
+      "tagline": "Atmospheric and global climate processes, change, impacts",
+      "audience_pct_within_level1": 18.0,
+      "covers": [
+        "Observations and theory of global and regional climate change",
+        "Examples: radiative forcing studies, attribution, climate sensitivity, projection analyses"
+      ],
+      "explicitly_excludes": [
+        "Paleoclimatology & Paleoenvironment",
+        "Earth System Modeling",
+        "Atmospheric Science"
+      ]
+    },
+    {
+      "slug": "atmospheric-science",
+      "name": "Atmospheric Science",
+      "tagline": "Weather, atmospheric dynamics, clouds, aerosols, chemistry",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Synoptic and mesoscale meteorology, cloud physics, atmospheric chemistry",
+        "Examples: convection studies, aerosol\u2013radiation interactions, air chemistry measurements"
+      ],
+      "explicitly_excludes": [
+        "Climate Science",
+        "Environmental Chemistry",
+        "Remote Sensing & GIS"
+      ]
+    },
+    {
+      "slug": "oceanography",
+      "name": "Oceanography",
+      "tagline": "Physical, chemical, and biological ocean processes",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Circulation, biogeochemical cycles, ocean ecology and coastal dynamics",
+        "Examples: upwelling studies, circulation modeling, ocean acidification research"
+      ],
+      "explicitly_excludes": [
+        "Coastal aspects routed within Oceanography not separately split",
+        "Hydrology & Water Resources",
+        "Biogeochemistry"
+      ]
+    },
+    {
+      "slug": "hydrology-water-resources",
+      "name": "Hydrology & Water Resources",
+      "tagline": "Surface and subsurface water movement, management, quality",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "River basin hydrology, groundwater, water quality, watershed modelling",
+        "Examples: flood modelling, groundwater contamination, urban hydrology"
+      ],
+      "explicitly_excludes": [
+        "Environmental Engineering",
+        "Oceanography",
+        "Remote Sensing & GIS"
+      ]
+    },
+    {
+      "slug": "geology-earth-materials",
+      "name": "Geology & Earth Materials",
+      "tagline": "Rocks, minerals, stratigraphy, sedimentology, petrology",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Field and lab studies of lithology, mineralogy, sedimentary processes",
+        "Examples: volcanology papers focused on petrology, basin stratigraphy, ore studies"
+      ],
+      "explicitly_excludes": [
+        "Geophysics & Seismology",
+        "Paleoclimatology & Paleoenvironment"
+      ]
+    },
+    {
+      "slug": "geophysics-seismology",
+      "name": "Geophysics & Seismology",
+      "tagline": "Solid-Earth geophysics, tectonics, seismic imaging",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Seismic studies, mantle and crustal processes, geodetics, geophysical imaging",
+        "Examples: earthquake mechanics, tomography, gravity and magnetics interpretation"
+      ],
+      "explicitly_excludes": [
+        "Geology & Earth Materials",
+        "Environmental Engineering"
+      ]
+    },
+    {
+      "slug": "paleoclimatology-paleoenvironment",
+      "name": "Paleoclimatology & Paleoenvironment",
+      "tagline": "Reconstructing past climates and environmental change",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Proxy records, ice cores, tree rings, sediment cores, paleoecology",
+        "Examples: Holocene climate reconstructions, isotope paleotemperature studies"
+      ],
+      "explicitly_excludes": [
+        "Climate Science",
+        "Geology & Earth Materials"
+      ]
+    },
+    {
+      "slug": "environmental-chemistry",
+      "name": "Environmental Chemistry",
+      "tagline": "Chemical processes in air, water, soil, and contaminants",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Fate and transport of pollutants, chemical transformations in environments",
+        "Examples: persistent organic pollutant studies, aquatic chemistry, atmospheric oxidation"
+      ],
+      "explicitly_excludes": [
+        "Biogeochemistry",
+        "Atmospheric Science"
+      ]
+    },
+    {
+      "slug": "biogeochemistry",
+      "name": "Biogeochemistry",
+      "tagline": "Element cycles linking biology, chemistry, and Earth processes",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Carbon, nitrogen, phosphorus cycles across ecosystems, soil and aquatic biogeochemistry",
+        "Examples: carbon flux studies, microbial mediation of nutrient cycles"
+      ],
+      "explicitly_excludes": [
+        "Environmental Chemistry",
+        "Ecology & Evolution"
+      ]
+    },
+    {
+      "slug": "remote-sensing-gis",
+      "name": "Remote Sensing & GIS",
+      "tagline": "Satellite, airborne sensing and spatial analysis for Earth studies",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Image processing, spatial analysis, LIDAR, radar, geospatial applications",
+        "Examples: land-cover change mapping, SAR interferometry, DEM generation"
+      ],
+      "explicitly_excludes": [
+        "Earth System Modeling",
+        "Hydrology & Water Resources"
+      ]
+    },
+    {
+      "slug": "earth-system-modeling",
+      "name": "Earth System Modeling",
+      "tagline": "Numerical models of coupled Earth system components",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Development and evaluation of climate, land\u2013ocean\u2013atmosphere coupled models",
+        "Examples: model intercomparison, parameterization development, model benchmarking"
+      ],
+      "explicitly_excludes": [
+        "Climate Science",
+        "Remote Sensing & GIS"
+      ]
+    },
+    {
+      "slug": "environmental-engineering",
+      "name": "Environmental Engineering",
+      "tagline": "Applied engineering for pollution control and remediation",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Design and assessment of treatment systems, remediation technologies, contaminant mitigation",
+        "Examples: wastewater treatment process studies, soil remediation techniques"
+      ],
+      "explicitly_excludes": [
+        "Hydrology & Water Resources",
+        "Environmental Chemistry"
+      ]
+    },
+    {
+      "slug": "sustainability-science",
+      "name": "Sustainability Science",
+      "tagline": "Socio-environmental systems, resilience, sustainable resources",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Interdisciplinary analyses of sustainability, resilience, resource use (non-policy technical focus)",
+        "Examples: lifecycle assessments, resilience metrics, socio-environmental modeling"
+      ],
+      "explicitly_excludes": [
+        "Public policy and policy analysis \u2014 goes to other level-1 categories"
+      ]
+    },
+    {
+      "slug": "cryosphere-glaciology",
+      "name": "Cryosphere & Glaciology",
+      "tagline": "Glaciers, ice sheets, permafrost, polar processes",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Ice dynamics, mass balance, permafrost thaw, sea-ice processes",
+        "Examples: ice-sheet modeling, glacier observations, polar climate interactions"
+      ],
+      "explicitly_excludes": [
+        "Paleoclimatology & Paleoenvironment",
+        "Oceanography"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Coastal Science: considered as separate but merged into Oceanography to avoid duplication and keep the grid compact.",
+    "Soil Science: overlaps strongly with Biogeochemistry and Environmental Chemistry; kept under those two to reduce card count.",
+    "Urban climate/urban hydrology: treated as topics inside Climate Science or Hydrology & Water Resources rather than separate cards.",
+    "Policy and governance-focused sustainability work excluded (routes to Social Sciences / Public Health), only technical/analytical sustainability retained."
+  ]
+}

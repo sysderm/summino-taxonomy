@@ -1,0 +1,210 @@
+{
+  "level1_slug": "electrical-engineering",
+  "level1_name": "Electrical & Electronic Engineering",
+  "count": 14,
+  "rationale": "I split Electrical & Electronic Engineering into 14 practitioner-facing subspecialties to cover major research and engineering communities (power, communications, IC design, signal/control, photonics, sensors, electromagnetics, instrumentation, etc.) while keeping each card large enough for discoverability. I intentionally kept IC design separate from Analog/RF and from Embedded Systems because those are distinct career identities and publication venues; likewise Communications and Signal Processing are split since many papers are clearly one or the other. I avoided slicing emerging niches (e.g., neuromorphic hardware, computational electromagnetics) into standalone cards to prevent sub-0.5% fragments \u2014 those remain under broader categories like Semiconductor Devices, Signal Processing, or Electromagnetics depending on emphasis.",
+  "subspecialties": [
+    {
+      "slug": "communications-and-networking",
+      "name": "Communications & Networking",
+      "tagline": "Wireless, wired comms, information theory, network protocols",
+      "audience_pct_within_level1": 16.0,
+      "covers": [
+        "Physical-layer and system-level communications research",
+        "Examples: 5G/6G wireless, optical communications, network protocols, information theory"
+      ],
+      "explicitly_excludes": [
+        "Signal Processing (algorithms like denoising, source separation)",
+        "Photonics & Optoelectronics (device/laser physics for photonic components)"
+      ]
+    },
+    {
+      "slug": "signal-processing",
+      "name": "Signal Processing",
+      "tagline": "Estimation, transforms, filtering, time\u2011series and image processing",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Theory and algorithms for processing signals and images",
+        "Examples: adaptive filtering, compressed sensing, spectral analysis, audio/vision signal algorithms"
+      ],
+      "explicitly_excludes": [
+        "Communications & Networking (system/protocol-level comms papers)",
+        "Machine Learning / Algorithms (goes to Computer Science & AI)"
+      ]
+    },
+    {
+      "slug": "control-systems-and-robotics",
+      "name": "Control Systems & Robotics",
+      "tagline": "Control theory, estimation, motion planning, embedded robot control",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Feedback control, state estimation, robotics hardware control",
+        "Examples: nonlinear control, model predictive control, robot manipulators, sensor fusion for autonomy"
+      ],
+      "explicitly_excludes": [
+        "Robotics perception algorithms that are primarily ML \u2192 Computer Science & AI",
+        "Embedded Systems (hardware/firmware-centric implementation details)"
+      ]
+    },
+    {
+      "slug": "power-systems",
+      "name": "Power Systems",
+      "tagline": "Generation, transmission, distribution, stability and grid integration",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Large\u2011scale electric power engineering and grid studies",
+        "Examples: stability analysis, renewable integration, smart grid control, distribution planning"
+      ],
+      "explicitly_excludes": [
+        "Power Electronics (converter/drive hardware design)",
+        "Energy materials or fabrication \u2192 Materials Science"
+      ]
+    },
+    {
+      "slug": "power-electronics-and-motor-drives",
+      "name": "Power Electronics & Motor Drives",
+      "tagline": "Converters, inverters, motor control and high\u2011power electronics",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Design and control of power converters and electric drives",
+        "Examples: DC\u2013DC/AC converters, EV inverters, wide-bandgap devices in converters"
+      ],
+      "explicitly_excludes": [
+        "Power Systems (system-level grid studies)",
+        "Semiconductor device physics and fabrication \u2192 Semiconductor Devices or Materials Science"
+      ]
+    },
+    {
+      "slug": "analog-and-rf-circuits",
+      "name": "Analog & RF Circuits",
+      "tagline": "Low\u2011frequency analog, RF front\u2011ends, amplifiers, mixers, PLLs",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Circuit design for analog and radio-frequency applications",
+        "Examples: low\u2011noise amplifiers, ADC/DAC front-ends, RF transceiver front-ends, PLL design"
+      ],
+      "explicitly_excludes": [
+        "Digital & Mixed\u2011Signal IC (digital-heavy chip design)",
+        "Antenna-focused electromagnetics \u2192 Electromagnetics & Antennas"
+      ]
+    },
+    {
+      "slug": "digital-and-mixed-signal-ics",
+      "name": "Digital & Mixed-Signal IC",
+      "tagline": "Digital chip architecture, mixed\u2011signal SoCs, VLSI design",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Integrated circuit design and on\u2011chip systems combining digital and analog",
+        "Examples: microarchitecture, low\u2011power CMOS design, mixed\u2011signal SoCs, timing/physical design"
+      ],
+      "explicitly_excludes": [
+        "Device physics and fabrication \u2192 Materials Science",
+        "Embedded systems software and board-level integration \u2192 Embedded Systems & Microcontrollers"
+      ]
+    },
+    {
+      "slug": "embedded-systems-and-microcontrollers",
+      "name": "Embedded Systems & Microcontrollers",
+      "tagline": "Firmware, real\u2011time systems, sensor nodes, hardware\u2013software co\u2011design",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Design and integration of embedded hardware and firmware",
+        "Examples: real\u2011time OS, low\u2011power sensor nodes, SoC integration, hardware\u2013software co\u2011design"
+      ],
+      "explicitly_excludes": [
+        "VLSI/IC design (chip\u2011level design) \u2192 Digital & Mixed\u2011Signal IC",
+        "Control theory research without embedded implementation \u2192 Control Systems & Robotics"
+      ]
+    },
+    {
+      "slug": "photonics-and-optoelectronics",
+      "name": "Photonics & Optoelectronics",
+      "tagline": "Lasers, optical systems, integrated photonics, detectors",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Optical devices and systems, photonic integration and optoelectronic components",
+        "Examples: photonic integrated circuits, modulators, lasers, optical sensing systems"
+      ],
+      "explicitly_excludes": [
+        "Optical communications system-level networking \u2192 Communications & Networking",
+        "Optical materials/fabrication-focused work \u2192 Materials Science"
+      ]
+    },
+    {
+      "slug": "semiconductor-devices",
+      "name": "Semiconductor Devices",
+      "tagline": "Device physics, transistors, sensors as devices (not fabs)",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Physics, modeling and device-level design of semiconductors and sensors",
+        "Examples: transistor device physics, reliability, device modeling, MEMS device behavior"
+      ],
+      "explicitly_excludes": [
+        "Device fabrication and process engineering \u2192 Materials Science",
+        "System-level IC design \u2192 Digital & Mixed\u2011Signal IC"
+      ]
+    },
+    {
+      "slug": "sensors-and-mems",
+      "name": "Sensors & MEMS",
+      "tagline": "Sensing technologies, MEMS devices, transducers and front\u2011ends",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Design and application of sensors and microelectromechanical systems",
+        "Examples: inertial sensors, chemical/biomedical sensors, MEMS resonators, sensor interfaces"
+      ],
+      "explicitly_excludes": [
+        "MEMS fabrication/process work \u2192 Materials Science",
+        "Signal\u2011processing algorithms for sensor data \u2192 Signal Processing"
+      ]
+    },
+    {
+      "slug": "electromagnetics-and-antennas",
+      "name": "Electromagnetics & Antennas",
+      "tagline": "Wave propagation, antennas, scattering, microwave engineering",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Electromagnetic theory and applied antenna/microwave engineering",
+        "Examples: antenna design, radar systems, scattering theory, metamaterials (if EM\u2011focused)"
+      ],
+      "explicitly_excludes": [
+        "RF circuit design (goes to Analog & RF Circuits)",
+        "Metamaterials focused on fabrication/materials \u2192 Materials Science"
+      ]
+    },
+    {
+      "slug": "instrumentation-and-measurement",
+      "name": "Instrumentation & Measurement",
+      "tagline": "Sensors, test equipment, metrology, data acquisition systems",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Design of measurement systems, testbeds and metrology techniques",
+        "Examples: precision instrumentation, sensor calibration, data-acquisition systems and test rigs"
+      ],
+      "explicitly_excludes": [
+        "Signal-processing algorithms for measured data \u2192 Signal Processing",
+        "Fabrication of measurement devices \u2192 Materials Science"
+      ]
+    },
+    {
+      "slug": "bioelectronics",
+      "name": "Bioelectronics",
+      "tagline": "Electronics for biomedical sensing, neural interfaces, medical devices",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Electronic design and systems for biological/medical applications",
+        "Examples: neural implants, wearable bio\u2011sensors, electrode interfaces, implantable electronics"
+      ],
+      "explicitly_excludes": [
+        "Biomedical algorithms and clinical studies \u2192 Biomedical / Life Sciences",
+        "Biomaterials and device fabrication \u2192 Materials Science"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Neuromorphic hardware and AI accelerators: considered but folded into Semiconductor Devices or Digital & Mixed\u2011Signal IC because standalone audience is small.",
+    "Metamaterials and novel EM materials: often straddle Electromagnetics and Materials Science; sent to Materials Science when fabrication/material focus dominates.",
+    "Quantum hardware: some EE groups work on it, but it's dispersed across Photonics, Semiconductor Devices, and Quantum-specific venues (decided not to add a separate small card).",
+    "Machine learning algorithmic work: explicitly excluded and directed to Computer Science & AI to avoid overlap."
+  ]
+}

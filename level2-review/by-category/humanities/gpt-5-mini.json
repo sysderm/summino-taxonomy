@@ -1,0 +1,204 @@
+{
+  "level1_slug": "humanities",
+  "level1_name": "Humanities",
+  "count": 14,
+  "rationale": "I split Humanities into 14 practitioner-facing subspecialties to balance breadth (major recognizable disciplines) with granularity for common research identities. I separated closely related but distinct professional identities that frequently map to different journals and conferences \u2014 for example History vs History of Science, and Philosophy vs Philosophy of Science \u2014 while keeping literary fields and cultural/media fields distinct because they attract different methods and audiences. I deliberately did not create many hyper\u2011narrow historical periods or regional area studies cards (those are searchable tags inside the app) and avoided digital humanities as it routes to Computer Science & AI per the constraints. A few borderline splits (Comparative Literature vs Literary Studies) were kept because practitioners commonly self-identify with those specific titles.",
+  "subspecialties": [
+    {
+      "slug": "history",
+      "name": "History",
+      "tagline": "Political, social, economic, and cultural history",
+      "audience_pct_within_level1": 17.0,
+      "covers": [
+        "national and transnational history",
+        "social history, political history, economic history"
+      ],
+      "explicitly_excludes": [
+        "history-of-science"
+      ]
+    },
+    {
+      "slug": "history-of-science",
+      "name": "History of Science",
+      "tagline": "Historical study of science, technology, and medicine",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "science & medicine histories, technology studies",
+        "biographies of scientists, laboratory histories"
+      ],
+      "explicitly_excludes": [
+        "history"
+      ]
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "tagline": "Ethics, metaphysics, epistemology, and analytic/continental work",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "moral and political philosophy, metaphysics, epistemology",
+        "continental, analytic, and applied philosophy"
+      ],
+      "explicitly_excludes": [
+        "philosophy-of-science"
+      ]
+    },
+    {
+      "slug": "philosophy-of-science",
+      "name": "Philosophy of Science",
+      "tagline": "Philosophical analysis of science, models, and explanation",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "theory choice, scientific explanation, models, measurement",
+        "philosophy of particular sciences and methods"
+      ],
+      "explicitly_excludes": [
+        "philosophy",
+        "history-of-science"
+      ]
+    },
+    {
+      "slug": "archaeology",
+      "name": "Archaeology",
+      "tagline": "Material culture, excavation reports, and field archaeology",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "excavation results, artefact analysis, landscape archaeology",
+        "bioarchaeology, dating methods, material studies"
+      ],
+      "explicitly_excludes": [
+        "classics",
+        "museum-and-heritage-studies"
+      ]
+    },
+    {
+      "slug": "classics",
+      "name": "Classics",
+      "tagline": "Ancient Greek and Roman language, literature, and history",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Latin and Greek philology, ancient history, classical literature",
+        "epigraphy, textual criticism of classical texts"
+      ],
+      "explicitly_excludes": [
+        "archaeology",
+        "linguistics"
+      ]
+    },
+    {
+      "slug": "art-history",
+      "name": "Art History",
+      "tagline": "Visual art, architecture, and material culture studies",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "painting, sculpture, architectural history",
+        "visual culture, iconography, connoisseurship"
+      ],
+      "explicitly_excludes": [
+        "media-studies",
+        "museum-and-heritage-studies"
+      ]
+    },
+    {
+      "slug": "literary-studies",
+      "name": "Literary Studies",
+      "tagline": "Literature analysis, theory, and text-based scholarship",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "close reading, literary theory, period literature studies",
+        "genre studies, author studies, textual criticism"
+      ],
+      "explicitly_excludes": [
+        "comparative-literature",
+        "film-and-media-studies"
+      ]
+    },
+    {
+      "slug": "comparative-literature",
+      "name": "Comparative Literature",
+      "tagline": "Cross\u2011lingual and cross\u2011cultural literary scholarship",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "translation studies, world literature, interliterary comparison",
+        "comparative theory across languages and cultures"
+      ],
+      "explicitly_excludes": [
+        "literary-studies",
+        "linguistics"
+      ]
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "tagline": "Language structure, historical linguistics, and philology",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "syntax, phonology, semantics, sociolinguistics",
+        "historical linguistics and philological methods"
+      ],
+      "explicitly_excludes": [
+        "computational-linguistics (goes to Computer Science & AI)"
+      ]
+    },
+    {
+      "slug": "religious-studies",
+      "name": "Religious Studies",
+      "tagline": "Comparative religion, theology, and ritual studies",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "textual and ethnographic study of religions",
+        "theology, ritual, sacred texts, religion and society"
+      ],
+      "explicitly_excludes": [
+        "philosophy",
+        "classics"
+      ]
+    },
+    {
+      "slug": "cultural-studies",
+      "name": "Cultural Studies",
+      "tagline": "Critical studies of culture, identity, and ideology",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "race, gender, postcolonial studies, ideology critique",
+        "popular culture analysis and cultural theory"
+      ],
+      "explicitly_excludes": [
+        "sociology (social sciences)"
+      ]
+    },
+    {
+      "slug": "film-and-media-studies",
+      "name": "Film & Media Studies",
+      "tagline": "Cinema, television, and media analysis and theory",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "film theory, media history, audience studies",
+        "television studies, digital media criticism (non\u2011computational)"
+      ],
+      "explicitly_excludes": [
+        "computer-science/digital-humanities"
+      ]
+    },
+    {
+      "slug": "museum-and-heritage-studies",
+      "name": "Museum & Heritage Studies",
+      "tagline": "Museology, conservation, and public history practice",
+      "audience_pct_within_level1": 1.0,
+      "covers": [
+        "museum curation, heritage policy, conservation science (non\u2011technical)",
+        "public history, exhibition studies"
+      ],
+      "explicitly_excludes": [
+        "archaeology",
+        "art-history"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Area/regional studies (e.g., East Asian Studies) were considered but kept out as separate level-2; these are common research tags rather than orthogonal professional identities.",
+    "Digital Humanities intentionally excluded due to hard constraint routing those papers to Computer Science & AI; many borderline DH works should show under the closest methodological field (e.g., linguistics, media-studies) with a tag.",
+    "Performance studies, rhetoric/composition, and translation studies are real practitioner identities but split thinly across institutions; they are better surfaced as tags or combined under Cultural Studies / Comparative Literature depending on focus.",
+    "Epigraphy/paleography and manuscript studies are important but represent niche professional labels; they will be discoverable via subject tags rather than primary picker cards."
+  ]
+}

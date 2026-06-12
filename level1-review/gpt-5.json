@@ -1,0 +1,328 @@
+{
+  "count": 20,
+  "rationale": "We use 20 identity-centered, MECE-leaning categories that mirror how working researchers and clinicians conventionally carve the landscape: core disciplines, engineering domains, the health continuum, environment/earth/ecology, computation/methods, and social/behavioral/policy fields. Each bucket is large enough to matter but not so broad that a single card dominates new-paper volume. We deliberately merged closely entwined areas (e.g., chemistry with materials; neuroscience with cognitive psychology) and kept engineering in three practice-oriented blocks to reduce overlap with science. We did not split medicine by specialty, physics from astronomy, or carve out cross-cutting themes like “energy” at level 1; those live at level 2.",
+  "categories": [
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "tagline": "Pure, applied, and computational math across fields.",
+      "audience_size_pct": 4,
+      "covers": [
+        "All branches of pure/applied math and mathematical modeling.",
+        "Examples: Annals of Mathematics, SIAM Journal, arXiv:math."
+      ],
+      "explicitly_excludes": [
+        "Statistics methods — Data Science, Statistics & Methods",
+        "Theoretical CS proofs — Computer Science & Artificial Intelligence",
+        "Mathematical physics primarily about phenomena — Physics & Astronomy"
+      ]
+    },
+    {
+      "slug": "physics-astronomy",
+      "name": "Physics & Astronomy",
+      "tagline": "Matter, energy, and the universe from quarks to cosmos.",
+      "audience_size_pct": 5,
+      "covers": [
+        "Experimental, theoretical, and computational physics; astronomy and astrophysics.",
+        "Examples: Physical Review Letters, ApJ, arXiv:hep-th/astro-ph."
+      ],
+      "explicitly_excludes": [
+        "Materials properties emphasis — Chemistry & Materials",
+        "Planetary geology — Earth & Planetary Sciences",
+        "Medical imaging trials — Clinical Medicine & Surgery"
+      ]
+    },
+    {
+      "slug": "chemistry-materials",
+      "name": "Chemistry & Materials",
+      "tagline": "Molecules, reactions, and structure–property materials science.",
+      "audience_size_pct": 7,
+      "covers": [
+        "Synthesis, catalysis, analytical, physical chemistry; materials design and characterization.",
+        "Examples: JACS, Angewandte, Advanced Materials, ACS Nano."
+      ],
+      "explicitly_excludes": [
+        "Process scale-up and reactors — Chemical & Bioengineering",
+        "Biomolecular mechanisms in organisms — Biological Sciences",
+        "Clinical pharmacology outcomes — Clinical Medicine & Surgery"
+      ]
+    },
+    {
+      "slug": "earth-planetary-sciences",
+      "name": "Earth & Planetary Sciences",
+      "tagline": "Solid Earth, oceans, atmosphere, and planetary systems.",
+      "audience_size_pct": 3,
+      "covers": [
+        "Geology, geophysics, geochemistry, oceanography, atmospheric and planetary science.",
+        "Examples: JGR, Geology, Nature Geoscience, Icarus."
+      ],
+      "explicitly_excludes": [
+        "Ecological dynamics and biodiversity — Ecology & Evolution",
+        "Environmental policy or LCA — Environmental Science & Sustainability",
+        "Astrophysics and cosmology — Physics & Astronomy",
+        "Paleobiology focused on evolution — Ecology & Evolution"
+      ]
+    },
+    {
+      "slug": "environmental-science-sustainability",
+      "name": "Environmental Science & Sustainability",
+      "tagline": "Climate, pollution, resources, and sustainability solutions.",
+      "audience_size_pct": 4,
+      "covers": [
+        "Climate impacts, pollution and toxicology, conservation policy, LCA and sustainability science.",
+        "Examples: Environmental Science & Technology, Nature Sustainability."
+      ],
+      "explicitly_excludes": [
+        "Ecosystem dynamics and evolution — Ecology & Evolution",
+        "Civil/environmental infrastructure design — Mechanical, Civil & Aerospace Engineering",
+        "Population health exposures — Public Health & Epidemiology",
+        "Fundamental geoscience — Earth & Planetary Sciences"
+      ]
+    },
+    {
+      "slug": "ecology-evolution",
+      "name": "Ecology & Evolution",
+      "tagline": "Organisms, ecosystems, biodiversity, and evolutionary change.",
+      "audience_size_pct": 3,
+      "covers": [
+        "Population/community ecology, macroecology, phylogenetics, conservation biology, paleobiology.",
+        "Examples: Ecology Letters, Evolution, Systematic Biology."
+      ],
+      "explicitly_excludes": [
+        "Agronomy and crop systems — Agriculture, Food & Nutrition",
+        "Human clinical microbiome outcomes — Clinical Medicine & Surgery",
+        "Environmental policy assessment — Environmental Science & Sustainability",
+        "Molecular mechanisms in model organisms — Biological Sciences"
+      ]
+    },
+    {
+      "slug": "biological-sciences",
+      "name": "Biological Sciences",
+      "tagline": "Molecular, cellular, genetic, and organismal life science.",
+      "audience_size_pct": 11,
+      "covers": [
+        "Molecular/cellular biology, genetics, genomics, biochemistry, microbiology, systems and developmental biology.",
+        "Examples: Cell, Nature Genetics, PNAS (biological sciences)."
+      ],
+      "explicitly_excludes": [
+        "Clinical diagnosis, treatment, trials — Clinical Medicine & Surgery",
+        "Population health and policy — Public Health & Epidemiology",
+        "Neural systems and cognition — Brain & Cognitive Sciences",
+        "Bioprocess and biomanufacturing — Chemical & Bioengineering",
+        "Ecology and evolution — Ecology & Evolution"
+      ]
+    },
+    {
+      "slug": "brain-cognitive-sciences",
+      "name": "Brain & Cognitive Sciences",
+      "tagline": "Neuroscience, cognition, behavior, and language science.",
+      "audience_size_pct": 5,
+      "covers": [
+        "Cellular to systems neuroscience, cognitive psychology, psycholinguistics, computational neuroscience.",
+        "Examples: Neuron, Nature Neuroscience, Psychological Science."
+      ],
+      "explicitly_excludes": [
+        "Neurology/psychiatry clinical studies — Clinical Medicine & Surgery",
+        "Population mental health — Public Health & Epidemiology",
+        "AI method development — Computer Science & Artificial Intelligence",
+        "Molecular biology outside nervous system — Biological Sciences"
+      ]
+    },
+    {
+      "slug": "computer-science-ai",
+      "name": "Computer Science & Artificial Intelligence",
+      "tagline": "Algorithms, systems, ML/AI, and human–computer interaction.",
+      "audience_size_pct": 8,
+      "covers": [
+        "Theory, systems, networks, security, databases, graphics, ML/AI, HCI, NLP, robotics.",
+        "Examples: NeurIPS, ICML, CVPR, SIGCOMM, arXiv:cs."
+      ],
+      "explicitly_excludes": [
+        "General statistics methodology — Data Science, Statistics & Methods",
+        "Hardware circuits and devices — Electrical & Electronic Engineering",
+        "Applied domain studies using standard models — Send to that domain",
+        "Clinical AI trials in patients — Clinical Medicine & Surgery"
+      ]
+    },
+    {
+      "slug": "data-science-statistics-methods",
+      "name": "Data Science, Statistics & Methods",
+      "tagline": "Statistical theory, data methods, and scientific software.",
+      "audience_size_pct": 3,
+      "covers": [
+        "Statistical methodology, causal inference, data mining, benchmarking, open-source tools.",
+        "Examples: JASA, Biometrika, Journal of Statistical Software."
+      ],
+      "explicitly_excludes": [
+        "Core CS algorithmics/ML — Computer Science & Artificial Intelligence",
+        "Domain-driven empirical analyses — Send to that domain",
+        "Biostatistical analyses of trials — Clinical Medicine & Surgery"
+      ]
+    },
+    {
+      "slug": "electrical-electronic-engineering",
+      "name": "Electrical & Electronic Engineering",
+      "tagline": "Circuits, devices, communications, signals, and power systems.",
+      "audience_size_pct": 4,
+      "covers": [
+        "Semiconductors, photonics, RF, control, signal processing, communications, power and smart grids.",
+        "Examples: IEEE T-MTT, T-Comm, Nature Electronics."
+      ],
+      "explicitly_excludes": [
+        "Computer systems/software focus — Computer Science & Artificial Intelligence",
+        "Materials synthesis and chemistry — Chemistry & Materials",
+        "Policy/regulatory energy transitions — Environmental Science & Sustainability"
+      ]
+    },
+    {
+      "slug": "mechanical-civil-aerospace-engineering",
+      "name": "Mechanical, Civil & Aerospace Engineering",
+      "tagline": "Structures, fluids, transport, design, and infrastructure.",
+      "audience_size_pct": 4,
+      "covers": [
+        "Solid/structural mechanics, fluid dynamics, thermal sciences, robotics design, transportation, infrastructure.",
+        "Examples: Journal of Fluid Mechanics, ASCE journals, AIAA journals."
+      ],
+      "explicitly_excludes": [
+        "Materials discovery and chemistry — Chemistry & Materials",
+        "Environmental impact science — Environmental Science & Sustainability",
+        "Process/bioprocess engineering — Chemical & Bioengineering"
+      ]
+    },
+    {
+      "slug": "chemical-bioengineering",
+      "name": "Chemical & Bioengineering",
+      "tagline": "Reactions, separations, bioprocesses, and pharmaceutical engineering.",
+      "audience_size_pct": 3,
+      "covers": [
+        "Process design, reaction engineering, separations, metabolic and tissue engineering, scale-up.",
+        "Examples: AIChE Journal, Biotechnology & Bioengineering."
+      ],
+      "explicitly_excludes": [
+        "Molecular chemistry and catalysis — Chemistry & Materials",
+        "Clinical device/drug trials — Clinical Medicine & Surgery",
+        "Environmental policy or LCA — Environmental Science & Sustainability"
+      ]
+    },
+    {
+      "slug": "clinical-medicine-surgery",
+      "name": "Clinical Medicine & Surgery",
+      "tagline": "Diagnosis, treatment, trials, and patient-centered outcomes.",
+      "audience_size_pct": 18,
+      "covers": [
+        "All clinical specialties, trials, guidelines, imaging, surgery, precision and translational medicine in patients.",
+        "Examples: NEJM, The Lancet, JAMA, Cochrane Reviews."
+      ],
+      "explicitly_excludes": [
+        "Population-level health and systems — Public Health & Epidemiology",
+        "Basic mechanistic biology — Biological Sciences",
+        "Biomedical device engineering studies — Chemical & Bioengineering",
+        "Cognitive/behavioral lab studies — Brain & Cognitive Sciences"
+      ]
+    },
+    {
+      "slug": "public-health-epidemiology",
+      "name": "Public Health & Epidemiology",
+      "tagline": "Population health, epidemiology, policy, and health services.",
+      "audience_size_pct": 6,
+      "covers": [
+        "Epidemiology, health services research, implementation science, global health, health policy and systems.",
+        "Examples: The Lancet Public Health, AJPH, BMJ Global Health."
+      ],
+      "explicitly_excludes": [
+        "Clinical interventions in patients — Clinical Medicine & Surgery",
+        "Health economics methodology — Economics & Finance",
+        "Environmental science mechanistic fate/transport — Environmental Science & Sustainability"
+      ]
+    },
+    {
+      "slug": "economics-finance",
+      "name": "Economics & Finance",
+      "tagline": "Economic theory, econometrics, markets, and financial systems.",
+      "audience_size_pct": 3,
+      "covers": [
+        "Micro/macro, econometrics, development, labor, finance, behavioral and experimental economics.",
+        "Examples: QJE, Econometrica, Journal of Finance, NBER papers."
+      ],
+      "explicitly_excludes": [
+        "Management and strategy — Business & Management",
+        "Public administration and political institutions — Society, Politics & Policy",
+        "Population health policy focus — Public Health & Epidemiology"
+      ]
+    },
+    {
+      "slug": "society-politics-policy",
+      "name": "Society, Politics & Policy",
+      "tagline": "Sociology, anthropology, politics, law, and public policy.",
+      "audience_size_pct": 3,
+      "covers": [
+        "Sociology, anthropology, archaeology, demography, political science, law, criminology, public administration.",
+        "Examples: American Sociological Review, World Politics, Journal of Law & Economics."
+      ],
+      "explicitly_excludes": [
+        "Economics and finance — Economics & Finance",
+        "Education science — Education Research",
+        "Population health systems — Public Health & Epidemiology",
+        "Business/organizational studies — Business & Management"
+      ]
+    },
+    {
+      "slug": "business-management",
+      "name": "Business & Management",
+      "tagline": "Organizations, strategy, operations, marketing, and accounting.",
+      "audience_size_pct": 2,
+      "covers": [
+        "Management science, organizational behavior, operations, supply chains, marketing, accounting, IS in firms.",
+        "Examples: Management Science, Strategic Management Journal, JOM."
+      ],
+      "explicitly_excludes": [
+        "Core econometrics/economic theory — Economics & Finance",
+        "Algorithmic methods research — Data Science, Statistics & Methods",
+        "HCI and systems software — Computer Science & Artificial Intelligence"
+      ]
+    },
+    {
+      "slug": "education-research",
+      "name": "Education Research",
+      "tagline": "Learning science, pedagogy, assessment, and education policy.",
+      "audience_size_pct": 1,
+      "covers": [
+        "K–12 and higher-ed research, curricula, assessment, learning analytics, education policy.",
+        "Examples: Review of Educational Research, Learning & Instruction."
+      ],
+      "explicitly_excludes": [
+        "Cognitive mechanisms of learning — Brain & Cognitive Sciences",
+        "Economics of education methods — Economics & Finance",
+        "EdTech algorithm development — Computer Science & Artificial Intelligence"
+      ]
+    },
+    {
+      "slug": "agriculture-food-nutrition",
+      "name": "Agriculture, Food & Nutrition",
+      "tagline": "Crops, livestock, food systems, and nutrition science.",
+      "audience_size_pct": 3,
+      "covers": [
+        "Agronomy, animal science, food chemistry/engineering, postharvest, nutrition and diet science.",
+        "Examples: Field Crops Research, Animal, AJCN, Food Chemistry."
+      ],
+      "explicitly_excludes": [
+        "Clinical nutrition in patients — Clinical Medicine & Surgery",
+        "Population nutrition policy — Public Health & Epidemiology",
+        "Basic molecular biology — Biological Sciences",
+        "Environmental impact assessments — Environmental Science & Sustainability"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Astronomy separated from physics was considered; kept unified to avoid splitting arXiv subfields and journals that span both.",
+    "Neuroscience vs. psychology split was considered; merged into Brain & Cognitive Sciences to minimize boundary disputes with clinical neurology/psychiatry.",
+    "Materials Science as its own top-level was considered; merged with Chemistry to reduce chemistry–materials overlap.",
+    "Energy as a top-level theme was considered; dispersed across Environmental Science (systems/policy), ECE (grids/power electronics), and Chemical/Mechanical Engineering (devices/process).",
+    "Bioinformatics/computational biology as a top-level was considered; method papers go to CS/AI or Data & Statistics, question-driven biology to Biological Sciences.",
+    "Pharmacology/toxicology as a separate top-level was considered; preclinical mechanisms go to Biological Sciences, environmental tox to Environmental Science & Sustainability, clinical pharmacology to Clinical Medicine.",
+    "Nursing, dentistry, veterinary medicine were not split at level 1; routed under Clinical Medicine & Surgery to avoid over-fragmentation.",
+    "Geography split (physical vs. human) was not created; physical geography maps to Earth & Planetary or Environmental Science, human geography to Society, Politics & Policy.",
+    "Linguistics was not a standalone card; experimental/psycholinguistics sits in Brain & Cognitive Sciences, sociolinguistics in Society, Politics & Policy.",
+    "Information/Library Science and Scientometrics were not split; routed to Society, Politics & Policy or Data Science & Methods depending on emphasis."
+  ]
+}

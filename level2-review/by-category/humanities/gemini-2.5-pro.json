@@ -1,0 +1,224 @@
+{
+  "level1_slug": "humanities",
+  "level1_name": "Humanities",
+  "count": 14,
+  "rationale": "This structure is organized around major, distinct academic disciplines that practitioners identify with. Core fields like History and Philosophy, which are too broad, have been split into thematic subfields. This split prioritizes areas with strong connections to scientific methods and topics, such as History of Science and Philosophy of Science, to best serve the app's audience. I chose not to split fields like Archaeology or Classics further, as these names represent cohesive professional identities and further division would create categories with too small an audience. The inclusion of Linguistics and Religious Studies acknowledges their strong methodological overlap with the core humanities, even though they are sometimes considered separate faculties.",
+  "subspecialties": [
+    {
+      "slug": "history-of-science-tech",
+      "name": "History of Science & Technology",
+      "tagline": "The development of scientific thought, practices, and technologies over time.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "The history of specific scientific disciplines (e.g., physics, biology, medicine)",
+        "The role of technology in societal and environmental change",
+        "The social and institutional history of science"
+      ],
+      "explicitly_excludes": [
+        "Philosophy of science \u2192 Philosophy of Science",
+        "Sociology of science \u2192 Social & Cultural History"
+      ]
+    },
+    {
+      "slug": "philosophy-of-science",
+      "name": "Philosophy of Science",
+      "tagline": "The foundations, methods, and implications of scientific theories and practice.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "The nature of scientific explanation, evidence, and causation",
+        "Realism, reductionism, and the structure of scientific theories",
+        "Philosophy of specific sciences like biology, physics, or cognitive science"
+      ],
+      "explicitly_excludes": [
+        "History of scientific ideas \u2192 History of Science & Technology",
+        "General epistemology \u2192 Epistemology & Metaphysics"
+      ]
+    },
+    {
+      "slug": "archaeology",
+      "name": "Archaeology",
+      "tagline": "Investigating the human past through material remains and environmental data.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Excavation reports, artifact analysis, and chronometric dating techniques",
+        "Bioarchaeology, zooarchaeology, and archaeobotany",
+        "Computational archaeology, remote sensing, and cultural heritage management"
+      ],
+      "explicitly_excludes": [
+        "Analysis of ancient historical texts \u2192 Classics or Ancient History",
+        "Human evolution and primatology \u2192 Biological Anthropology (in Social Sciences)"
+      ]
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "tagline": "The scientific study of language structure, meaning, use, and change.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Phonetics, phonology, syntax, and semantics",
+        "Historical linguistics, language evolution, and typology",
+        "Corpus linguistics and quantitative analysis of language data"
+      ],
+      "explicitly_excludes": [
+        "Natural Language Processing for AI \u2192 Computer Science & AI",
+        "Philosophy of language \u2192 Philosophy of Mind & Language"
+      ]
+    },
+    {
+      "slug": "philosophy-of-mind-language",
+      "name": "Philosophy of Mind & Language",
+      "tagline": "Exploring consciousness, intentionality, meaning, and communication.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "The mind-body problem and theories of consciousness",
+        "The nature of meaning, reference, and truth",
+        "Cognition, representation, and conceptual analysis of AI"
+      ],
+      "explicitly_excludes": [
+        "Empirical psychology \u2192 Psychology (in Social Sciences)",
+        "Formal linguistic structure \u2192 Linguistics"
+      ]
+    },
+    {
+      "slug": "social-cultural-history",
+      "name": "Social & Cultural History",
+      "tagline": "The study of everyday life, social structures, and cultural practices in the past.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "History of family, gender, race, and class",
+        "Popular culture, rituals, and belief systems",
+        "Microhistory, environmental history, and historical anthropology"
+      ],
+      "explicitly_excludes": [
+        "Political events and institutions \u2192 Political & Economic History",
+        "Contemporary sociological studies \u2192 Sociology (in Social Sciences)"
+      ]
+    },
+    {
+      "slug": "ethics-political-philosophy",
+      "name": "Ethics & Political Philosophy",
+      "tagline": "The study of moral principles, justice, rights, and government.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Normative ethics, meta-ethics, and applied ethics (e.g., bioethics, tech ethics)",
+        "Theories of justice, liberty, and political obligation",
+        "Analysis of political ideologies and human rights"
+      ],
+      "explicitly_excludes": [
+        "Empirical political science \u2192 Political Science (in Social Sciences)",
+        "History of political thought \u2192 Political & Economic History"
+      ]
+    },
+    {
+      "slug": "political-economic-history",
+      "name": "Political & Economic History",
+      "tagline": "Examining states, institutions, economies, and power dynamics in the past.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "History of governments, wars, and international relations",
+        "Economic systems, trade, labor, and business history",
+        "The development of political and economic institutions"
+      ],
+      "explicitly_excludes": [
+        "Social movements and daily life \u2192 Social & Cultural History",
+        "Contemporary economic modeling \u2192 Economics (in Social Sciences)"
+      ]
+    },
+    {
+      "slug": "art-history",
+      "name": "Art History",
+      "tagline": "The study of visual arts in their historical and cultural contexts.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Analysis of painting, sculpture, architecture, and other media",
+        "Technical art history, including materials analysis and conservation science",
+        "Iconography, patronage, and the theory of art"
+      ],
+      "explicitly_excludes": [
+        "Analysis of archaeological artifacts for cultural history \u2192 Archaeology",
+        "Aesthetics as a branch of philosophy \u2192 Epistemology & Metaphysics"
+      ]
+    },
+    {
+      "slug": "ancient-history",
+      "name": "Ancient History",
+      "tagline": "The study of societies from early writing to the post-classical era.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "History of Mesopotamia, Egypt, Greece, Rome, and other ancient civilizations",
+        "Analysis of historical sources, inscriptions, and papyri",
+        "Warfare, politics, and society in the ancient world"
+      ],
+      "explicitly_excludes": [
+        "Pre-literate societies \u2192 Archaeology",
+        "Literary and philological analysis of Greek/Roman texts \u2192 Classics"
+      ]
+    },
+    {
+      "slug": "classics",
+      "name": "Classics",
+      "tagline": "The study of the languages, literature, and culture of ancient Greece and Rome.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Philological and linguistic analysis of Greek and Latin texts",
+        "Ancient literature, drama, and rhetoric",
+        "Reception studies of the classical world in later eras"
+      ],
+      "explicitly_excludes": [
+        "Archaeology of Greece and Rome \u2192 Archaeology",
+        "Purely historical analysis of events in Greece and Rome \u2192 Ancient History"
+      ]
+    },
+    {
+      "slug": "literary-studies",
+      "name": "Literary Studies",
+      "tagline": "The analysis of literature using empirical, quantitative, or cognitive methods.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Quantitative analysis of literary style (stylometry)",
+        "Corpus-based studies of literary history and genre",
+        "Evolutionary and cognitive approaches to narrative and poetry"
+      ],
+      "explicitly_excludes": [
+        "Traditional literary criticism and post-structuralist theory",
+        "Development of NLP models \u2192 Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "epistemology-metaphysics",
+      "name": "Epistemology & Metaphysics",
+      "tagline": "The study of knowledge, belief, reality, and the nature of being.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Theories of justification, truth, and belief",
+        "The nature of existence, time, causality, and modality",
+        "Ontology and the fundamental structure of reality"
+      ],
+      "explicitly_excludes": [
+        "Philosophy of science specifically \u2192 Philosophy of Science",
+        "Philosophy of mind \u2192 Philosophy of Mind & Language"
+      ]
+    },
+    {
+      "slug": "religious-studies",
+      "name": "Religious Studies",
+      "tagline": "The academic study of religious beliefs, behaviors, and institutions.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "History of world religions and comparative mythology",
+        "Cognitive science of religion and ritual studies",
+        "Sociological and anthropological approaches to religion"
+      ],
+      "explicitly_excludes": [
+        "Theology and confessional (faith-based) studies",
+        "History of specific religious conflicts \u2192 Political & Economic History"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Area Studies (e.g., East Asian Studies) were excluded in favor of disciplinary categories, which better fit a scientific paper structure.",
+    "A broader 'Digital Humanities' category was considered but omitted to avoid overlap with the CS & AI category, per instructions.",
+    "Musicology and Performance Studies were excluded as they represent a smaller fraction of empirical papers in typical science databases.",
+    "The 'Literary Studies' category is narrowly defined to empirical methods, excluding the bulk of traditional literary criticism to adhere to the prompt's scope."
+  ]
+}

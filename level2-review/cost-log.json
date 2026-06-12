@@ -1,0 +1,359 @@
+{
+  "total_usd": 0.3233,
+  "by_model": {
+    "gemini-2.5-pro": {
+      "input_tokens": 13304,
+      "output_tokens": 38089,
+      "usd": 0.2071
+    },
+    "gpt-5-mini": {
+      "input_tokens": 14246,
+      "output_tokens": 56319,
+      "usd": 0.1162
+    }
+  },
+  "calls": [
+    {
+      "category": "medicine",
+      "model": "gpt-5-mini",
+      "input_tokens": 744,
+      "output_tokens": 3601,
+      "usd": 0.0074,
+      "subspecialties_returned": 16,
+      "elapsed_s": 45.5
+    },
+    {
+      "category": "public-health",
+      "model": "gpt-5-mini",
+      "input_tokens": 720,
+      "output_tokens": 2833,
+      "usd": 0.0058,
+      "subspecialties_returned": 14,
+      "elapsed_s": 30.2
+    },
+    {
+      "category": "biology",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 737,
+      "output_tokens": 2352,
+      "usd": 0.0127,
+      "subspecialties_returned": 14,
+      "elapsed_s": 55.6
+    },
+    {
+      "category": "biology",
+      "model": "gpt-5-mini",
+      "input_tokens": 707,
+      "output_tokens": 3312,
+      "usd": 0.0068,
+      "subspecialties_returned": 14,
+      "elapsed_s": 41.0
+    },
+    {
+      "category": "ecology-evolution",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 732,
+      "output_tokens": 1924,
+      "usd": 0.0105,
+      "subspecialties_returned": 13,
+      "elapsed_s": 53.5
+    },
+    {
+      "category": "ecology-evolution",
+      "model": "gpt-5-mini",
+      "input_tokens": 702,
+      "output_tokens": 2644,
+      "usd": 0.0055,
+      "subspecialties_returned": 14,
+      "elapsed_s": 28.1
+    },
+    {
+      "category": "brain-cognitive",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 743,
+      "output_tokens": 2109,
+      "usd": 0.0115,
+      "subspecialties_returned": 12,
+      "elapsed_s": 53.0
+    },
+    {
+      "category": "brain-cognitive",
+      "model": "gpt-5-mini",
+      "input_tokens": 715,
+      "output_tokens": 2950,
+      "usd": 0.0061,
+      "subspecialties_returned": 14,
+      "elapsed_s": 34.8
+    },
+    {
+      "category": "chemistry",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 721,
+      "output_tokens": 1952,
+      "usd": 0.0107,
+      "subspecialties_returned": 12,
+      "elapsed_s": 53.1
+    },
+    {
+      "category": "chemistry",
+      "model": "gpt-5-mini",
+      "input_tokens": 697,
+      "output_tokens": 3290,
+      "usd": 0.0068,
+      "subspecialties_returned": 14,
+      "elapsed_s": 36.8
+    },
+    {
+      "category": "materials-science",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 736,
+      "output_tokens": 2020,
+      "usd": 0.011,
+      "subspecialties_returned": 12,
+      "elapsed_s": 40.9
+    },
+    {
+      "category": "materials-science",
+      "model": "gpt-5-mini",
+      "input_tokens": 706,
+      "output_tokens": 2961,
+      "usd": 0.0061,
+      "subspecialties_returned": 14,
+      "elapsed_s": 42.8
+    },
+    {
+      "category": "physics-astronomy",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 749,
+      "output_tokens": 1904,
+      "usd": 0.0105,
+      "subspecialties_returned": 13,
+      "elapsed_s": 46.7
+    },
+    {
+      "category": "physics-astronomy",
+      "model": "gpt-5-mini",
+      "input_tokens": 720,
+      "output_tokens": 2701,
+      "usd": 0.0056,
+      "subspecialties_returned": 14,
+      "elapsed_s": 25.7
+    },
+    {
+      "category": "earth-environmental",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 737,
+      "output_tokens": 2419,
+      "usd": 0.013,
+      "subspecialties_returned": 14,
+      "elapsed_s": 58.6
+    },
+    {
+      "category": "earth-environmental",
+      "model": "gpt-5-mini",
+      "input_tokens": 708,
+      "output_tokens": 2496,
+      "usd": 0.0052,
+      "subspecialties_returned": 14,
+      "elapsed_s": 29.0
+    },
+    {
+      "category": "mathematics",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 741,
+      "output_tokens": 1689,
+      "usd": 0.0094,
+      "subspecialties_returned": 12,
+      "elapsed_s": 44.1
+    },
+    {
+      "category": "mathematics",
+      "model": "gpt-5-mini",
+      "input_tokens": 720,
+      "output_tokens": 2786,
+      "usd": 0.0058,
+      "subspecialties_returned": 13,
+      "elapsed_s": 31.6
+    },
+    {
+      "category": "statistics-data-science",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 753,
+      "output_tokens": 2347,
+      "usd": 0.0127,
+      "subspecialties_returned": 14,
+      "elapsed_s": 65.3
+    },
+    {
+      "category": "statistics-data-science",
+      "model": "gpt-5-mini",
+      "input_tokens": 725,
+      "output_tokens": 2708,
+      "usd": 0.0056,
+      "subspecialties_returned": 14,
+      "elapsed_s": 29.9
+    },
+    {
+      "category": "computer-science-ai",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 758,
+      "output_tokens": 2314,
+      "usd": 0.0125,
+      "subspecialties_returned": 14,
+      "elapsed_s": 47.6
+    },
+    {
+      "category": "computer-science-ai",
+      "model": "gpt-5-mini",
+      "input_tokens": 727,
+      "output_tokens": 2581,
+      "usd": 0.0053,
+      "subspecialties_returned": 14,
+      "elapsed_s": 26.8
+    },
+    {
+      "category": "electrical-engineering",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 745,
+      "output_tokens": 1656,
+      "usd": 0.0092,
+      "subspecialties_returned": 11,
+      "elapsed_s": 37.1
+    },
+    {
+      "category": "electrical-engineering",
+      "model": "gpt-5-mini",
+      "input_tokens": 717,
+      "output_tokens": 2791,
+      "usd": 0.0058,
+      "subspecialties_returned": 14,
+      "elapsed_s": 43.0
+    },
+    {
+      "category": "mechanical-aerospace-engineering",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 737,
+      "output_tokens": 2194,
+      "usd": 0.0119,
+      "subspecialties_returned": 13,
+      "elapsed_s": 43.1
+    },
+    {
+      "category": "mechanical-aerospace-engineering",
+      "model": "gpt-5-mini",
+      "input_tokens": 707,
+      "output_tokens": 2861,
+      "usd": 0.0059,
+      "subspecialties_returned": 13,
+      "elapsed_s": 35.9
+    },
+    {
+      "category": "chemical-bioengineering",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 734,
+      "output_tokens": 2005,
+      "usd": 0.0109,
+      "subspecialties_returned": 14,
+      "elapsed_s": 46.9
+    },
+    {
+      "category": "chemical-bioengineering",
+      "model": "gpt-5-mini",
+      "input_tokens": 703,
+      "output_tokens": 2795,
+      "usd": 0.0058,
+      "subspecialties_returned": 14,
+      "elapsed_s": 31.7
+    },
+    {
+      "category": "agriculture-food",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 741,
+      "output_tokens": 1760,
+      "usd": 0.0097,
+      "subspecialties_returned": 12,
+      "elapsed_s": 38.0
+    },
+    {
+      "category": "agriculture-food",
+      "model": "gpt-5-mini",
+      "input_tokens": 712,
+      "output_tokens": 2850,
+      "usd": 0.0059,
+      "subspecialties_returned": 14,
+      "elapsed_s": 38.9
+    },
+    {
+      "category": "economics-finance",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 744,
+      "output_tokens": 2652,
+      "usd": 0.0142,
+      "subspecialties_returned": 16,
+      "elapsed_s": 59.0
+    },
+    {
+      "category": "economics-finance",
+      "model": "gpt-5-mini",
+      "input_tokens": 718,
+      "output_tokens": 2616,
+      "usd": 0.0054,
+      "subspecialties_returned": 14,
+      "elapsed_s": 32.7
+    },
+    {
+      "category": "business-management",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 735,
+      "output_tokens": 2269,
+      "usd": 0.0123,
+      "subspecialties_returned": 13,
+      "elapsed_s": 45.8
+    },
+    {
+      "category": "business-management",
+      "model": "gpt-5-mini",
+      "input_tokens": 702,
+      "output_tokens": 2508,
+      "usd": 0.0052,
+      "subspecialties_returned": 13,
+      "elapsed_s": 35.8
+    },
+    {
+      "category": "social-sciences",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 736,
+      "output_tokens": 2033,
+      "usd": 0.0111,
+      "subspecialties_returned": 14,
+      "elapsed_s": 45.9
+    },
+    {
+      "category": "social-sciences",
+      "model": "gpt-5-mini",
+      "input_tokens": 704,
+      "output_tokens": 2733,
+      "usd": 0.0056,
+      "subspecialties_returned": 14,
+      "elapsed_s": 37.6
+    },
+    {
+      "category": "humanities",
+      "model": "gemini-2.5-pro",
+      "input_tokens": 725,
+      "output_tokens": 2490,
+      "usd": 0.0134,
+      "subspecialties_returned": 14,
+      "elapsed_s": 56.1
+    },
+    {
+      "category": "humanities",
+      "model": "gpt-5-mini",
+      "input_tokens": 692,
+      "output_tokens": 2302,
+      "usd": 0.0048,
+      "subspecialties_returned": 14,
+      "elapsed_s": 30.7
+    }
+  ]
+}

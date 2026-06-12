@@ -1,0 +1,195 @@
+{
+  "level1_slug": "computer-science-ai",
+  "level1_name": "Computer Science & AI",
+  "count": 14,
+  "rationale": "This structure acknowledges the current dominance of AI/ML by splitting it into four distinct, high-volume specialties (Machine Learning, Computer Vision, NLP, Robotics) plus a category for classic AI, preventing any single one from becoming too coarse. It balances these with foundational and systems-oriented areas of computer science, treating fields like Systems, Theory, Security, and Programming Languages as first-class peers, which reflects the structure of the field in both academia and industry. We deliberately kept Machine Learning as a broad category, rather than splitting out sub-fields like Reinforcement Learning, to avoid over-fragmentation. The total count of 14 provides comprehensive coverage without overwhelming the user.",
+  "subspecialties": [
+    {
+      "slug": "machine-learning",
+      "name": "Machine Learning",
+      "tagline": "Core algorithms, deep learning, reinforcement learning, and ML theory.",
+      "audience_pct_within_level1": 25.0,
+      "covers": [
+        "Developing and analyzing algorithms that learn from data.",
+        "Neural network architectures, optimization methods, statistical learning theory, reinforcement learning, representation learning."
+      ],
+      "explicitly_excludes": [
+        "Applications focused on images/video (\u2192 Computer Vision) or text/speech (\u2192 NLP)."
+      ]
+    },
+    {
+      "slug": "computer-vision",
+      "name": "Computer Vision",
+      "tagline": "Enabling computers to see and interpret the visual world.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Processing, analyzing, and understanding images and videos.",
+        "Object detection, image recognition, 3D reconstruction, generative models for images, semantic segmentation."
+      ],
+      "explicitly_excludes": [
+        "Core rendering techniques (\u2192 Computer Graphics & Visualization), vision for robotics (\u2192 Robotics)."
+      ]
+    },
+    {
+      "slug": "natural-language-processing",
+      "name": "Natural Language Processing",
+      "tagline": "Teaching computers to understand, process, and generate human language.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Algorithms for text and speech data.",
+        "Large language models (LLMs), machine translation, sentiment analysis, speech recognition, information extraction."
+      ],
+      "explicitly_excludes": [
+        "Information retrieval and search engine architecture (\u2192 Databases & Information Retrieval)."
+      ]
+    },
+    {
+      "slug": "systems-and-networking",
+      "name": "Systems & Networking",
+      "tagline": "Operating systems, distributed systems, cloud computing, and network protocols.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Design, implementation, and analysis of complex computing systems.",
+        "Operating systems, distributed consensus, cloud infrastructure, network architecture, mobile systems."
+      ],
+      "explicitly_excludes": [
+        "Database-specific systems (\u2192 Databases & Information Retrieval), security of systems (\u2192 Security & Privacy)."
+      ]
+    },
+    {
+      "slug": "security-and-privacy",
+      "name": "Security & Privacy",
+      "tagline": "Cryptography, system security, and the protection of digital information.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Protecting systems, networks, and data from attack, damage, or unauthorized access.",
+        "Cryptography, network security, software security, privacy-enhancing technologies, formal verification."
+      ],
+      "explicitly_excludes": [
+        "Core networking protocols (\u2192 Systems & Networking), ethical implications of AI (often falls under application area)."
+      ]
+    },
+    {
+      "slug": "theory-and-algorithms",
+      "name": "Theory & Algorithms",
+      "tagline": "The fundamental mathematical foundations of computation and algorithm design.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Formal models of computation and the design and analysis of efficient algorithms.",
+        "Computational complexity, algorithm design, data structures, cryptography theory, quantum computing theory."
+      ],
+      "explicitly_excludes": [
+        "Analysis of machine learning algorithms (\u2192 Machine Learning), programming language theory (\u2192 Programming Languages)."
+      ]
+    },
+    {
+      "slug": "robotics",
+      "name": "Robotics",
+      "tagline": "The science and engineering of autonomous physical agents.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Design, control, perception, and planning for robots.",
+        "Motion planning, kinematics, control systems, simultaneous localization and mapping (SLAM), human-robot interaction."
+      ],
+      "explicitly_excludes": [
+        "Purely vision-based perception (\u2192 Computer Vision), core reinforcement learning algorithms (\u2192 Machine Learning)."
+      ]
+    },
+    {
+      "slug": "human-computer-interaction",
+      "name": "Human-Computer Interaction (HCI)",
+      "tagline": "Designing and studying the interface between people and computers.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "The design, evaluation, and implementation of interactive computing systems for human use.",
+        "User interface design, user experience (UX) research, usability studies, accessibility, social computing."
+      ],
+      "explicitly_excludes": [
+        "Rendering and modeling techniques (\u2192 Computer Graphics & Visualization), human-robot interaction (\u2192 Robotics)."
+      ]
+    },
+    {
+      "slug": "databases-and-information-retrieval",
+      "name": "Databases & Information Retrieval",
+      "tagline": "Managing, querying, and finding information in large-scale data systems.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Principles of data management systems and information access.",
+        "Database systems (SQL/NoSQL), query optimization, data warehousing, search engine technology, data mining."
+      ],
+      "explicitly_excludes": [
+        "Distributed systems infrastructure (\u2192 Systems & Networking), NLP for text understanding (\u2192 Natural Language Processing)."
+      ]
+    },
+    {
+      "slug": "computer-graphics-and-visualization",
+      "name": "Computer Graphics & Visualization",
+      "tagline": "Generating images, animations, and interactive visual representations of data.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Synthesis of visual content and methods for representing data visually.",
+        "Real-time rendering, physical simulation, computational geometry, scientific visualization, virtual reality."
+      ],
+      "explicitly_excludes": [
+        "Analysis of existing images (\u2192 Computer Vision), user interface design (\u2192 Human-Computer Interaction)."
+      ]
+    },
+    {
+      "slug": "artificial-intelligence-and-reasoning",
+      "name": "Artificial Intelligence & Reasoning",
+      "tagline": "Symbolic reasoning, knowledge representation, search, and planning.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "The study of intelligent agents and environments, often with a focus on symbolic methods.",
+        "Knowledge representation, automated planning, search algorithms, multi-agent systems, logic-based AI."
+      ],
+      "explicitly_excludes": [
+        "Data-driven and statistical learning approaches (\u2192 Machine Learning)."
+      ]
+    },
+    {
+      "slug": "software-engineering",
+      "name": "Software Engineering",
+      "tagline": "The systematic design, development, testing, and maintenance of software.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Principles and practices for building and evolving large-scale software systems.",
+        "Software development methodologies, automated testing, program analysis, software architecture, requirements engineering."
+      ],
+      "explicitly_excludes": [
+        "Compiler design and language theory (\u2192 Programming Languages), formal verification for security (\u2192 Security & Privacy)."
+      ]
+    },
+    {
+      "slug": "programming-languages",
+      "name": "Programming Languages",
+      "tagline": "The design, theory, and implementation of programming languages.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Formal study of programming languages and their execution.",
+        "Language design, compiler construction, type theory, formal methods, program verification."
+      ],
+      "explicitly_excludes": [
+        "Empirical studies of programmers (\u2192 Software Engineering), low-level system implementation (\u2192 Systems & Networking)."
+      ]
+    },
+    {
+      "slug": "computational-science-and-engineering",
+      "name": "Computational Science & Engineering",
+      "tagline": "Using high-performance computing to simulate and solve scientific problems.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "Application of computer science to problems in science and engineering.",
+        "High-performance computing (HPC), numerical methods, scientific simulation, computational physics/chemistry."
+      ],
+      "explicitly_excludes": [
+        "Core computer systems research (\u2192 Systems & Networking), computational biology (\u2192 Biology level-1)."
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "AI Ethics & Safety was considered but not included as a separate category because it is highly cross-cutting; papers are better classified by their primary application domain (e.g., fairness in NLP).",
+    "Quantum Computing theory is covered under 'Theory & Algorithms', while hardware aspects are out of scope for this level-1. It is not yet a large enough paper sub-field to warrant its own category.",
+    "Data Mining is largely subsumed by modern 'Machine Learning' and 'Databases & Information Retrieval', so it was not given a standalone category."
+  ]
+}

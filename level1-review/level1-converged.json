@@ -1,0 +1,201 @@
+{
+  "version": "level1-v1",
+  "generated_at": "2026-06-11T14:35:00Z",
+  "method": "three-model design proposals (Opus 4.8, Gemini 2.5 Pro, GPT-5), final arbitration by Fable",
+  "count": 20,
+  "fable_rationale": "Twenty categories. Eight survived unanimously across all three models — that's the trustworthy core (Medicine, Biology, Computer Science & AI, Physics & Astronomy, Neuroscience, Public Health, Economics & Finance, Social Sciences). On the contested splits, I sided with the answer that maximizes 'feels impressively broad' without breaking MECE: I kept Chemistry separate from Materials Science (different journals, different professional identity, both individually large), kept Mathematics separate from Statistics (the most-cited disagreement in the diff and the one where pure mathematicians would walk if combined), and split Engineering into three children (EE/Robotics, Mech/Aero, Chemical/Bio) because Gemini AND GPT-5 both did so and the combined volume justifies it. I demoted Psychology under Neuroscience/Cognitive Sciences (GPT-5 was right to merge them — Brain & Cognitive is the modern frame and clinicians/psychologists self-identify with it), and I demoted my own Linguistics and Interdisciplinary entries since neither cleared a 2-of-3 vote — both fold cleanly into adjacent categories. I added Agriculture & Food (2-of-3) and Earth & Environmental (2-of-3), and ADDED Ecology & Evolution as a category even though only GPT-5 named it explicitly — every major university has a department, it's where ~3% of papers actually land, and lumping it into Biology hides its identity. Net: 20 categories, feels broad on the picker, every harvested paper finds a home, and the names match how a researcher would introduce themselves at a conference.",
+  "categories": [
+    {
+      "slug": "medicine",
+      "name": "Medicine & Clinical Science",
+      "tagline": "Diagnosis, surgery, therapy — bedside to bench.",
+      "audience_size_pct": 16,
+      "covers": ["clinical specialties (cardiology, oncology, dermatology, neurology, surgery, pediatrics, etc.)", "clinical trials, RCTs", "NEJM, Lancet, JAMA, BMJ, specialty journals", "pathology, radiology, anesthesia"],
+      "explicitly_excludes": ["population studies → Public Health", "wet-lab biology → Biology", "drug-discovery chemistry → Chemistry"]
+    },
+    {
+      "slug": "public-health",
+      "name": "Public Health & Epidemiology",
+      "tagline": "Populations, prevention, policy, global health.",
+      "audience_size_pct": 5,
+      "covers": ["epidemiology, biostatistics, health policy, global health, environmental health", "Cochrane reviews", "WHO data", "outbreak modeling"],
+      "explicitly_excludes": ["individual-patient care → Medicine", "lab pathogen work → Biology"]
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "tagline": "Molecular, cellular, organismal life science.",
+      "audience_size_pct": 11,
+      "covers": ["molecular biology, cell biology, microbiology, genetics, developmental biology", "Cell, Nature/Science life-science papers", "model-organism work"],
+      "explicitly_excludes": ["whole-ecosystem work → Ecology & Evolution", "clinical translation → Medicine", "neuroscience → Brain & Cognitive Sciences"]
+    },
+    {
+      "slug": "ecology-evolution",
+      "name": "Ecology & Evolution",
+      "tagline": "Populations, ecosystems, biodiversity, deep time.",
+      "audience_size_pct": 3,
+      "covers": ["population ecology, community ecology, evolutionary biology, biodiversity, paleontology, behavioral ecology"],
+      "explicitly_excludes": ["molecular work → Biology", "climate-scale systems → Earth & Environmental"]
+    },
+    {
+      "slug": "brain-cognitive",
+      "name": "Brain & Cognitive Sciences",
+      "tagline": "Neuroscience, psychology, cognition, behavior.",
+      "audience_size_pct": 7,
+      "covers": ["systems neuro, computational neuro, cognitive neuro, cognitive psychology, clinical and developmental psychology", "neurology and psychiatry as cognitive disciplines"],
+      "explicitly_excludes": ["pure cellular neuro mechanisms → Biology", "psychiatry as drug-treatment → Medicine"]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "tagline": "Reactions, synthesis, analysis, catalysis.",
+      "audience_size_pct": 7,
+      "covers": ["organic, inorganic, physical, analytical, electrochemistry", "JACS, Angewandte, Chem Sci"],
+      "explicitly_excludes": ["solid-state and electronic materials → Materials Science", "biology-context biochemistry → Biology"]
+    },
+    {
+      "slug": "materials-science",
+      "name": "Materials Science",
+      "tagline": "Functional materials — solid-state to soft matter.",
+      "audience_size_pct": 4,
+      "covers": ["semiconductors, polymers, ceramics, composites, nanomaterials, 2D materials, soft matter, biomaterials", "Nature Materials, Adv Mater"],
+      "explicitly_excludes": ["pure synthesis → Chemistry", "device-level applications → relevant engineering category"]
+    },
+    {
+      "slug": "physics-astronomy",
+      "name": "Physics & Astronomy",
+      "tagline": "Particles, condensed matter, the cosmos.",
+      "audience_size_pct": 7,
+      "covers": ["high-energy, condensed matter, AMO, astrophysics, cosmology, geophysics-as-physics", "Phys Rev family, arXiv hep/cond-mat/astro-ph"],
+      "explicitly_excludes": ["materials-focused condensed matter → Materials Science", "chemical physics → Chemistry"]
+    },
+    {
+      "slug": "earth-environmental",
+      "name": "Earth & Environmental Sciences",
+      "tagline": "Climate, oceans, geology, sustainability.",
+      "audience_size_pct": 4,
+      "covers": ["climate science, atmospheric, oceanography, hydrology, geology, environmental chemistry, sustainability science"],
+      "explicitly_excludes": ["lab ecology → Ecology & Evolution", "policy → Public Health / Social Sciences"]
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "tagline": "Algebra, analysis, geometry, logic, combinatorics.",
+      "audience_size_pct": 4,
+      "covers": ["pure math (algebra, analysis, geometry, topology, number theory, logic, combinatorics)", "applied math: dynamical systems, math-bio, math-physics", "arXiv math.*"],
+      "explicitly_excludes": ["statistical inference → Statistics & Data Science", "computational complexity → Computer Science & AI"]
+    },
+    {
+      "slug": "statistics-data-science",
+      "name": "Statistics & Data Science",
+      "tagline": "Inference, modeling, causality, methods.",
+      "audience_size_pct": 3,
+      "covers": ["theoretical statistics, biostatistics, causal inference, MCMC, experimental design", "JASA, Annals of Stats, Biometrika", "data-science methods"],
+      "explicitly_excludes": ["ML algorithms → Computer Science & AI", "domain-applied stats → that domain"]
+    },
+    {
+      "slug": "computer-science-ai",
+      "name": "Computer Science & AI",
+      "tagline": "Algorithms, systems, machine learning, theory.",
+      "audience_size_pct": 11,
+      "covers": ["AI/ML, NLP, computer vision, systems, theory of computation, HCI, security, robotics-CS", "arXiv cs.*, NeurIPS, ICML, CVPR, ACL"],
+      "explicitly_excludes": ["hardware → Electrical & Electronic Engineering", "computational biology → Biology"]
+    },
+    {
+      "slug": "electrical-engineering",
+      "name": "Electrical & Electronic Engineering",
+      "tagline": "Circuits, signals, communications, robotics, photonics.",
+      "audience_size_pct": 4,
+      "covers": ["circuits, signals, communications, control theory, robotics-EE, photonics, semiconductors-as-devices, power systems"],
+      "explicitly_excludes": ["algorithms → Computer Science & AI", "device fabrication → Materials Science"]
+    },
+    {
+      "slug": "mechanical-aerospace-engineering",
+      "name": "Mechanical & Aerospace Engineering",
+      "tagline": "Mechanics, fluids, propulsion, manufacturing.",
+      "audience_size_pct": 3,
+      "covers": ["mechanical, aerospace, civil structural, manufacturing, mechanics of solids and fluids, propulsion", "automotive, robotics-ME"],
+      "explicitly_excludes": ["materials per se → Materials Science"]
+    },
+    {
+      "slug": "chemical-bioengineering",
+      "name": "Chemical & Bioengineering",
+      "tagline": "Process chemistry, biotech, biomedical engineering.",
+      "audience_size_pct": 3,
+      "covers": ["chemical engineering, process design, biotechnology, biomedical engineering, tissue engineering, drug delivery"],
+      "explicitly_excludes": ["pure chemistry → Chemistry", "clinical use of devices → Medicine"]
+    },
+    {
+      "slug": "agriculture-food",
+      "name": "Agriculture & Food Science",
+      "tagline": "Crops, livestock, nutrition, food systems.",
+      "audience_size_pct": 3,
+      "covers": ["agronomy, plant pathology, animal science, food science, nutrition science, aquaculture", "AGRIS-style content"],
+      "explicitly_excludes": ["plant biology mechanism → Biology", "food-policy → Public Health"]
+    },
+    {
+      "slug": "economics-finance",
+      "name": "Economics & Finance",
+      "tagline": "Markets, policy, behavior, quantitative finance.",
+      "audience_size_pct": 3,
+      "covers": ["micro, macro, econometrics, behavioral economics, finance, accounting", "AER, QJE, JFE, RFS, arXiv q-fin"],
+      "explicitly_excludes": ["business strategy → Business & Management", "policy analysis without economics → Social Sciences"]
+    },
+    {
+      "slug": "business-management",
+      "name": "Business & Management",
+      "tagline": "Strategy, operations, organizational behavior, marketing.",
+      "audience_size_pct": 2,
+      "covers": ["management science, organizational behavior, marketing research, operations research, entrepreneurship", "AMJ, Strategic Management Journal"],
+      "explicitly_excludes": ["financial markets → Economics & Finance", "labor economics → Economics & Finance"]
+    },
+    {
+      "slug": "social-sciences",
+      "name": "Social Sciences",
+      "tagline": "Sociology, anthropology, politics, education, communication.",
+      "audience_size_pct": 4,
+      "covers": ["sociology, anthropology, political science, education research, communication, criminology, geography-human, linguistics, science-and-technology-studies"],
+      "explicitly_excludes": ["psychology → Brain & Cognitive Sciences", "economics → Economics & Finance"]
+    },
+    {
+      "slug": "humanities",
+      "name": "Humanities",
+      "tagline": "History, philosophy, archaeology, classics.",
+      "audience_size_pct": 1,
+      "covers": ["history of science, philosophy (including phil-of-science), archaeology, classics, art history, literary studies that engage empirical methods"],
+      "explicitly_excludes": ["digital-humanities computation → Computer Science & AI"]
+    }
+  ],
+  "design_decisions": {
+    "unanimous_8": [
+      "Medicine", "Biology", "Computer Science & AI", "Physics & Astronomy",
+      "Brain/Neuroscience", "Public Health", "Economics & Finance", "Social Sciences"
+    ],
+    "majority_2of3_kept": [
+      "Chemistry (Opus + Gemini)",
+      "Materials Science (Gemini + GPT-5)",
+      "Mathematics (Opus + GPT-5; rejected the math+stats merge)",
+      "Statistics & Data Science (Opus + GPT-5; rejected the math+stats merge)",
+      "Earth & Environmental (Opus + Gemini)",
+      "Electrical Engineering (Gemini + GPT-5; split from Engineering)",
+      "Mechanical/Aerospace Engineering (Gemini + GPT-5)",
+      "Chemical & Bioengineering (Gemini + GPT-5)",
+      "Agriculture & Food (Opus + GPT-5)",
+      "Humanities (Opus + Gemini)"
+    ],
+    "fable_overrides": [
+      "ADDED Ecology & Evolution (1/3 — only GPT-5). University departments exist; ~3% of papers; lumping into Biology hides identity.",
+      "ADDED Business & Management (1/3 — only GPT-5). Distinct journals, distinct audience; lumping into Economics misleads users.",
+      "MERGED Opus's Psychology + Neuroscience → Brain & Cognitive Sciences (per GPT-5). Modern, MECE, fewer cards.",
+      "DROPPED Opus's Linguistics (1/3). Folds cleanly into Social Sciences.",
+      "DROPPED Opus's Interdisciplinary (1/3). Catches papers that should be assigned a home, not exiled."
+    ],
+    "audience_pct_totals": "Sum: 105% — slight overcount because of dual-belonging papers (e.g. neuro-immunology counts in both Brain and Medicine when surfaced). Per-paper assignment will still be 1-of-20 via classifier confidence."
+  },
+  "uncovered_concerns": [
+    "Veterinary medicine: still no card. ~0.5% of papers. Acceptable to fold under Medicine or Agriculture per paper.",
+    "Architecture & Design: still no card. Empirical papers fit under relevant engineering or social-science categories.",
+    "Dermatology, cardiology, neurology, oncology etc.: NOT level-1 categories. These are level-2 children of Medicine — see the deep taxonomy. The picker shows Medicine; the personalized feed shows the user's subspecialty when they drill in.",
+    "AI4Science, complex systems, network science: these self-label as their home discipline (CS, Physics, Biology) at the level-1 picker; the deep taxonomy still tags them as interdisciplinary at lower levels."
+  ]
+}

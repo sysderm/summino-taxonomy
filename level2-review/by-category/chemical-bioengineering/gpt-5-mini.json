@@ -1,0 +1,210 @@
+{
+  "level1_slug": "chemical-bioengineering",
+  "level1_name": "Chemical & Bioengineering",
+  "count": 14,
+  "rationale": "I split Chemical & Bioengineering into 14 practitioner-facing subspecialties to balance breadth (process/chemical side) and depth (biotech/biomedical side) while keeping each card large enough to be useful. I kept process- and reaction-focused work (Process Engineering, Catalysis, Separation) distinct from biomolecular and cell-based areas (Bioprocessing, Synthetic Biology, Tissue Engineering) because authors and readers identify with those communities. I deliberately left pure/analytical chemistry and clinical device deployment out \u2014 those go to Chemistry and Medicine respectively \u2014 and I combined some closely coupled topics (Catalysis & Reaction Engineering) rather than splitting them into narrowly overlapping niches to keep the grid MECE and practical for selection by working professionals.",
+  "subspecialties": [
+    {
+      "slug": "process-engineering",
+      "name": "Process Engineering",
+      "tagline": "Scaling, design and optimization of chemical/biotech processes",
+      "audience_pct_within_level1": 10,
+      "covers": [
+        "plant design, process modelling, scale-up, safety and economics",
+        "example: reactor network optimization, process intensification studies"
+      ],
+      "explicitly_excludes": [
+        "separation-&-environmental-process-engineering \u2014 unit operations like separations and wastewater focus",
+        "process-chemistry \u2014 bench-scale synthetic route development"
+      ]
+    },
+    {
+      "slug": "chemical-engineering",
+      "name": "Chemical Engineering",
+      "tagline": "Fundamental transport, thermodynamics, and reaction systems",
+      "audience_pct_within_level1": 8,
+      "covers": [
+        "heat/mass transfer, fluid mechanics, multiphase flows, reactor fundamentals",
+        "example: CFD for reactors, transport models for porous media"
+      ],
+      "explicitly_excludes": [
+        "process-engineering \u2014 plant-scale design and economics",
+        "catalysis-&-reaction-engineering \u2014 catalyst design and kinetics focus"
+      ]
+    },
+    {
+      "slug": "process-chemistry",
+      "name": "Process Chemistry",
+      "tagline": "Applied synthetic chemistry for scale and manufacturing",
+      "audience_pct_within_level1": 6,
+      "covers": [
+        "route scouting, scale-up of organic/inorganic syntheses, impurity control",
+        "example: manufacturing route optimization for APIs, telescoped syntheses"
+      ],
+      "explicitly_excludes": [
+        "chemistry \u2014 fundamental synthetic methods, mechanistic organic chemistry",
+        "bioprocessing-&-fermentation \u2014 biological production routes"
+      ]
+    },
+    {
+      "slug": "bioprocessing-and-fermentation",
+      "name": "Bioprocessing & Fermentation",
+      "tagline": "Upstream/downstream processes for biologics and fermentation products",
+      "audience_pct_within_level1": 12,
+      "covers": [
+        "cell culture, fermentation engineering, downstream purification, scale-up",
+        "example: CHO cell fed-batch optimization, protein A chromatography scale-up"
+      ],
+      "explicitly_excludes": [
+        "synthetic-biology \u2014 genetic design and circuit engineering",
+        "process-engineering \u2014 plant-level integration beyond bioprocess unit ops"
+      ]
+    },
+    {
+      "slug": "synthetic-biology",
+      "name": "Synthetic Biology",
+      "tagline": "Genetic circuits, DNA tools, and engineered biological systems",
+      "audience_pct_within_level1": 8,
+      "covers": [
+        "design of genetic parts, chassis engineering, modular biological systems",
+        "example: CRISPR-based circuits, standardized genetic part libraries"
+      ],
+      "explicitly_excludes": [
+        "metabolic-engineering \u2014 pathway optimization for product titer",
+        "biomedical-engineering \u2014 device and implant-focused work"
+      ]
+    },
+    {
+      "slug": "metabolic-engineering",
+      "name": "Metabolic Engineering",
+      "tagline": "Pathway-level redesigns to produce chemicals, fuels, and biomolecules",
+      "audience_pct_within_level1": 5,
+      "covers": [
+        "flux analysis, pathway optimization, strain engineering for production",
+        "example: pathway balancing for commodity chemical biosynthesis"
+      ],
+      "explicitly_excludes": [
+        "synthetic-biology \u2014 tools and circuits not aimed at production metrics",
+        "bioprocessing-&-fermentation \u2014 downstream purification and unit ops"
+      ]
+    },
+    {
+      "slug": "biomaterials",
+      "name": "Biomaterials",
+      "tagline": "Materials for interacting with biology: implants, scaffolds, coatings",
+      "audience_pct_within_level1": 11,
+      "covers": [
+        "design, synthesis and characterization of materials for biomedical use",
+        "example: bioactive coatings, hydrogels for cell support, degradable polymers"
+      ],
+      "explicitly_excludes": [
+        "tissue-engineering \u2014 construct/organ-level regenerative solutions",
+        "polymer-science \u2014 fundamental polymer chemistry and physics"
+      ]
+    },
+    {
+      "slug": "tissue-engineering",
+      "name": "Tissue Engineering",
+      "tagline": "Engineered tissues, organoids and regenerative constructs",
+      "audience_pct_within_level1": 9,
+      "covers": [
+        "scaffold design, cell\u2013matrix interactions, organoid development",
+        "example: vascularized tissue constructs, stem-cell based organoids"
+      ],
+      "explicitly_excludes": [
+        "biomaterials \u2014 material development without tissue construct focus",
+        "medicine \u2014 clinical trials and device implantation studies"
+      ]
+    },
+    {
+      "slug": "drug-delivery",
+      "name": "Drug Delivery",
+      "tagline": "Formulation and engineered systems for delivering therapeutics",
+      "audience_pct_within_level1": 10,
+      "covers": [
+        "nanocarriers, sustained release systems, targeting strategies",
+        "example: lipid nanoparticle formulation, polymeric depot systems"
+      ],
+      "explicitly_excludes": [
+        "pharmacology/medicine \u2014 clinical efficacy and patient trials",
+        "biomaterials \u2014 material development not focused on therapeutic delivery"
+      ]
+    },
+    {
+      "slug": "biomedical-engineering",
+      "name": "Biomedical Engineering",
+      "tagline": "Devices, sensors, and systems for health and diagnostics",
+      "audience_pct_within_level1": 7,
+      "covers": [
+        "medical device design, biosensors, medical imaging engineering",
+        "example: wearable biosensors, implantable electronics (preclinical)"
+      ],
+      "explicitly_excludes": [
+        "medicine \u2014 clinical deployment, regulatory approval and patient care",
+        "microfluidics \u2014 primarily lab-on-chip device fabrication and assays"
+      ]
+    },
+    {
+      "slug": "microfluidics",
+      "name": "Microfluidics",
+      "tagline": "Lab-on-chip, droplet systems and microreactors",
+      "audience_pct_within_level1": 3,
+      "covers": [
+        "chip fabrication, droplet assays, microreactor chemistry and biology",
+        "example: single-cell droplet sequencing platforms, microreactor synthesis"
+      ],
+      "explicitly_excludes": [
+        "biomedical-engineering \u2014 macro medical devices and clinical systems",
+        "chemical-engineering \u2014 bulk transport modelling at process scale"
+      ]
+    },
+    {
+      "slug": "polymer-science",
+      "name": "Polymer Science",
+      "tagline": "Synthesis, characterization and processing of polymers",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "polymer chemistry, rheology, processing, functional polymer design",
+        "example: stimuli-responsive polymers, polymerization mechanism studies"
+      ],
+      "explicitly_excludes": [
+        "biomaterials \u2014 application-driven biomaterial studies for biology/medicine",
+        "chemistry \u2014 fundamental small-molecule synthetic chemistry"
+      ]
+    },
+    {
+      "slug": "catalysis-and-reaction-engineering",
+      "name": "Catalysis & Reaction Engineering",
+      "tagline": "Catalyst design, kinetics, and reactor-level reaction control",
+      "audience_pct_within_level1": 4,
+      "covers": [
+        "heterogeneous/homogeneous catalysis, kinetics, catalytic reactor design",
+        "example: supported nanoparticle catalysts, kinetic modelling of catalytic flows"
+      ],
+      "explicitly_excludes": [
+        "chemical-engineering \u2014 transport-dominated reactor modelling without catalyst focus",
+        "chemistry \u2014 mechanistic organometallic studies not aimed at engineering"
+      ]
+    },
+    {
+      "slug": "separation-and-environmental-process-engineering",
+      "name": "Separation & Environmental Process Engineering",
+      "tagline": "Separations, membranes, and environmental treatment processes",
+      "audience_pct_within_level1": 3,
+      "covers": [
+        "distillation, adsorption, membrane technology, wastewater treatment",
+        "example: membrane process design, adsorption for contaminant removal"
+      ],
+      "explicitly_excludes": [
+        "process-engineering \u2014 overall plant integration beyond separations",
+        "environmental-science \u2014 ecological impacts and field monitoring studies"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Single-cell engineering and analytical workflows: important but generally tagged under Microfluidics or Synthetic Biology depending on focus; avoided a separate 'single-cell' card to prevent fragmentation.",
+    "AI/ML for chemical and bioengineering: widely used as methods across topics rather than a discipline title, so not its own card (papers should map to the substantive area plus 'uses ML').",
+    "Regulatory science and techno-economic analysis: cross-cutting and often part of Process Engineering or Bioprocessing rather than separate specialty.",
+    "Clinical translation of devices: excluded on purpose and routed to Medicine because practitioner identity shifts to clinical/medical domain."
+  ]
+}

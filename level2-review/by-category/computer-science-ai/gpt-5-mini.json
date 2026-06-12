@@ -1,0 +1,211 @@
+{
+  "level1_slug": "computer-science-ai",
+  "level1_name": "Computer Science & AI",
+  "count": 14,
+  "rationale": "I split Computer Science & AI into 14 practitioner-facing subspecialties to balance breadth (covering classic CS areas and modern AI subfields) with a tidy picker grid. I kept high-volume, clearly distinct communities separate (Machine Learning, NLP, Vision, Systems) while grouping closely allied engineering/theory topics so cards remain meaningful and not overly granular. Controversial splits avoided: I did not split Reinforcement Learning out of ML (it's practitioner-aligned with ML/learning research) and I kept Programming Languages and Formal Methods together rather than scattering them across Software Engineering. I also avoided placing computational biology and hardware here \u2014 those belong in Biology and Electrical & Electronic Engineering respectively.",
+  "subspecialties": [
+    {
+      "slug": "machine-learning",
+      "name": "Machine Learning",
+      "tagline": "Algorithms, representation learning, generalization, and model training",
+      "audience_pct_within_level1": 20.0,
+      "covers": [
+        "Deep learning, probabilistic models, representation learning, supervised/unsupervised methods",
+        "NeurIPS, ICML papers on model architectures, optimization, generalization"
+      ],
+      "explicitly_excludes": [
+        "Natural Language Processing",
+        "Computer Vision & Perception",
+        "AI Safety, Ethics & Fairness"
+      ]
+    },
+    {
+      "slug": "natural-language-processing",
+      "name": "Natural Language Processing",
+      "tagline": "Language models, text understanding, dialogue and speech tasks",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Transformer models, parsing, machine translation, speech-to-text and dialog systems",
+        "ACL, EMNLP, NAACL papers focused on text/speech"
+      ],
+      "explicitly_excludes": [
+        "Machine Learning",
+        "Computational Neuroscience & Cognitive Modeling"
+      ]
+    },
+    {
+      "slug": "computer-vision-perception",
+      "name": "Computer Vision & Perception",
+      "tagline": "Image/video understanding, 3D perception, and visual recognition",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Image classification, detection, segmentation, 3D reconstruction, visual transformers",
+        "CVPR, ICCV work on visual models and sensors"
+      ],
+      "explicitly_excludes": [
+        "Robotics & Autonomous Systems",
+        "Machine Learning"
+      ]
+    },
+    {
+      "slug": "robotics-autonomous-systems",
+      "name": "Robotics & Autonomous Systems",
+      "tagline": "Robot control, planning, autonomy, sensors and embodied AI",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Motion planning, control, SLAM, robot perception, embodied learning",
+        "ICRA, IROS papers on hardware-in-the-loop, autonomy stacks"
+      ],
+      "explicitly_excludes": [
+        "Computer Vision & Perception",
+        "Machine Learning"
+      ]
+    },
+    {
+      "slug": "algorithms-and-theory",
+      "name": "Algorithms & Theory",
+      "tagline": "Algorithms, complexity, cryptography theory, and formal models",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Design/analysis of algorithms, computational complexity, randomized algorithms, theoretical ML foundations",
+        "STOC/FOCS/SODA style theoretical work"
+      ],
+      "explicitly_excludes": [
+        "Security & Privacy (applied crypto papers may go there)",
+        "Programming Languages & Formal Methods"
+      ]
+    },
+    {
+      "slug": "systems-and-networking",
+      "name": "Systems & Networking",
+      "tagline": "Operating systems, distributed systems, cloud, and networked infrastructure",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Distributed systems, OS design, cloud platforms, datacenter/networking research",
+        "SOSP/OSDI/NSDI style systems engineering and performance work"
+      ],
+      "explicitly_excludes": [
+        "Databases & Information Retrieval",
+        "Software Engineering"
+      ]
+    },
+    {
+      "slug": "security-and-privacy",
+      "name": "Security & Privacy",
+      "tagline": "Systems and theoretical work on security, privacy, and adversarial threats",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Cryptography, system security, privacy-preserving ML, adversarial attacks and defenses",
+        "USENIX Security, IEEE S&P applied and theoretical security papers"
+      ],
+      "explicitly_excludes": [
+        "Algorithms & Theory (pure crypto theory can be there)",
+        "AI Safety, Ethics & Fairness"
+      ]
+    },
+    {
+      "slug": "human-computer-interaction",
+      "name": "Human-Computer Interaction",
+      "tagline": "User interfaces, UX research, interaction design and user studies",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Interaction techniques, usability studies, mixed reality interfaces, accessibility",
+        "CHI-style user research and HCI systems work"
+      ],
+      "explicitly_excludes": [
+        "AI Safety, Ethics & Fairness",
+        "Computational Neuroscience & Cognitive Modeling"
+      ]
+    },
+    {
+      "slug": "software-engineering",
+      "name": "Software Engineering",
+      "tagline": "Software development, testing, maintenance, and engineering practices",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Program analysis, software testing, CI/CD, empirical SE studies, engineering of ML systems",
+        "ICSE, FSE applied software engineering and tools papers"
+      ],
+      "explicitly_excludes": [
+        "Programming Languages & Formal Methods",
+        "Systems & Networking"
+      ]
+    },
+    {
+      "slug": "databases-and-information-retrieval",
+      "name": "Databases & Information Retrieval",
+      "tagline": "Data management, search, indexing, and large-scale retrieval systems",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "DBMS design, query optimization, search relevance, recommender systems",
+        "SIGMOD, VLDB, SIGIR papers on storage and retrieval"
+      ],
+      "explicitly_excludes": [
+        "Systems & Networking",
+        "Machine Learning (applied ML for retrieval belongs to ML)"
+      ]
+    },
+    {
+      "slug": "ai-safety-ethics-and-fairness",
+      "name": "AI Safety, Ethics & Fairness",
+      "tagline": "Risks, fairness, governance, and societal impacts of AI systems",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Bias/fairness audits, robustness and alignment, policy and governance research for AI",
+        "Interdisciplinary ethics work and papers on model harms"
+      ],
+      "explicitly_excludes": [
+        "Security & Privacy",
+        "Human-Computer Interaction"
+      ]
+    },
+    {
+      "slug": "programming-languages-and-formal-methods",
+      "name": "Programming Languages & Formal Methods",
+      "tagline": "Language design, compilers, type systems, verification and program logics",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Type theory, compiler optimizations, model checking, program verification",
+        "POPL, PLDI, CAV style PL and formal verification research"
+      ],
+      "explicitly_excludes": [
+        "Software Engineering",
+        "Algorithms & Theory"
+      ]
+    },
+    {
+      "slug": "computer-graphics-and-visualization",
+      "name": "Computer Graphics & Visualization",
+      "tagline": "Rendering, animation, visual computing, and scientific visualization",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Rendering algorithms, geometry processing, visualization of scientific data",
+        "SIGGRAPH, EuroVis work on graphics and visual analytics"
+      ],
+      "explicitly_excludes": [
+        "Computer Vision & Perception",
+        "Human-Computer Interaction"
+      ]
+    },
+    {
+      "slug": "computational-neuroscience-and-cognitive-modeling",
+      "name": "Computational Neuroscience & Cognitive Modeling",
+      "tagline": "Models of brain computation, cognitive modeling, and neural data analysis",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Neural modelling, cognitive architectures, analysis of neural recordings, theoretical neuroscience",
+        "Papers at the intersection of AI and neurocognitive modeling"
+      ],
+      "explicitly_excludes": [
+        "Biology (computational biology goes to Biology level-1)",
+        "Machine Learning"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Quantum computing and quantum algorithms were considered but are rare in cs.ai; we omitted as a separate card (belongs in Physics or Electrical & Electronic Engineering hubs).",
+    "Reinforcement learning and self-supervised learning are common but kept inside Machine Learning rather than split out to avoid over-fragmentation.",
+    "Multidisciplinary applied areas (e.g., computational biology, neuroimaging) were excluded and routed to domain level-1 categories to keep this picker MECE.",
+    "Hardware/neural hardware (neuromorphic, chips) explicitly excluded because practitioners expect Electrical & Electronic Engineering."
+  ]
+}

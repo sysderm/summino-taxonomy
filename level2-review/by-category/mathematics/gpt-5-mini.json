@@ -1,0 +1,195 @@
+{
+  "level1_slug": "mathematics",
+  "level1_name": "Mathematics",
+  "count": 13,
+  "rationale": "I split Mathematics into 13 practitioner-facing subspecialties to balance coverage and usability: enough granularity so active researchers would immediately recognise their field, without overwhelming the picker. I kept classical divisions (algebra, analysis, geometry/topology, number theory, logic, combinatorics) and separated methods/applied areas that attract sizable independent literatures (PDEs, numerical analysis, optimization/control, probability/stochastic, dynamical systems, mathematical physics, math-biology). I deliberately did not split probability versus statistics \u2014 probability and stochastic processes stay in math while statistical inference is routed to Statistics & Data Science; computational complexity was excluded to Computer Science & AI. Some borderline splits (e.g., numerical PDEs vs PDE theory, optimization vs control) were maintained because practitioners normally self-identify with one or the other.",
+  "subspecialties": [
+    {
+      "slug": "algebra",
+      "name": "Algebra",
+      "tagline": "Groups, rings, modules, representation theory, and structures",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Abstract algebraic structures, homological algebra, representation theory",
+        "Examples: group theory, ring and module theory, Lie algebras, associative/ noncommutative algebra, category-theoretic algebra"
+      ],
+      "explicitly_excludes": [
+        "Algebraic geometry \u2014 goes to Geometry & Topology",
+        "Computational complexity \u2014 goes to Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "analysis",
+      "name": "Analysis",
+      "tagline": "Real and complex analysis, functional analysis, operator theory",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Core analytic techniques: measure theory, Banach/Hilbert spaces, operator theory",
+        "Examples: complex variables, harmonic analysis, spectral theory, nonlinear functional analysis"
+      ],
+      "explicitly_excludes": [
+        "PDE theory \u2014 goes to Partial Differential Equations",
+        "Numerical analysis \u2014 goes to Numerical Analysis & Scientific Computing"
+      ]
+    },
+    {
+      "slug": "geometry-topology",
+      "name": "Geometry & Topology",
+      "tagline": "Differential, algebraic, and low/high-dimensional topology",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Global and local geometry, manifold theory, algebraic/complex geometry and topology",
+        "Examples: differential geometry, symplectic geometry, algebraic geometry (as geometric practitioner), topological manifolds, knot theory"
+      ],
+      "explicitly_excludes": [
+        "Algebraic number theory \u2014 goes to Number Theory",
+        "Mathematical physics when physics-motivated \u2014 goes to Mathematical Physics"
+      ]
+    },
+    {
+      "slug": "number-theory",
+      "name": "Number Theory",
+      "tagline": "Arithmetic, analytic, algebraic, and computational number theory",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Properties of integers, arithmetic geometry, modular forms, analytic methods",
+        "Examples: prime distribution, Diophantine equations, L-functions, arithmetic geometry"
+      ],
+      "explicitly_excludes": [
+        "Cryptography or complexity-focused computational work \u2014 goes to Computer Science & AI",
+        "Algorithmic implementation details \u2014 goes to Numerical Analysis & Scientific Computing"
+      ]
+    },
+    {
+      "slug": "logic-foundations",
+      "name": "Mathematical Logic & Foundations",
+      "tagline": "Set theory, model theory, proof theory, computability theory",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Foundational studies of mathematics, formal systems, decidability and definability",
+        "Examples: model theory, proof complexity (theoretical), set theory, recursion theory"
+      ],
+      "explicitly_excludes": [
+        "Applied/formal methods in CS (e.g., program verification) \u2014 goes to Computer Science & AI",
+        "Statistical inference foundations \u2014 goes to Statistics & Data Science"
+      ]
+    },
+    {
+      "slug": "combinatorics-graph-theory",
+      "name": "Combinatorics & Graph Theory",
+      "tagline": "Enumerative, extremal, probabilistic combinatorics and graphs",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Discrete structures, counting, extremal problems, graph algorithms from a combinatorial viewpoint",
+        "Examples: Ramsey theory, extremal graph theory, combinatorial design, enumerative combinatorics"
+      ],
+      "explicitly_excludes": [
+        "Algorithmic/complexity aspects \u2014 goes to Computer Science & AI",
+        "Network-statistics inference \u2014 goes to Statistics & Data Science"
+      ]
+    },
+    {
+      "slug": "probability-stochastic-processes",
+      "name": "Probability & Stochastic Processes",
+      "tagline": "Probability theory, stochastic processes, martingales, limit theorems",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Rigorous probability theory and stochastic analysis, long-time behaviour, stochastic calculus",
+        "Examples: Brownian motion, stochastic differential equations (theory), large deviations, random matrices (mathematical focus)"
+      ],
+      "explicitly_excludes": [
+        "Statistical inference and applied statistics \u2014 goes to Statistics & Data Science",
+        "Data-driven stochastic modelling/ML \u2014 goes to Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "dynamical-systems",
+      "name": "Dynamical Systems & Nonlinear Analysis",
+      "tagline": "Deterministic dynamics, chaos, ergodic theory, bifurcations",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Theory of ordinary and discrete dynamical systems, ergodic theory and qualitative behaviour",
+        "Examples: hyperbolic dynamics, bifurcation theory, symbolic dynamics, ergodic theorems"
+      ],
+      "explicitly_excludes": [
+        "Numerical simulation-focused work \u2014 goes to Numerical Analysis & Scientific Computing",
+        "Physics-driven modelling when primary outlet is physics \u2014 goes to Mathematical Physics"
+      ]
+    },
+    {
+      "slug": "partial-differential-equations",
+      "name": "Partial Differential Equations (PDEs)",
+      "tagline": "Theory of PDEs, regularity, existence, and qualitative properties",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "Analytic and geometric PDE theory, existence/uniqueness, regularity, singularities",
+        "Examples: elliptic/parabolic/hyperbolic PDE theory, conservation laws, dispersive equations"
+      ],
+      "explicitly_excludes": [
+        "Numerical PDE methods \u2014 goes to Numerical Analysis & Scientific Computing",
+        "Applied modelling with engineering emphasis \u2014 goes to Applied Mathematics / relevant applied field"
+      ]
+    },
+    {
+      "slug": "numerical-analysis-scientific-computing",
+      "name": "Numerical Analysis & Scientific Computing",
+      "tagline": "Algorithms and error analysis for numerical simulation",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Design and analysis of numerical methods, high-performance scientific computing, approximation theory",
+        "Examples: finite elements, spectral methods, numerical linear algebra, computational PDEs, numerical optimization"
+      ],
+      "explicitly_excludes": [
+        "Pure algorithmic complexity theory \u2014 goes to Computer Science & AI",
+        "Data-science oriented machine learning implementations \u2014 goes to Computer Science & AI or Statistics & Data Science"
+      ]
+    },
+    {
+      "slug": "mathematical-physics",
+      "name": "Mathematical Physics",
+      "tagline": "Rigorous math motivated by physical theories and models",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Mathematical study of physical systems: rigorous quantum theory, statistical mechanics, integrable systems",
+        "Examples: quantum field theory rigor, spectral theory of physical operators, statistical mechanics foundations"
+      ],
+      "explicitly_excludes": [
+        "Physics experiments or phenomenology \u2014 goes to Physics",
+        "Numerical/experimental computational physics \u2014 goes to Numerical Analysis & Scientific Computing"
+      ]
+    },
+    {
+      "slug": "optimization-control",
+      "name": "Optimization & Control",
+      "tagline": "Convex/nonconvex optimization, control theory, variational methods",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Theory and algorithms for optimizing functions and controlling dynamical systems",
+        "Examples: convex analysis, optimal control, calculus of variations, nonsmooth optimization"
+      ],
+      "explicitly_excludes": [
+        "Machine learning optimization applied work \u2014 goes to Computer Science & AI",
+        "Numerical implementation-focused solver engineering \u2014 goes to Numerical Analysis & Scientific Computing"
+      ]
+    },
+    {
+      "slug": "mathematical-biology",
+      "name": "Mathematical Biology",
+      "tagline": "Mathematical models of biological systems and processes",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Theoretical and mathematical analysis of biological phenomena: population dynamics, biomechanics, pattern formation",
+        "Examples: epidemiological models, reaction-diffusion modelling, theoretical ecology, mathematical neuroscience (theory-focused)"
+      ],
+      "explicitly_excludes": [
+        "Data-driven bioinformatics/statistics \u2014 goes to Statistics & Data Science",
+        "Experimental wet-lab biology \u2014 goes to Biology or domain-specific discipline"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Algebraic geometry sits between Algebra and Geometry & Topology; I placed it under Geometry & Topology because many practitioners identify as geometers, but some algebraic-number-theory-adjacent work could reasonably sit in Number Theory.",
+    "Computational complexity and many CS-adjacent discrete/algorithmic topics are intentionally excluded and routed to Computer Science & AI to keep MECE boundaries clean.",
+    "Applied, interdisciplinary papers (e.g., ML-heavy optimization or data-driven PDEs) can be ambiguous; routing guidance favours the primary methodological identity (theory \u2192 math subspecialty, data/ML \u2192 CS or Statistics as appropriate)."
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "level1_slug": "statistics-data-science",
+  "level1_name": "Statistics & Data Science",
+  "count": 14,
+  "rationale": "I split Statistics & Data Science into 14 practitioner-facing subspecialties to balance breadth (theoretical, applied-methods, computation, and reproducibility) with pickability. The list tries to be MECE by separating methodological families (e.g., Bayesian vs frequentist theory), application-focused statistical communities (Biostatistics, Econometrics, Survey), and computation/software concerns (MCMC, reproducibility, visualization). I deliberately did not create many tiny niche cards (e.g., 'Neurostatistics' or 'Genomic Statistics') because those are domain-applied and belong with their application domain; similarly, ML algorithm engineering was excluded to Computer Science & AI. A few splits \u2014 for example keeping Computational Statistics & MCMC together rather than separating probabilistic programming \u2014 are pragmatic and might be controversial but keep the grid concise and useful to practitioners.",
+  "subspecialties": [
+    {
+      "slug": "statistical-theory",
+      "name": "Statistical Theory",
+      "tagline": "Asymptotics, optimality, convergence, decision theory",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Foundations of inference, limiting distributions, minimax results",
+        "Papers from Annals of Statistics, theoretical analyses of estimators"
+      ],
+      "explicitly_excludes": [
+        "Bayesian Statistics",
+        "High-dimensional & Multivariate Statistics"
+      ]
+    },
+    {
+      "slug": "bayesian-statistics",
+      "name": "Bayesian Statistics",
+      "tagline": "Priors, posteriors, hierarchical models, Bayesian computation",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Theory and methods centered on Bayesian inference and modeling",
+        "Bayesian hierarchical models, posterior consistency, model checking"
+      ],
+      "explicitly_excludes": [
+        "Computational Statistics & MCMC",
+        "Statistical Theory"
+      ]
+    },
+    {
+      "slug": "computational-statistics-mcmc",
+      "name": "Computational Statistics & MCMC",
+      "tagline": "Sampling, probabilistic programming, scalable algorithms",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "MCMC methods, variational inference, probabilistic programming tools",
+        "Algorithmic work on scalable inference and software implementations"
+      ],
+      "explicitly_excludes": [
+        "Machine Learning (goes to Computer Science & AI)",
+        "Reproducible Research & Scientific Software"
+      ]
+    },
+    {
+      "slug": "causal-inference",
+      "name": "Causal Inference",
+      "tagline": "Identification, mediation, instruments, potential outcomes",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Methods for causal identification, estimation, and sensitivity analysis",
+        "Instrumental variables, DAGs, synthetic controls, causal mediation"
+      ],
+      "explicitly_excludes": [
+        "Experimental Design",
+        "Econometrics"
+      ]
+    },
+    {
+      "slug": "biostatistics",
+      "name": "Biostatistics",
+      "tagline": "Statistical methods for biomedical and clinical research",
+      "audience_pct_within_level1": 13.0,
+      "covers": [
+        "Clinical trial analysis, survival models, biomarker validation",
+        "Papers common to Biostatistics and journals like Biostatistics/JASA applications"
+      ],
+      "explicitly_excludes": [
+        "Bioinformatics (goes to the relevant domain)",
+        "Experimental Design"
+      ]
+    },
+    {
+      "slug": "experimental-design",
+      "name": "Experimental Design",
+      "tagline": "Design of experiments, randomization, power, blocking",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Randomized designs, factorial experiments, adaptive trials design",
+        "Optimal design, sample size/power planning"
+      ],
+      "explicitly_excludes": [
+        "Causal Inference",
+        "Biostatistics"
+      ]
+    },
+    {
+      "slug": "survey-statistics",
+      "name": "Survey Statistics",
+      "tagline": "Sampling, weighting, complex surveys, nonresponse",
+      "audience_pct_within_level1": 4.5,
+      "covers": [
+        "Design-based inference, calibration, imputation for surveys",
+        "Large-scale population surveys and methodology"
+      ],
+      "explicitly_excludes": [
+        "Econometrics",
+        "Statistical Learning & Methods"
+      ]
+    },
+    {
+      "slug": "time-series-forecasting",
+      "name": "Time Series & Forecasting",
+      "tagline": "Temporal models, state-space, spectral analysis, forecasting",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "ARIMA, state-space models, long-memory, and forecasting methods",
+        "Macroeconomic and signal-processing time-series techniques"
+      ],
+      "explicitly_excludes": [
+        "Econometrics",
+        "Spatial & Environmental Statistics"
+      ]
+    },
+    {
+      "slug": "econometrics",
+      "name": "Econometrics",
+      "tagline": "Economy-focused causal & time-series models, identification",
+      "audience_pct_within_level1": 6.5,
+      "covers": [
+        "Structural models, panel data, identification in economic settings",
+        "Micro- and macro-econometric inference and applications"
+      ],
+      "explicitly_excludes": [
+        "Causal Inference",
+        "Time Series & Forecasting"
+      ]
+    },
+    {
+      "slug": "spatial-environmental-statistics",
+      "name": "Spatial & Environmental Statistics",
+      "tagline": "Spatial processes, point patterns, geostatistics, spatial sampling",
+      "audience_pct_within_level1": 3.5,
+      "covers": [
+        "Geostatistical models, spatial-temporal methods, kriging",
+        "Environmental data analysis and spatial survey design"
+      ],
+      "explicitly_excludes": [
+        "Time Series & Forecasting",
+        "Domain-applied environmental science"
+      ]
+    },
+    {
+      "slug": "high-dimensional-multivariate-statistics",
+      "name": "High-dimensional & Multivariate Statistics",
+      "tagline": "Penalized methods, sparsity, PCA, multivariate analysis",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Theory and methods for p>>n, variable selection, covariance estimation",
+        "Multivariate techniques like factor analysis and PCA variants"
+      ],
+      "explicitly_excludes": [
+        "Statistical Learning & Methods",
+        "Bayesian Statistics"
+      ]
+    },
+    {
+      "slug": "statistical-learning-methods",
+      "name": "Statistical Learning & Methods",
+      "tagline": "Inference-focused predictive modeling, model assessment",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Statistical approaches to learning: regularization, resampling, interpretability",
+        "Methodological papers bridging predictive performance and inference"
+      ],
+      "explicitly_excludes": [
+        "Machine Learning (goes to Computer Science & AI)",
+        "Computational Statistics & MCMC"
+      ]
+    },
+    {
+      "slug": "reproducible-research-software",
+      "name": "Reproducible Research & Scientific Software",
+      "tagline": "Workflow, package development, versioning, data pipelines",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Best practices for reproducible analyses, statistical software, tooling",
+        "Papers on packages, workflows, testing, and computational reproducibility"
+      ],
+      "explicitly_excludes": [
+        "Computational Statistics & MCMC",
+        "Data Engineering (goes to Computer Science & AI)"
+      ]
+    },
+    {
+      "slug": "data-visualization-eda",
+      "name": "Data Visualization & EDA",
+      "tagline": "Visualization techniques, exploratory analysis, graphical inference",
+      "audience_pct_within_level1": 5.5,
+      "covers": [
+        "Design and evaluation of graphical methods, visual analytics, EDA",
+        "Visual inference, interactive graphics, perceptual studies"
+      ],
+      "explicitly_excludes": [
+        "Reproducible Research & Scientific Software",
+        "Statistical Learning & Methods"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Machine learning algorithm engineering: intentionally excluded and routed to Computer Science & AI because many papers are algorithm/architecture-focused rather than statistical inference.",
+    "Domain-specific subfields (e.g., neurostatistics, genomic/bioinformatics): excluded as domain-applied and should be discovered under their scientific domain-level categories.",
+    "Privacy, fairness, and AI ethics: partially overlap with ML/AI and law/ethics domains; not split out here to avoid tiny niche cards.",
+    "Probabilistic programming vs MCMC split: considered separating probabilistic programming into its own card but combined with computational MCMC to keep the grid concise."
+  ]
+}

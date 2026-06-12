@@ -1,0 +1,211 @@
+{
+  "level1_slug": "earth-environmental",
+  "level1_name": "Earth & Environmental Sciences",
+  "count": 14,
+  "rationale": "This structure is organized around the major Earth systems (lithosphere, hydrosphere, atmosphere, cryosphere) and the key integrative or problem-focused fields that cut across them. The solid Earth sciences are split into Geology, Geophysics, and Geochemistry, reflecting major disciplinary divisions. Similarly, the 'fluid' Earth is covered by Atmospheric Sciences, Oceanography, Hydrology, and Glaciology. Crucially, integrative fields like Climate Science, Environmental Science, and Sustainability Science are given their own categories, as they represent enormous and distinct bodies of research that synthesize information from the other domains. This count of 14 provides sufficient granularity without becoming overwhelming, allowing distinct research communities like Paleontology and Soil Science to have their own home.",
+  "subspecialties": [
+    {
+      "slug": "climate-science",
+      "name": "Climate Science",
+      "tagline": "Modeling and analyzing Earth's long-term weather patterns and future changes.",
+      "audience_pct_within_level1": 16.0,
+      "covers": [
+        "The study of climate systems, variability, and the impacts of global warming.",
+        "General circulation models (GCMs), climate attribution, carbon cycle, sea-level rise."
+      ],
+      "explicitly_excludes": [
+        "Reconstruction of past climates (\u2192 Paleoclimatology)",
+        "Short-term weather and atmospheric dynamics (\u2192 Atmospheric Sciences)"
+      ]
+    },
+    {
+      "slug": "environmental-science-management",
+      "name": "Environmental Science & Management",
+      "tagline": "Assessing and mitigating human impacts on the environment.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "The study of pollution, remediation, conservation, and resource management.",
+        "Water quality, land degradation, waste management, environmental impact assessment."
+      ],
+      "explicitly_excludes": [
+        "The specific chemistry of pollutants (\u2192 Environmental Chemistry)",
+        "Broader socio-ecological systems (\u2192 Sustainability Science)"
+      ]
+    },
+    {
+      "slug": "geology",
+      "name": "Geology",
+      "tagline": "The study of the solid Earth, its rocks, and their history.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "The composition, structure, and evolution of the Earth's crust.",
+        "Sedimentology, structural geology, volcanology, mineralogy, geomorphology."
+      ],
+      "explicitly_excludes": [
+        "Earth's large-scale physical processes (\u2192 Geophysics)",
+        "The fossil record of life (\u2192 Paleontology)",
+        "The chemical composition of rocks (\u2192 Geochemistry)"
+      ]
+    },
+    {
+      "slug": "oceanography",
+      "name": "Oceanography",
+      "tagline": "Exploring the physical, chemical, and biological aspects of the ocean.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "The study of marine systems, from currents to ecosystems.",
+        "Ocean circulation, marine chemistry, marine biology, coastal processes."
+      ],
+      "explicitly_excludes": [
+        "Long-term ocean warming trends as part of the global system (\u2192 Climate Science)",
+        "Marine fossil record (\u2192 Paleontology)"
+      ]
+    },
+    {
+      "slug": "atmospheric-sciences",
+      "name": "Atmospheric Sciences",
+      "tagline": "The science of weather, atmosphere composition, and air dynamics.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "The study of the Earth's atmosphere and its phenomena.",
+        "Meteorology, atmospheric chemistry, cloud physics, weather forecasting."
+      ],
+      "explicitly_excludes": [
+        "Long-term climate patterns and change (\u2192 Climate Science)",
+        "Chemistry of air pollutants (\u2192 Environmental Chemistry)"
+      ]
+    },
+    {
+      "slug": "hydrology",
+      "name": "Hydrology",
+      "tagline": "The movement, distribution, and quality of water on Earth.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "The study of the water cycle and water resources on and below the land surface.",
+        "Groundwater flow, surface runoff, watershed management, hydrogeology."
+      ],
+      "explicitly_excludes": [
+        "Glaciers and ice sheets (\u2192 Glaciology)",
+        "Ocean water systems (\u2192 Oceanography)"
+      ]
+    },
+    {
+      "slug": "geophysics",
+      "name": "Geophysics",
+      "tagline": "Applying physics to understand the Earth's interior, tectonics, and fields.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "The study of the physical properties and processes of the Earth.",
+        "Seismology, plate tectonics, geomagnetism, gravity fields, geodesy."
+      ],
+      "explicitly_excludes": [
+        "Rock composition and history (\u2192 Geology)",
+        "Earth's chemical processes (\u2192 Geochemistry)"
+      ]
+    },
+    {
+      "slug": "sustainability-science",
+      "name": "Sustainability Science",
+      "tagline": "Integrating human, environmental, and economic systems for a viable future.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "An integrated, problem-focused field studying socio-ecological systems.",
+        "Renewable energy systems, life cycle assessment, urban sustainability, food-energy-water nexus."
+      ],
+      "explicitly_excludes": [
+        "Specific pollution problems (\u2192 Environmental Science & Management)",
+        "Purely economic or policy studies (\u2192 Social Sciences)"
+      ]
+    },
+    {
+      "slug": "geochemistry",
+      "name": "Geochemistry",
+      "tagline": "The chemistry of the Earth's crust, mantle, and natural systems.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "The study of the chemical composition and processes of geological materials.",
+        "Isotope geology, mineral chemistry, petrogenesis, planetary geochemistry."
+      ],
+      "explicitly_excludes": [
+        "Pollutants in contemporary environments (\u2192 Environmental Chemistry)",
+        "Bulk physical properties of the Earth (\u2192 Geophysics)"
+      ]
+    },
+    {
+      "slug": "environmental-chemistry",
+      "name": "Environmental Chemistry",
+      "tagline": "The fate and effects of chemicals in air, water, and soil.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "The study of chemical species in the natural and polluted environment.",
+        "Contaminant transport, atmospheric aerosols, aquatic chemistry, soil pollution."
+      ],
+      "explicitly_excludes": [
+        "Geological-scale chemical processes (\u2192 Geochemistry)",
+        "Broad atmospheric physics and dynamics (\u2192 Atmospheric Sciences)"
+      ]
+    },
+    {
+      "slug": "paleoclimatology",
+      "name": "Paleoclimatology",
+      "tagline": "Reconstructing past climates using natural archives like ice cores and sediments.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "The study of climate history across geological time.",
+        "Proxy data analysis, ice cores, sediment cores, dendroclimatology, paleoceanography."
+      ],
+      "explicitly_excludes": [
+        "Modern and future climate modeling (\u2192 Climate Science)",
+        "Fossil analysis for evolutionary history (\u2192 Paleontology)"
+      ]
+    },
+    {
+      "slug": "soil-science",
+      "name": "Soil Science",
+      "tagline": "The formation, classification, and management of soils.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "The study of soil as a natural resource and living system.",
+        "Pedology, soil physics, soil chemistry, soil biology, land management."
+      ],
+      "explicitly_excludes": [
+        "Broader watershed systems (\u2192 Hydrology)",
+        "Bedrock geology (\u2192 Geology)"
+      ]
+    },
+    {
+      "slug": "paleontology",
+      "name": "Paleontology",
+      "tagline": "The study of ancient life through the fossil record.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "The study of the history of life on Earth based on fossils.",
+        "Vertebrate and invertebrate paleontology, paleobotany, micropaleontology, paleoecology."
+      ],
+      "explicitly_excludes": [
+        "Study of living organisms and ecosystems (\u2192 Ecology & Evolution)",
+        "Using microfossils purely as climate proxies (\u2192 Paleoclimatology)"
+      ]
+    },
+    {
+      "slug": "glaciology",
+      "name": "Glaciology",
+      "tagline": "The science of glaciers, ice sheets, and other forms of ice.",
+      "audience_pct_within_level1": 2.0,
+      "covers": [
+        "The study of ice and its physical properties in the environment.",
+        "Ice sheet dynamics, glacier mass balance, sea ice, permafrost."
+      ],
+      "explicitly_excludes": [
+        "Water in its liquid state (\u2192 Hydrology)",
+        "Using ice cores primarily to reconstruct past climates (\u2192 Paleoclimatology)"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "The high degree of interdisciplinarity means some papers will be difficult to classify; for example, 'ocean acidification' could fit Oceanography, Climate Science, or Environmental Chemistry depending on its focus.",
+    "Physical Geography was not included as a category, as its core subfields are represented here (e.g., geomorphology in Geology, plus Hydrology, Glaciology, and Climate Science).",
+    "Planetary Science is often housed in Earth Science departments but was not given its own category; relevant papers would likely fall under Geophysics or Geochemistry.",
+    "Methodological fields like Remote Sensing & GIS were excluded, as they are tools applied across all other subspecialties rather than distinct research domains."
+  ]
+}

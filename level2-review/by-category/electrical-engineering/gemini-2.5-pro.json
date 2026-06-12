@@ -1,0 +1,166 @@
+{
+  "level1_slug": "electrical-engineering",
+  "level1_name": "Electrical & Electronic Engineering",
+  "count": 11,
+  "rationale": "This structure partitions Electrical & Electronic Engineering into 11 subspecialties, balancing foundational theory with major application domains. The goal is to align with how ECE departments are structured and how professionals identify themselves. We deliberately kept 'Circuits & Electronics' unified rather than splitting it into analog and digital, as modern VLSI and system-on-chip (SoC) design are inherently mixed-signal. Similarly, 'Power Systems & Electronics' are combined because advances in power electronics are integral to the evolution of modern power grids and renewable energy systems. This count provides sufficient granularity for a specialist without overwhelming a generalist, ensuring a clear home for papers from core theory to applied technology.",
+  "subspecialties": [
+    {
+      "slug": "circuits-and-electronics",
+      "name": "Circuits & Electronics",
+      "tagline": "Design of analog, digital, mixed-signal, and RF integrated circuits.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Analysis and design of electronic circuits",
+        "VLSI, RFICs, analog-to-digital converters, power management ICs"
+      ],
+      "explicitly_excludes": [
+        "Device physics \u2192 Semiconductor Devices",
+        "Digital system architecture \u2192 Computer Architecture & Embedded Systems"
+      ]
+    },
+    {
+      "slug": "signal-processing",
+      "name": "Signal Processing",
+      "tagline": "Analysis, modification, and synthesis of signals like sound, images, and data.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Digital and statistical signal processing",
+        "Image processing, computer vision (EE aspects), audio and speech processing"
+      ],
+      "explicitly_excludes": [
+        "Communication theory \u2192 Communication Systems",
+        "High-level AI algorithms \u2192 Computer Science & AI"
+      ]
+    },
+    {
+      "slug": "communication-systems",
+      "name": "Communication Systems",
+      "tagline": "Engineering of systems that transmit and receive information.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Wireless communications (5G/6G), optical communications, information theory",
+        "Modulation, coding, networking protocols, satellite communications"
+      ],
+      "explicitly_excludes": [
+        "Antenna design \u2192 Electromagnetics & Antennas",
+        "Optical device physics \u2192 Photonics & Optics"
+      ]
+    },
+    {
+      "slug": "power-systems-and-electronics",
+      "name": "Power Systems & Electronics",
+      "tagline": "Generation, conversion, and distribution of electric power.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Power generation and transmission, smart grids, renewable energy systems",
+        "Power converters, motor drives, electric vehicles"
+      ],
+      "explicitly_excludes": [
+        "Basic circuit components \u2192 Circuits & Electronics",
+        "Grid control algorithms \u2192 Control Systems"
+      ]
+    },
+    {
+      "slug": "computer-architecture-and-embedded-systems",
+      "name": "Computer Architecture & Embedded Systems",
+      "tagline": "Design of processors, memory, and specialized computing hardware.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Microprocessor and GPU design, digital systems, hardware description languages (VHDL/Verilog)",
+        "Real-time operating systems, IoT devices, hardware security"
+      ],
+      "explicitly_excludes": [
+        "General algorithms and software \u2192 Computer Science & AI",
+        "IC fabrication \u2192 Materials Science"
+      ]
+    },
+    {
+      "slug": "photonics-and-optics",
+      "name": "Photonics & Optics",
+      "tagline": "Generation, manipulation, and detection of light and its applications.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Lasers, fiber optics, optical sensors, silicon photonics",
+        "Displays, imaging systems, quantum optics, nanophotonics"
+      ],
+      "explicitly_excludes": [
+        "Optical communication networks \u2192 Communication Systems",
+        "Semiconductor physics of optoelectronics \u2192 Semiconductor Devices"
+      ]
+    },
+    {
+      "slug": "semiconductor-devices",
+      "name": "Semiconductor Devices",
+      "tagline": "Physics, design, and modeling of solid-state electronic devices.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Transistor physics (MOSFETs, HEMTs), diodes, memory devices",
+        "Device modeling, reliability, novel semiconductor materials and structures"
+      ],
+      "explicitly_excludes": [
+        "Device fabrication processes \u2192 Materials Science",
+        "Circuit design using devices \u2192 Circuits & Electronics"
+      ]
+    },
+    {
+      "slug": "control-systems",
+      "name": "Control Systems",
+      "tagline": "Modeling and controlling dynamical systems using feedback.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Linear and nonlinear control theory, optimal and robust control",
+        "State estimation, system identification, applications in aerospace and process control"
+      ],
+      "explicitly_excludes": [
+        "Robotic motion control \u2192 Robotics & Automation",
+        "Power grid control \u2192 Power Systems & Electronics"
+      ]
+    },
+    {
+      "slug": "electromagnetics-and-antennas",
+      "name": "Electromagnetics & Antennas",
+      "tagline": "Theory and application of electromagnetic fields, waves, and devices.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Antenna theory and design, microwave engineering, RF circuits",
+        "Computational electromagnetics, wave propagation, electromagnetic compatibility (EMC)"
+      ],
+      "explicitly_excludes": [
+        "Integrated RF circuit design \u2192 Circuits & Electronics",
+        "Wireless systems \u2192 Communication Systems"
+      ]
+    },
+    {
+      "slug": "robotics-and-automation",
+      "name": "Robotics & Automation",
+      "tagline": "Design and control of robots and automated systems.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Robot kinematics and dynamics, motion planning, sensors and actuators",
+        "Industrial automation, autonomous vehicles (hardware/control aspects), human-robot interaction"
+      ],
+      "explicitly_excludes": [
+        "High-level AI planning \u2192 Computer Science & AI",
+        "Pure control theory \u2192 Control Systems"
+      ]
+    },
+    {
+      "slug": "bioelectrical-engineering",
+      "name": "Bioelectrical Engineering",
+      "tagline": "Application of electrical engineering principles to biology and medicine.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Bioinstrumentation, biosensors, medical imaging (MRI, ultrasound)",
+        "Neural engineering, brain-computer interfaces, wearable health devices"
+      ],
+      "explicitly_excludes": [
+        "Biomaterials \u2192 Materials Science",
+        "Computational biology \u2192 Computer Science & AI"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Quantum Engineering was considered but not included as a separate category, as its paper volume is currently small and papers often fit within Photonics, Semiconductor Devices, or Control Systems.",
+    "Acoustics and MEMS/NEMS were also considered, but are often sub-fields of Signal Processing and Semiconductor Devices/Circuits, respectively, and may be too niche for a level-2 category."
+  ]
+}

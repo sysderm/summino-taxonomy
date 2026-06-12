@@ -1,0 +1,288 @@
+{
+  "level1_slug": "chemistry",
+  "level1_name": "Chemistry",
+  "count": 46,
+  "rationale": "Chemistry L5 only for the named-target chemistry communities where authors publish by molecule class. Kinase chemistry splits by kinase family + chemistry approach; PROTAC chemistry by E3 ligase used; GPCR by named class A/B/C splits + biased agonism; catalysis families where the named catalyst IS the topic. Skip rest where L4 is the working unit.",
+  "leaves": [
+    {
+      "slug": "tyk2-jak-selective",
+      "name": "TYK2 & JAK-Selective Chemistry",
+      "parent_l4": "kinase-chemistry",
+      "tagline": "TYK2-selective inhibitors, JAK1-selective, JAK3-selective chemistry."
+    },
+    {
+      "slug": "kras-g12c-chem",
+      "name": "KRAS-G12C Specific Chemistry",
+      "parent_l4": "kinase-chemistry",
+      "tagline": "KRAS-G12C-specific covalent chemistry, sotorasib + adagrasib lineage, allosteric pockets."
+    },
+    {
+      "slug": "kras-g12d-chem",
+      "name": "KRAS-G12D Chemistry",
+      "parent_l4": "kinase-chemistry",
+      "tagline": "KRAS-G12D-specific chemistry, non-covalent KRAS, RAS(ON) inhibitors."
+    },
+    {
+      "slug": "pan-ras-chem",
+      "name": "Pan-RAS Inhibitor Chemistry",
+      "parent_l4": "kinase-chemistry",
+      "tagline": "Pan-RAS inhibitor chemistry, RAS(ON) inhibitors, multi-allele RAS."
+    },
+    {
+      "slug": "allosteric-mek",
+      "name": "Allosteric MEK Inhibitor Chemistry",
+      "parent_l4": "kinase-chemistry",
+      "tagline": "Allosteric MEK inhibitors, allosteric kinase design strategies."
+    },
+    {
+      "slug": "covalent-fragment-screens",
+      "name": "Covalent Fragment Screens",
+      "parent_l4": "covalent-inhibitor-chemistry",
+      "tagline": "Covalent fragment screens, electrophile design, warhead selection."
+    },
+    {
+      "slug": "biased-agonism-gpcr",
+      "name": "Biased Agonism in GPCRs",
+      "parent_l4": "gpcr-chemistry",
+      "tagline": "Biased agonism in GPCRs, signaling-selective design (\u03bc-opioid biased agonists)."
+    },
+    {
+      "slug": "structure-based-gpcr",
+      "name": "Structure-Based GPCR Drug Design",
+      "parent_l4": "gpcr-chemistry",
+      "tagline": "Structure-based GPCR drug design, cryo-EM-guided GPCR chemistry."
+    },
+    {
+      "slug": "crbn-recruiters",
+      "name": "CRBN-Recruiting PROTACs",
+      "parent_l4": "protac-chemistry",
+      "tagline": "CRBN-recruiting PROTACs, IMiD lineage, cereblon ligand design."
+    },
+    {
+      "slug": "vhl-recruiters",
+      "name": "VHL-Recruiting PROTACs",
+      "parent_l4": "protac-chemistry",
+      "tagline": "VHL-recruiting PROTACs, VHL ligand design, comparative VHL vs CRBN."
+    },
+    {
+      "slug": "iap-mdm2-recruiters",
+      "name": "IAP & MDM2-Recruiting PROTACs",
+      "parent_l4": "protac-chemistry",
+      "tagline": "IAP-recruiting + MDM2-recruiting PROTACs, broader E3 ligase recruiters."
+    },
+    {
+      "slug": "dcaf-recruiters",
+      "name": "DCAF15 & Novel E3 Recruiters",
+      "parent_l4": "protac-chemistry",
+      "tagline": "DCAF15-recruiting molecular glues, FEM1B, broader E3 ligase landscape."
+    },
+    {
+      "slug": "molecular-glue-discovery-l5",
+      "name": "Molecular Glue Screening",
+      "parent_l4": "molecular-glue-discovery",
+      "tagline": "Molecular glue screening, chemical proteomics for glue discovery, structure-based glue design."
+    },
+    {
+      "slug": "indaclozyme-style-rocm",
+      "name": "Grubbs Catalyst Lineage (ROMP)",
+      "parent_l4": "romp-ring-opening",
+      "tagline": "Grubbs catalyst lineage (Gen II/III), Z-selective metathesis catalysts."
+    },
+    {
+      "slug": "ic50-ligand-libraries",
+      "name": "Compound Libraries & DEL Screens",
+      "parent_l4": "kinase-chemistry",
+      "tagline": "DNA-encoded library (DEL) screens, virtual screening libraries, DEL-ML approaches."
+    },
+    {
+      "slug": "frag-based-discovery-l5",
+      "name": "Fragment-Based Drug Discovery (FBDD)",
+      "parent_l4": "kinase-chemistry",
+      "tagline": "Fragment-based drug discovery (FBDD), fragment growing + linking strategies."
+    },
+    {
+      "slug": "siroflora-glp1-medchem",
+      "name": "GLP-1 & GIP/GLP-1 Medchem",
+      "parent_l4": "gpcr-chemistry",
+      "tagline": "GLP-1 + GIP/GLP-1 medchem, peptide + small-molecule incretin design."
+    },
+    {
+      "slug": "lnp-lipid-chem",
+      "name": "Ionizable Lipid Design for LNPs",
+      "parent_l4": "covalent-inhibitor-chemistry",
+      "tagline": "Ionizable lipid design for LNPs, organ-targeted LNP chemistry, novel ionizable lipid scaffolds."
+    },
+    {
+      "slug": "co2rr-selective-catalysts",
+      "name": "CO2RR Selective Catalysts (Cu, Ag, Sn)",
+      "parent_l4": "co2-reduction-catalysts",
+      "tagline": "Cu-based CO2RR catalysts for C2+, Ag/Sn for CO/formate selectivity, single-atom CO2RR."
+    },
+    {
+      "slug": "oer-iridium-replacement",
+      "name": "OER Catalysts (Ir Replacement)",
+      "parent_l4": "oer-orr-electrocatalysis",
+      "tagline": "OER catalysts as Ir/Ru replacements, Ni-Fe oxyhydroxide OER catalysts."
+    },
+    {
+      "slug": "orr-pgm-free",
+      "name": "ORR PGM-Free Catalysts",
+      "parent_l4": "oer-orr-electrocatalysis",
+      "tagline": "ORR PGM-free catalysts (Fe-N-C, Co-N-C), single-atom + carbon-supported ORR."
+    },
+    {
+      "slug": "n2-electrocatalysis-suppression-her",
+      "name": "N2RR with HER Suppression",
+      "parent_l4": "n2-electrocatalysis",
+      "tagline": "N2RR catalysts with HER suppression, indirect electrochemical NH3 synthesis (Li-mediated)."
+    },
+    {
+      "slug": "sac-fe-co-ni",
+      "name": "Fe, Co, Ni Single-Atom Catalysts",
+      "parent_l4": "single-atom-catalysis",
+      "tagline": "Fe-N-C, Co-N-C, Ni-N-C single-atom catalysts on carbon supports."
+    },
+    {
+      "slug": "sac-noble-metals",
+      "name": "Noble-Metal Single-Atom Catalysts",
+      "parent_l4": "single-atom-catalysis",
+      "tagline": "Pt, Pd, Rh, Ir noble-metal SACs, atomic dispersion on oxide supports."
+    },
+    {
+      "slug": "ni-fe-supported",
+      "name": "Ni & Fe on Oxide Supports",
+      "parent_l4": "supported-metal-catalysis",
+      "tagline": "Ni + Fe on oxide supports, alloy catalysts for hydrogenation + reforming."
+    },
+    {
+      "slug": "zeolite-shape-selectivity",
+      "name": "Zeolite Shape Selectivity & Frameworks",
+      "parent_l4": "zeolite-mof-catalysis",
+      "tagline": "Zeolite shape selectivity, modern zeolite frameworks (MFI, BEA, FAU)."
+    },
+    {
+      "slug": "mof-acid-base",
+      "name": "MOF Acid-Base Catalysis",
+      "parent_l4": "zeolite-mof-catalysis",
+      "tagline": "MOF acid-base catalysis, post-synthetic MOF functionalization for catalysis."
+    },
+    {
+      "slug": "chiral-ligand-bisphosphine",
+      "name": "Chiral Bisphosphine Ligands",
+      "parent_l4": "ligand-design-homogeneous",
+      "tagline": "Chiral bisphosphines (BINAP, DUPHOS family), modern chiral ligand design."
+    },
+    {
+      "slug": "nhc-pincer-ligands",
+      "name": "NHC & Pincer Ligand Families",
+      "parent_l4": "ligand-design-homogeneous",
+      "tagline": "NHC ligand families, pincer ligands, mixed-donor pincer designs."
+    },
+    {
+      "slug": "ni-cu-photoredox-catalysts",
+      "name": "Ni & Cu Photoredox Catalysts",
+      "parent_l4": "photoredox-radical-chemistry",
+      "tagline": "Ni + Cu photoredox catalysts, dual-catalysis photoredox, modern photoredox designs."
+    },
+    {
+      "slug": "energy-transfer-cat",
+      "name": "Energy-Transfer Catalysis",
+      "parent_l4": "photoredox-radical-chemistry",
+      "tagline": "Energy-transfer catalysis, triplet sensitizers, modern photoredox + EnT catalysis."
+    },
+    {
+      "slug": "directed-c-h-pd-rh",
+      "name": "Pd & Rh-Catalyzed Directed C-H",
+      "parent_l4": "ch-activation",
+      "tagline": "Pd-catalyzed C-H activation, Rh-catalyzed C-H activation, directing-group chemistry."
+    },
+    {
+      "slug": "non-directed-radical-c-h",
+      "name": "Non-Directed Radical C-H",
+      "parent_l4": "ch-activation",
+      "tagline": "Non-directed radical C-H activation, modern radical methodologies for late-stage functionalization."
+    },
+    {
+      "slug": "suzuki-cross-coupling",
+      "name": "Suzuki & Negishi Cross-Coupling",
+      "parent_l4": "cross-coupling-methodology",
+      "tagline": "Suzuki + Negishi cross-coupling, modern catalyst + ligand systems, asymmetric variants."
+    },
+    {
+      "slug": "ni-catalyzed-cross-coupling",
+      "name": "Ni-Catalyzed Cross-Coupling",
+      "parent_l4": "cross-coupling-methodology",
+      "tagline": "Ni-catalyzed cross-coupling, photoredox + Ni dual catalysis, decarboxylative cross-coupling."
+    },
+    {
+      "slug": "photocatalytic-cross-coupling",
+      "name": "Photocatalytic Cross-Coupling",
+      "parent_l4": "cross-coupling-methodology",
+      "tagline": "Photocatalytic cross-coupling, EDA-mediated cross-coupling, metallaphotoredox."
+    },
+    {
+      "slug": "macrocycle-rcm",
+      "name": "RCM for Macrocycles",
+      "parent_l4": "macrocycle-synthesis",
+      "tagline": "RCM-based macrocyclization, modern macrocyclization strategies."
+    },
+    {
+      "slug": "mass-spec-native",
+      "name": "Native MS for Biopharma",
+      "parent_l4": "mass-spec-instrumentation",
+      "tagline": "Native MS, native-state mass spec for biopharma, intact protein MS workflow."
+    },
+    {
+      "slug": "dnp-ssnmr-applied",
+      "name": "DNP for ssNMR Applications",
+      "parent_l4": "dnp-nmr",
+      "tagline": "DNP for ssNMR applications in materials + biology, hyperpolarized 13C metabolic imaging research."
+    },
+    {
+      "slug": "nequip-mace-mlips",
+      "name": "NequIP, MACE & ML Interatomic Potentials",
+      "parent_l4": "neural-potentials",
+      "tagline": "NequIP, MACE, Allegro, equivariant ML interatomic potentials for chemistry."
+    },
+    {
+      "slug": "co2-capture-mofs",
+      "name": "CO2 Capture MOFs",
+      "parent_l4": "mof-gas-adsorption-catalysis",
+      "tagline": "CO2 capture MOFs (mmen-Mg2(dobpdc), amine-functionalized MOFs)."
+    },
+    {
+      "slug": "rotaxanes-catenanes",
+      "name": "Rotaxanes & Catenanes",
+      "parent_l4": "molecular-machines",
+      "tagline": "Rotaxanes, catenanes, modern mechanically interlocked molecule design."
+    },
+    {
+      "slug": "supramolecular-cages",
+      "name": "Supramolecular Cages",
+      "parent_l4": "host-guest-cages",
+      "tagline": "Supramolecular cages, Pd-cages, organic cage design + cage-based catalysis."
+    },
+    {
+      "slug": "raft-block-architectures",
+      "name": "RAFT Block Architectures",
+      "parent_l4": "block-copolymer-architectures",
+      "tagline": "RAFT-derived block + gradient + telechelic architectures."
+    },
+    {
+      "slug": "atrp-block-architectures",
+      "name": "ATRP Block Architectures",
+      "parent_l4": "block-copolymer-architectures",
+      "tagline": "ATRP-derived block + brush architectures, ARGET ATRP for biocompatible synthesis."
+    },
+    {
+      "slug": "bcp-litho",
+      "name": "Block Copolymer Lithography",
+      "parent_l4": "block-copolymer-self-assembly",
+      "tagline": "Block copolymer lithography, DSA (directed self-assembly), sub-10-nm patterning."
+    }
+  ],
+  "uncovered_concerns": [
+    "Chemistry L5 only covers medchem, catalysis, photoredox + cross-coupling where the field publishes by named catalyst/target.",
+    "Skipped polymer chemistry, environmental chemistry, MOF subtypes \u2014 L4 already at named-family granularity for those."
+  ]
+}

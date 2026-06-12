@@ -1,0 +1,211 @@
+{
+  "level1_slug": "social-sciences",
+  "level1_name": "Social Sciences",
+  "count": 14,
+  "rationale": "I created a mid-sized grid (14 cards) to balance breadth and discoverability: large, commonly used professional identities (Sociology, Political Science, Anthropology) are top-level, while applied and interdisciplinary practices (Public Policy, Development Studies, STS) get their own cards when practitioners commonly self-identify that way. I deliberately kept Education Research and Communication Studies separate from Sociology and Political Science because they follow distinct literatures, methods, and outlets. I avoided very narrow topic niches (e.g., Migration, Health Sociology) and instead placed them under broader, professionally named headings to keep each card large enough for a practical audience picker. Some splits are judgment calls (e.g., Public Policy vs Political Science; Area Studies vs Development) and were resolved by privileging professional identity and typical journal outlets.",
+  "subspecialties": [
+    {
+      "slug": "sociology",
+      "name": "Sociology",
+      "tagline": "Social structure, organizations, inequality, and social theory",
+      "audience_pct_within_level1": 17.0,
+      "covers": [
+        "General sociology and subfields (family, work, stratification)",
+        "Examples: urban sociology, social theory, inequality studies"
+      ],
+      "explicitly_excludes": [
+        "Education Research \u2014 education-focused empirical work",
+        "Demography \u2014 population-statistics-focused work"
+      ]
+    },
+    {
+      "slug": "anthropology",
+      "name": "Anthropology",
+      "tagline": "Cultural, social, and archaeological studies of people",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Cultural anthropology, ethnography, archaeology, linguistic anthropology",
+        "Examples: ethnographic fieldwork, material culture, kinship studies"
+      ],
+      "explicitly_excludes": [
+        "Linguistics \u2014 formal/structural language research",
+        "Area Studies \u2014 regionally focused interdisciplinary programs"
+      ]
+    },
+    {
+      "slug": "political-science",
+      "name": "Political Science",
+      "tagline": "Comparative and domestic politics, institutions, political behavior",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "Comparative politics, political theory, public opinion, institutions",
+        "Examples: party systems, voting behavior, legislative studies"
+      ],
+      "explicitly_excludes": [
+        "Public Policy \u2014 policy design and evaluation work",
+        "International Relations \u2014 foreign policy and global security"
+      ]
+    },
+    {
+      "slug": "international-relations",
+      "name": "International Relations",
+      "tagline": "State behavior, security, diplomacy, and global governance",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Security studies, foreign policy, international organizations",
+        "Examples: war and peace studies, international law, diplomacy"
+      ],
+      "explicitly_excludes": [
+        "Development Studies \u2014 economic and social development research",
+        "Political Science \u2014 domestic/comparative politics"
+      ]
+    },
+    {
+      "slug": "education-research",
+      "name": "Education Research",
+      "tagline": "Teaching, learning, policy, and educational outcomes research",
+      "audience_pct_within_level1": 11.0,
+      "covers": [
+        "K\u201312 and higher education studies, assessment, pedagogy",
+        "Examples: randomized trials of interventions, education policy analysis"
+      ],
+      "explicitly-excludes": [
+        "Psychology (Brain & Cognitive Sciences) \u2014 cognitive/learning neuroscience",
+        "Sociology \u2014 sociological analyses of schooling (if general rather than pedagogical)"
+      ]
+    },
+    {
+      "slug": "communication-studies",
+      "name": "Communication Studies",
+      "tagline": "Media, rhetoric, interpersonal and mass communication research",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Media studies, journalism research, political communication, rhetoric",
+        "Examples: media effects studies, campaign communication analyses"
+      ],
+      "explicitly-excludes": [
+        "Linguistics \u2014 structural language analysis",
+        "Computer Science \u2014 computational media / NLP (goes elsewhere)"
+      ]
+    },
+    {
+      "slug": "criminology",
+      "name": "Criminology",
+      "tagline": "Crime, criminal justice systems, policing, and corrections research",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Patterns of offending, justice policy, forensic sociology",
+        "Examples: policing studies, recidivism evaluations, crime measurement"
+      ],
+      "explicitly-excludes": [
+        "Law \u2014 doctrinal/legal scholarship (goes to Law/Legal Studies if present)",
+        "Psychology \u2014 forensic psychology (goes to Brain & Cognitive Sciences)"
+      ]
+    },
+    {
+      "slug": "human-geography",
+      "name": "Human Geography",
+      "tagline": "Spatial social science: place, environment, and urban processes",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Urban studies, spatial inequality, environmental and economic geography",
+        "Examples: land-use studies, spatial demography, GIS-based research"
+      ],
+      "explicitly-excludes": [
+        "Environmental Science \u2014 physical/environmental processes",
+        "Area Studies \u2014 region-focused cultural/political analysis"
+      ]
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "tagline": "Language structure, use, acquisition, and variation research",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Phonetics, syntax, sociolinguistics, language acquisition",
+        "Examples: corpus studies, field linguistics, dialectology"
+      ],
+      "explicitly-excludes": [
+        "Communication Studies \u2014 media/strategic communication research",
+        "Brain & Cognitive Sciences \u2014 neurolinguistics and psycholinguistics"
+      ]
+    },
+    {
+      "slug": "science-and-technology-studies",
+      "name": "Science and Technology Studies",
+      "tagline": "Socio-cultural study of science, tech, and innovation systems",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "STS theory, histories of science, technology governance",
+        "Examples: laboratory studies, innovation policy, platform studies"
+      ],
+      "explicitly-excludes": [
+        "Computer Science/Engineering \u2014 technical system design",
+        "Public Policy \u2014 policy implementation when not STS-focused"
+      ]
+    },
+    {
+      "slug": "demography",
+      "name": "Demography",
+      "tagline": "Population dynamics, fertility, mortality, and migration studies",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Population statistics, projection methods, migration analysis",
+        "Examples: census-based studies, life-table analyses, migration flows"
+      ],
+      "explicitly-excludes": [
+        "Sociology \u2014 qualitative population studies without demographic methods",
+        "Economics \u2014 formal population economics"
+      ]
+    },
+    {
+      "slug": "development-studies",
+      "name": "Development Studies",
+      "tagline": "International development, poverty, and program evaluation research",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Economic and social development, NGOs, impact evaluations",
+        "Examples: cash transfer RCTs, development policy analysis, community interventions"
+      ],
+      "explicitly-excludes": [
+        "International Relations \u2014 geopolitical/global security focus",
+        "Economics \u2014 macro/structural economic modelling (goes to Economics & Finance)"
+      ]
+    },
+    {
+      "slug": "public-policy",
+      "name": "Public Policy",
+      "tagline": "Policy analysis, evaluation, governance, and implementation studies",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Policy design, program evaluation, regulatory studies",
+        "Examples: cost-benefit analyses, policy experiments, implementation research"
+      ],
+      "explicitly-excludes": [
+        "Political Science \u2014 theoretical/behavioral political work",
+        "Law \u2014 legal doctrinal analysis"
+      ]
+    },
+    {
+      "slug": "area-studies",
+      "name": "Area Studies",
+      "tagline": "Region-focused interdisciplinary social and cultural research",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Regional expertise and interdisciplinary work centered on a world area",
+        "Examples: Latin American studies, East Asian studies, African studies"
+      ],
+      "explicitly-excludes": [
+        "Development Studies \u2014 development-focused work in a region",
+        "Anthropology/Political Science \u2014 single-discipline regional research"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Migration studies: considered as its own card but folded into Demography or Sociology because standalone volume is often below threshold.",
+    "Health sociology / medical sociology: often tagged under Sociology or Public Policy rather than a separate card to avoid fragmentation.",
+    "Law / Legal Studies: important adjacent field, but usually separated from core Social Sciences here (would live in a Law/Legal category if present).",
+    "Digital/social data science (computational social science): frequently overlaps with Communication, Political Science, and STS; kept distributed rather than a separate card to preserve MECE professional identities.",
+    "Environmental social science: overlaps with Human Geography and Development; not split out to avoid thin cards."
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "level1_slug": "chemical-bioengineering",
+  "level1_name": "Chemical & Bioengineering",
+  "count": 14,
+  "rationale": "This structure is organized around the three pillars of the field: core Chemical Engineering, core Bioengineering, and the crucial interface between them. Core ChemE is represented by Process Systems, Catalysis, and Separations. The Bioengineering side is broken into its major, practitioner-recognized subfields like Biomaterials, Tissue Engineering, and Biomechanics. The highly active interface is captured by categories like Bioprocess Engineering, Drug Delivery, and Synthetic Biology. I deliberately combined 'Tissue Engineering' with 'Regenerative Medicine' as they are inextricably linked in modern research. I also kept 'Polymer & Materials Engineering' as a single category focused on the ChemE perspective, rather than splitting it, to avoid over-specialization and potential overlap with a separate Materials Science L1 category.",
+  "subspecialties": [
+    {
+      "slug": "process-systems-engineering",
+      "name": "Process Systems Engineering",
+      "tagline": "Design, optimization, and control of large-scale chemical processes.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Process modeling, simulation, and control",
+        "Supply chain optimization, process safety, plant design"
+      ],
+      "explicitly_excludes": [
+        "Reactor design focus \u2192 Catalysis & Reaction Engineering",
+        "Bioreactor systems \u2192 Bioprocess Engineering"
+      ]
+    },
+    {
+      "slug": "catalysis-reaction-engineering",
+      "name": "Catalysis & Reaction Engineering",
+      "tagline": "Developing catalysts and designing reactors for chemical transformations.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Heterogeneous and homogeneous catalysis",
+        "Reactor design, chemical kinetics, transport phenomena in reactors"
+      ],
+      "explicitly_excludes": [
+        "Enzymatic catalysis \u2192 Bioprocess Engineering",
+        "Electrocatalysis for energy storage \u2192 Sustainable & Energy Systems"
+      ]
+    },
+    {
+      "slug": "separations-science",
+      "name": "Separations Science",
+      "tagline": "Purifying chemical and biological mixtures using physical and chemical means.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Distillation, chromatography, membrane science",
+        "Adsorption, extraction, crystallization"
+      ],
+      "explicitly_excludes": [
+        "Downstream processing of biologics \u2192 Bioprocess Engineering"
+      ]
+    },
+    {
+      "slug": "polymer-materials-engineering",
+      "name": "Polymer & Materials Engineering",
+      "tagline": "Synthesis, processing, and characterization of polymers and soft materials.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Polymer chemistry and physics",
+        "Material processing, rheology, composites, functional materials"
+      ],
+      "explicitly_excludes": [
+        "Materials specifically for biological use \u2192 Biomaterials",
+        "Pure solid-state physics \u2192 Physics"
+      ]
+    },
+    {
+      "slug": "sustainable-energy-systems",
+      "name": "Sustainable & Energy Systems",
+      "tagline": "Engineering solutions for clean energy, storage, and environmental impact.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Batteries, fuel cells, photovoltaics",
+        "Carbon capture, biofuels, life cycle assessment"
+      ],
+      "explicitly_excludes": [
+        "Traditional petrochemical processes \u2192 Process Systems Engineering",
+        "Biomass conversion in bioreactors \u2192 Bioprocess Engineering"
+      ]
+    },
+    {
+      "slug": "biomaterials",
+      "name": "Biomaterials",
+      "tagline": "Designing materials that interact with biological systems.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Biocompatible polymers, hydrogels, metallic and ceramic implants",
+        "Material-cell interactions, surface modification for biological response"
+      ],
+      "explicitly_excludes": [
+        "Using materials to grow tissues \u2192 Tissue Engineering & Regenerative Medicine",
+        "Formulations for drug release \u2192 Drug Delivery"
+      ]
+    },
+    {
+      "slug": "tissue-engineering-regenerative-medicine",
+      "name": "Tissue Engineering & Regenerative Medicine",
+      "tagline": "Building biological substitutes to restore or improve tissue function.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Cell-scaffold constructs, stem cell differentiation",
+        "Organoids, 3D bioprinting, functional tissue development"
+      ],
+      "explicitly_excludes": [
+        "The material scaffold itself \u2192 Biomaterials",
+        "Genetic modification of cells \u2192 Systems & Synthetic Biology"
+      ]
+    },
+    {
+      "slug": "drug-delivery",
+      "name": "Drug Delivery",
+      "tagline": "Engineering vehicles and systems for targeted therapeutic delivery.",
+      "audience_pct_within_level1": 9.0,
+      "covers": [
+        "Nanoparticles, liposomes, and hydrogels for drug release",
+        "Pharmacokinetics, controlled release mechanisms, targeted delivery"
+      ],
+      "explicitly_excludes": [
+        "Synthesis of the delivery polymer \u2192 Polymer & Materials Engineering",
+        "Discovery of the drug itself \u2192 Pharmacology"
+      ]
+    },
+    {
+      "slug": "biomechanics",
+      "name": "Biomechanics",
+      "tagline": "Applying principles of mechanics to biological systems.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Cellular mechanics, fluid dynamics in circulation",
+        "Orthopedic biomechanics, joint mechanics, mechanobiology"
+      ],
+      "explicitly_excludes": [
+        "Design of implant materials \u2192 Biomaterials",
+        "Design of active medical devices \u2192 Biomedical Devices & Instrumentation"
+      ]
+    },
+    {
+      "slug": "biomedical-devices-instrumentation",
+      "name": "Biomedical Devices & Instrumentation",
+      "tagline": "Designing and building devices for diagnostics, therapy, and research.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Biosensors, medical imaging hardware",
+        "Prosthetics, surgical tools, microfluidic diagnostic chips"
+      ],
+      "explicitly_excludes": [
+        "Clinical trials of devices \u2192 Medicine",
+        "Analysis of biological data from devices \u2192 Computational Biology & Bioinformatics"
+      ]
+    },
+    {
+      "slug": "systems-synthetic-biology",
+      "name": "Systems & Synthetic Biology",
+      "tagline": "Engineering biological parts, devices, and systems at the genetic level.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Genetic circuit design, metabolic engineering",
+        "Genome editing tools (e.g., CRISPR), whole-cell modeling"
+      ],
+      "explicitly_excludes": [
+        "Large-scale cell culture for production \u2192 Bioprocess Engineering",
+        "Purely observational genomics \u2192 Biology"
+      ]
+    },
+    {
+      "slug": "bioprocess-engineering",
+      "name": "Bioprocess Engineering",
+      "tagline": "Using living cells or enzymes to produce valuable substances.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "Bioreactor design and scale-up",
+        "Fermentation, cell culture, downstream processing of biologics"
+      ],
+      "explicitly_excludes": [
+        "Genetic modification of the organism \u2192 Systems & Synthetic Biology",
+        "General chemical plant design \u2192 Process Systems Engineering"
+      ]
+    },
+    {
+      "slug": "computational-biology-bioinformatics",
+      "name": "Computational Biology & Bioinformatics",
+      "tagline": "Modeling and simulating complex biological systems and data.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Metabolic network modeling, protein folding simulation",
+        "Molecular dynamics, systems pharmacology, bioinformatics tool development"
+      ],
+      "explicitly_excludes": [
+        "Process control simulation \u2192 Process Systems Engineering",
+        "Purely statistical analysis of clinical data \u2192 Medicine"
+      ]
+    },
+    {
+      "slug": "food-science-engineering",
+      "name": "Food Science & Engineering",
+      "tagline": "Applying engineering principles to food production, processing, and safety.",
+      "audience_pct_within_level1": 1.0,
+      "covers": [
+        "Food processing operations, food rheology",
+        "Food preservation techniques, novel food product development"
+      ],
+      "explicitly_excludes": [
+        "General fermentation processes \u2192 Bioprocess Engineering",
+        "Nutrition and health studies \u2192 Medicine"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "Thermodynamics & Transport Phenomena were considered but not included as a separate category, as they are foundational principles typically applied within one of the other subspecialties.",
+    "The 'Polymer & Materials Engineering' subspecialty could overlap with a future 'Materials Science' L1; its scope here is intentionally focused on the chemical engineering perspective.",
+    "'Computational Biology' is placed here due to its strong integration in BioE departments, but could also fit within a broader 'Computational Science' L1."
+  ]
+}

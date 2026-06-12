@@ -1,0 +1,195 @@
+{
+  "level1_slug": "business-management",
+  "level1_name": "Business & Management",
+  "count": 13,
+  "rationale": "This structure is designed around the core functional areas of a business (e.g., Marketing, Operations, HR) and the key cross-functional disciplines that guide it (e.g., Strategic Management, Entrepreneurship). The 13 subspecialties provide comprehensive coverage while maintaining clear distinctions recognized by both academics and practitioners. We deliberately separated Organizational Behavior (the science of human interaction at work) from Human Resource Management (the practice of managing employees) as they represent distinct research communities. Similarly, Innovation Management is separated from Entrepreneurship to distinguish between managing new products in established firms versus creating new ventures. The inclusion of fields like Business Analytics and Public & Nonprofit Management reflects modern trends and important specialized contexts within the broader management discipline.",
+  "subspecialties": [
+    {
+      "slug": "strategic-management",
+      "name": "Strategic Management",
+      "tagline": "Corporate and competitive strategy, decision-making, and long-term performance.",
+      "audience_pct_within_level1": 15.0,
+      "covers": [
+        "Analysis of competitive advantage, corporate strategy, strategic alliances, and governance.",
+        "Examples: Five Forces analysis, resource-based view, mergers & acquisitions, executive decision-making."
+      ],
+      "explicitly_excludes": [
+        "Day-to-day operational planning \u2192 Operations & Supply Chain Management",
+        "Global market entry strategy \u2192 International Business"
+      ]
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "tagline": "Understanding and influencing customer behavior, branding, and market dynamics.",
+      "audience_pct_within_level1": 14.0,
+      "covers": [
+        "Consumer behavior, branding, advertising, pricing, digital marketing, and market research.",
+        "Examples: Segmentation, targeting, positioning (STP), brand equity, marketing mix models, customer journey analysis."
+      ],
+      "explicitly_excludes": [
+        "Supply side and logistics \u2192 Operations & Supply Chain Management",
+        "Consumer financial products \u2192 Economics & Finance"
+      ]
+    },
+    {
+      "slug": "organizational-behavior",
+      "name": "Organizational Behavior",
+      "tagline": "The psychology of individuals, groups, and culture within organizations.",
+      "audience_pct_within_level1": 12.0,
+      "covers": [
+        "Leadership, motivation, team dynamics, organizational culture, and employee well-being.",
+        "Examples: Transformational leadership, job satisfaction studies, team conflict resolution, psychological safety."
+      ],
+      "explicitly_excludes": [
+        "Formal HR systems and policies \u2192 Human Resource Management",
+        "Labor market analysis \u2192 Economics & Finance"
+      ]
+    },
+    {
+      "slug": "operations-supply-chain-management",
+      "name": "Operations & Supply Chain Management",
+      "tagline": "Designing and managing processes for production and service delivery.",
+      "audience_pct_within_level1": 10.0,
+      "covers": [
+        "Process improvement, logistics, quality control, inventory management, and supply chain coordination.",
+        "Examples: Lean manufacturing, Six Sigma, supply chain resilience, service operations, project management."
+      ],
+      "explicitly_excludes": [
+        "Development of new mathematical models \u2192 Business Analytics",
+        "High-level corporate strategy \u2192 Strategic Management"
+      ]
+    },
+    {
+      "slug": "entrepreneurship",
+      "name": "Entrepreneurship",
+      "tagline": "Creating and scaling new ventures, from startups to social enterprises.",
+      "audience_pct_within_level1": 8.0,
+      "covers": [
+        "New venture creation, opportunity recognition, startup financing, and entrepreneurial ecosystems.",
+        "Examples: Business model canvas, venture capital, effectuation theory, corporate venturing."
+      ],
+      "explicitly_excludes": [
+        "Innovation within established firms \u2192 Innovation Management",
+        "Small business administration \u2192 Operations & Supply Chain Management"
+      ]
+    },
+    {
+      "slug": "human-resource-management",
+      "name": "Human Resource Management",
+      "tagline": "Systems for recruiting, developing, compensating, and managing employees.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "Recruitment and selection, performance management, compensation and benefits, and labor relations.",
+        "Examples: Strategic HRM, high-performance work systems, employee turnover analysis, diversity and inclusion programs."
+      ],
+      "explicitly_excludes": [
+        "Psychological study of motivation and leadership \u2192 Organizational Behavior",
+        "Labor economics \u2192 Economics & Finance"
+      ]
+    },
+    {
+      "slug": "management-information-systems",
+      "name": "Management Information Systems",
+      "tagline": "The role of technology and information systems in business strategy and operations.",
+      "audience_pct_within_level1": 7.0,
+      "covers": [
+        "IT strategy, digital transformation, data management, and the business impact of technology.",
+        "Examples: Technology acceptance model (TAM), enterprise resource planning (ERP), cybersecurity management, platform business models."
+      ],
+      "explicitly_excludes": [
+        "Core computer science algorithms \u2192 Computer Science",
+        "Quantitative data analysis techniques \u2192 Business Analytics"
+      ]
+    },
+    {
+      "slug": "international-business",
+      "name": "International Business",
+      "tagline": "Managing organizations and operations across national borders.",
+      "audience_pct_within_level1": 6.0,
+      "covers": [
+        "Global strategy, cross-cultural management, foreign market entry, and multinational enterprise management.",
+        "Examples: Liability of foreignness, CAGE distance framework, expatriate management, global value chains."
+      ],
+      "explicitly_excludes": [
+        "International trade theory \u2192 Economics & Finance",
+        "Domestic corporate strategy \u2192 Strategic Management"
+      ]
+    },
+    {
+      "slug": "innovation-management",
+      "name": "Innovation Management",
+      "tagline": "Managing the process of creating new products, services, and business models.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "R&D management, product development processes, managing creativity, and technological innovation.",
+        "Examples: Open innovation, disruptive innovation, technology S-curves, stage-gate processes."
+      ],
+      "explicitly_excludes": [
+        "New venture creation from scratch \u2192 Entrepreneurship",
+        "Routine process improvement \u2192 Operations & Supply Chain Management"
+      ]
+    },
+    {
+      "slug": "business-analytics",
+      "name": "Business Analytics",
+      "tagline": "Using data, statistics, and quantitative models to inform business decisions.",
+      "audience_pct_within_level1": 5.0,
+      "covers": [
+        "Data mining, predictive modeling, optimization, and data-driven decision-making.",
+        "Examples: Customer lifetime value modeling, demand forecasting, resource allocation optimization, A/B testing analysis."
+      ],
+      "explicitly_excludes": [
+        "Theoretical statistics or machine learning \u2192 Statistics or Computer Science",
+        "Application of standard reports \u2192 Management Information Systems"
+      ]
+    },
+    {
+      "slug": "business-ethics-csr",
+      "name": "Business Ethics & Corporate Social Responsibility",
+      "tagline": "Ethical decision-making, sustainability, and the societal impact of business.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Corporate social responsibility (CSR), sustainability, corporate governance, and stakeholder theory.",
+        "Examples: Ethical leadership, green supply chains, benefit corporations (B-Corps), corporate political activity."
+      ],
+      "explicitly_excludes": [
+        "Environmental science \u2192 Environmental Science",
+        "Corporate law \u2192 Law"
+      ]
+    },
+    {
+      "slug": "managerial-accounting",
+      "name": "Managerial Accounting",
+      "tagline": "Using accounting information for internal planning, control, and decision-making.",
+      "audience_pct_within_level1": 4.0,
+      "covers": [
+        "Costing systems, budgeting, performance evaluation, and internal financial controls.",
+        "Examples: Activity-based costing (ABC), balanced scorecard, variance analysis, capital budgeting."
+      ],
+      "explicitly_excludes": [
+        "External financial reporting and auditing \u2192 Economics & Finance",
+        "Corporate finance and valuation \u2192 Economics & Finance"
+      ]
+    },
+    {
+      "slug": "public-nonprofit-management",
+      "name": "Public & Nonprofit Management",
+      "tagline": "Applying management principles to government and non-governmental organizations.",
+      "audience_pct_within_level1": 3.0,
+      "covers": [
+        "Public sector administration, nonprofit governance, social entrepreneurship, and program evaluation.",
+        "Examples: Public-private partnerships, performance management in government, nonprofit fundraising strategy."
+      ],
+      "explicitly_excludes": [
+        "Political science theory \u2192 Political Science",
+        "For-profit corporate management \u2192 Strategic Management"
+      ]
+    }
+  ],
+  "uncovered_concerns": [
+    "The field of 'Operations Research' was considered but its topics were distributed between 'Operations & Supply Chain Management' (for applied problems) and 'Business Analytics' (for methodological development) to better align with modern practitioner roles.",
+    "'Family Business' is a significant research area but was deemed too niche for a top-level category; its papers are well-covered by Strategic Management, Organizational Behavior, and Entrepreneurship.",
+    "'Business Law' or 'Legal Studies' was excluded as most core research in this area is published in law journals and is considered a separate discipline from management science."
+  ]
+}
