@@ -1,7 +1,7 @@
 {
   "level1_slug": "social-sciences",
   "level1_name": "Social Sciences",
-  "count": 35,
+  "count": 38,
   "rationale": "Social Sciences at L3 splits each L2 (sociology, anthropology, political science, education, etc.) into its working sub-communities. Sociology gets 4 leaves (inequality/stratification, family, culture/religion, networks). Political science gets 4 leaves matching the APSA structure (comparative, IR, American politics, political behavior). Education research gets 4 leaves (K-12 + higher ed + teacher prep + education tech). Linguistics gets 4 leaves matching its theoretical/socio/typological/applied splits.",
   "subfields": [
     {"slug": "inequality-stratification-sociology", "name": "Inequality & Stratification", "parent_l2": "sociology-stratification", "tagline": "Social stratification, inequality and mobility, class.", "audience_pct_within_l2": 32},
@@ -39,7 +39,10 @@
     {"slug": "policy-implementation-governance", "name": "Policy Implementation & Governance Research", "parent_l2": "public-policy-administration", "tagline": "Policy implementation, governance research, comparative public policy.", "audience_pct_within_l2": 50},
     {"slug": "social-work-interventions", "name": "Social Work Interventions & Welfare Practice", "parent_l2": "social-work-welfare", "tagline": "Social work interventions, welfare practice research, family-focused interventions.", "audience_pct_within_l2": 100},
     {"slug": "qual-mixed-methods-social", "name": "Qualitative & Mixed Methods", "parent_l2": "social-methods", "tagline": "Qualitative research methodology, ethnographic methods, mixed-methods research.", "audience_pct_within_l2": 100},
-    {"slug": "computational-social-science-l3", "name": "Computational Social Science Methods", "parent_l2": "computational-social-science", "tagline": "Computational social science, large-scale network analysis, ML applied to social.", "audience_pct_within_l2": 100}
+    {"slug": "computational-social-science-l3", "name": "Computational Social Science Methods", "parent_l2": "computational-social-science", "tagline": "Computational social science, large-scale network analysis, ML applied to social.", "audience_pct_within_l2": 100},
+    {"slug": "public-constitutional-law", "name": "Public & Constitutional Law", "parent_l2": "law-legal-studies", "tagline": "Constitutional, administrative, and public-international law — doctrine, comparative constitutionalism, judicial review.", "source": "LoC class K subdivisions + Per Alex 2026-06-11"},
+    {"slug": "private-commercial-labor-law", "name": "Private, Commercial & Labor Law", "parent_l2": "law-legal-studies", "tagline": "Contracts, torts, property, corporate and securities law, labor and employment law.", "source": "LoC class K subdivisions + Per Alex 2026-06-11"},
+    {"slug": "international-comparative-transnational-law", "name": "International, Comparative & Transnational Law", "parent_l2": "law-legal-studies", "tagline": "Public international law, comparative law, transnational regulation, human-rights law, conflict of laws.", "source": "LoC class K subdivisions + Per Alex 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Did not split race/gender studies as their own L3 leaves — they live as research lenses applied across stratification, family, criminology, and labor at L3."

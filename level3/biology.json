@@ -1,7 +1,7 @@
 {
   "level1_slug": "biology",
   "level1_name": "Biology",
-  "count": 46,
+  "count": 49,
   "rationale": "Biology level-3 is organized by the scientific-question-asked, not by method. I tried to capture the working group identities that publish in journals like Cell, Nature, eLife. RNA biology, single-cell methods, organoid biology, CRISPR/genome editing all earn dedicated leaves because labs self-identify with them. I held back on duplicating across L2 parents — e.g. ribosome biology is here under Molecular Biology, not separately under Biochemistry or Structural Biology.",
   "subfields": [
     {"slug": "transcription-gene-regulation", "name": "Transcription & Gene Regulation", "parent_l2": "molecular-biology", "tagline": "Transcription factors, enhancers, chromatin loops, regulatory grammar.", "audience_pct_within_l2": 18},
@@ -49,7 +49,10 @@
     {"slug": "biological-oceanography", "name": "Biological Oceanography", "parent_l2": "marine-aquatic-biology", "tagline": "Pelagic ecology, biogeochemical cycles, primary productivity, marine food webs.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
     {"slug": "freshwater-biology-limnology", "name": "Freshwater Biology & Limnology", "parent_l2": "marine-aquatic-biology", "tagline": "Lake/river ecology, eutrophication, freshwater conservation, bioassessment.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
     {"slug": "cellular-synaptic-neurobiology", "name": "Cellular & Synaptic Neurobiology", "parent_l2": "neurobiology", "tagline": "Synaptic transmission, plasticity, neuronal excitability, glia — patch-clamp, two-photon, optogenetics.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
-    {"slug": "developmental-systems-neurobiology", "name": "Developmental & Systems Neurobiology", "parent_l2": "neurobiology", "tagline": "Neural development, axon guidance, circuit formation, connectomics — lineage tracing, in-vivo imaging.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"}
+    {"slug": "developmental-systems-neurobiology", "name": "Developmental & Systems Neurobiology", "parent_l2": "neurobiology", "tagline": "Neural development, axon guidance, circuit formation, connectomics — lineage tracing, in-vivo imaging.", "source": "ChatGPT/OECD/MeSH/etc. deep-research patch 2026-06-11"},
+    {"slug": "invertebrate-biology", "name": "Invertebrate Biology", "parent_l2": "zoology-organismal-biology", "tagline": "Entomology, malacology, helminthology, crustacean biology — diversity, physiology, life history of invertebrate taxa.", "source": "DDC #592 Invertebrates + Per Alex 2026-06-11"},
+    {"slug": "vertebrate-biology", "name": "Vertebrate Biology", "parent_l2": "zoology-organismal-biology", "tagline": "Ichthyology, herpetology, ornithology, mammalogy — vertebrate diversity, comparative anatomy, life history.", "source": "DDC #596 Vertebrates + Per Alex 2026-06-11"},
+    {"slug": "animal-behavior-functional-morphology", "name": "Animal Behavior & Functional Morphology", "parent_l2": "zoology-organismal-biology", "tagline": "Ethology, comparative physiology, biomechanics, functional and evolutionary morphology.", "source": "Per Alex 2026-06-11"}
   ],
   "uncovered_concerns": [
     "Held back on splitting Plant Biology and Physiology into their own L3 leaves at full depth — papers there will fold into the closest mechanism leaf (e.g. plant transcription → Transcription & Gene Regulation; cardiac physiology research → Cell Signaling & Mechanotransduction). If volume justifies it later, add a dedicated 'plant-specific signaling' leaf in v2.",

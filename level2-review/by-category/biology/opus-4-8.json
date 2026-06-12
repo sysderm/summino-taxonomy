@@ -1,7 +1,7 @@
 {
   "level1_slug": "biology",
   "level1_name": "Biology",
-  "count": 16,
+  "count": 17,
   "rationale": "Biology has the most diverse career paths of any level-1 — a molecular biologist and a marine biologist barely speak the same language. Sixteen subspecialties balance two organizing principles: scale (molecular → cellular → organismal → systems) and topic (immunology, developmental, etc.). I deliberately did NOT separate plant biology from animal biology — model organism choice is methodology, not subspecialty. I kept Microbiology distinct from Immunology even though they overlap heavily because the professional identities are sharply different (microbiology departments, immunology departments). I demoted Cancer Biology into its own card because basic-science cancer mechanism is enormous in volume and identity, and I do NOT want it to crowd Oncology under Medicine. Bioinformatics gets its own card despite being a method, because the community treats it as an identity; same for Structural Biology.",
   "subspecialties": [
     {
@@ -131,6 +131,15 @@
       "audience_pct_within_level1": 4,
       "covers": ["cellular and molecular neuroscience, synaptic biology, glia biology, neurodevelopment, neuroinflammation at cellular level", "Neuron, J Neurosci basic, Nat Neurosci basic"],
       "explicitly_excludes": ["systems and cognitive neuroscience → Brain & Cognitive Sciences", "clinical neurology → Medicine"]
+    },
+    {
+      "slug": "zoology-organismal-biology",
+      "name": "Zoology & Organismal Biology",
+      "tagline": "Invertebrate, vertebrate, comparative animal biology — behavior to morphology.",
+      "audience_pct_within_level1": 3,
+      "covers": ["invertebrate zoology, vertebrate zoology, comparative animal physiology, animal behavior, functional and evolutionary morphology, entomology, herpetology, ornithology, mammalogy"],
+      "explicitly_excludes": ["whole-ecosystem and population work → Ecology & Evolution", "livestock/animal production → Agriculture & Food", "human anatomy/physiology → Medicine"],
+      "source": "DDC #590 Zoology + Per Alex 2026-06-11"
     }
   ],
   "uncovered_concerns": [

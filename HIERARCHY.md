@@ -1,7 +1,7 @@
 # Summino User-Facing Taxonomy — Full Hierarchy
 
-**Levels:** L1 = 20, L2 = 303, L3 = 775, L4 = 1036, L5 = 465
-**Total nodes:** 2599
+**Levels:** L1 = 20, L2 = 308, L3 = 851, L4 = 1036, L5 = 465
+**Total nodes:** 2680
 
 ---
 
@@ -331,6 +331,10 @@ _Diagnosis, surgery, therapy — bedside to bench._
         - L5: Operational Tolerance Protocols  · `tolerance-protocols`
 
 ### L2: Hematology  · `hematology`
+- **L3:** Benign Hematology & Hemostasis  · `benign-hematology-hemostasis`
+- **L3:** Leukemia & Myeloid Disorders  · `leukemia-myeloid-disorders`
+- **L3:** Lymphoid & Plasma-Cell Disorders  · `lymphoid-plasma-cell-disorders`
+- **L3:** Transfusion Medicine & Apheresis  · `transfusion-medicine-apheresis`
 
 ### L2: Rheumatology  · `rheumatology`
 - **L3:** Rheumatoid & Inflammatory Arthritis  · `rheumatoid-inflammatory-arthritis`
@@ -751,6 +755,30 @@ _Diagnosis, surgery, therapy — bedside to bench._
     - L4: Fitness-to-Work & Occupational Toxicology  · `fitness-to-work-occupational`
     - L4: Occupational Respiratory & MSK Disease  · `occupational-respiratory-msk`
 
+### L2: Nursing Science  · `nursing-science`
+- **L3:** Medical-Surgical Nursing  · `medical-surgical-nursing`
+- **L3:** Critical Care & Emergency Nursing  · `critical-care-nursing`
+- **L3:** Community & Public Health Nursing  · `community-public-health-nursing`
+- **L3:** Mental Health & Psychiatric Nursing  · `mental-health-psychiatric-nursing`
+- **L3:** Nursing Research & Methodology  · `nursing-research-methodology`
+- **L3:** Nursing Education & Pedagogy  · `nursing-education-pedagogy`
+- **L3:** Nursing Leadership & Administration  · `nursing-leadership-administration`
+
+### L2: Pharmacy & Pharmacology  · `pharmacy-pharmacology`
+- **L3:** Clinical Pharmacy  · `clinical-pharmacy`
+- **L3:** Pharmacokinetics & Pharmacodynamics  · `pharmacokinetics-pharmacodynamics`
+- **L3:** Medicinal Chemistry & Drug Discovery  · `medicinal-chemistry-drug-discovery`
+- **L3:** Pharmacoepidemiology  · `pharmacoepidemiology`
+- **L3:** Pharmacovigilance & Drug Safety  · `pharmacovigilance`
+- **L3:** Pharmacogenomics & Precision Dosing  · `pharmacogenomics`
+- **L3:** Regulatory & Pharmaceutical Sciences  · `regulatory-pharmaceutical-sciences`
+- **L3:** Pharmacy Practice & Health Services  · `pharmacy-practice-services`
+
+### L2: Maternal & Child Health  · `maternal-child-health`
+- **L3:** Reproductive & Perinatal Maternal Health  · `reproductive-perinatal-maternal-health`
+- **L3:** Neonatology & Newborn Screening  · `neonatology-newborn-screening`
+- **L3:** Child & Adolescent Population Health  · `child-adolescent-health-mch`
+
 ---
 
 ## L1: **Public Health & Epidemiology** (`public-health`)
@@ -1012,14 +1040,29 @@ _Molecular, cellular, organismal life science._
     - L4: Cell-State Programming  · `cell-state-programming`
 
 ### L2: Plant Biology  · `plant-biology`
+- **L3:** Plant Development & Evo-Devo  · `plant-development-evo-devo`
+- **L3:** Plant–Microbe Interactions  · `plant-microbe-interactions`
 
 ### L2: Physiology  · `physiology`
+- **L3:** Systems & Integrative Physiology  · `systems-integrative-physiology`
+- **L3:** Exercise & Environmental Physiology  · `exercise-environmental-physiology`
 
 ### L2: Biophysics  · `biophysics`
+- **L3:** Structural & Molecular Biophysics  · `structural-molecular-biophysics`
+- **L3:** Membrane Mechanics & Single-Molecule Biophysics  · `membrane-mechanics-single-molecule`
 
 ### L2: Marine & Aquatic Biology  · `marine-aquatic-biology`
+- **L3:** Biological Oceanography  · `biological-oceanography`
+- **L3:** Freshwater Biology & Limnology  · `freshwater-biology-limnology`
 
 ### L2: Neurobiology  · `neurobiology`
+- **L3:** Cellular & Synaptic Neurobiology  · `cellular-synaptic-neurobiology`
+- **L3:** Developmental & Systems Neurobiology  · `developmental-systems-neurobiology`
+
+### L2: Zoology & Organismal Biology  · `zoology-organismal-biology`
+- **L3:** Invertebrate Biology  · `invertebrate-biology`
+- **L3:** Vertebrate Biology  · `vertebrate-biology`
+- **L3:** Animal Behavior & Functional Morphology  · `animal-behavior-functional-morphology`
 
 ---
 
@@ -1144,11 +1187,15 @@ _Neuroscience, psychology, cognition, behavior._
 - **L3:** Sleep, Memory & Cognition  · `sleep-cognition`
 
 ### L2: Psycholinguistics & Language Science  · `psycholinguistics`
+- **L3:** Language Acquisition & Processing  · `language-acquisition-processing`
+- **L3:** Neurolinguistics  · `neurolinguistics`
 
 ### L2: Quantitative Methods & Replication Science  · `methods-psychology`
 - **L3:** Replication & Meta-Science  · `replication-meta-science`
 
 ### L2: Comparative & Evolutionary Cognition  · `comparative-evolutionary-cognition`
+- **L3:** Comparative Cognition  · `comparative-cognition`
+- **L3:** Animal Communication & Cognitive Evolution  · `animal-communication-cognitive-evolution`
 
 ---
 
@@ -1722,6 +1769,8 @@ _Particles, condensed matter, the cosmos._
     - L4: Geophysical Fluid Dynamics  · `geophysical-fluid-dynamics`
 
 ### L2: Applied & Instrumentation Physics  · `applied-physics`
+- **L3:** Instrumentation & Detector Physics  · `instrumentation-detector-physics`
+- **L3:** Applied Optics, Photonics & Imaging  · `applied-optics-photonics-imaging`
 
 ---
 
@@ -1846,8 +1895,12 @@ _Climate, oceans, geology, sustainability._
     - L4: Urban Metabolism & LCA  · `urban-metabolism`
 
 ### L2: Natural Hazards & Disaster Science  · `natural-hazards-disaster-science`
+- **L3:** Seismology & Earthquake Hazards  · `seismology-earthquake-hazards`
+- **L3:** Volcanology, Landslides & Ground-Failure Risk  · `volcanology-landslides-risk`
 
 ### L2: Polar & Cryospheric Science  · `polar-cryospheric-science`
+- **L3:** Glaciology & Ice-Sheet Science  · `glaciology-ice-sheet-science`
+- **L3:** Permafrost, Snow & Sea Ice  · `permafrost-snow-sea-ice`
 
 ---
 
@@ -1976,8 +2029,12 @@ _Inference, modeling, causality, methods._
 - **L3:** Single-Cell & Multi-Omics Statistical Methods  · `single-cell-stat-methods`
 
 ### L2: Statistical Image & Signal Processing  · `stat-image-signal`
+- **L3:** Statistical Signal Processing  · `statistical-signal-processing`
+- **L3:** Statistical Imaging & Inverse Problems  · `statistical-imaging-inverse-problems`
 
 ### L2: Statistical Ethics, Privacy & Fairness  · `stat-ethics-fairness`
+- **L3:** Privacy-Preserving Statistics  · `privacy-preserving-statistics`
+- **L3:** Algorithmic Fairness & Responsible Inference  · `algorithmic-fairness-responsible-inference`
 
 ---
 
@@ -2318,10 +2375,16 @@ _Algorithms, systems, machine learning, theory._
         - L5: ML-Guided Directed Evolution  · `ml-directed-evolution`
 
 ### L2: Computer Architecture & Hardware  · `computer-architecture-hardware`
+- **L3:** Computer Architecture  · `computer-architecture`
+- **L3:** Embedded & Cyber-Physical Systems  · `embedded-cyber-physical-systems`
 
 ### L2: Graphics & Visualization  · `graphics-visualization`
+- **L3:** Computer Graphics  · `computer-graphics`
+- **L3:** Scientific Visualization & Visual Analytics  · `scientific-visualization-visual-analytics`
 
 ### L2: Computing & Society  · `computing-society`
+- **L3:** Computer Ethics, Policy & Governance  · `computer-ethics-policy-governance`
+- **L3:** Digital Inclusion, Accessibility & CS Education  · `digital-inclusion-accessibility-education`
 
 ---
 
@@ -2561,8 +2624,12 @@ _Mechanics, fluids, propulsion, manufacturing._
     - L4: MSK & Cardiovascular Biomechanics  · `msk-cardiovascular-biomech`
 
 ### L2: Design, Optimization & Engineering Methodology  · `design-optimization-engineering`
+- **L3:** Design Optimization & Uncertainty Quantification  · `design-optimization-uncertainty-quantification`
+- **L3:** CAD/CAE & Systems Engineering  · `cad-cae-systems-engineering`
 
 ### L2: Marine & Ocean Engineering  · `marine-ocean-engineering`
+- **L3:** Naval Architecture & Hydrodynamics  · `naval-architecture-hydrodynamics`
+- **L3:** Offshore, Subsea & Ocean Systems  · `offshore-subsea-ocean-systems`
 
 ---
 
@@ -2735,10 +2802,16 @@ _Crops, livestock, nutrition, food systems._
 - **L3:** Diet & Gut Microbiome  · `diet-microbiome`
 
 ### L2: Sustainable & Regenerative Agriculture  · `sustainable-regenerative-ag`
+- **L3:** Agroecology & Biodiversity-Based Farming  · `agroecology-biodiversity-farming`
+- **L3:** Regenerative Soil & Water Management  · `regenerative-soil-water-management`
 
 ### L2: Agricultural Economics & Policy  · `ag-economics-policy`
+- **L3:** Farm Management & Production Economics  · `farm-management-production-economics`
+- **L3:** Food Policy, Trade & Rural Development  · `food-policy-trade-rural-development`
 
 ### L2: Agricultural Engineering & Precision Ag  · `ag-engineering-precision`
+- **L3:** Precision Agriculture Systems  · `precision-agriculture-systems`
+- **L3:** Farm Machinery, Robotics & Automation  · `farm-machinery-robotics-automation`
 
 ---
 
@@ -2795,6 +2868,8 @@ _Markets, policy, behavior, quantitative finance._
 - **L3:** Real Estate & Climate Finance  · `real-estate-finance`
 
 ### L2: International Economics  · `international-trade-finance`
+- **L3:** International Trade  · `international-trade`
+- **L3:** International Finance & Open-Economy Macro  · `international-finance-open-economy`
 
 ### L2: Environmental & Energy Economics  · `environmental-energy-econ`
 - **L3:** Climate, Energy & Environmental Economics  · `environmental-energy-economics-l3`
@@ -2803,8 +2878,12 @@ _Markets, policy, behavior, quantitative finance._
 - **L3:** Quantitative Finance & Market Microstructure  · `quant-finance-derivatives`
 
 ### L2: Economic History  · `economic-history`
+- **L3:** Historical National Accounts & Quantitative Economic History  · `historical-national-accounts-quant-economic-history`
+- **L3:** Institutions, Technology & Long-Run Growth  · `institutions-technology-long-run-growth`
 
 ### L2: Applied Microeconomics & Policy Evaluation  · `applied-microeconomics-policy`
+- **L3:** Causal Policy Evaluation  · `causal-policy-evaluation`
+- **L3:** Program Design & Distributional Analysis  · `program-design-distributional-analysis`
 
 ---
 
@@ -2935,6 +3014,11 @@ _Sociology, anthropology, politics, education, communication._
 ### L2: Computational Social Science  · `computational-social-science`
 - **L3:** Computational Social Science Methods  · `computational-social-science-l3`
 
+### L2: Law & Legal Studies  · `law-legal-studies`
+- **L3:** Public & Constitutional Law  · `public-constitutional-law`
+- **L3:** Private, Commercial & Labor Law  · `private-commercial-labor-law`
+- **L3:** International, Comparative & Transnational Law  · `international-comparative-transnational-law`
+
 ---
 
 ## L1: **Humanities** (`humanities`)
@@ -2984,3 +3068,5 @@ _History, philosophy, archaeology, classics._
 - **L3:** Theatre, Dance & Film Studies  · `theatre-dance-film-studies`
 
 ### L2: Digital Humanities  · `digital-humanities`
+- **L3:** Text Encoding, Scholarly Editing & Corpora  · `text-encoding-scholarly-editing-corpora`
+- **L3:** Cultural Analytics, GIS & Networked Heritage  · `cultural-analytics-gis-networked-heritage`
